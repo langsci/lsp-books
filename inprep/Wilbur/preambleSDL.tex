@@ -1,0 +1,87 @@
+\documentclass[ number=???
+			   ,series=sidl
+			   ,isbn=xxx-x-xxxxxx-xx-x
+			   ,output=long   % long|short|inprep              
+			   %,blackandwhite
+			   %,smallfont
+			   ,draftmode   
+			  ]{LSP/langsci}                          
+
+\usepackage{LSP/lsp-styles/lsp-gb4e}		% verhindert Komma bei mehrfachen Fußnoten?
+\usepackage{LSP/lsp-styles/avm}
+\avmfont{\sc} 
+\avmvalfont{\it}
+                                                      
+\usepackage{layout}  
+\usepackage{lipsum}   
+
+%%%following now in main document (XeTeX_pitePhDSDL.tex)
+%\title{A corpus-based grammar \\ of spoken Pite Saami}  
+%%\subtitle{2000+ Years of Language Science and no End in Sight}  
+%\author{Joshua Wilbur}
+%\dedication{Gijtov adnet!}
+%\renewcommand{\lsBackBody}{This grammar of Pite Saami (Uralic; Sweden) is simply bad-ass.}%for back cover text
+%\renewcommand{\lsBackTitle}{Biddumsáme giella}%for back title
+
+%%%% ABOVE FOR LangSciPress %%%%
+%%%% ABOVE FOR LangSciPress %%%%
+%%%% ABOVE FOR LangSciPress %%%%
+
+\usepackage{longtable}
+
+\usepackage{multirow}
+\usepackage{array} %allows, among other things, centering column content in a table while also specifying width, creates new column style "x" for center-alignment, "y" for right-alignment
+\newcolumntype{x}[1]{%
+>{\centering\hspace{0pt}}p{#1}}%
+\newcolumntype{y}[1]{%
+>{\raggedleft\hspace{0pt}}p{#1}}%
+
+\usepackage[]{placeins}%using \FloatBarrier command, all floats still floating at that point will be typeset, and cannot cross that boundary. the option here \usepackage[section]{placeins} automatically adds \FloatBarrier to every \section command (only works for \section commands, nothing lower than that!)
+\usepackage{afterpage}%by using the command \afterpage{\clearpage}, all floats will appear, but no new page will be started, thus avoiding bad page breaks around floats
+
+\usepackage{vowel} %for vowel space chart
+
+
+%%IS THIS NECESSARY??
+%%%following allows you to refer to footnotes (from http://anthony.liekens.net/index.php/LaTeX/MultipleFootnoteReferences)
+\newcommand{\footnoteremember}[2]{
+  \footnote{#2}
+  \newcounter{#1}
+  \setcounter{#1}{\value{footnote}}
+} \newcommand{\footnoterecall}[1]{
+  \footnotemark[\value{#1}]} 
+%%%previous allows you to refer to footnotes: use \footnoteremember{referenceText} in footnote, then \footnoterecall{referenceText} to refer.
+
+\usepackage{tikz}
+\usetikzlibrary{plothandlers,matrix,decorations.text,shapes.arrows,shadows,chains,positioning,scopes}
+
+\usepackage{synttree} %zeichnet linguistische Bäume
+\branchheight{36pt}%sets height between rows in synttree
+
+\usepackage{lscape}%used for landscape pages in index (list of recordings)
+
+\usepackage{polyglossia}
+\setmainlanguage{english}
+
+
+
+%%%TAKE OUT FOR FINAL VERSION:
+%%%TAKE OUT FOR FINAL VERSION:
+%%%TAKE OUT FOR FINAL VERSION:
+
+%%following commands to make hyperlinks from corrections to pages not beginning a section work correctly! (the problem is that \pageref{} referring to \label{} somewhere in text is typeset with the correct page number, but the link goes to the beginning of the relevant section, and not necessarily to the page that the \label{} is on)
+\newcommand{\korr}[1]{\hypertarget{KORR#1a}{}\label{KORR#1b}}%just add number; the equivalent of \label{}, name from ‘korrigiert’
+\newcommand{\korrPG}[1]{\hyperlink{KORR#1a}{\pageref{KORR#1b}}}%the equivalent of \pageref{}
+%%%previous commands to make hyperlinks from corrections to pages not beginning a section work correctly! 
+
+%%%following readjusts margin text!
+\setlength{\marginparwidth}{20mm}
+\let\oldmarginpar\marginpar
+\renewcommand\marginpar[1]{\-\oldmarginpar[\raggedleft\footnotesize\vspace{-7pt}\color{red}\It{→ #1}]%
+{\raggedright\footnotesize\vspace{-7pt}\color{red}\It{→ #1}}}
+%%%previous readjusts margin text!
+
+%%%The following three line should be removed for final SDL version!
+%\renewcommand{\contentsname}{Table of Contents} % überschrift des inhaltsverzeichnisses
+\setcounter{secnumdepth}{5}%sets how deep section/subsection/subsubsections are numbered
+\setcounter{tocdepth}{5}%sets the depth of the ToC %but this doesn't seem to work!!!
