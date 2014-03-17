@@ -324,16 +324,28 @@ At the time of writing, \PS\ does not have an officially recognized orthography.
 and Lule Saami orthographies\footnote{E.g., at literacy courses for \PS\ individuals held in Arjeplog occasionally during the last decade and sponsored by the Swedish Saami Parliament.} 
 have been used to write \PS\ for a non-technical, non-linguistic audience. However, from 2008 through 2011, \It{Arjeplogs sameförening} (the local Saami association in Arjeplog) received funding to complete a lexicographic project called \It{Insamling av pitesamiska ord},\footnote{This translates roughly as “collecting \PS\ words”. A working version of the resulting lexical database is currently available online at: \href{http://gtweb.uit.no/webdict/index_sje-swe.html}{http://gtweb.uit.no/webdict/index\_sje-swe.html}.} 
 \citep[cf.][]{insamlingPS2011} 
-and hereinafter referred to simply as ‘The \WLP’. 
-One of the outcomes of this \WLP\ was a working orthography for \PS. 
+and hereinafter referred to simply as ‘the \WLP’. 
+One of the outcomes of the \WLP\ was a working orthography for \PS. 
 %As part of the \PS\ Documentation Project, I worked closely with the members of the \WLP\ as an unofficial linguistics consultant and 
-I have attempted to adopt this working orthographic standard in writing \PS\ data in this description and the transcriptions provided in the accompanying documentation. This orthography uses the Swedish alphabet and many Swedish sound-to-grapheme correspondences, but also resembles to some extent Lule Saami orthographic systems, particularly the most recent one as found in \citet{KorhonenO2005}. To help understand the orthography, the correlations between sounds and graphemes are discussed here and listed in Table \vref{orthTableV} for vowels and Table \ref{orthTableC} on pages \pageref{orthTableCbegin} and \pageref{orthTableCend} for consonants. %\marginpar{this table was just copied in - it needs to be re-worked, checked!!!}
+I have attempted to adopt this working orthographic standard in writing \PS\ data in this description and the transcriptions provided in the accompanying documentation. This orthography uses the Swedish alphabet and many Swedish sound-to-grapheme correspondences, but also resembles to some extent Lule Saami orthographic systems, particularly the most recent one as found in \citet{KorhonenO2005}. To help understand the orthography, the correlations between sounds and graphemes are discussed here and listed in Table \ref{orthTableC} starting on page \pageref{orthTableCbegin} for consonants, and in Table \vref{orthTableV} for vowels. %\marginpar{this table was just copied in - it needs to be re-worked, checked!!!}
 \korr{057}Chapter \ref{csANDvs} describes the segmental phonology represented by these graphemes in detail. 
+An orthography proposal for the \PS\ language, including a more thorough description of these rules, is currently being put together by the members of the \WLP, the Arjeplog municipality, and the \PSDP, and is scheduled to be published in late 2014, along with a printed version of the \WLP’s word list.
 
-It is important to note that this is a \It{working} orthography, i.e., it is still subject to inconsistencies and potentially to further refinement. Moreover, the following description and the implementation of the orthography is based on my interpretation of the recurring patterns used by the \WLP. While I generally use the spellings found in the \WLP’s wordlist, some deviations may be found in this description and the accompanying transcriptions; these can be due to a variety of factors such as changes to the word list as it was developed, deviating analyses on my own behalf, or simple inconsistencies in spelling (a natural occurrence in the development of an orthography). However, I alone am ultimately responsible for the orthographic choices in the present work. 
+It is important to note that the standards used in this book are based on a \It{working} orthography, i.e., it is still subject to inconsistencies and potentially to further refinement. Moreover, the following description and the implementation of the orthography is based on my interpretation of the recurring patterns used by the \WLP\ as determined in developing the orthography proposal mentioned above. While I generally use the spellings found in the \WLP’s wordlist, some deviations may be found in this description and the accompanying transcriptions; these can be due to a variety of factors such as changes to the word list as it was developed, deviating analyses on my own behalf, or simple inconsistencies in spelling (a natural occurrence in the development of an orthography) in the source. However, I alone am ultimately responsible for the orthographic choices in the present work. 
 
-%%new command for this section on orthographic examples
+%%new command for this section on orthographic examples; syntax: #1=orthography, #2=phonology, #3=gloss
 \newcommand\SpellEx[3]{\Tn{\begin{tabular}{p{70pt} p{70pt} l}/#2/&\It{#1}& ‘#3’ \\\end{tabular}}}
+
+The unaspirated singleton plosive phonemes are normally represented by the digraphs <b>, <d> and <g>, except as a single word-final consonant, in which case <p>, <t> and <k> are used; this is illustrated by the alveolar plosive phoneme /t/ in \REF{spellExPlos1a} through \REF{spellExPlos1c}. 
+\ea\label{spellExPlos1a}
+\SpellEx{\Bf{d}állve}{\Bf{t}aːlːve}{winter}
+\z
+\ea\label{spellExPlos1b}
+\SpellEx{bå\Bf{d}av}{pɔ\Bf{t}av}{come (\Sc{1sg.prs})}
+\z
+\ea\label{spellExPlos1c}
+\SpellEx{båhte\Bf{t}}{pɔʰte\Bf{t}}{come (\Sc{inf})}
+\z
 
 \korr{016}The affricate phonemes are represented by the digraphs <ts> and <tj>; this is illustrated in \REF{spellEx0a} and \REF{spellEx0b}. 
 \ea\label{spellEx0a}
@@ -408,14 +420,95 @@ In spoken \PS, when the copula and auxiliary verb \It{lä} is preceded by a word
 \newcommand\Grapheme[1]{\Bf{#1}}
 \newcommand\IPA[1]{#1}
 
-%\pagebreak
+%\begin{table}\centering
+\label{orthTableCbegin}
+\begin{longtable}[c]{| c  c | l |}
+\caption{Consonant phonemes and their corresponding graphemes/digraphs in the working-version of the \PS\ orthography\label{orthTableC}}\\%longtable-caption a bit special: needs \label{} inside caption, needs \\ at end of line, comes after \begin{longtable}{cclr}... 
+\hline
+\It{phoneme}	&\It{letter or}	&		\\
+\It{(IPA)}		&\It{letters}	&\It{context}	\\\hline%& example \\\hline
+\endfirsthead
+\caption[]{Consonant phonemes and their corresponding graphemes/digraphs in the working-version of the \PS\ orthography}\\%longtable-caption a bit special: needs \label{} inside caption, needs \\ at end of line, comes after \begin{longtable}{cclr}... !!!But this then gets an entry in the List of Tables for each page the longtable-header is on, unless \caption[] used here, and \endfirsthead above
+\hline
+\It{phoneme}	&\It{letter or}	&		\\
+\It{(IPA)}		&\It{letters}	&\It{context}	\\\hline%& example \\\hline
+\endhead
+\IPA{p}	&\Grapheme{b}		& default grapheme \\*
+		&\Grapheme{p}		& word-finally; first C in a C-cluster \\\hline
+\IPA{ʰp}	&\Grapheme{hp}	& default digraph	\\*
+		&\Grapheme{p}		& after sonorant C in C-center	\\\hline%& \It{gummpe} ‘wolf’ \\\hline
+\IPA{pː}	&\Grapheme{bb}	& default digraph \\*%\hline
+		&\Grapheme{pp}	& first segment in a C-cluster \\\hline %; (inconsistently intervocalically)	\\\hline
+\IPA{ʰpː}	&\Grapheme{hpp}	& default digraph	\\\hline
+\IPA{t}	&\Grapheme{d}		& default grapheme \\*
+		&\Grapheme{t}		& word-finally; first C in a C-cluster\\\hline
+\IPA{ʰt}	&\Grapheme{ht}	& default digraph	\\*
+		&\Grapheme{t}		& after sonorant C in C-center \\\hline%& \It{virrtit} ‘must’ \\\hline
+\IPA{tː}	&\Grapheme{dd}	& default digraph \\*%\hline
+		&\Grapheme{tt}		& first segment in a C-cluster \\\hline %; (inconsistently intervocalically)	\\\hline
+\IPA{ʰtː}	&\Grapheme{htt}	& default digraph	\\\hline
+\IPA{k}	&\Grapheme{g}		& default grapheme \\*
+		&\Grapheme{k}		& word-finally; first C in a C-cluster\\\hline
+\IPA{ʰk}	&\Grapheme{hk}	& default digraph	\\*
+		&\Grapheme{k}		& after sonorant C in C-center \\\hline%& \It{fuällke} ‘family’ \\\hline
+\IPA{kː}	&\Grapheme{gg}	& default digraph \\*%\hline
+		&\Grapheme{kk}	& first segment in a C-cluster \\\hline %; (inconsistently intervocalically)	\\\hline
+\IPA{ʰkː}	&\Grapheme{hkk}	& default digraph	\\\hline
+
+\IPA{ʦ}	&\Grapheme{ts}	& default digraph	\\\hline
+%		&\Grapheme{dts}	& /ʦː/ (geminate) \\\hline
+\IPA{ʰʦ}	&\Grapheme{hts}	& default digraph	\\*
+%		&\Grapheme{htts}	& sequence of two /ʰʦ/ (geminate)	\\*%\hline%& \It{mähttse} ‘forest’ \\\hline
+		&\Grapheme{ts}	& after sonorant C in C-center \\\hline%& \It{vuanntsa} ‘hen’ \\*%\hline
+\IPA{ʦː}	&\Grapheme{dts}	& default digraph \\\hline
+%		&\Grapheme{tts}	& before unvoiced or preaspirated C \\\hline %; (inconsistently intervocalically)	\\\hline
+\IPA{ʰʦː}	&\Grapheme{htts}	& default digraph	\\\hline
+
+\IPA{ʧ}	&\Grapheme{tj}		& default digraph	\\\hline
+%		&\Grapheme{dtj}	& /ʃː/ (geminate) \\\hline
+\IPA{ʰʧ}	&\Grapheme{htj}	& default digraph	\\*
+%		&\Grapheme{httj}	& sequence of two /ʰʧ/ (geminate)	\\*%\hline%& \It{mähttse} ‘forest’ \\\hline
+		&\Grapheme{tj}		& after sonorant C in C-center \\\hline%& \It{vuanntsa} ‘hen’ \\*%\hline
+\IPA{ʧː}	&\Grapheme{dtj}	& default digraph \\\hline
+%		&\Grapheme{ttj}	& second member C \\\hline %; (inconsistently intervocalically)	\\\hline
+\IPA{ʰʧː}	&\Grapheme{httj}	& default digraph	\\\hline
+
+\IPA{f}	&\Grapheme{f}		& default grapheme	\\\hline
+\IPA{f:}	&\Grapheme{ff}		& default digraph	\\\hline
+\IPA{v}	&\Grapheme{v}		& default grapheme	\\\hline
+\IPA{vː}	&\Grapheme{vv}	& default digraph	\\\hline
+\IPA{s}	&\Grapheme{s}		& default grapheme	\\\hline
+\IPA{sː}	&\Grapheme{ss}	& default digraph	\\\hline
+\IPA{ʃ}	&\Grapheme{sj}	& default digraph	\\\hline
+\IPA{ʃː}	&\Grapheme{ssj}	& default digraph	\\\hline
+%		&\Grapheme{ssj}	& sequence of two /ʃ/ (geminate)	\\\hline
+\IPA{h}	&\Grapheme{h}		& default grapheme	\\\hline
+\IPA{m}	&\Grapheme{m}	& default grapheme	\\\hline
+\IPA{mː}	&\Grapheme{mm}	& default digraph	\\\hline
+\IPA{n}	&\Grapheme{n}		& default grapheme	\\\hline
+\IPA{nː}	&\Grapheme{nn}	& default digraph	\\\hline
+\IPA{ɲ}	&\Grapheme{nj}	& default grapheme	\\\hline
+\IPA{ɲː}	&\Grapheme{nnj}	& default digraph	\\\hline
+%		&\Grapheme{nnj}	& sequence of two /ɲ/ (geminate)	\\\hline
+\IPA{ŋ}	&\Grapheme{ŋ}		& default grapheme	\\\hline
+\IPA{ŋː}	&\Grapheme{ŋŋ}	& default digraph	\\\hline
+\IPA{r}	&\Grapheme{r}		& default grapheme	\\\hline
+\IPA{rː}	&\Grapheme{rr}		& default digraph	\\\hline
+\IPA{l}	&\Grapheme{l}		& default grapheme	\\\hline
+\IPA{lː}	&\Grapheme{ll}		& default digraph	\\\hline
+\IPA{j}	&\Grapheme{j}		& default grapheme	\\\hline
+\IPA{jː}	&\Grapheme{jj}		& default digraph	\\\hline
+%\end{tabular}
+\end{longtable}
+\label{orthTableCend}
+
 
 \begin{table}\centering
-\caption{Vowel phonemes and their corresponding graphemes in the working-version of the \PS\ orthography}\label{orthTableV}
+\caption{Vowel phonemes and their corresponding graphemes/digraphs in the working-version of the \PS\ orthography}\label{orthTableV}
 \begin{tabular}[t]{| c  c | l |}\hline
 %\MC{3}{|c|}{\BfIt{vowels}}\\\hline
 \It{phoneme}	&\It{letter or}	&		\\
-\It{(IPA)}		&\It{letters}	&\It{comments/context}	\\\hline%& example \\\hline
+\It{(IPA)}		&\It{letters}	&\It{context}	\\\hline%& example \\\hline
 \IPA{aː}	&\Grapheme{á}		& default grapheme	\\\hline
 \IPA{a}	&\Grapheme{a}		& default grapheme	\\\hline
 \IPA{ɛ}	&\Grapheme{ä}		& default grapheme	\\\hline
@@ -426,92 +519,12 @@ In spoken \PS, when the copula and auxiliary verb \It{lä} is preceded by a word
 \IPA{o}	&\Grapheme{o}		& default grapheme	\\*
 		&\Grapheme{uo}	& in V1	\\\hline%&\It{guolle} ‘fish’  \\\hline
 \IPA{ɔ}	&\Grapheme{å}		& default grapheme	\\\hline
-\IPA{u͡a}	&\Grapheme{ua}	& default grapheme	\\*
+\IPA{u͡a}	&\Grapheme{ua}	& default digraph	\\*
 		&\Grapheme{uä}	& allophone (umlaut) \\\hline%& \It{buäjjde} ‘fat’ \\\hline
 %		&\Grapheme{uä}	& allophone (umlaut)\footnotemark \\\hline%& \It{buäjjde} ‘fat’ \\\hline
 \end{tabular}
 \end{table}
 %\footnotetext{Cf. Section \ref{Vua}.}
-
-
-%\pagebreak
-%\begin{table}\centering
-\label{orthTableCbegin}
-\begin{longtable}[c]{| c  c | l |}
-\caption{Consonant phonemes and their corresponding graphemes in the working-version of the \PS\ orthography\label{orthTableC}}\\%longtable-caption a bit special: needs \label{} inside caption, needs \\ at end of line, comes after \begin{longtable}{cclr}...
-\hline
-%\MC{3}{|c|}{\BfIt{consonants}}\\\hline
-\It{phoneme}	&\It{letter or}	&		\\
-\It{(IPA)}		&\It{letters}	&\It{comments/context}	\\\hline%& example \\\hline
-\endhead
-\IPA{p}	&\Grapheme{b}		& default grapheme \\*
-		&\Grapheme{p}		& word-finally; in C-cluster except after sonorant C\\\hline
-\IPA{ʰp}	&\Grapheme{hp}	& default grapheme	\\*
-		&\Grapheme{p}		& after sonorant C in C-center	\\\hline%& \It{gummpe} ‘wolf’ \\\hline
-\IPA{pː}	&\Grapheme{bb}	& default grapheme \\*%\hline
-		&\Grapheme{pp}	& before unvoiced or preaspirated C \\\hline %; (inconsistently intervocalically)	\\\hline
-\IPA{ʰpː}	&\Grapheme{hpp}	& default grapheme	\\\hline
-\IPA{t}	&\Grapheme{d}		& default grapheme \\*
-		&\Grapheme{t}		& word-finally; in C-cluster except after sonorant C\\\hline
-\IPA{ʰt}	&\Grapheme{ht}	& default grapheme	\\*
-		&\Grapheme{t}		& after sonorant C in C-center \\\hline%& \It{virrtit} ‘must’ \\\hline
-\IPA{tː}	&\Grapheme{dd}	& default grapheme \\*%\hline
-		&\Grapheme{tt}		& before unvoiced or preaspirated C \\\hline %; (inconsistently intervocalically)	\\\hline
-\IPA{ʰtː}	&\Grapheme{htt}	& default grapheme	\\\hline
-\IPA{k}	&\Grapheme{g}		& default grapheme \\*
-		&\Grapheme{k}		& word-finally; in C-cluster except after sonorant C\\\hline
-\IPA{ʰk}	&\Grapheme{hk}	& default grapheme	\\*
-		&\Grapheme{k}		& after sonorant C in C-center \\\hline%& \It{fuällke} ‘family’ \\\hline
-\IPA{kː}	&\Grapheme{gg}	& default grapheme \\*%\hline
-		&\Grapheme{kk}	& before unvoiced or preaspirated C \\\hline %; (inconsistently intervocalically)	\\\hline
-\IPA{ʰkː}	&\Grapheme{hkk}	& default grapheme	\\\hline
-
-\IPA{ʦ}	&\Grapheme{ts}	& default grapheme	\\\hline
-%		&\Grapheme{dts}	& /ʦː/ (geminate) \\\hline
-\IPA{ʰʦ}	&\Grapheme{hts}	& default grapheme	\\*
-%		&\Grapheme{htts}	& sequence of two /ʰʦ/ (geminate)	\\*%\hline%& \It{mähttse} ‘forest’ \\\hline
-		&\Grapheme{ts}	& after sonorant C in C-center \\\hline%& \It{vuanntsa} ‘hen’ \\*%\hline
-\IPA{ʦː}	&\Grapheme{dts}	& default grapheme \\\hline
-%		&\Grapheme{tts}	& before unvoiced or preaspirated C \\\hline %; (inconsistently intervocalically)	\\\hline
-\IPA{ʰʦː}	&\Grapheme{htts}	& default grapheme	\\\hline
-
-\IPA{ʧ}	&\Grapheme{tj}		& default grapheme	\\\hline
-%		&\Grapheme{dtj}	& /ʃː/ (geminate) \\\hline
-\IPA{ʰʧ}	&\Grapheme{htj}	& default grapheme	\\*
-%		&\Grapheme{httj}	& sequence of two /ʰʧ/ (geminate)	\\*%\hline%& \It{mähttse} ‘forest’ \\\hline
-		&\Grapheme{tj}		& after sonorant C in C-center \\\hline%& \It{vuanntsa} ‘hen’ \\*%\hline
-\IPA{ʧː}	&\Grapheme{dtj}	& default grapheme \\\hline
-%		&\Grapheme{ttj}	& second member C \\\hline %; (inconsistently intervocalically)	\\\hline
-\IPA{ʰʧː}	&\Grapheme{httj}	& default grapheme	\\\hline
-
-\IPA{f}	&\Grapheme{f}		& default grapheme	\\\hline
-\IPA{f:}	&\Grapheme{ff}		& default grapheme	\\\hline
-\IPA{v}	&\Grapheme{v}		& default grapheme	\\\hline
-\IPA{vː}	&\Grapheme{vv}	& default grapheme	\\\hline
-\IPA{s}	&\Grapheme{s}		& default grapheme	\\\hline
-\IPA{sː}	&\Grapheme{ss}	& default grapheme	\\\hline
-\IPA{ʃ}	&\Grapheme{sj}	& default grapheme	\\\hline
-\IPA{ʃː}	&\Grapheme{ssj}	& default grapheme	\\\hline
-%		&\Grapheme{ssj}	& sequence of two /ʃ/ (geminate)	\\\hline
-\IPA{h}	&\Grapheme{h}		& default grapheme	\\\hline
-\IPA{m}	&\Grapheme{m}	& default grapheme	\\\hline
-\IPA{mː}	&\Grapheme{mm}	& default grapheme	\\\hline
-\IPA{n}	&\Grapheme{n}		& default grapheme	\\\hline
-\IPA{nː}	&\Grapheme{nn}	& default grapheme	\\\hline
-\IPA{ɲ}	&\Grapheme{nj}	& default grapheme	\\\hline
-\IPA{ɲː}	&\Grapheme{nnj}	& default grapheme	\\\hline
-%		&\Grapheme{nnj}	& sequence of two /ɲ/ (geminate)	\\\hline
-\IPA{ŋ}	&\Grapheme{ŋ}		& default grapheme	\\\hline
-\IPA{ŋː}	&\Grapheme{ŋŋ}	& default grapheme	\\\hline
-\IPA{r}	&\Grapheme{r}		& default grapheme	\\\hline
-\IPA{rː}	&\Grapheme{rr}		& default grapheme	\\\hline
-\IPA{l}	&\Grapheme{l}		& default grapheme	\\\hline
-\IPA{lː}	&\Grapheme{ll}		& default grapheme	\\\hline
-\IPA{j}	&\Grapheme{j}		& default grapheme	\\\hline
-\IPA{jː}	&\Grapheme{jj}		& default grapheme	\\\hline
-%\end{tabular}
-\end{longtable}
-\label{orthTableCend}
 
 \FloatBarrier
 
