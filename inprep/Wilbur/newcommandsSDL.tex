@@ -18,20 +18,18 @@
 \newcommand{\Tn}[1]{\textnormal{#1}}%shortcut for normal text (undo italics, bolt, etc.)
 \newcommand{\MC}{\multicolumn}%shortcut for multicolumn command in tabular environment - only replaces command, not variables!
 \newcommand{\MR}{\multirow}%shortcut for multicolumn command in tabular environment - only replaces command, not variables!
-\newcommand{\TILDE}{～}%shortcut for tilde%’\Tilde’ clash with LSP!%\newcommand{\TILDE}{{\fontspec{Arial Unicode MS}～}}%shortcut for tilde
+\newcommand{\TILDE}{～}%shortcut for tilde%command ‘\Tilde’ clashes with LSP!%
 \newcommand{\BS}{\textbackslash}%backslash
 \newcommand{\Red}[1]{{\color{red}{#1}}}%for red text
 \newcommand{\Blue}[1]{{\color{blue}{#1}}}%for blue text
-\newcommand{\PLUS}{{\fontspec{Arial}+}}%nicer looking plus symbol
-\newcommand{\MINUS}{{\fontspec{Arial}-}}%nicer looking plus symbol
-%\newcommand{\PLUSMINUS}{{\fontspec{Arial}±}}%nicer looking plus-minus symbol
-\newcommand{\ARROW}{→}%nicer looking arrow
-%dieser dicke Pfeil wird nicht von der LSP-Font unterstützt: %\newcommand{\ARROW}{{\fontspec{DejaVu Sans}➜}}%nicer looking arrow
-\newcommand{\BULLET}{{\fontspec{Arial Unicode MS}•}}
+\newcommand{\PLUS}{+}%nicer looking plus symbol
+\newcommand{\MINUS}{-}%nicer looking plus symbol
+\newcommand{\ARROW}{→}%%dieser dicke Pfeil ➜ wird nicht von der LSP-Font unterstützt: %\newcommand{\ARROW}{{\fontspec{DejaVu Sans}➜}}
+\newcommand{\BULLET}{•}%
+%%✓ does not exist in the default LSP font!
 \newcommand{\CH}{\fontspec{Arial Unicode MS}✓}%CH as in CHeck
-%\newcommand{\Marker}{{\fontspec{Arial Unicode MS}☀}}
-%\newcommand{\X}{\Marker}%used to indicated redundant combination in CC table
-%\newcommand{\minisection}[1]{\paragraph{#1}}%makes a mini section with no indent and bold mini-title
+%%following used to separate alternation forms for consonant gradation and umlaut patterns:
+\newcommand{\Div}{‑}%↔︎⬌⟷⬄⟺⇔%non-breaking hyphen: ‑  
 
 \newcommand{\jvh}{\It{j}-suffix vowel harmony}%
 %\newcommand{\Ptcl}{\Sc{ptcl} }%just shortcut for glossing ‘particle’
