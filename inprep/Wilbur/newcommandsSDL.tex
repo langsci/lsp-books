@@ -25,6 +25,7 @@
 \newcommand{\PLUS}{+}%nicer looking plus symbol
 \newcommand{\MINUS}{-}%nicer looking plus symbol
 \newcommand{\ARROW}{→}%%dieser dicke Pfeil ➜ wird nicht von der LSP-Font unterstützt: %\newcommand{\ARROW}{{\fontspec{DejaVu Sans}➜}}
+\newcommand{\DARROW}{↔︎}%%DoubleARROW
 \newcommand{\BULLET}{•}%
 %%✓ does not exist in the default LSP font!
 \newcommand{\CH}{\fontspec{Arial Unicode MS}✓}%CH as in CHeck
@@ -108,10 +109,10 @@
 
 
 %%new transl tier in gb4e; syntax: #1=free translation (in single quotes), #2=additional comments, z.B. literal meaning:
-\newcommand{\Transl}[2]{\trans \mbox{‘#1’ #2}}%new transl tier in gb4e;
-\newcommand{\TranslLong}[2]{\trans ‘#1’ #2}%new transl tier in gb4e when free translation particularly long
-\newcommand{\TranslMulti}[2]{\trans \mbox{\hspace{10pt}‘#1’ #2}}%new transl tier in gb4e for a dialog to be included under a single example number
-\newcommand{\TranslLongMulti}[2]{\trans \hspace{10pt}‘#1’ #2}%new transl tier in gb4e for a dialog when free translation is particularly long
+\newcommand{\Transl}[2]{\trans \mbox{‘#1’ \Tn{#2}}}%new transl tier in gb4e;
+\newcommand{\TranslLong}[2]{\trans ‘#1’ \Tn{#2}}%new transl tier in gb4e when free translation particularly long
+\newcommand{\TranslMulti}[2]{\trans \mbox{\hspace{10pt}‘#1’ \Tn{#2}}}%new transl tier in gb4e for a dialog to be included under a single example number
+\newcommand{\TranslLongMulti}[2]{\trans \hspace{10pt}‘#1’ \Tn{#2}}%new transl tier in gb4e for a dialog when free translation is particularly long
 
 
 %% used for examples in the Prosody and Segmental phonology chapters:
