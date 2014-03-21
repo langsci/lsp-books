@@ -18,19 +18,18 @@
 \newcommand{\Tn}[1]{\textnormal{#1}}%shortcut for normal text (undo italics, bolt, etc.)
 \newcommand{\MC}{\multicolumn}%shortcut for multicolumn command in tabular environment - only replaces command, not variables!
 \newcommand{\MR}{\multirow}%shortcut for multicolumn command in tabular environment - only replaces command, not variables!
-\newcommand{\TILDE}{{\fontspec{Arial Unicode MS}～}}%shortcut for tilde%\Tilde clash with LSP!
+\newcommand{\TILDE}{～}%shortcut for tilde%command ‘\Tilde’ clashes with LSP!%
 \newcommand{\BS}{\textbackslash}%backslash
 \newcommand{\Red}[1]{{\color{red}{#1}}}%for red text
 \newcommand{\Blue}[1]{{\color{blue}{#1}}}%for blue text
-\newcommand{\PLUS}{{\fontspec{Arial}+}}%nicer looking plus symbol
-\newcommand{\MINUS}{{\fontspec{Arial}-}}%nicer looking plus symbol
-%\newcommand{\PLUSMINUS}{{\fontspec{Arial}±}}%nicer looking plus-minus symbol
-\newcommand{\ARROW}{{\fontspec{DejaVu Sans}➜}}%nicer looking arrow
-\newcommand{\BULLET}{{\fontspec{Arial Unicode MS}•}}
+\newcommand{\PLUS}{+}%nicer looking plus symbol
+\newcommand{\MINUS}{-}%nicer looking plus symbol
+\newcommand{\ARROW}{→}%%dieser dicke Pfeil ➜ wird nicht von der LSP-Font unterstützt: %\newcommand{\ARROW}{{\fontspec{DejaVu Sans}➜}}
+\newcommand{\BULLET}{•}%
+%%✓ does not exist in the default LSP font!
 \newcommand{\CH}{\fontspec{Arial Unicode MS}✓}%CH as in CHeck
-%\newcommand{\Marker}{{\fontspec{Arial Unicode MS}☀}}
-%\newcommand{\X}{\Marker}%used to indicated redundant combination in CC table
-%\newcommand{\minisection}[1]{\paragraph{#1}}%makes a mini section with no indent and bold mini-title
+%%following used to separate alternation forms for consonant gradation and umlaut patterns:
+\newcommand{\Div}{‑}%↔︎⬌⟷⬄⟺⇔%non-breaking hyphen: ‑  
 
 \newcommand{\jvh}{\It{j}-suffix vowel harmony}%
 %\newcommand{\Ptcl}{\Sc{ptcl} }%just shortcut for glossing ‘particle’
@@ -122,7 +121,8 @@
 \Tn{\begin{tabular}{p{30mm} l}
 /#2/	& \It{#4} \\
 \MC{1}{l}{[#3]}	&\HANG ‘#5’\\%no table row can start with square brackets! thus the workaround with \MC
-\end{tabular}\hfill\hyperlink{#6}{{\small\textnormal[pit#6#7]}}\index{Z\Red{rec}!\Red{pit#6}}\index{Z\Red{utt}!\Red{pit#6#7} \Blue{Phon}}}
+\end{tabular}\hfill\hyperlink{#6}{{\small\textnormal[pit#6#7]}}%\index{Z\Red{rec}!\Red{pit#6}}\index{Z\Red{utt}!\Red{pit#6#7} \Blue{Phon}}
+}
 \z}
 \newcommand{\PhonGlossWL}[6]{%PhonGloss = Phonology Gloss for words from WORDLIST, not from corpus!;
 %pattern: \PhonGloss{label}{phonemic}{phonetic}{orthographic}{gloss}{wordListNumber}
@@ -130,7 +130,8 @@
 \Tn{\begin{tabular}{p{30mm} l}
 /#2/	& \It{#4} \\
 \MC{1}{l}{[#3]}	&\HANG ‘#5’\\%no table row can start with square brackets! thus the workaround with \MC
-\end{tabular}\hfill\hyperlink{explExs}{{\small\textnormal[#6]}}\index{Z\Red{wl}!\Red{#6}\Blue{Phon}}}
+\end{tabular}\hfill\hyperlink{explExs}{{\small\textnormal[#6]}}%\index{Z\Red{wl}!\Red{#6}\Blue{Phon}}
+}
 \z}
 
 
@@ -138,20 +139,27 @@
 %syntax: \DerivExam{#1}{#2}{#3}{#4}{#5}{#6}
 %#1: base, #2: base-gloss, #3: derived form, #4: derived form gloss, #5: derived form translation, #6: pit-recording, #7: utterance number
 \newcommand{\DerivExam}[7]{\Tn{\begin{tabular}{lcl}\It{#1}&\ARROW&\It{#3}\\#2&&#4\\\end{tabular}\hfill\pbox{.3\textwidth}{\hfill‘#5’\\\hbox{}\hfill\hyperlink{pit#6}{{\small\textnormal[pit#6.#7]}}}
-\index{Z\Red{rec}!\Red{pit#6}}\index{Z\Red{utt}!\Red{pit#6.#7}}}}
+%\index{Z\Red{rec}!\Red{pit#6}}\index{Z\Red{utt}!\Red{pit#6.#7}}
+}}
 \newcommand{\DerivExamWL}[6]{\Tn{\begin{tabular}{lcl}\It{#1}&\ARROW&\It{#3}\\#2&&#4\\\end{tabular}\hfill\pbox{.3\textwidth}{\hfill‘#5’\\\hbox{}\hfill\hyperlink{explExs}{{\small\textnormal[#6]}}}
-\index{Z\Red{wl}!\Red{#6}}}}
+%\index{Z\Red{wl}!\Red{#6}}
+}}
 
 
 
-%INCLUDE RECORDINGS IN INDEX:
-\newcommand{\Corpus}[2]{\hspace*{1pt}\hfill{\small\mbox{\hyperlink{pit#1}{\Tn{[pit#1.#2]}}}}\index{Z\Red{rec}!\Red{pit#1}}\index{Z\Red{utt}!\Red{pit#1.#2}}}%
-\newcommand{\CorpusE}[2]{\hspace*{1pt}\hfill{\small\mbox{\hyperlink{pit#1}{\Tn{[pit#1.#2 (\It{elic.})]}}}}\index{Z\Red{rec}!\Red{pit#1}}\index{Z\Red{utt}!\Red{pit#1.#2}\Blue{-E}}}%
+%formatting of corpus source information (after \transl in gb4e-environments):
+\newcommand{\Corpus}[2]{\hspace*{1pt}\hfill{\small\mbox{\hyperlink{pit#1}{\Tn{[pit#1.#2]}}}}%\index{Z\Red{rec}!\Red{pit#1}}\index{Z\Red{utt}!\Red{pit#1.#2}}
+}%
+\newcommand{\CorpusE}[2]{\hspace*{1pt}\hfill{\small\mbox{\hyperlink{pit#1}{\Tn{[pit#1.#2 (\It{elic.})]}}}}%\index{Z\Red{rec}!\Red{pit#1}}\index{Z\Red{utt}!\Red{pit#1.#2}\Blue{-E}}
+}%
 %%as above, but necessary for recording names which include an underline because the first variable in \href understands _ but the second variable requires \_
-\newcommand{\CorpusLink}[3]{\hspace*{1pt}\hfill{\small\mbox{\hyperlink{pit#1}{\Tn{[pit#2.#3]}}}}\index{Z\Red{rec}!\Red{pit#2}}\index{Z\Red{utt}!\Red{pit#2.#3}}}%
+\newcommand{\CorpusLink}[3]{\hspace*{1pt}\hfill{\small\mbox{\hyperlink{pit#1}{\Tn{[pit#2.#3]}}}}%\index{Z\Red{rec}!\Red{pit#2}}\index{Z\Red{utt}!\Red{pit#2.#3}}
+}%
 %%as above, but for newer recordings which begin with sje20 instead of pit
-\newcommand{\CorpusSJE}[2]{\hspace*{1pt}\hfill{\small\mbox{\hyperlink{sje20#1}{\Tn{[sje20#1.#2]}}}}\index{Z\Red{rec}!\Red{sje20#1}}\index{Z\Red{utt}!\Red{sje20#1.#2}}}%
-\newcommand{\CorpusSJEE}[2]{\hspace*{1pt}\hfill{\small\mbox{\hyperlink{sje20#1}{\Tn{[sje20#1.#2 (\It{elic.})]}}}}\index{Z\Red{rec}!\Red{sje20#1}}\index{Z\Red{utt}!\Red{sje20#1.#2}\Blue{-E}}}%
+\newcommand{\CorpusSJE}[2]{\hspace*{1pt}\hfill{\small\mbox{\hyperlink{sje20#1}{\Tn{[sje20#1.#2]}}}}%\index{Z\Red{rec}!\Red{sje20#1}}\index{Z\Red{utt}!\Red{sje20#1.#2}}
+}%
+\newcommand{\CorpusSJEE}[2]{\hspace*{1pt}\hfill{\small\mbox{\hyperlink{sje20#1}{\Tn{[sje20#1.#2 (\It{elic.})]}}}}%\index{Z\Red{rec}!\Red{sje20#1}}\index{Z\Red{utt}!\Red{sje20#1.#2}\Blue{-E}}
+}%
 
 
 
