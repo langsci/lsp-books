@@ -7,30 +7,31 @@
 There are five types of phrases in \PS\ which form syntactic constituents of other phrases or of clauses: %, and may consist of one word or a number of words:
 \begin{itemize}
 \item{verb complex (VC)}
-\item{nominal phrases (NP)}
-\item{adjectival phrases (AP)}
-\item{adverbial phrases (AdvP)}
-\item{postpositional phrases (PP)}
+\item{nominal phrase (NP)}
+\item{adjectival phrase (AP)}
+\item{adverbial phrase (AdvP)}
+\item{postpositional phrase (PP)}
 \end{itemize}
 Table \vref{phraseTypeSummary} summarizes the main syntactic functions of the various phrase types, and the sections of this chapter that deal with them. 
 \begin{table}\centering
 \caption{Summary of phrase types and their syntactic functions}\label{phraseTypeSummary}
-\resizebox{\columnwidth}{!}{
-\begin{tabular}{|c|c|c|c|c|c|}\hline
-	&			&\It{argument/adjunct/}	&			&			&\\%\dline
-	&\It{predicate}	&\It{complement}	&\It{modifier in NP}&\It{modifier in AP}&\It{section}\\\dline
-VC	&\CH		&				&			&			&\ref{verbComplex}	\\\hline%predicate
-NP	&\CH		&\CH			&\CH		&			&\ref{nominalPhrases}	\\\hline%argument, adjunct, modify NP (gen)
-AP	&			&\CH			&\CH		&			&\ref{adjectivalPhrases}	\\\hline%modify NP-head, modify NP
-AdvP&			&\CH			&			&\CH		&\ref{adverbialPhrases}	\\\hline%adjunct, modify AP-head
-PP	&			&\CH			&			&			&\ref{postpositionalPhrases}	\\\hline%adjunct
-\end{tabular}}
+%\resizebox{\columnwidth}{!}{
+\begin{tabular}{|c|c|c|c|c|}\hline
+		&\MC{4}{c|}{\It{syntactic function}}\\
+\It{phrase}	&			&\It{argument/adjunct/}	&			&			\\%\dline
+\It{type}	&\It{predicate}	&\It{complement}	&\It{modifier in NP}&\It{modifier in AP}\\\dline%&\It{section}
+VC	&\CH		&				&			&			\\\hline%predicate%&\ref{verbComplex}	
+NP	&\CH		&\CH			&\CH		&			\\\hline%argument, adjunct, modify NP (gen)%&\ref{nominalPhrases}
+AP	&			&\CH			&\CH		&			\\\hline%modify NP-head, modify NP%&\ref{adjectivalPhrases}
+AdvP&			&\CH			&			&\CH		\\\hline%adjunct, modify AP-head%&\ref{adverbialPhrases}
+PP	&			&\CH			&			&			\\\hline%adjunct%&\ref{postpositionalPhrases}	
+\end{tabular}%}
 \end{table}
 
 
 \section{Verb complex}\label{verbComplex}\index{verb complex}\index{phrase types!verb complex}
 %\Blue{Here comes the verbal complex!!!!!!!!!!!!!!!} oder auch nicht.
-The \PS\ \Bf{verb complex} (abbreviated ‘VC’) consists minimally of a finite verb, and maximally of a finite verb and one or two non-finite verb forms. 
+The \PS\ verb complex (abbreviated ‘VC’) consists minimally of a finite verb, and maximally of a finite verb and one or two non-finite verb forms. 
 With the exception of the imperative, the finite verb inflects for tense or mood, number and person, and agrees with the subject. 
 The imperative only inflects for number.\korr{029} %, which cannot be regarded as an agreement suffix in this case because imperatives do not have subject arguments. %NOT RELEVANT
 %
@@ -49,25 +50,29 @@ This is summarized in Table \vref{VCstructures}. % on page \pageref{VCstructures
 \caption{Verb complex structures with one, two or three verbs}\label{VCstructures}
 %used so that both tabulars are same width:
 \resizebox{\textwidth}{!}{
-\begin{tabular}{|x{.05\textwidth}|p{.45\textwidth} x{.025\textwidth}p{.45\textwidth}|}%\hline%.025+.025+.45+.45=.95
-\MC{1}{c}{\Bf{qty.}}&\MC{3}{l}{\Bf{verb forms}}		\\\hline
-\MR{2}{*}{1}&\It{finite verb}		& & \\%\hline
-&\It{(lexical/copula)}	& & 	\\\dline%\cline{2-4}
-%&copula verb	& & 	\\\dline
-%&&&\\\hline
-\MR{2}{*}{2}&\It{finite verb}		&\MR{2}{*}{\PLUS} &\It{non-finite form} \\%\hline
-&\It{(grammatical)}		& &\It{(lexical/copula)} \\\hline
-&negation verb	&\PLUS & \CONNEGs	\\\cline{2-4}%\hline
-&aspectual auxiliary&\PLUS & \PRFs{\tiny\ or }\PROGs	\\\cline{2-4}%\hline
-&modal verb	&\PLUS & \INFs	\\\hline
-\end{tabular}}
-\resizebox{\textwidth}{!}{
 \begin{tabular}{|x{.05\textwidth}|p{.25\textwidth} x{.025\textwidth}p{.295\textwidth} x{.025\textwidth}p{.275\textwidth}|}\hline%.025+.025+.025+.3+.3+.3=.975
-\MR{2}{*}{3}&\It{finite verb}		&\MR{2}{*}{\PLUS} &\It{non-finite form}	&\MR{2}{*}{\PLUS} &\It{non-finite form} \\%\hline
+%\begin{tabular}{|x{.05\textwidth}|p{.45\textwidth} x{.025\textwidth}p{.45\textwidth}|}\hline%.025+.025+.45+.45=.95
+\It{qty.}&\MC{5}{l|}{\It{verb form or forms}}		\\\dline
+%\MC{1}{c}{\Bf{qty.}}&\MC{3}{l}{\Bf{verb forms}}		\\\hline
+\MR{2}{*}{1}&\MC{5}{l|}{\Bf{finite verb}} \\%\hline
+&\It{(lexical/copula)}	& & &&	\\\hline%\dline%\cline{2-4}
+%&copula verb	& & 	\\\hline%\dline
+%&&&\\\hline
+%\MC{6}{l}{}\\\hline
+\MR{2}{*}{2}&\Bf{finite verb}		&\MR{1}{*}{\Bf{\PLUS}} &\MC{3}{l|}{\Bf{non-finite form}} \\%\hline
+&\It{(grammatical)}		& &\MC{3}{l|}{\It{(lexical/copula)}} \\\hline%\cline{2-4}
+\MC{1}{c|}{}&modal verb	&\PLUS &\MC{3}{l|}{\INFs}	\\\cline{2-6}
+\MC{1}{c|}{}&aspectual auxiliary&\PLUS &\MC{3}{l|}{\PRFs{\tiny\ or }\PROGs}	\\\cline{2-6}%\hline
+\MC{1}{c|}{}&negation verb	&\PLUS &\MC{3}{l|}{\CONNEGs}	\\\hline
+%\end{tabular}}
+%\resizebox{\textwidth}{!}{
+%\begin{tabular}{|x{.05\textwidth}|p{.25\textwidth} x{.025\textwidth}p{.295\textwidth} x{.025\textwidth}p{.275\textwidth}|}\hline%.025+.025+.025+.3+.3+.3=.975
+%\MC{6}{l}{}\\\hline
+\MR{2}{*}{3}&\Bf{finite verb}		&\MR{1}{*}{\Bf{\PLUS}} &\Bf{non-finite form}	&\MR{1}{*}{\Bf{\PLUS}} &\Bf{non-finite form} \\%\hline
 &\It{(grammatical)}		& &\It{(grammatical)}		& &\It{(lexical/copula)} \\\hline
-&negation verb			&\PLUS & asp. auxiliary/\CONNEGs		&\PLUS & \PRFs{\tiny\ or }\PROGs	\\%\hline
-&					&\PLUS & modal/\CONNEGs		&\PLUS & \INFs	\\\cline{2-6}
-&aspectual auxiliary		&\PLUS & modal/\PRFs{\tiny\ or }\PROGs			&\PLUS & \INFs	\\\hline%\cline{2-6}%\hline
+\MC{1}{c|}{}&aspectual auxiliary		&\PLUS & modal\BS\PRFs{\tiny\ or }\PROGs			&\PLUS & \INFs	\\\cline{2-6}%\hline
+\MC{1}{c|}{}&negation verb			&\PLUS & modal\BS\CONNEGs		&\PLUS & \INFs	\\\cline{3-6}
+\MC{1}{c|}{}&			&\PLUS & asp. auxiliary\BS\CONNEGs		&\PLUS & \PRFs{\tiny\ or }\PROGs	\\\cline{2-6}
 %&modal verb			&\PLUS & asp. auxiliary/\INFs		&\PLUS & \PRFs{\tiny\ or }\PROGs	\\\hline%%%JW: commented out because not found in corpus! mentioned in last paragraph of section
 %&aspectual aux. \It{årrot}	&\PLUS & aspectual (\PRFs\ or \PROGs)	&\PLUS &	\\%\hline
 %&modal verb			&\PLUS & \INF						&\PLUS &	\\\hline
@@ -93,7 +98,7 @@ For instance, the examples in \REF{VCex1} and \REF{VCex2} each feature a VC cons
 
 In \REF{VCex3}, there are two VCs. The first VC is \It{ij…dága}%, literally ‘does not make’,
 \footnote{The complete phrase \It{ij aktagav dága} is likely a calque of the Swedish phrase \It{det gör ingenting} ‘that doesn’t matter’ (lit.: ‘that does nothing’).} %; cf.\ German \It{das macht nichts}).} 
-and consists of the finite negation verb and the lexical verb \It{dáhkat} ‘make, do’ in its connegative form, but is split by the particle \It{dä} and the NP argument \It{aktagav}. The second VC is the verb \It{vähtjat} ‘fetch’, now in its \Sc{1sg.prs} finite form. 
+and consists of the finite negation verb and the lexical verb \It{dáhkat} ‘make, do’ in its connegative form, but is split by the particle \It{dä} and the NP argument \It{aktagav}. The second VC is the verb \It{vähtjat} ‘fetch’, here in its \Sc{1sg.prs} finite form. 
 \ea\label{VCex3}
 \glll	ij dä aktagav dága, mån viehtjav dav maŋŋel\\
 	{[i-j]\subVC\sub{\It{1}}} dä aktaga-v {[dága]\subVC\sub{\It{1}}} mån {[viehtja-v]\subVC\sub{\It{2}}} d-a-v maŋŋel\\
@@ -122,35 +127,34 @@ A modal verb\footnote{Cf. Section \ref{modalVs} for a list of modal verbs.}
 and a non-finite verb form are illustrated by the VC \It{máhtta… båhtet} ‘can come’ in \REF{VCex5}. Here, the modal \It{máhtta} ‘can’ is the finite verb, and \It{båhtet} ‘come’ is in the infinitive form. 
 \ea\label{VCex5}
 \glll	båtsoj máhtta duv nala båhtet\\
-	båtsoj {[máhtta]\subVC} du-v nala {[båhte-t]\subVC}\\
+	båtsoj {[máhtta]\subVC} duv nala {[båhte-t]\subVC}\\
 	reindeer\BS\Sc{nom.sg} can\BS\Sc{3sg.prs} \Sc{2sg.gen} upon come-\Sc{inf}\\\nopagebreak
 \Transl{the reindeer can attack you}{(lit: ‘come upon you’)}	\Corpus{080909}{048}
 \z
 
 Similarly, in \REF{VCex5a}, the VC \It{virrten märrket} ‘have to mark’ contains the finite verb \It{virrten} ‘must’ and the infinitive verb form \It{märrket} ‘mark’. 
 \ea\label{VCex5a}
-\glll	dä virrten märrket dajt miesijt dále tjaktjan\\
-	dä {[virrte-n} {märrke-t]\subVC} d-a-jt miesi-jt dále tjaktja-n\\
+\glll	dä virrten märrket dajt miesijd dále tjaktjan\\
+	dä {[virrte-n} {märrke-t]\subVC} d-a-jt miesi-jd dále tjaktja-n\\
 	then must-\Sc{1du.prs} mark-\Sc{inf} \Sc{dem}-\Sc{dist}-\Sc{acc.pl} calf-\Sc{acc.pl} now autumn-\Sc{iness.sg}\\\nopagebreak
 \Transl{then we have to mark those calves now in the autumn}{}	\Corpus{080909}{008}
 \z
+Note that, formally, clauses featuring a modal verb are identical to complement clauses featuring an infinite predicate; cf. Section \ref{infinitiveComplementClauses}. 
 
-Formally, clauses featuring a modal verb are identical to complement clauses featuring an infinite predicate; cf. Section \ref{infiniteComplementClauses}. 
-
-Finally, the clauses in \REF{VCex6} through \REF{VCex8} provide examples of VCs with three verb forms. In \REF{VCex6}, the VC consists of the finite negation verb in \Sc{1sg.prs} (\It{iv}), the aspectual auxiliary \It{årrot} in connegative form (\It{lä}), and the lexical verb \It{gullat} ‘hear’ in its perfect form (\It{gullam}). The VC in example \REF{VCex7} contains the finite negation verb \Sc{3sg.prs} (\It{ij}), the modal verb \It{máhttet} in connegative form (\It{máhte}), and the lexical verb \It{adnet} ‘have’, its infinitive form. Finally, in \REF{VCex8}, the finite aspectual auxiliary \It{lev} combined with the perfect form of the modal verb \It{máhttet} ‘can’ and the infinite complement \It{ságastit} ‘speak’ constitute the VC.
+Finally, the clauses in \REF{VCex6} through \REF{VCex8} provide examples of VCs with three verb forms. In \REF{VCex6}, the VC consists of the finite negation verb in \Sc{1sg.prs} (\It{iv}), the aspectual auxiliary \It{årrot} in connegative form (\It{lä}), and the lexical verb \It{gullat} ‘hear’ in its perfect form (\It{gullam}). The VC in example \REF{VCex7} contains the finite negation verb \Sc{3sg.prs} (\It{ij}), the modal verb \It{máhttet} in connegative form (\It{máhte}), and the lexical verb \It{adnet} ‘have’, in its infinitive form. Finally, in \REF{VCex8}, the finite aspectual auxiliary \It{lev} combined with the perfect form of the modal verb \It{máhttet} ‘can’ and the infinite complement \It{ságastit} ‘speak’ constitute the VC.
 \ea\label{VCex6}
-\glll	… dä iv lä åbå gullam dav\\
-	{} dä [i-v {lä]\subVC} åbå {[gulla-m]\subVC} d-a-v\\
-	{} then \Sc{neg}-\Sc{1sg.prs} be\BS\Sc{conneg} at\_all hear-\Sc{prf} \Sc{dem}-\Sc{dist}-\Sc{acc.sg}\\\nopagebreak
-\Transl{… since I haven’t heard that at all}{}	\Corpus{090702}{203}
+\glll	dä iv lä åbå gullam dav\\
+	dä [i-v {lä]\subVC} åbå {[gulla-m]\subVC} d-a-v\\
+	then \Sc{neg}-\Sc{1sg.prs} be\BS\Sc{conneg} at\_all hear-\Sc{prf} \Sc{dem}-\Sc{dist}-\Sc{acc.sg}\\\nopagebreak
+\Transl{I haven’t heard that at all}{}	\Corpus{090702}{203}
 %%\glll	mån iv dede åbå, dä iv lä åbå gullam dav\\
 %%	mån [i-v {dede]\subVC\sub{\it 1}} åbå dä [i-v {lä]\subVC\sub{\it 2}} åbå {[gulla-m]\subVC\sub{\it 2}} da-v\\
 %%	\Sc{1sg.nom} \Sc{neg}-\Sc{1sg.prs} know\BS\Sc{conneg} at\_all then \Sc{neg}-\Sc{1sg.prs} be\BS\Sc{conneg} at\_all hear-\Sc{prf} \Sc{dem.dist}-\Sc{acc.sg}\\
 %%\Transl{I don’t know at all, I haven’t heard that at all}{}	\Corpus{090702.203}
 \z
 \ea\label{VCex7}
-\glll	ij vanj dä mahte ilá stuor dålåv adnet\\
-	{[i-j]\subVC} vanj dä {[mahte]\subVC} ilá stuor dålå-v {[adne-t]\subVC}\\
+\glll	ij vanj dä máhte ilá stuor dålåv adnet\\
+	{[i-j]\subVC} vanj dä {[máhte]\subVC} ilá stuor dålå-v {[adne-t]\subVC}\\
 	\Sc{neg}-\Sc{3sg.prs} really then can\BS\Sc{conneg} too big fire-\Sc{acc.sg} have-\Sc{inf}\\\nopagebreak
 \Transl{one cannot really have too big of a fire}{}	\Corpus{090702}{176}
 \z
@@ -169,7 +173,7 @@ must be left to future research. However, it is clear that the negation verb is 
 
 
 \section{Nominal phrases}\label{nominalPhrases}\index{nominal phrases}\index{phrase types!nominal phrases}
-\Bf{Nominal phrases} (abbreviated ‘NP’) in \PS\ are divided into two groups:
+Nominal phrases (abbreviated ‘NP’) in \PS\ are divided into two groups:
 \begin{itemize}
 \item{full NPs}
 \item{pronouns}
@@ -222,7 +226,7 @@ which modifies the head noun.
 
 An NP marked for genitive case can also function as a modifier that narrows the reference of the head noun by signifying some characteristic of the head noun’s referent, as in \REF{NPstructureEx2} above. Similarly, in \REF{NPstructureGenNPex1} the genitive NP \It{mále} ‘blood’ modifies the head noun \It{gamsajd} ‘dumplings’. 
 \ea\label{NPstructureGenNPex1}%
-\glll	ja dágaj mále gamsajt\\
+\glll	ja dágaj mále gamsajd\\
 	ja dága-j {[[mále]\subNP\sub{\It{1}}} {gamsa-jd]\subNP\sub{\It{2}}} \\
 	and make-\Sc{3sg.pst} blood\BS\Sc{gen.sg} dumpling-\Sc{acc.pl}\\\nopagebreak
 \Transl{and one made blood dumplings}{}	\Corpus{080924}{253}
@@ -247,14 +251,14 @@ As the example in \REF{NPstructureEx4} illustrates, it is possible for more than
 
 If the context is sufficiently clear, it is possible that the head noun is not realized when a demonstrative and/or modifier is present; such cases are referred to as elliptical constructions. 
 Numerals, for instance, can be in elliptical constructions, %, both with or without a demonstrative, %JW: not sure about this! no data for it.
-as in \REF{NPstructureEx6}, in which the noun referring to nets is not realized, so \It{gålbmad} ‘third’ is the NP. %In \REF{NPstructureEx7}, . 
+as in \REF{NPstructureEx6}, in which the noun referring to nets is not realized, so \It{gålmát} ‘third’ composes the entire NP. %In \REF{NPstructureEx7}, . 
 \ea\label{NPstructureEx6}
-\glll	ja gålmád sjadda dä Stutjaj\\
-	ja {[gålmád]\subNP\sub{\It{1}}} sjadda dä {[Stutja-j]\subNP\sub{\It{2}}}\\
-	and third become\BS\Sc{3sg.prs} then Stutja-\Sc{ill.sg}\\\nopagebreak
+\glll	ja gålmát sjadda dä Stutjaj\\
+	ja {[gålm-át]\subNP\sub{\It{1}}} sjadda dä {[Stutja-j]\subNP\sub{\It{2}}}\\
+	and three-\Sc{ord} become\BS\Sc{3sg.prs} then Stutja-\Sc{ill.sg}\\\nopagebreak
 \Transl{and the third one is then placed at Stutja}{(referring to ‘fishing net’)}	\Corpus{090702}{026-027}
 \z
-With the exception of \It{akta} ‘one’, numerals do not inflect for case and number.\footnote{Cf. Section \ref{numerals} for more on numerals.}
+With the exception of the \ACCs.\SGs\ form of \It{akta} ‘one’, numerals do not inflect for case and number.\footnote{Cf. Section \ref{numerals} for more on numerals.}
 
 Less commonly, an adjectival phrase can be in an elliptical construction, either with or without a demonstrative. In the absence of a head noun, the adjective in the AP is the host for case and number, and is morphologically a nominal. In the example in \REF{NPstructureEx8}, the head noun referring to a piece of candy is not realized, and the NP consists only of the adjective \It{rupsisav} ‘red’, which inflects for case and number.\footnote{Cf. Section \ref{ADJinHeadlessNPs} for more details about adjectives in elliptical structures.} 
 The sentence in \REF{adjNPheadEx3repeat} illustrates a similar construction including a demonstrative; here, the head noun referring to a girl is not overt, and the NP only contains the demonstrative \It{dat} ‘that’ and the adjective \It{tjábba} ‘beautiful’. 
@@ -268,10 +272,10 @@ The sentence in \REF{adjNPheadEx3repeat} illustrates a similar construction incl
 \glll	dat tjábba máhtta sáme gielav\\
 	{[d-a-t} {tjábba]\subNP\sub{\It{1}}} máhtta {[sáme} {giela-v]\subNP\sub{\It{2}}}\\
 	\Sc{dem}-\Sc{dist}-\Sc{nom.sg} beautiful\BS\Sc{nom.sg} can\BS\Sc{3sg.prs} Saami\BS\Sc{gen.sg} language-\Sc{acc.sg}\\\nopagebreak
-\TranslLong{That beautiful one can (speak) the Saami language}{(referring to ‘beautiful girl’)}	\CorpusE{090930a}{148}
+\TranslLong{That beautiful one can (speak) the Saami language}{}	\CorpusE{090930a}{148}%(referring to ‘beautiful girl’)
 \z
 
-There are many examples in the corpus of NPs consisting only of a demonstrative, as in \It{dajd} in \REF{NPstructureProEx1}, or other pronoun, as in \It{mån} in \REF{NPstructureProEx2}. %Here, the first NP \It{dajd} ‘those’ consists only of the determiner. %, while the head noun referring to fish is not realized. 
+There are many examples in the corpus of NPs consisting of a pronoun, such as the demonstrative pronoun \It{dajd} in \REF{NPstructureProEx1}, or the personal pronoun \It{mån} in \REF{NPstructureProEx2}. %Here, the first NP \It{dajd} ‘those’ consists only of the determiner. %, while the head noun referring to fish is not realized. 
 %The other NP in the clause is \It{såbe} ‘stick’, the dependent of the postposition \It{nanne} ‘on’.
 \ea\label{NPstructureProEx1}
 \glll	bisij dajd såbe nanne\\
@@ -280,14 +284,14 @@ There are many examples in the corpus of NPs consisting only of a demonstrative,
 \Transl{he fried them on a stick}{}	\Corpus{100404}{125}
 \z
 \ea\label{NPstructureProEx2}
-\glll	mån mähtiv ráhpat uksav\\
-	{[mån]\subNP\sub{\It{1}}} mähti-v ráhpa-t {[uksa-v]\subNP\sub{\It{2}}}\\
+\glll	mån mähttiv ráhpat uksav\\
+	{[mån]\subNP\sub{\It{1}}} mähtti-v ráhpa-t {[uksa-v]\subNP\sub{\It{2}}}\\
 	\Sc{1sg.nom} can-\Sc{1sg.pst} open-\Sc{inf} door-\Sc{acc.sg}\\\nopagebreak
 \Transl{I could open the door}{}	\Corpus{100404}{347}
 \z
 The second NP in \REF{NPstructureProEx1}, \It{såbe} ‘stick’, also illustrates a genitive NP functioning as the complement of a PP. 
 
-When the head of an NP is a pronoun, it is also possible to modify it. For instance, in \REF{NPstructureProEx3}, the \Sc{1sg.nom} reflexive pronoun \It{etj} modifies the \Sc{1sg.nom} personal pronoun \It{mån} as an intensifier. Note that this ordering (modifier following the head) deviates from the general pattern, in which the modifier occurs before the head of the NP. 
+When the head of an NP is a personal pronoun, it is also possible to modify it. For instance, in \REF{NPstructureProEx3}, the \Sc{1sg.nom} reflexive pronoun \It{etj} modifies the \Sc{1sg.nom} personal pronoun \It{mån} as an intensifier. Note that this ordering (modifier following the head) deviates from the general pattern, in which the modifier occurs before the head of the NP. 
 \ea\label{NPstructureProEx3}%
 \glll	mån etj hålåv dále navte\\
 	{[mån} {etj]\subNP} hålå-v dále navte\\
@@ -297,8 +301,8 @@ When the head of an NP is a pronoun, it is also possible to modify it. For insta
 
 \korr{050}Finally, a relative clause can also occur after the head as part of the NP. An example is provided in \REF{NPstructureRelClEx1}; see Section \ref{relativeClauses} for more on relative clauses. 
 \ea\label{NPstructureRelClEx1}%
-\glll	dá lä jisse gistá mejt dálven gallga adnet\\
-	d-á lä jisse {[gistá} me-jt dálve-n gallga {adne-t]\subNP}\\
+\glll	dá lä jisse gistá mejd dálven gallga adnet\\
+	d-á lä jisse {[gistá} me-jd dálve-n gallga {adne-t]\subNP}\\
 	\Sc{dem}\BS\Sc{prox}-\Sc{nom.pl} be\BS\Sc{3pl.prs} precisely glove\BS\Sc{nom.pl} \Sc{rel}-\Sc{acc.pl} winter-\Sc{iness.sg} shall\BS\Sc{3sg.prs} have-\Sc{inf}\\\nopagebreak
 \Transl{these are gloves which one has in winter}{}	\Corpus{080708\_Session08}{006}
 \z
@@ -306,7 +310,7 @@ When the head of an NP is a pronoun, it is also possible to modify it. For insta
 
 \subsection{NPs in adverbial function}\label{ADVnouns}
 Nominal phrases, %\footnote{Cf. Section \ref{nominalPhrases} for more details about nominal phrases.} 
-particularly referring to time or place, and thus inflected for one of the locative cases (illative, inessive or elative), are often used as temporal or locational adverbials, as in \It{giesen} ‘in summer’ in \REF{ADVnounsEx1}, and in \It{hieman} ‘at home’ in \REF{ADVnounsEx2}, respectively. Furthermore, the word \It{vahkov} ‘week’ in \REF{ADVnounsEx2} shows that an accusative NP can function as a temporal adverbial indicating a period of time. 
+particularly when referring to time or place, and thus inflected for one of the locative cases (illative, inessive or elative), are often used as temporal or locational adverbials, as in \It{giesen} ‘in summer’ in \REF{ADVnounsEx1}, and in \It{hiejman} ‘at home’ in \REF{ADVnounsEx2}, respectively. Furthermore, the word \It{vahkov} ‘week’ in \REF{ADVnounsEx2} shows that an accusative NP can function as a temporal adverbial indicating a period of time. 
 \ea\label{ADVnounsEx1}%
 \glll	men jáhkav minniv giesen\\
 	men jáhka-v minni-v {[giese-n]\subNP}\\
@@ -314,8 +318,8 @@ particularly referring to time or place, and thus inflected for one of the locat
 \Transl{I believe I went in the summer}{}	\Corpus{100404}{163}
 \z
 \ea\label{ADVnounsEx2}
-\glll	ja Henning lij jou hieman urrum vahkov\\
-	ja {[Henning]\subNP\sub{\It{1}}} li-j jou {[hiema-n]\subNP\sub{\It{2}}} urru-m {[vahko-v]\subNP\sub{\It{3}}}\\
+\glll	ja Henning lij jou hiejman urrum vahkov\\
+	ja {[Henning]\subNP\sub{\It{1}}} li-j jou {[hiejma-n]\subNP\sub{\It{2}}} urru-m {[vahko-v]\subNP\sub{\It{3}}}\\
 	and Henning\BS\Sc{nom.sg} be-\Sc{3sg.pst} well home-\Sc{iness.sg} be-\Sc{prf} week-\Sc{acc.sg}\\\nopagebreak
 \Transl{and Henning had been home for a week}{}	\Corpus{090702}{285}
 \z
@@ -332,7 +336,7 @@ Finally, the deverbal noun \It{diedon} literally translates as ‘in knowledge�
 
 
 \section{Adjectival phrases}\label{adjectivalPhrases}\index{adjectival phrases}\index{phrase types!adjectival phrases}
-\Bf{Adjectival phrases} (abbreviated ‘AP’) in \PS\ are divided into three groups based on the type of adjective required as head: 
+Adjectival phrases (abbreviated ‘AP’) in \PS\ are divided into three groups based on the type of adjective required as head: 
 \begin{itemize}
 \item{attributive APs (headed by attributive adjectives)}% in an NP}
 \item{predicate APs (headed by predicative adjectives)}% as the complement of the copula verb \It{årrot} ‘be’}
@@ -346,15 +350,15 @@ The only difference in internal structure between the two adjective APs is the c
 Numeral APs normally consist only of a numeral, but can be further modified by an adverbial. 
 \begin{figure}\centering
 \begin{tabular}{l l}
-attributive AP:	&\verb|[[|(AdvP) \PLUS\ attributive adjective]\subAP \\%\[ added so that the second [ is typeset at beginning of line
-predicative AP:	&\verb|[[|(AdvP) \PLUS\ predicative adjective]\subAP \\%\[ added so that the second [ is typeset at beginning of line
-numeral AP:	&\verb|[[|(AdvP) \PLUS\ numeral]\subAP \\%\[ added so that the second [ is typeset at beginning of line
+attributive AP:	&[(AdvP) \PLUS\ attributive adjective]\subAP \\%\[ added so that the second [ is typeset at beginning of line
+predicative AP:	&[(AdvP) \PLUS\ predicative adjective]\subAP \\%\[ added so that the second [ is typeset at beginning of line
+numeral AP:	&[(AdvP) \PLUS\ numeral]\subAP \\%\[ added so that the second [ is typeset at beginning of line
 \end{tabular}
 \caption{The three possible structures of adjectival phrases}\label{APstructures}
 \end{figure}
 
 Adverbial phrases are not common in APs. %, and only certain adverbial phrases can be a constituent in an AP. 
-The data is quite limited concerning which type of AdvPs are acceptable, and future research is needed in this respect. Examples from the corpus include %\marginpar{more AdvP in APs??} 
+The data is quite limited concerning which type of AdvPs are acceptable, and future study is needed in this respect. Examples from the corpus include %\marginpar{more AdvP in APs??} 
 \It{ilá} ‘too’, \It{nåv} ‘so’, \It{huj} ‘really’, \It{åbbå} ‘completely’ and \It{gajk} ‘all’. 
 
 Several examples of APs are provided here. In \REF{APstructureEx1}, the AP consists only of the attributive adjective \It{njalga} ‘tasty’ and modifies \It{biebmov} ‘food’, the head of the NP. 
@@ -368,10 +372,10 @@ Several examples of APs are provided here. In \REF{APstructureEx1}, the AP consi
 
 The example in \REF{APstructureEx2} illustrates an attributive adjective modified by an AdvP. 
 \ea\label{APstructureEx2}%AdvP+ADJattr ??
-\glll	da lä urrum huj buorak giesse\\
-	da lä urru-m [huj {buorak]\subAP} giesse\\
-	then be\BS\Sc{3sg.prs} be-\Sc{prf} really good summer\BS\Sc{nom.sg}\\\nopagebreak
-\Transl{it has been a really good summer}{}	\Corpus{080909}{009}
+\glll	ja dat lä urrum huj buorak giesse\\
+	ja d-a-t lä urru-m [huj {buorak]\subAP} giesse\\
+	and \Sc{dem}-\Sc{dist}-\Sc{nom.sg} be\BS\Sc{3sg.prs} be-\Sc{prf} really good summer\BS\Sc{nom.sg}\\\nopagebreak
+\Transl{and it has been a really good summer}{}	\Corpus{080909}{009}
 \z
 
 In \REF{APstructureEx3}, the predicative adjective \It{nuorra} ‘young’ agrees with the subject NP \It{mánná} ‘child’ in number. 
@@ -384,27 +388,27 @@ In \REF{APstructureEx3}, the predicative adjective \It{nuorra} ‘young’ agree
 
 As the example in \REF{APstructureEx4} shows, predicative adjectives are syntactically adjectives, as the predicate adjective \It{buojde} ‘fat’ is the head of an AP modified by an AdvP (\It{nåv} ‘so’). %, but also inflect for number (here, non-concatenatively). 
 \ea\label{APstructureEx4}%AdvP+ADJpred
-\glll	dä lä vusjkona nåv buojde\\
-	dä lä vusjkona [nåv {buojde]\subAP}\\
+\glll	dä lä vuosjkuna nåv buojde\\
+	dä lä vuosjkun-a [nåv {buojde]\subAP}\\
 	then be\BS\Sc{3pl.prs} perch-\Sc{nom.pl} so fat\BS\Sc{pl}\\\nopagebreak
 \Transl{then the perch are so fat}{}	\Corpus{090702}{080}
 \z
 
 
-Finally, examples of the numeral APs are provided in \REF{APstructureEx5} through \REF{APstructureEx7}. In the first example, \It{guäkte} ‘two’ modifying the NP \It{dåpe} ‘houses’ is provided in \REF{APstructureEx5}. 
+Finally, examples of numeral APs are provided in \REF{APstructureEx5} through \REF{APstructureEx7}. In the example in \REF{APstructureEx5}, \It{guäkte} ‘two’ modifies the NP \It{dåpe} ‘houses’. %is provided in \REF{APstructureEx5}. 
 \ea\label{APstructureEx5}%AdvP+ADJpred
 \glll	dä guäkte dåpe lä danne\\
 	dä {[guäkte]\subAP} dåpe lä danne \\
 	then two house\BS\Sc{nom.pl} be\BS\Sc{3pl.prs} there\\\nopagebreak
 \Transl{then two houses are there}{}	\Corpus{080924}{385}
 \z
-The example in \REF{APstructureEx6}\footnote{This example is also provided in example \REF{veryFirstEx} in Section \ref{caseNumberOnNum}, but is repeated here for convenience.} 
-is noteworthy because it shows how a numeral can be inflected as a superlative; here the ordinal numeral \It{vuostas} is in the superlative form \It{vuostamos} meaning ‘very first’, and modifies the NP \It{guhkajuolgak} ‘moose’. 
+The example in \REF{APstructureEx6} %\footnote{This example is also provided in example \REF{veryFirstEx} in Section \ref{caseNumberOnNum}, but is repeated here for convenience.} 
+is noteworthy because it shows that the modifying numeral can be inflected as a superlative; here the ordinal numeral \It{vuostas} is in the superlative form \It{vuostamos} meaning ‘very first’, and modifies the NP \It{guhkajuolgak} ‘moose’. 
 \ea\label{APstructureEx6}%AdvP+ADJpred
 \glll	dieda, mån vuotjev vuostamos guhkajuolgagav\\
 	dieda mån vuotje-v {[vuosta-mos]\subAP} guhka-juolga-ga-v\\
 	know\BS\Sc{2sg.prs} \Sc{1sg.nom} shoot-\Sc{1sg.pst} first-\Sc{superl} long-leg-\Sc{nmlz}-\Sc{acc.sg}\\\nopagebreak
-\Transl{you know I shot my very first long-legger}{(referring to a moose)}	\Corpus{080924}{079}
+\Transl{you know, I shot my very first long-legger}{}	\Corpus{080924}{079}%(referring to a moose)
 \z
 
 Numeral APs can include an adverbial modifier. The adverb \It{ber} ‘only’ modifies the numeral \It{akkta} ‘one’ in \REF{APstructureEx7}.
@@ -416,7 +420,7 @@ Numeral APs can include an adverbial modifier. The adverb \It{ber} ‘only’ mo
 \z
 
 
-\subsection{APs with an adverbial function}\label{ADVadjectives}
+\subsection{APs with an adverbial function}\label{ADVadjectives}%
 While the data in the corpus is quite limited, it appears that APs headed by an attributive adjective can be used adverbially. This is illustrated by \It{njuallga} ‘correct’ in \REF{ADVadjectivesEx1}. %and \It{spájta} ‘quick’ in \REF{ADVadjectivesEx2}.%quick-ATTR = spájtas, quick-ADV = spájta
 \ea\label{ADVadjectivesEx1}%njuallga
 \glll	jus galga njuallga dajd njuovvat dä galga dajd valldet ulgus åvdål gádtsastij\\
@@ -436,7 +440,7 @@ While the data in the corpus is quite limited, it appears that APs headed by an 
 
 
 \section{Adverbial phrases}\label{adverbialPhrases}\index{adverbial phrases}\index{phrase types!adverbial phrases}
-An \Bf{adverbial phrase} (abbreviated ‘AdvP’) has an adverb as its head, and can potentially be modified by a further AdvP, as illustrated in Figure \vref{AdvPstructures}
+An adverbial phrase (abbreviated ‘AdvP’) has an adverb as its head, and can potentially be modified by a further AdvP, as illustrated in Figure \vref{AdvPstructures}
 \begin{figure}\centering
 \begin{tabular}{l }
 [(AdvP) \PLUS\ adverb]\subAdvP \\%\[ added so that the second [ is typeset at beginning of line
@@ -453,7 +457,7 @@ The AdvP in example \REF{AdvPex1} consists only of the adverb \It{buoragit} ‘w
 \Transl{at that time it was, it went well}{}	\CorpusLink{0906_Ahkajavvre_a}{0906\_Ahkajavvre\_a}{023}
 \z
 
-The sentence in \REF{derivedADVsEx2repeat} shows that an adverb can be further modified by another, preceding adverb. Here, the AP head \It{buoragit} ‘well’ is further modified by the adverb \It{ganska} ‘quite’.\footnote{The adverb \It{ganska} is a nonce borrowing from Swedish (cf. Swedish \It{ganska} ‘quite’).}
+The sentence in \REF{derivedADVsEx2repeat} shows that an adverb can be further modified by another, preceding adverb. Here, the AP head \It{buoragit} ‘well’ is further modified by the adverb \It{ganska} ‘quite’.\footnote{The adverb \It{ganska} is a nonce borrowing from Swedish (cf. Sw. \It{ganska} ‘quite’).}
 \ea\label{derivedADVsEx2repeat}%copied from Adverb chapter
 \glll	viesojmä vanj ganska buoragit dajna guollemijn aj\\
 	vieso-jmä vanj {[[ganska]\subAdvP\sub{\It{1}}} {buoragi-t]\subAdvP\sub{\It{2}}} d-a-jna guollemi-jn aj\\
@@ -474,22 +478,25 @@ Other forms also frequently fulfill an adverbial function; cf.
 Section \ref{ADVnouns} for nominal phrases, 
 Section \ref{ADVadjectives} for adjectival phrases, 
 Section \ref{postpositionalPhrases} for postpositional phrases 
-and Section \ref{ADVverbs} for non-finite verb forms. 
+and Section \ref{ADVverbs} for non-finite (progressive) verb forms. 
+
+
+
 
 
 \section{Postpositional phrases}\label{postpositionalPhrases}\index{postpositional phrases}\index{phrase types!postpositional phrases}
-A \Bf{postpositional phrase} (abbreviated ‘PP’) is headed by a postposition, which is always preceded by an NP complement. Any components in this complementing NP which are subject to case inflection inflect for genitive (as well as number). This structure is illustrated in Figure \vref{PPstructure}. 
+A postpositional phrase (abbreviated ‘PP’) is headed by a postposition, which is always preceded by an NP complement. Any components in this complementing NP which are subject to case inflection inflect for genitive (as well as number). This structure is illustrated in Figure \vref{PPstructure}. 
 %The choice of postposition determines the nature of this relationship; 
-See Section \ref{postpositions} on \pageref{postpositions} for a list of postpositions. 
 \begin{figure}\centering
 [NP\sub{[\Sc{gen}]} \PLUS\ post-position]\sub{\It{PP}}
 %\begin{tabular}{}
 %\end{tabular}
 \caption{Syntactic structure of postpositional phrases}\label{PPstructure}
 \end{figure}
+See Section \vref{postpositions} for a list of postpositions. 
 
 The complement in a PP can be any valid nominal phrase. A number of examples for various NPs complementing the head of a PP are provided below: %and marked in \Bf{bold} face: 
-a noun with a demonstrative in \REF{PPex1}, a single noun in \REF{PPex2}, a demonstrative in \REF{PPex3}, a personal pronoun in \REF{PPex4}, an interrogative pronoun in \REF{PPex5}, and an interrogative NP \REF{PPex6}.
+a noun with a demonstrative in \REF{PPex1}, a single noun in \REF{PPex2}, a demonstrative pronoun in \REF{PPex3}, a personal pronoun in \REF{PPex4}, an interrogative pronoun in \REF{PPex5}, and an interrogative NP \REF{PPex6}.
 \ea\label{PPex1}%DET+N/pl+PostP
 \glll	mån gillgiv daj gusaj birra ságastit\\
 	mån gillgi-v [d-a-j gusa-j {birra]\subPP} ságastit\\
@@ -503,8 +510,8 @@ a noun with a demonstrative in \REF{PPex1}, a single noun in \REF{PPex2}, a demo
 \Transl{I am standing on ‘Big Point’ in Västerfjäll}{}	\Corpus{100404}{012}
 \z
 \ea\label{PPex3}%DET/sg+PostP
-\glll	mån virtev tjáhtsev bejat dan sisa\\
-	mån virte-v tjáhtse-v beja-t [d-a-n {sisa]\subPP}\\
+\glll	mån virtev tjátsev bejat dan sisa\\
+	mån virte-v tjátse-v beja-t [d-a-n {sisa]\subPP}\\
 	\Sc{1sg.nom} must-\Sc{1sg.prs} water-\Sc{acc.sg} put-\Sc{inf} \Sc{dem}-\Sc{dist}-\Sc{gen.sg} into\\\nopagebreak
 \Transl{I have to put water into that}{}	\Corpus{080909}{164}
 \z
@@ -532,8 +539,8 @@ a noun with a demonstrative in \REF{PPex1}, a single noun in \REF{PPex2}, a demo
 Postpositional phrases %\footnote{Cf. Section \ref{postpositionalPhrases} for more details about postpositional phrases.} 
 can function as clause-level adverbials, often indicating the location of an action, as in \It{dan giedge nanne} ‘on that stone’ in \REF{ADVppEx1}. 
 \ea\label{ADVppEx1}%
-\glll	dä Kataridna ja månnå dan giedge nanne pruvkojin ståhkåt\\
-	dä Kataridna ja månnå {[d-a-n} giedge {nanne]\subPP} pruvko-jin ståhkå-t\\
+\glll	dä Kataridna ja månnå dan gierge nanne pruvkojin ståhkåt\\
+	dä Kataridna ja månnå {[d-a-n} gierge {nanne]\subPP} pruvko-jin ståhkå-t\\
 	then Katarina\BS\Sc{nom.sg} and \Sc{1sg.nom} \Sc{dem}-\Sc{dist}-\Sc{gen.sg} rock\BS\Sc{gen.sg} on used\_to-\Sc{3pl.pst} play-\Sc{inf}\\\nopagebreak
 %	then Katarina\BS\Sc{nom.sg} and \Sc{1sg.nom} \Sc{dem.dist}-\Sc{gen.sg} rock\BS\Sc{gen.sg} on usually\_do-\Sc{3pl.pst} play-\Sc{inf}\\\nopagebreak
 \Transl{Katarina and I used to play on that rock}{}	\Corpus{100404}{159}
