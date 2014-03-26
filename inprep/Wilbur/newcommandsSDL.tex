@@ -151,11 +151,10 @@
 }}
 
 
-
 %formatting of corpus source information (after \transl in gb4e-environments):
 \newcommand{\Corpus}[2]{\hspace*{1pt}\hfill{\small\mbox{\hyperlink{pit#1}{\Tn{[pit#1.#2]}}}}%\index{Z\Red{rec}!\Red{pit#1}}\index{Z\Red{utt}!\Red{pit#1.#2}}
 }%
-\newcommand{\CorpusE}[2]{\hspace*{1pt}\hfill{\small\mbox{\hyperlink{pit#1}{\Tn{[pit#1.#2 (\It{elic.})]}}}}%\index{Z\Red{rec}!\Red{pit#1}}\index{Z\Red{utt}!\Red{pit#1.#2}\Blue{-E}}
+\newcommand{\CorpusE}[2]{\hspace*{1pt}\hfill{\small\mbox{\hyperlink{pit#1}{\Tn{[pit#1.#2]}}\It{e}}}%\index{Z\Red{rec}!\Red{pit#1}}\index{Z\Red{utt}!\Red{pit#1.#2}\Blue{-E}}
 }%
 %%as above, but necessary for recording names which include an underline because the first variable in \href understands _ but the second variable requires \_
 \newcommand{\CorpusLink}[3]{\hspace*{1pt}\hfill{\small\mbox{\hyperlink{pit#1}{\Tn{[pit#2.#3]}}}}%\index{Z\Red{rec}!\Red{pit#2}}\index{Z\Red{utt}!\Red{pit#2.#3}}
@@ -163,7 +162,7 @@
 %%as above, but for newer recordings which begin with sje20 instead of pit
 \newcommand{\CorpusSJE}[2]{\hspace*{1pt}\hfill{\small\mbox{\hyperlink{sje20#1}{\Tn{[sje20#1.#2]}}}}%\index{Z\Red{rec}!\Red{sje20#1}}\index{Z\Red{utt}!\Red{sje20#1.#2}}
 }%
-\newcommand{\CorpusSJEE}[2]{\hspace*{1pt}\hfill{\small\mbox{\hyperlink{sje20#1}{\Tn{[sje20#1.#2 (\It{elic.})]}}}}%\index{Z\Red{rec}!\Red{sje20#1}}\index{Z\Red{utt}!\Red{sje20#1.#2}\Blue{-E}}
+\newcommand{\CorpusSJEE}[2]{\hspace*{1pt}\hfill{\small\mbox{\hyperlink{sje20#1}{\Tn{[sje20#1.#2}}\It{e}}}%\index{Z\Red{rec}!\Red{sje20#1}}\index{Z\Red{utt}!\Red{sje20#1.#2}\Blue{-E}}
 }%
 
 
