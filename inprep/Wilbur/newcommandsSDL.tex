@@ -18,7 +18,7 @@
 \newcommand{\Tn}[1]{\textnormal{#1}}%shortcut for normal text (undo italics, bolt, etc.)
 \newcommand{\MC}{\multicolumn}%shortcut for multicolumn command in tabular environment - only replaces command, not variables!
 \newcommand{\MR}{\multirow}%shortcut for multicolumn command in tabular environment - only replaces command, not variables!
-\newcommand{\TILDE}{～}%shortcut for tilde%command ‘\Tilde’ clashes with LSP!%
+\newcommand{\TILDE}{∼}%U+223C %OLD:～}%shortcut for tilde%command ‘\Tilde’ clashes with LSP!%
 \newcommand{\BS}{\textbackslash}%backslash
 \newcommand{\Red}[1]{{\color{red}{#1}}}%for red text
 \newcommand{\Blue}[1]{{\color{blue}{#1}}}%for blue text
@@ -28,7 +28,7 @@
 \newcommand{\DARROW}{↔︎}%%DoubleARROW
 \newcommand{\BULLET}{•}%
 %%✓ does not exist in the default LSP font!
-\newcommand{\CH}{\fontspec{Arial Unicode MS}✓}%CH as in CHeck
+\newcommand{\CH}{\checkmark}%%\newcommand{\CH}{\fontspec{Arial Unicode MS}✓}%CH as in CHeck
 %%following used to separate alternation forms for consonant gradation and umlaut patterns:
 \newcommand{\Div}{‑}%↔︎⬌⟷⬄⟺⇔%non-breaking hyphen: ‑  
 
@@ -167,6 +167,8 @@
 }%
 
 
+%%new command for the section on orthographic examples; syntax: #1=orthography, #2=phonology, #3=gloss
+\newcommand\SpellEx[3]{\Tn{\begin{tabular}{p{70pt} p{70pt} l}/#2/&\It{#1}& ‘#3’ \\\end{tabular}}}
 
 
 
