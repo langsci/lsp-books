@@ -70,11 +70,6 @@
 %%%TAKE OUT FOR FINAL VERSION:
 %%%TAKE OUT FOR FINAL VERSION:
 
-%%following commands to make hyperlinks from corrections to pages not beginning a section work correctly! (the problem is that \pageref{} referring to \label{} somewhere in text is typeset with the correct page number, but the link goes to the beginning of the relevant section, and not necessarily to the page that the \label{} is on)
-\newcommand{\korr}[1]{\hypertarget{KORR#1a}{}\label{KORR#1b}}%just add number; the equivalent of \label{}, name from ‘korrigiert’
-\newcommand{\korrPG}[1]{\hyperlink{KORR#1a}{\pageref{KORR#1b}}}%the equivalent of \pageref{}
-%%%previous commands to make hyperlinks from corrections to pages not beginning a section work correctly! 
-
 %%%following readjusts margin text!
 \setlength{\marginparwidth}{20mm}
 \let\oldmarginpar\marginpar
