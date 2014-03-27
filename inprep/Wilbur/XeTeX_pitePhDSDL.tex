@@ -35,18 +35,18 @@
 %\addcontentsline{toc}{chapter}{List of Tables}
 %\listoftables
 
+%%%% ACKNOWLEDGEMENTS
+%\ohead{Acknowledgements}
+\include{acknowledgementsSDL}%
+\cleardoublepage%\phantomsection%this allows href and page number in ToC to be correct for bibliography
+%%%% ACKNOWLEDGEMENTS
+
 %%%%%%% ABBREVIATIONS
 \cleardoublepage\phantomsection%this allows href and page number in ToC to be correct for bibliography
 \addcontentsline{toc}{chapter}{Abbreviations and symbols}
 %\ohead{Abbreviations and symbols}
 \include{abbreviationsSDL}
 \cleardoublepage\phantomsection%this allows href and page number in ToC to be correct for bibliography
-
-%%%% ACKNOWLEDGEMENTS
-%\ohead{Acknowledgements}
-\include{acknowledgementsSDL}%
-\cleardoublepage%\phantomsection%this allows href and page number in ToC to be correct for bibliography
-%%%% ACKNOWLEDGEMENTS
 
 \mainmatter
 
@@ -65,6 +65,12 @@
 
 \backmatter
 
+%%%%%%% APPENDIX
+\cleardoublepage\phantomsection%this allows href and page number in ToC to be correct for bibliography
+\addcontentsline{toc}{chapter}{Appendix: Inventory of \PS\ Recordings}
+%\ohead{Inventory of \PS\ recordings}
+%\pdfbookmark[0]{Inventory of \PS\ recordings}{Inventory of \PS\ recordings}
+\include{listOfRecordingsSDL}
 
 %%%%%%% BIBLIOGRAPHY
 \cleardoublepage\phantomsection%this allows href and page number in ToC to be correct for bibliography
@@ -80,12 +86,6 @@
 %%\pdfbookmark[1]{Subject index}{Subject index}
 %\printindex
 
-%%%%%%% APPENDIX
-\cleardoublepage\phantomsection%this allows href and page number in ToC to be correct for bibliography
-\addcontentsline{toc}{chapter}{Appendix: Inventory of \PS\ Recordings}
-%\ohead{Inventory of \PS\ recordings}
-%\pdfbookmark[0]{Inventory of \PS\ recordings}{Inventory of \PS\ recordings}
-\include{listOfRecordingsSDL}
 
 
 
