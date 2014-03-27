@@ -16,14 +16,14 @@ Table \vref{phraseTypeSummary} summarizes the main syntactic functions of the va
 \begin{table}\centering
 \caption{Summary of phrase types and their syntactic functions}\label{phraseTypeSummary}
 %\resizebox{\columnwidth}{!}{
-\begin{tabular}{|c|c|c|c|c|}\hline
-		&\MC{4}{c|}{\It{syntactic function}}\\
+\begin{tabular}{ccccc}
+		&\MC{4}{c}{\It{syntactic function}}\\
 \It{phrase}	&			&\It{argument/adjunct/}	&			&			\\%\dline
-\It{type}	&\It{predicate}	&\It{complement}	&\It{modifier in NP}&\It{modifier in AP}\\\dline%&\It{section}
-VC	&\CH		&				&			&			\\\hline%predicate%&\ref{verbComplex}	
-NP	&\CH		&\CH			&\CH		&			\\\hline%argument, adjunct, modify NP (gen)%&\ref{nominalPhrases}
-AP	&			&\CH			&\CH		&			\\\hline%modify NP-head, modify NP%&\ref{adjectivalPhrases}
-AdvP&			&\CH			&			&\CH		\\\hline%adjunct, modify AP-head%&\ref{adverbialPhrases}
+\It{type}	&\It{predicate}	&\It{complement}	&\It{modifier in NP}&\It{modifier in AP}\\\hline%&\It{section}
+VC	&\CH		&				&			&			\\%predicate%&\ref{verbComplex}	
+NP	&\CH		&\CH			&\CH		&			\\%argument, adjunct, modify NP (gen)%&\ref{nominalPhrases}
+AP	&			&\CH			&\CH		&			\\%modify NP-head, modify NP%&\ref{adjectivalPhrases}
+AdvP&			&\CH			&			&\CH		\\%adjunct, modify AP-head%&\ref{adverbialPhrases}
 PP	&			&\CH			&			&			\\\hline%adjunct%&\ref{postpositionalPhrases}	
 \end{tabular}%}
 \end{table}
@@ -48,35 +48,24 @@ the selection of each non-finite form is determined by the type of verb governin
 This is summarized in Table \vref{VCstructures}. % on page \pageref{VCstructures}. 
 \begin{table}\centering
 \caption{Verb complex structures with one, two or three verbs}\label{VCstructures}
-%used so that both tabulars are same width:
 \resizebox{\textwidth}{!}{
-\begin{tabular}{|x{.05\textwidth}|p{.25\textwidth} x{.025\textwidth}p{.295\textwidth} x{.025\textwidth}p{.275\textwidth}|}\hline%.025+.025+.025+.3+.3+.3=.975
-%\begin{tabular}{|x{.05\textwidth}|p{.45\textwidth} x{.025\textwidth}p{.45\textwidth}|}\hline%.025+.025+.45+.45=.95
-\It{qty.}&\MC{5}{l|}{\It{verb form or forms}}		\\\dline
-%\MC{1}{c}{\Bf{qty.}}&\MC{3}{l}{\Bf{verb forms}}		\\\hline
-\MR{2}{*}{1}&\MC{5}{l|}{\Bf{finite verb}} \\%\hline
-&\It{(lexical/copula)}	& & &&	\\\hline%\dline%\cline{2-4}
-%&copula verb	& & 	\\\hline%\dline
-%&&&\\\hline
-%\MC{6}{l}{}\\\hline
-\MR{2}{*}{2}&\Bf{finite verb}		&\MR{1}{*}{\Bf{\PLUS}} &\MC{3}{l|}{\Bf{non-finite form}} \\%\hline
-&\It{(grammatical)}		& &\MC{3}{l|}{\It{(lexical/copula)}} \\\hline%\cline{2-4}
-\MC{1}{c|}{}&modal verb	&\PLUS &\MC{3}{l|}{\INFs}	\\\cline{2-6}
-\MC{1}{c|}{}&aspectual auxiliary&\PLUS &\MC{3}{l|}{\PRFs{\tiny\ or }\PROGs}	\\\cline{2-6}%\hline
-\MC{1}{c|}{}&negation verb	&\PLUS &\MC{3}{l|}{\CONNEGs}	\\\hline
-%\end{tabular}}
-%\resizebox{\textwidth}{!}{
-%\begin{tabular}{|x{.05\textwidth}|p{.25\textwidth} x{.025\textwidth}p{.295\textwidth} x{.025\textwidth}p{.275\textwidth}|}\hline%.025+.025+.025+.3+.3+.3=.975
-%\MC{6}{l}{}\\\hline
+\begin{tabular}{x{.05\textwidth}p{.25\textwidth} x{.025\textwidth}p{.295\textwidth} x{.025\textwidth}p{.275\textwidth}}%.025+.025+.025+.3+.3+.3=.975
+\It{qty.}&\MC{5}{l}{\It{verb form or forms}}		\\\hline
+\MR{2}{*}{1}&\MC{5}{l}{\Bf{finite verb}} \\%\hline
+&\It{(lexical/copula)}	& & &&	\\%\dline%\cline{2-4}
+&&&&&\\
+\MR{2}{*}{2}&\Bf{finite verb}		&\MR{1}{*}{\Bf{\PLUS}} &\MC{3}{l}{\Bf{non-finite form}} \\%\hline
+&\It{(grammatical)}		& &\MC{3}{l}{\It{(lexical/copula)}} \\%\cline{2-4}
+\MC{1}{c}{}&modal verb	&\PLUS &\MC{3}{l}{\INFs}	\\%\cline{2-6}
+\MC{1}{c}{}&aspectual auxiliary&\PLUS &\MC{3}{l}{\PRFs{\tiny\ or }\PROGs}	\\%\cline{2-6}%\hline
+\MC{1}{c}{}&negation verb	&\PLUS &\MC{3}{l}{\CONNEGs}	\\
+&&&&&\\
 \MR{2}{*}{3}&\Bf{finite verb}		&\MR{1}{*}{\Bf{\PLUS}} &\Bf{non-finite form}	&\MR{1}{*}{\Bf{\PLUS}} &\Bf{non-finite form} \\%\hline
-&\It{(grammatical)}		& &\It{(grammatical)}		& &\It{(lexical/copula)} \\\hline
-\MC{1}{c|}{}&aspectual auxiliary		&\PLUS & modal\BS\PRFs{\tiny\ or }\PROGs			&\PLUS & \INFs	\\\cline{2-6}%\hline
-\MC{1}{c|}{}&negation verb			&\PLUS & modal\BS\CONNEGs		&\PLUS & \INFs	\\\cline{3-6}
-\MC{1}{c|}{}&			&\PLUS & asp. auxiliary\BS\CONNEGs		&\PLUS & \PRFs{\tiny\ or }\PROGs	\\\cline{2-6}
-%&modal verb			&\PLUS & asp. auxiliary/\INFs		&\PLUS & \PRFs{\tiny\ or }\PROGs	\\\hline%%%JW: commented out because not found in corpus! mentioned in last paragraph of section
-%&aspectual aux. \It{årrot}	&\PLUS & aspectual (\PRFs\ or \PROGs)	&\PLUS &	\\%\hline
-%&modal verb			&\PLUS & \INF						&\PLUS &	\\\hline
-\end{tabular}}
+&\It{(grammatical)}		& &\It{(grammatical)}		& &\It{(lexical/copula)} \\
+\MC{1}{c}{}&aspectual auxiliary		&\PLUS & modal\BS\PRFs{\tiny\ or }\PROGs			&\PLUS & \INFs	\\%\cline{2-6}%\hline
+\MC{1}{c}{}&negation verb			&\PLUS & modal\BS\CONNEGs		&\PLUS & \INFs	\\%\cline{3-6}
+\MC{1}{c}{}&			&\PLUS & asp. auxiliary\BS\CONNEGs		&\PLUS & \PRFs{\tiny\ or }\PROGs	\\%\cline{2-6}
+\hline\end{tabular}}
 \end{table}
 
 \FloatBarrier

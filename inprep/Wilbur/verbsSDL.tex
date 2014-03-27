@@ -8,7 +8,7 @@ Verbs consist of a \mbox{stem (∑)} which is followed by a class marker and an 
 as illustrated in Figure \vref{verbStructure}.\marginpar{Here and elsewhere, figures are below text (even below footnotes).}
 
 \begin{figure}\centering
-\fbox{∑ \PLUS\ class-marker \PLUS\ mood/tense/person/number}
+∑ \PLUS\ class-marker \PLUS\ mood/tense/person/number%\fbox{∑ \PLUS\ class-marker \PLUS\ mood/tense/person/number}
 \caption{The morphological structure of \PS\ verbs}\label{verbStructure}
 \end{figure}
 
@@ -167,7 +167,7 @@ A number of non-finite verb forms exist in \PS. The most common of these are the
 Table \vref{nonFiniteVTable} summarizes the morphological and syntactic features of these four non-finite forms, while examples of verbs in these forms are provided in Table \vref{nonFiniteVTableExs}. 
 \begin{table}\centering
 \caption{Summary of common non-finite verb forms and their features}\label{nonFiniteVTable}
-\begin{tabular}{|l|l|p{150pt}|}\hline
+\begin{tabular}{llp{150pt}}
 \It{type}		&\It{morphological features}	&\It{syntactic features}	\\\hline
 infinitive		&suffix \It{-t}, strong grade		&co-occurs with auxiliary \It{galgat} for future; complement to lexical verbs like \It{sihtat} ‘want’, \It{állget} ‘begin’, etc.\\
 connegative	&no suffix, weak grade		&co-occurs with negation verb			\\
@@ -177,7 +177,7 @@ progressive	&suffix \It{-min}, strong grade	&co-occurs with auxiliary \It{årrot
 \end{table}
 \begin{table}\centering
 \caption{Examples of non-finite verb forms}\label{nonFiniteVTableExs}
-\begin{tabular}{|l|l|l|l|l|}\hline
+\begin{tabular}{lllll}
 \It{infinitive}	&\It{connegative}	&\It{perfect}	&\It{progressive}	&\It{gloss}\\\hline
 %juhkat	&juga	&juhkam	&juhkamin	& ‘drink’\\
 tjájbmat	&tjájma	&tjájbmam	&tjájbmamin	& ‘laugh’\\
@@ -368,8 +368,8 @@ As shown in §\,\ref{inflectionalCatsVerbs} above, finite verbs can be marked fo
 Just as with nouns, inflectional categories for verbs can be expressed by suffixes and by non-linear morphology, and frequently a combination of both. In the following, §\,\ref{inflectionalSuffVerbs} focusses on inflectional suffixes, while §\,\ref{nonLinearMorphVerbs} goes on to describe the behavior of non-linear morphology found in stem-consonant alternations (consonant gradation), stem-vowel alternations (umlaut), %bisyllabic stem allomorphy %häh?
 and vowel harmony. The final section (\ref{verbInflectionalClasses}) then uses the various morphophonological inflectional patterns found across verb paradigms to posit five preliminary inflectional classes for verbs.
 
-
-\newcommand{\Xp}[1]{\MC{1}{x{80pt}|}{#1}}%JW: added to allow centering in final set-length column in verb paradigm tables
+%%this is used often, but only in this chapter, and gets redefined several times, thus no real point in having it in newcommandsSDL.tex file:
+\newcommand{\Xp}[1]{\MC{1}{x{80pt}}{#1}}%added to allow centering in final set-length column in verb paradigm tables
 
 \subsection{Inflectional suffixes for verbs}\label{inflectionalSuffVerbs}
 The portmanteau suffixes expressing agreement in person and number as well as tense or mood in finite verbs are listed in Table \vref{verbSuffixes}. 
@@ -380,23 +380,24 @@ The suffixes for the non-finite infinitive, connegative and perfect verb forms a
 \begin{table}\centering
 \caption{Inflectional verb suffixes}\label{verbSuffixes}
 \resizebox{1\linewidth}{!} {
-\begin{tabular}{|cc||x{80pt}|x{80pt}|p{80pt}|}\hline
-\It{tense/}			&			&\MC{3}{c|}{\It{number}}	\\
-\It{mood}			&\It{person}	&\MC{1}{c}{\SGs}	&\MC{1}{c}{\DUs}			&\Xp{\PLs}	\\\dline
+\begin{tabular}{ccx{80pt}x{80pt}p{80pt}}
+\It{tense/}			&			&\MC{3}{c}{\It{number}}	\\
+\It{mood}			&\It{person}	&\MC{1}{c}{\SGs}	&\MC{1}{c}{\DUs}			&\Xp{\PLs}	\\\hline
 %PRESENT
-\MR{3}{*}{\PRSs}	&1\superS{st}	&-v		&-n/-jin/-n			&\Xp{-p}		\\\cline{3-5}
-				&2\superS{nd}	&-		&-bähten/-bähten/ -hpen&\Xp{-ähtet/-bähtet/ -hpit}\\\cline{3-5}
-				&3\superS{rd}	&-/-ja/-	&-ba				&\Xp{-/-je/-}	\\\dline%\cline{2-5}%JW: removed ‘-hpa’ from 3DU.PRS because it doesn’t seem to exist in corpus
+\PRSs	&1\superS{st}	&-v		&-n/-jin/-n			&\Xp{-p}		\\%%\cline{3-5}
+				&2\superS{nd}	&-		&-bähten/-bähten/ -hpen&\Xp{-ähtet/-bähtet/ -hpit}\\%%\cline{3-5}
+				&3\superS{rd}	&-/-ja/-	&-ba				&\Xp{-/-je/-}	\\%\cline{2-5}%JW: removed ‘-hpa’ from 3DU.PRS because it doesn’t seem to exist in corpus
 %PAST
-\MR{3}{*}{\PSTs}	&1\superS{st}	&-v/-jiv/-jiv&-jmen			&\Xp{-jmä/-jme/-jme}	\\\cline{3-5}
-				&2\superS{nd}	&-/-je/-je	&-jden			&\Xp{-jdä/-jde/-jde}		\\\cline{3-5}
-				&3\superS{rd}	&-j		&-jga				&\Xp{-n/-jin/-n}		\\\dline%\cline{2-5}
+\PSTs	&1\superS{st}	&-v/-jiv/-jiv&-jmen			&\Xp{-jmä/-jme/-jme}	\\%%\cline{3-5}
+				&2\superS{nd}	&-/-je/-je	&-jden			&\Xp{-jdä/-jde/-jde}		\\%%\cline{3-5}
+				&3\superS{rd}	&-j		&-jga				&\Xp{-n/-jin/-n}		\\%\cline{2-5}
 %IMPERATIVE
-\IMPs			&2\superS{nd}	&-		&-n/?/-hten		&\Xp{-t/?/-htet}	\\\hline%\cline{3-5}
+\IMPs			&2\superS{nd}	&-		&-n/n.a./-hten		&\Xp{-t/n.a./-htet}	\\\hline%%\cline{3-5}
+&&&&\\
 %NON-FINITES
 \MC{5}{l}{\It{non-finite verb forms:}}\\\hline
-\MC{1}{|c}{\INFs}	&\MC{2}{c|}{-t}			&\MC{1}{c}{\CONNEGs}&-			\\\hline
-\MC{1}{|c}{\PRFs}	&\MC{2}{c|}{-m}			&\MC{2}{c}{}			\\\cline{1-3}
+\MC{1}{c}{\INFs}	&\MC{2}{c}{-t}			&\MC{1}{c}{\CONNEGs}&-			\\
+\MC{1}{c}{\PRFs}	&\MC{2}{c}{-m}			&\MC{2}{c}{}			\\\hline%\hline%\cline{1-3}
 \end{tabular}}
 \end{table}
 
@@ -429,26 +430,27 @@ by one or more of the following stem allomorphy strategies: %\footnote{Cf. §\,\
 Because \Sc{2sg.prs}, \Sc{3sg.prs}, \Sc{3pl.prs}, \Sc{2sg.pst}, \Sc{3sg.pst}, \Sc{sg.imp} and \Sc{conneg} forms often lack suffixes (cf. §\,\ref{verbalSuffixesSyncretism} above), verbs in these inflectional categories are typically marked exclusively by these essentially non-linear morphological marking strategies. 
 
 To illustrate this, the inflectional paradigm for the verb \It{buälldet} ‘ignite, burn’ is provided in Table \vref{verbBurn} and described here. 
-\renewcommand{\Xp}[1]{\MC{1}{x{90pt}|}{#1}}%JW: added to allow centering in final set-length column in verb paradigm tables; redefined here
+\renewcommand{\Xp}[1]{\MC{1}{x{90pt}}{#1}}%JW: added to allow centering in final set-length column in verb paradigm tables; redefined here
 \begin{table}\centering
 \caption{The inflectional paradigm for the verb \It{buälldet} ‘ignite, burn’}\label{verbBurn}
 \resizebox{1\linewidth}{!} {
-\begin{tabular}{|cc||x{90pt}|x{90pt}|p{90pt}|}\hline
-\It{tense/}			&			&\MC{3}{c|}{\It{number}}	\\
-\It{mood}			&\It{person}	&\MC{1}{c}{\SGs}		&\MC{1}{c}{\DUs}			&\Xp{\PLs}	\\\dline
+\begin{tabular}{ccx{90pt}x{90pt}p{90pt}}
+\It{tense/}			&			&\MC{3}{c}{\It{number}}	\\
+\It{mood}			&\It{person}	&\MC{1}{c}{\SGs}		&\MC{1}{c}{\DUs}			&\Xp{\PLs}	\\\hline
 %PRESENT
-\MR{3}{*}{\PRSs}	&1\superS{st}	&buold-a-v	&bulld-e-n			&\Xp{buälld-e-p}		\\\cline{3-5}
-				&2\superS{nd}	&buold-a		&buälld-e-bähten	&\Xp{buälld-e-bähtet}	\\\cline{3-5}
-				&3\superS{rd}	&bualld-a		&buälld-e-ba		&\Xp{bulld-e}		\\\dline%\cline{2-5}
+\PRSs	&1\superS{st}	&buold-a-v	&bulld-e-n			&\Xp{buälld-e-p}		\\%\cline{3-5}
+				&2\superS{nd}	&buold-a		&buälld-e-bähten	&\Xp{buälld-e-bähtet}	\\%\cline{3-5}
+				&3\superS{rd}	&bualld-a		&buälld-e-ba		&\Xp{bulld-e}		\\%\cline{2-5}
 %PAST
-\MR{3}{*}{\PSTs}	&1\superS{st}	&bulld-i-v		&buld-i-jmen		&\Xp{buld-i-jmä}	\\\cline{3-5}
-				&2\superS{nd}	&bulld-e		&buld-i-jden		&\Xp{buld-i-jdä}		\\\cline{3-5}
-				&3\superS{rd}	&buld-i-j		&buld-i-jga		&\Xp{bulld-e-n}		\\\dline%\cline{2-5}
+\PSTs	&1\superS{st}	&bulld-i-v		&buld-i-jmen		&\Xp{buld-i-jmä}	\\%\cline{3-5}
+				&2\superS{nd}	&bulld-e		&buld-i-jden		&\Xp{buld-i-jdä}		\\%\cline{3-5}
+				&3\superS{rd}	&buld-i-j		&buld-i-jga		&\Xp{bulld-e-n}		\\%\cline{2-5}
 %IMPERATIVE
-\IMPs			&2\superS{nd}	&buold-e		&buälld-e-n			&\Xp{?}		\\\hline%\cline{3-5}
+\IMPs			&2\superS{nd}	&buold-e		&buälld-e-n			&\Xp{n.a.}		\\\hline%%\cline{3-5}
+&&&&\\
 \MC{5}{l}{\It{non-finite verb forms:}}\\\hline
-\MC{1}{|c}{\INFs}	&\MC{2}{c|}{buälld-e-t}		&\MC{1}{c}{\CONNEGs}&buold-e			\\\hline
-\MC{1}{|c}{\PRFs}	&\MC{2}{c|}{bualld-a-m}		&\MC{2}{c}{}			\\\cline{1-3}
+\MC{1}{c}{\INFs}	&\MC{2}{c}{buälld-e-t}		&\MC{1}{c}{\CONNEGs}&buold-e			\\
+\MC{1}{c}{\PRFs}	&\MC{2}{c}{bualld-a-m}		&\MC{2}{c}{}			\\\hline%\cline{1-3}
 \end{tabular}}
 \end{table}
 Note that the vowel in V2 position (\It{a}, \It{e} and \It{i}) in all forms is the inflectional class marker for Class III verbs (cf. §\,\ref{VclassIII}); thus the stem has five allomorphs: \It{buälld-}, \It{bualld-}, \mbox{\It{buold-},} \It{bulld-} and \It{buld-}.\footnote{The examples used in this description of non-linear verb morphology is based on the current \PS\ orthography, which is still a work in progress. Because the orthography is to a great extent phonemic, orthographic representations are sufficient for the current discussion.} 
@@ -467,22 +469,23 @@ However, the two verbal inflection classes subject to vowel harmony each has a u
 \begin{table}\centering
 \caption{Non-linear morphological marking in the paradigm for the verb \It{buälldet} ‘ignite, burn’}\label{burnParadigmPattern}
 \resizebox{1\linewidth}{!} {
-\begin{tabular}{|cc||x{90pt}|x{90pt}|p{90pt}|}\hline
-\It{tense/}			&			&\MC{3}{c|}{\It{number}}	\\
-\It{mood}			&\It{person}	&\MC{1}{c}{\SGs}		&\MC{1}{c}{\DUs}			&\Xp{\PLs}	\\\dline
+\begin{tabular}{ccx{90pt}x{90pt}p{90pt}}
+\It{tense/}			&			&\MC{3}{c}{\It{number}}	\\
+\It{mood}			&\It{person}	&\MC{1}{c}{\SGs}		&\MC{1}{c}{\DUs}			&\Xp{\PLs}	\\\hline
 %PRESENT
-\MR{3}{*}{\PRSs}	&1\superS{st}	&uo\PLUS wk		&\It{VH}\PLUS str			&\Xp{uä\PLUS str}		\\\cline{4-4}
-				&2\superS{nd}	&uo\PLUS wk		&\MC{1}{c}{uä\PLUS str}	&\Xp{uä\PLUS str}		\\\cline{3-3}\cline{5-5}
-				&3\superS{rd}	&\MC{1}{c}{ua\PLUS str}	&uä\PLUS str			&\Xp{\It{VH}\PLUS str}		\\\hline%\cline{5-5}
+\PRSs	&1\superS{st}	&\MC{1}{|c|}{uo\PLUS wk}		&\MC{1}{c|}{\It{VH}\PLUS str}			&\Xp{uä\PLUS str}		\\\cline{4-4}
+				&2\superS{nd}	&\MC{1}{|c|}{uo\PLUS wk}		&\MC{1}{c}{uä\PLUS str}	&\Xp{uä\PLUS str}		\\\cline{3-3}\cline{5-5}
+				&3\superS{rd}	&\MC{1}{c}{ua\PLUS str}	&uä\PLUS str			&\MC{1}{|c|}{\It{VH}\PLUS str}		\\\cline{3-5}
 %PAST
-\MR{3}{*}{\PSTs}	&1\superS{st}	&\It{VH}\PLUS str		&\MC{1}{c}{\It{VH}\PLUS wk}	&\Xp{\It{VH}\PLUS wk}		\\%\cline{3-5}
-				&2\superS{nd}	&\It{VH}\PLUS str		&\MC{1}{c}{\It{VH}\PLUS wk}	&\Xp{\It{VH}\PLUS wk}		\\\cline{3-3}\cline{5-5}
-				&3\superS{rd}	&\MC{1}{c}{\It{VH}\PLUS wk}&\It{VH}\PLUS wk		&\Xp{\It{VH}\PLUS str}		\\\dline%\cline{2-5}
+\PSTs	&1\superS{st}	&\MC{1}{|c|}{\It{VH}\PLUS str}		&\MC{1}{c}{\It{VH}\PLUS wk}	&\Xp{\It{VH}\PLUS wk}		\\%%\cline{3-5}
+				&2\superS{nd}	&\MC{1}{|c|}{\It{VH}\PLUS str}		&\MC{1}{c}{\It{VH}\PLUS wk}	&\Xp{\It{VH}\PLUS wk}		\\\cline{3-3}\cline{5-5}
+				&3\superS{rd}	&\MC{1}{c}{\It{VH}\PLUS wk}&\It{VH}\PLUS wk		&\MC{1}{|c|}{\It{VH}\PLUS str}		\\\cline{3-5}
 %IMPERATIVE
-\IMPs			&2\superS{nd}	&uo\PLUS wk		&uä\PLUS str			&\Xp{?}			\\\hline%\cline{3-5}
+\IMPs			&2\superS{nd}	&\MC{1}{|c|}{uo\PLUS wk}	&\MC{1}{c|}{uä\PLUS str}			&\MC{1}{c|}{n.a.}			\\\hline%%\cline{3-5}
+&&&&\\
 \MC{5}{l}{\It{non-finite verb forms:}}\\\hline
-\MC{2}{|c||}{\INFs}	&\MC{1}{c|}{uä\PLUS str}			&\MC{1}{c||}{\CONNEGs}&\MC{1}{c|}{uo\PLUS wk}		\\\cline{1-2}\cline{4-5}
-\MC{2}{|c||}{\PRFs}	&\MC{1}{c|}{ua\PLUS str}			&\MC{2}{c}{}					\\\cline{1-3}
+\MC{2}{c}{\INFs}	&\MC{1}{|c|}{uä\PLUS str}			&\MC{1}{c}{\CONNEGs}&\MC{1}{|c|}{uo\PLUS wk}		\\\cline{5-5}
+\MC{2}{c}{\PRFs}	&\MC{1}{|c|}{ua\PLUS str}			&\MC{2}{c}{}					\\\hline%\cline{1-3}
 \end{tabular}}
 \end{table}
 \FloatBarrier
@@ -492,35 +495,35 @@ Not every verb undergoes consonant gradation and/or umlaut; instead, their prese
 Some examples of verbs with consonant gradation and umlaut alternations are shown in Table \ref{CGpatternsVerbs} and Table \ref{umlautPatternsVerbs}, respectively. Note that \It{ua} and \It{uä} are allophones of /ua/; cf. §\,\ref{Vua}.
 \begin{table}\centering
 \caption{Consonant gradation patterns for verbs, including examples}\label{CGpatternsVerbs}
-\begin{tabular}{|c c c || c c c | l|}\hline
-\MC{3}{|c||}{\It{C-grad pattern}}	&\MC{3}{c}{\It{examples}}&\MC{1}{c|}{}	\\
-strong&\Div &weak	& strong	&\Div &weak	&\It{gloss}\\\dline
+\begin{tabular}{c c c  c c c  l}
+\MC{3}{c}{\It{C-grad pattern}}	&\MC{3}{c}{\It{examples}}&\MC{1}{c}{}	\\
+strong&\Div &weak	& strong	&\Div &weak	&\It{gloss}\\\hline
 ʰx	&\Div &x		&/pɔʰta/	&\Div &/pɔta/	& ‘come’\\%
-	&&		&\It{båhta}	&&\It{båda}&\\\hline
+	&&		&\It{båhta}	&&\It{båda}&\\
 xː	&\Div &x		&/paːlːa/	&\Div &/paːla/	& ‘dig’\\%
-	&&		&\It{bálla}	&&\It{bála}&\\\cline{4-7}
+	&&		&\It{bálla}	&&\It{bála}&\\%\cline{4-7}
 	&&		&/maːʰtːa/	&\Div &/maːʰta/	& ‘be able to’\\%
-	&&		&\It{máhtta}&&\It{máhta}&\\\hline
+	&&		&\It{máhtta}&&\It{máhta}&\\
 xːy	&\Div & xy	&/parːka/	&\Div &/parka/	& ‘work’\\%
-	&&		&\It{barrga}&&\It{barga}&\\\hline
+	&&		&\It{barrga}&&\It{barga}&\\
 xy	&\Div &y		&/atnaː/	&\Div &/anaː/	& ‘have’\\%
-	&&		&\It{adná}	&&\It{aná}&\\\hline
+	&&		&\It{adná}	&&\It{aná}&\\
 xyz	&\Div & xz	&/ʧaːjpma/	&\Div &/ʧaːjma/	& ‘laugh’\\%\hline%
 	&&		&\It{tjájbma}&&\It{tjájma}&\\\hline
-\MC{1}{c}{}&&\MC{1}{c|}{}&3\SGs.\PRSs	& &2\SGs.\PRSs	&\MC{1}{c}{}\\\cline{4-6}
+\MC{1}{c}{}&&\MC{1}{c}{}&3\SGs.\PRSs	& &2\SGs.\PRSs	&\MC{1}{c}{}\\%\cline{4-6}
 \end{tabular}
 \end{table}
 
 \begin{table}\centering
 \caption{Umlaut alternation patterns for verbs, including examples}\label{umlautPatternsVerbs}
-\begin{tabular}{|c c c || c c c | l|}\hline
-\MC{3}{|c||}{\It{pattern}}	&\MC{3}{c}{\It{examples}}&\MC{1}{c|}{}	\\
-x&\Div &y		&x	&\Div &y	&\It{gloss}\\\dline
+\begin{tabular}{c c c  c c c  l}
+\MC{3}{c}{\It{pattern}}	&\MC{3}{c}{\It{examples}}&\MC{1}{c}{}	\\
+x&\Div &y		&x	&\Div &y	&\It{gloss}\\\hline
 ɛ	&\Div &e		&/kɛʰʧa/	&\Div &/keʧa/		& ‘look’\\%l
-	&&		&\It{gähtja}&&\It{gietja}	& \\\hline%l
+	&&		&\It{gähtja}&&\It{gietja}	& \\%l
 u͡a	&\Div &o		&/pu͡alːta/	&\Div &/polta/	& ‘ignite, burn’\\%
 	&&		&\It{buallda}&&\It{buolda}	& \\\hline%
-\MC{1}{c}{}&&\MC{1}{c|}{}&3\SGs.\PRSs	& &\MC{1}{c|}{2\SGs.\PRSs}	&\MC{1}{c}{}	\\\cline{4-6}
+\MC{1}{c}{}&&\MC{1}{c}{}&3\SGs.\PRSs	& &\MC{1}{c}{2\SGs.\PRSs}	&\MC{1}{c}{}	\\%\cline{4-6}
 \end{tabular}
 \end{table}
 
@@ -532,9 +535,9 @@ Vowel harmony in verb forms refers to a regressive assimilation of place of arti
 There are six attested vowel harmony patterns in the V1 vowel of a verb stem from Class II or Class III, as illustrated by Table \vref{VHPatternsVerbs}. 
 \begin{table}\centering
 \caption[Vowel harmony alternation patterns for verbs]{Vowel harmony alternation patterns for verbs (Class II and III)}\label{VHPatternsVerbs}
-\begin{tabular}{|c c c || c c c | l|}\hline
-\MC{3}{|c||}{\It{pattern}}	&\MC{3}{c}{\It{examples}}&	\\
-A&\ARROW&B			&A		&\ARROW&B		&\It{gloss}\\\dline
+\begin{tabular}{c c c  c c c  l}
+\MC{3}{c}{\It{pattern}}	&\MC{3}{c}{\It{examples}}&	\\
+A&\ARROW&B			&A		&\ARROW&B		&\It{gloss}\\\hline
 á	&\ARROW&i		&tjájbmat	&\ARROW&tjijbme	& ‘laugh’\\%l
 á	&\ARROW&ä		&sávvat	&\ARROW&sävve	& ‘wish’\\%l
 %á	&\ARROW&i		&dáhkat	&\ARROW&dihke	& ‘do’\\%l
@@ -542,7 +545,7 @@ a	&\ARROW&i		&barrgat	&\ARROW&birrge	& ‘work’\\%l
 a	&\ARROW&e		&adnet	&\ARROW&edne	& ‘have’\\%l
 å	&\ARROW&u		&bårråt	&\ARROW&burre	& ‘eat’\\%l
 uä	&\ARROW&u		&buälldet	&\ARROW&bullde	& ‘ignite’\\\hline%l
-\MC{1}{c}{}&	&\MC{1}{c|}{}&\INFs	&		&2\SGs.\PSTs&\MC{1}{c}{}\\\cline{4-6}
+\MC{1}{c}{}&	&\MC{1}{c}{}&\INFs	&		&2\SGs.\PSTs&\MC{1}{c}{}\\%\cline{4-6}
 \end{tabular}
 \end{table}
 
@@ -557,32 +560,32 @@ Further research is needed to come to a better understanding of this vowel harmo
 The potential mood\footnote{Cf. §\,\ref{POTmood} for a general description, including examples, of the potential mood.} 
 is not attested very often in the corpus, particularly outside elicitation settings, 
 and was not considered in most elicitation sessions focussing on verb paradigms. As a result, the amount of data from the corpus available to inform a description of the inflectional behavior of the potential forms is quite limited. Nonetheless, the paradigm for the potential forms of the verb \It{gullat} ‘hear’ is provided in Table \vref{hearPOTforms}.
-\renewcommand{\Xp}[1]{\MC{1}{x{80pt}|}{#1}}%JW: added to allow centering in final set-length column in verb paradigm tables; redefined here
+\renewcommand{\Xp}[1]{\MC{1}{x{80pt}}{#1}}%JW: added to allow centering in final set-length column in verb paradigm tables; redefined here
 \begin{table}\centering
 \caption{Potential forms for the verb \It{gullat} ‘hear’}\label{hearPOTforms}
 \resizebox{1\linewidth}{!} {
-\begin{tabular}{|cc||x{80pt}|x{80pt}|p{80pt}|}\hline
-				&			&\MC{3}{c|}{\It{number}}	\\
-\It{mood}			&\It{person}	&\MC{1}{c}{\SGs}	&\MC{1}{c}{\DUs}			&\Xp{\PLs}	\\\dline
+\begin{tabular}{ccx{80pt}x{80pt}p{80pt}}
+				&			&\MC{3}{c}{\It{number}}	\\
+\It{mood}			&\It{person}	&\MC{1}{c}{\SGs}	&\MC{1}{c}{\DUs}			&\Xp{\PLs}	\\\hline
 %POTENTIAL
-\MR{3}{*}{\POTs}	&1\superS{st}	&gulatjav	&gulatjen			&\Xp{gulatjep}		\\\cline{3-5}
-				&2\superS{nd}	&gulatja	&gulatjähpen		&\Xp{gulatjehpit}\\\cline{3-5}
+\MR{3}{*}{\POTs}	&1\superS{st}	&gulatjav	&gulatjen			&\Xp{gulatjep}		\\%\cline{3-5}
+				&2\superS{nd}	&gulatja	&gulatjähpen		&\Xp{gulatjehpit}\\%\cline{3-5}
 				&3\superS{rd}	&gulatja	&gulatjäba		&\Xp{gulatje}		\\\hline
 \end{tabular}}
 \end{table}
 
 Under consideration of the potential forms presented in the verb paradigms in \citet[150-155]{Lehtiranta1992} and in the examples in \citet[22-24]{Lagercrantz1926}, the paradigm of class marking suffixes and person/number suffixes used for potential verb forms is presented in Table \vref{POTinflections}. %Note that, as mentioned in §\,\ref{POTmood}, 
 The stem allomorph of the verb is in the weak stage, when applicable. 
-%\renewcommand{\Xp}[1]{\MC{1}{x{80pt}|}{#1}}%JW: added to allow centering in final set-length column in verb paradigm tables; redefined here
+%\renewcommand{\Xp}[1]{\MC{1}{x{80pt}}{#1}}%JW: added to allow centering in final set-length column in verb paradigm tables; redefined here
 \begin{table}\centering
 \caption{Class marking suffixes and person/number suffixes for potential verb forms}\label{POTinflections}
 \resizebox{1\linewidth}{!} {
-\begin{tabular}{|cc||x{80pt}|x{80pt}|p{80pt}|}\hline
-				&			&\MC{3}{c|}{\It{number}}	\\
-\It{mood}			&\It{person}	&\MC{1}{c}{\SGs}	&\MC{1}{c}{\DUs}			&\Xp{\PLs}	\\\dline
+\begin{tabular}{ccx{80pt}x{80pt}p{80pt}}
+				&			&\MC{3}{c}{\It{number}}	\\
+\It{mood}			&\It{person}	&\MC{1}{c}{\SGs}	&\MC{1}{c}{\DUs}			&\Xp{\PLs}	\\\hline
 %POTENTIAL
-\MR{3}{*}{\POTs}	&1\superS{st}	&-a-v	&-e-n			&\Xp{-e-p}		\\\cline{3-5}
-				&2\superS{nd}	&-a		&-ä-hpen			&\Xp{-e-hpit}\\\cline{3-5}
+\MR{3}{*}{\POTs}	&1\superS{st}	&-a-v	&-e-n			&\Xp{-e-p}		\\%\cline{3-5}
+				&2\superS{nd}	&-a		&-ä-hpen			&\Xp{-e-hpit}\\%\cline{3-5}
 				&3\superS{rd}	&-a		&-ä-ba			&\Xp{-e}		\\\hline
 \end{tabular}}
 \end{table}
@@ -599,12 +602,12 @@ In all of these three aspects, the potential forms of verbs are identical in beh
 At this point, the only morphological motivation to classify the potential mood as an inflectional category is its complementary distribution with other tense and mood forms. These characteristics are summarized in Table \vref{POTcomparison}. 
 \begin{table}\centering
 \caption{Features of potential verb forms characterized as typical for inflectional or derivational forms}\label{POTcomparison}
-\begin{tabular}{|p{.64\textwidth}|c|c|}\hline
-\It{}							&\MC{2}{c|}{\It{consistent with}}	\\
-\It{features of potential forms}		&\It{inflection}	&\It{derivation}	\\\dline
-consistently linearly segmentable marker	&	&\CH	\\\hline
-consistently occurs with specific ∑-allomorph	&	&\CH	\\\hline
-person/number marking like Class-V verbs	&	&\CH	\\\hline
+\begin{tabular}{lcc}
+							&\MC{2}{c}{\It{consistent with}}	\\
+\It{features of potential forms}		&\It{inflection}	&\It{derivation}	\\\hline
+consistently linearly segmentable marker	&	&\CH	\\
+consistently occurs with specific ∑-allomorph	&	&\CH	\\
+person/number marking like Class-V verbs	&	&\CH	\\
 complementary distribution with tense/mood forms	&\CH	&	\\\hline
 \end{tabular}
 \end{table}
@@ -689,22 +692,23 @@ The verb \It{viessot} ‘live, feel’ is provided in Table \vref{liveParadigm} 
 \begin{table}\centering
 \caption{The inflectional paradigm for the Class I verb \It{viessot} ‘live, feel’}\label{liveParadigm}
 \resizebox{1\linewidth}{!} {
-\begin{tabular}{|cc||x{80pt}|x{80pt}|p{80pt}|}\hline
-\It{tense/}			&			&\MC{3}{c|}{\It{number}}	\\
-\It{mood}			&\It{person}	&\MC{1}{c}{\SGs}	&\MC{1}{c}{\DUs}		&\Xp{\PLs}	\\\dline
+\begin{tabular}{ccx{80pt}x{80pt}p{80pt}}
+\It{tense/}			&			&\MC{3}{c}{\It{number}}	\\
+\It{mood}			&\It{person}	&\MC{1}{c}{\SGs}	&\MC{1}{c}{\DUs}		&\Xp{\PLs}	\\\hline
 %PRESENT
-\MR{3}{*}{\PRSs}	&1\superS{st}	&vies-o-v	&viess-o-n		&\Xp{viess-o-p}		\\\cline{3-5}
-				&2\superS{nd}	&vies-o	&viess-o-bähten	&\Xp{viess-o-bähtet}	\\\cline{3-5}
-				&3\superS{rd}	&viess-o	&viess-o-ba		&\Xp{viess-o}		\\\dline%\cline{2-5}
+\PRSs	&1\superS{st}	&vies-o-v	&viess-o-n		&\Xp{viess-o-p}		\\%\cline{3-5}
+				&2\superS{nd}	&vies-o	&viess-o-bähten	&\Xp{viess-o-bähtet}	\\%\cline{3-5}
+				&3\superS{rd}	&viess-o	&viess-o-ba		&\Xp{viess-o}		\\%\cline{2-5}
 %PAST
-\MR{3}{*}{\PSTs}	&1\superS{st}	&viess-o-v	&vies-o-jmen		&\Xp{vies-o-jme}	\\\cline{3-5}
-				&2\superS{nd}	&viess-o	&vies-o-jden		&\Xp{vies-o-jde}		\\\cline{3-5}
-				&3\superS{rd}	&vies-o-j	&vies-o-jga		&\Xp{viess-o-n}		\\\dline%\cline{2-5}
+\PSTs	&1\superS{st}	&viess-o-v	&vies-o-jmen		&\Xp{vies-o-jme}	\\%\cline{3-5}
+				&2\superS{nd}	&viess-o	&vies-o-jden		&\Xp{vies-o-jde}		\\%\cline{3-5}
+				&3\superS{rd}	&vies-o-j	&vies-o-jga		&\Xp{viess-o-n}		\\%\cline{2-5}
 %IMPERATIVE
-\IMPs			&2\superS{nd}	&vies-o	&viess-o-n		&\Xp{viess-o-t}		\\\hline%\cline{3-5}
+\IMPs			&2\superS{nd}	&vies-o	&viess-o-n		&\Xp{viess-o-t}		\\\hline%%\cline{3-5}
+&&&&\\
 \MC{5}{l}{\It{non-finite verb forms:}}\\\hline
-\MC{1}{|c}{\INFs}	&\MC{2}{c|}{viess-o-t}	&\MC{1}{c}{\CONNEGs}&vies-o			\\\hline
-\MC{1}{|c}{\PRFs}	&\MC{2}{c|}{viess-o-m}	&\MC{2}{c}{}\\\cline{1-3}
+\MC{1}{c}{\INFs}	&\MC{2}{c}{viess-o-t}	&\MC{1}{c}{\CONNEGs}&vies-o			\\
+\MC{1}{c}{\PRFs}	&\MC{2}{c}{viess-o-m}	&\MC{2}{c}{}\\\hline%\cline{1-3}
 \end{tabular}}
 \end{table}
 
@@ -713,27 +717,28 @@ Table \vref{VclassIsummaryTable} %on page \pageref{VclassIsummaryTable}
 summarizes the gradation pattern and class suffixes for Class I verbs. Note that umlaut alternations align with consonant gradation alternations. 
 \begin{table}\centering
 \caption{Summary of Class I verb paradigm features}\label{VclassIsummaryTable}
-\begin{tabular}{|cc|| c|c|| c|c|| c|c|}\hline
-				&			&\MC{6}{c|}{\It{number}}	\\
-\It{tense/}			&			&\MC{2}{c||}{\SGs}			&\MC{2}{c||}{\DUs}			&\MC{2}{c|}{\PLs}	\\%\dline
+\begin{tabular}{cc cc cc cc}
+				&			&\MC{6}{c}{\It{number}}	\\
+\It{tense/}			&			&\MC{2}{c}{\SGs}			&\MC{2}{c}{\DUs}			&\MC{2}{c}{\PLs}	\\%\hline
 \It{mood}			&\It{person}	&\MC{1}{c}{\It{C-grad}}&\It{cl.\,sx.}&\MC{1}{c}{\It{C-grad}}&\It{cl.\,sx.}	&\MC{1}{c}{\It{C-grad}}&\It{cl.\,sx.}	\\\cline{1-8}%\cline{1-8}
 %PRESENT
-\MR{3}{*}{\PRSs}	&1\superS{st}	&wk			&o			&str			&o			&str			&o		\\\cline{3-8}
+\PRSs	&1\superS{st}	&wk			&o			&str			&o			&str			&o		\\\cline{3-8}
 				&2\superS{nd}	&wk			&o			&str			&o			&str			&o		\\\cline{3-8}
-				&3\superS{rd}	&str			&o			&str			&o			&str			&o		\\\hline%\cline{3-8}
+				&3\superS{rd}	&str			&o			&str			&o			&str			&o		\\%\cline{3-8}
 %PAST
-\MR{3}{*}{\PSTs}	&1\superS{st}	&str			&o			&wk			&o			&wk			&o		\\\cline{3-8}
+\PSTs	&1\superS{st}	&str			&o			&wk			&o			&wk			&o		\\\cline{3-8}
 				&2\superS{nd}	&str			&o			&wk			&o			&wk			&o		\\\cline{3-8}
-				&3\superS{rd}	&wk			&o			&wk			&o			&str			&o		\\\hline%\cline{3-8}
+				&3\superS{rd}	&wk			&o			&wk			&o			&str			&o		\\%\cline{3-8}
 %%IMPERATIVE
 \IMPs			&2\superS{nd}	&wk			&o			&str			&o			&str			&o		\\\hline%\cline{3-8}
+&&&&\\
 \MC{8}{l}{\It{non-finite verb forms:}}\\\hline
-\MC{2}{|r||}{\INFs}				&str			&o			&\MC{2}{r||}{\CONNEGs}		&wk			&o		\\\hline%\cline{2-8}
-\MC{2}{|r||}{\PRFs}				&str			&o			&\MC{4}{c}{}		\\\cline{1-4}
+\MC{2}{r}{\INFs}				&str			&o			&\MC{2}{r}{\CONNEGs}		&wk			&o		\\%\cline{2-8}
+\MC{2}{r}{\PRFs}				&str			&o			&\MC{4}{c}{}		\\\hline%\cline{1-4}
 %\MC{1}{c}{}		&\MC{7}{l}{\It{non-finite verb forms:}}\\\cline{3-4}\cline{7-8}%\hline
-%\MC{2}{c|}{}					&\It{C-grad}	&\MC{1}{c|}{\it Cl. suffix}&\MC{2}{c|}{}				&\It{C-grad}	&\it Cl. suffix	\\\cline{2-4}\cline{6-8}
-%\MC{1}{c|}{}	&\MC{1}{|c|}{\INFs}	&str			&\MC{1}{c|}{o}&\MC{1}{c|}{}	&\MC{1}{c|}{\CONNEGs}&wk			&o			\\\cline{2-4}\cline{6-8}
-%\MC{1}{c|}{}	&\MC{1}{|c|}{\PRFs}	&str			&\MC{1}{c|}{o}&\MC{4}{c}{}\\\cline{2-4}
+%\MC{2}{c}{}					&\It{C-grad}	&\MC{1}{c}{\it Cl. suffix}&\MC{2}{c}{}				&\It{C-grad}	&\it Cl. suffix	\\\cline{2-4}\cline{6-8}
+%\MC{1}{c}{}	&\MC{1}{c}{\INFs}	&str			&\MC{1}{c}{o}&\MC{1}{c}{}	&\MC{1}{c}{\CONNEGs}&wk			&o			\\\cline{2-4}\cline{6-8}
+%\MC{1}{c}{}	&\MC{1}{c}{\PRFs}	&str			&\MC{1}{c}{o}&\MC{4}{c}{}\\\cline{2-4}
 \end{tabular}
 \end{table}
 
@@ -755,12 +760,19 @@ The characteristics of verbs in Class II are:
 For most inflected forms, the class marking suffix is consistent with the class marking suffix in the infinitive form; however, eight forms are assigned a specific class-marking vowel, as listed in Table \vref{deviantClassSuffixesVClassIITable}. %for 3\SGs.\PRSs, 1\DUs.\PRSs, 3\PLs.\PRSs, 1\SGs.\PSTs, 2\SGs.\PSTs, 
 \begin{table}\centering
 \caption{Specific class marking suffixes for all Class II verbs}\label{deviantClassSuffixesVClassIITable}
-\begin{tabular}{|cc||cc|}\hline
-\It{form}		&\It{cl.\,sx.}&\It{form}		&\It{cl.\,sx.}	\\\dline
-3\SGs.\PRSs	&-a		&1\DUs.\PRSs	&-e	\\\hline
-1\SGs.\PSTs	&-i		&2\SGs.\PSTs	&-e	\\\hline
-3\PLs.\PRSs	&-e		&3\PLs.\PSTs	&-e	\\\hline
-2\DUs.\IMPs	&-e		&2\PLs.\IMPs	&-i	\\\hline
+\begin{tabular}{cc}
+\It{form}		&\It{cl.\,sx.}\\\hline
+3\SGs.\PRSs	&-a		\\
+1\SGs.\PSTs	&-i		\\
+3\PLs.\PRSs	&-e		\\
+2\DUs.\IMPs	&-e		\\\hline
+\end{tabular}\hspace{2em}
+\begin{tabular}{cc}
+\It{form}		&\It{cl.\,sx.}	\\\hline
+1\DUs.\PRSs	&-e	\\
+2\SGs.\PSTs	&-e	\\
+3\PLs.\PSTs	&-e	\\
+2\PLs.\IMPs	&-i	\\\hline
 \end{tabular}
 \end{table}
 
@@ -772,43 +784,44 @@ The corpus only provides sufficient data for the Class IIb verb \It{bårråt}; t
 \begin{table}\centering
 \caption{The inflectional paradigm for the Class IIa verb \It{bassat} ‘wash’}\label{washParadigm}
 \resizebox{1\linewidth}{!} {
-\begin{tabular}{|cc||x{80pt}|x{80pt}|p{80pt}|}\hline
-\It{tense/}			&			&\MC{3}{c|}{\It{number}}	\\
-\It{mood}			&\It{person}	&\MC{1}{c}{\SGs}	&\MC{1}{c}{\DUs}		&\Xp{\PLs}	\\\dline
+\begin{tabular}{ccx{80pt}x{80pt}p{80pt}}
+\It{tense/}			&			&\MC{3}{c}{\It{number}}	\\
+\It{mood}			&\It{person}	&\MC{1}{c}{\SGs}	&\MC{1}{c}{\DUs}		&\Xp{\PLs}	\\\hline
 %PRESENT
-\MR{3}{*}{\PRSs}	&1\superS{st}	&bas-a-v	&biss-i-n			&\Xp{bass-a-p}		\\\cline{3-5}
-				&2\superS{nd}	&bas-a	&bass-a-bähten	&\Xp{bass-a-bähtet}	\\\cline{3-5}
-				&3\superS{rd}	&bass-a	&bass-a-ba		&\Xp{biss-e}		\\\dline%\cline{2-5}
+\PRSs	&1\superS{st}	&bas-a-v	&biss-i-n			&\Xp{bass-a-p}		\\%\cline{3-5}
+				&2\superS{nd}	&bas-a	&bass-a-bähten	&\Xp{bass-a-bähtet}	\\%\cline{3-5}
+				&3\superS{rd}	&bass-a	&bass-a-ba		&\Xp{biss-e}		\\%\cline{2-5}
 %PAST
-\MR{3}{*}{\PSTs}	&1\superS{st}	&biss-i-v	&bas-a-jmen		&\Xp{bas-a-jmä}	\\\cline{3-5}
-				&2\superS{nd}	&biss-e	&bas-a-jden		&\Xp{bas-a-jdä}		\\\cline{3-5}
-				&3\superS{rd}	&bas-a-j	&bas-a-jga		&\Xp{biss-i-n}		\\\dline%\cline{2-5}
+\PSTs	&1\superS{st}	&biss-i-v	&bas-a-jmen		&\Xp{bas-a-jmä}	\\%\cline{3-5}
+				&2\superS{nd}	&biss-e	&bas-a-jden		&\Xp{bas-a-jdä}		\\%\cline{3-5}
+				&3\superS{rd}	&bas-a-j	&bas-a-jga		&\Xp{biss-i-n}		\\%\cline{2-5}
 %IMPERATIVE
-\IMPs			&2\superS{nd}	&bas-a	&bass-e-n			&\Xp{bess-i-t}		\\\hline%\cline{3-5}
+\IMPs			&2\superS{nd}	&bas-a	&bass-e-n			&\Xp{bess-i-t}		\\\hline%%\cline{3-5}
+&&&&\\
 \MC{5}{l}{\It{non-finite verb forms:}}\\\hline
-\MC{1}{|c}{\INFs}	&\MC{2}{c|}{bass-a-t}	&\MC{1}{c}{\CONNEGs}&bas-a			\\\hline
-\MC{1}{|c}{\PRFs}	&\MC{2}{c|}{bass-a-m}	&\MC{2}{c}{}\\\cline{1-3}
+\MC{1}{c}{\INFs}	&\MC{2}{c}{bass-a-t}	&\MC{1}{c}{\CONNEGs}&bas-a			\\
+\MC{1}{c}{\PRFs}	&\MC{2}{c}{bass-a-m}	&\MC{2}{c}{}\\\hline%\cline{1-3}
 \end{tabular}}
 \end{table}
 \begin{table}\centering
 \caption{The inflectional paradigm for the Class IIb verb \It{bårråt} ‘eat’}\label{eatParadigm}
 \resizebox{1\linewidth}{!} {
-\begin{tabular}{|cc||x{80pt}|x{80pt}|p{80pt}|}\hline
-\It{tense/}			&			&\MC{3}{c|}{\It{number}}	\\
-\It{mood}			&\It{person}	&\MC{1}{c}{\SGs}	&\MC{1}{c}{\DUs}		&\Xp{\PLs}	\\\dline
+\begin{tabular}{ccx{80pt}x{80pt}p{80pt}}
+\It{tense/}			&			&\MC{3}{c}{\It{number}}	\\
+\It{mood}			&\It{person}	&\MC{1}{c}{\SGs}	&\MC{1}{c}{\DUs}		&\Xp{\PLs}	\\\hline
 %PRESENT
-\MR{3}{*}{\PRSs}	&1\superS{st}	&bår-å-v	&burr-e-n			&\Xp{bårr-å-p}		\\\cline{3-5}
-				&2\superS{nd}	&bår-å	&bårr-å-bähtin		&\Xp{bårr-å-bähtet}	\\\cline{3-5}
-				&3\superS{rd}	&bårr-a	&bårr-å-ba		&\Xp{burr-e}		\\\dline%\cline{2-5}
+\PRSs	&1\superS{st}	&bår-å-v	&burr-e-n			&\Xp{bårr-å-p}		\\%\cline{3-5}
+				&2\superS{nd}	&bår-å	&bårr-å-bähtin		&\Xp{bårr-å-bähtet}	\\%\cline{3-5}
+				&3\superS{rd}	&bårr-a	&bårr-å-ba		&\Xp{burr-e}		\\%\cline{2-5}
 %PAST
-\MR{3}{*}{\PSTs}	&1\superS{st}	&burr-e-v	&bår-å-jmen		&\Xp{bår-å-jme}	\\\cline{3-5}
-				&2\superS{nd}	&burr-e	&bår-å-jden		&\Xp{bår-å-jde}		\\\cline{3-5}
-				&3\superS{rd}	&bår-å-j	&bår-å-jga			&\Xp{burr-e-n}		\\\dline%\cline{2-5}
+\PSTs	&1\superS{st}	&burr-e-v	&bår-å-jmen		&\Xp{bår-å-jme}	\\%\cline{3-5}
+				&2\superS{nd}	&burr-e	&bår-å-jden		&\Xp{bår-å-jde}		\\%\cline{3-5}
+				&3\superS{rd}	&bår-å-j	&bår-å-jga			&\Xp{burr-e-n}		\\%\cline{2-5}
 %IMPERATIVE
-\IMPs			&2\superS{nd}	&bår-å	&bårr-e-n			&\Xp{burr-i-t}		\\\hline%\cline{3-5}
+\IMPs			&2\superS{nd}	&bår-å	&bårr-e-n			&\Xp{burr-i-t}		\\\hline%%\cline{3-5}
+&&&&\\
 \MC{5}{l}{\It{non-finite verb forms:}}\\\hline
-\MC{1}{|c}{\INFs}	&\MC{2}{c|}{bårr-å-t}			&\MC{1}{c}{\CONNEGs}&bår-å		\\\hline
-\MC{1}{|c}{\PRFs}	&\MC{2}{c|}{bårr-å-m}	&\MC{2}{c}{}\\\cline{1-3}
+\MC{1}{c}{\INFs}	&\MC{2}{c}{bårr-å-t}			&\MC{1}{c}{\CONNEGs}&bår-å		\\\MC{1}{c}{\PRFs}	&\MC{2}{c}{bårr-å-m}	&\MC{2}{c}{}\\\hline%\cline{1-3}
 \end{tabular}}
 \end{table}
 
@@ -816,23 +829,24 @@ Table \vref{VclassIIsummaryTable} summarizes the gradation pattern, class suffix
 \begin{sidewaystable}[p]\centering
 %\begin{table}\centering
 \caption{Summary of Class II verb paradigm features}\label{VclassIIsummaryTable}
-\begin{tabular}{|cc|| c|c|c|| c|c|c|| c|c|c|}\hline
-				&			&\MC{9}{c|}{\It{number}}	\\
-\It{tense/}			&			&\MC{3}{c||}{\SGs}					&\MC{3}{c||}{\DUs}					&\MC{3}{c|}{\PLs}	\\%\dline
+\begin{tabular}{cc ccc ccc ccc}
+				&			&\MC{9}{c}{\It{number}}	\\
+\It{tense/}			&			&\MC{3}{c}{\SGs}					&\MC{3}{c}{\DUs}					&\MC{3}{c}{\PLs}	\\%\hline
 \It{mood}			&\It{person}	&\MC{1}{c}{\It{C-grad}}&\MC{1}{c}{\It{cl.\,sx.}}&\It{VH}&\MC{1}{c}{\It{C-grad}}&\MC{1}{c}{\It{cl.\,sx.}}&\It{VH}	&\MC{1}{c}{\It{C-grad}}&\MC{1}{c}{\It{cl.\,sx.}}	&\It{VH}	\\\cline{1-11}%\cline{1-8}
 %PRESENT
-\MR{3}{*}{\PRSs}	&1\superS{st}	&wk			&V			&		&str			&i			&\CH	&str			&V			&	\\\cline{3-11}
-				&2\superS{nd}	&wk			&V			&		&str			&V			&		&str			&V			&	\\\cline{3-11}
-				&3\superS{rd}	&str			&a			&		&str			&V			&		&str			&e			&\CH	\\\hline%\cline{3-8}
+\PRSs	&1\superS{st}	&wk			&V			&		&str			&i			&\CH	&str			&V			&	\\%\cline{3-11}
+				&2\superS{nd}	&wk			&V			&		&str			&V			&		&str			&V			&	\\%\cline{3-11}
+				&3\superS{rd}	&str			&a			&		&str			&V			&		&str			&e			&\CH	\\%\cline{3-8}
 %PAST
-\MR{3}{*}{\PSTs}	&1\superS{st}	&str			&i			&\CH	&wk			&V			&		&wk			&V			&	\\\cline{3-11}
-				&2\superS{nd}	&str			&e			&\CH	&wk			&V			&		&wk			&i			&	\\\cline{3-11}
-				&3\superS{rd}	&wk			&V			&		&wk			&V			&		&str			&i			&\CH	\\\hline%\cline{3-8}
+\PSTs	&1\superS{st}	&str			&i			&\CH	&wk			&V			&		&wk			&V			&	\\%\cline{3-11}
+				&2\superS{nd}	&str			&e			&\CH	&wk			&V			&		&wk			&i			&	\\%\cline{3-11}
+				&3\superS{rd}	&wk			&V			&		&wk			&V			&		&str			&i			&\CH	\\%\cline{3-8}
 %%IMPERATIVE
 \IMPs			&2\superS{nd}	&wk			&V			&		&str			&e			&		&str			&i			&\CH	\\\hline%\cline{3-8}
+&&&&\\
 \MC{8}{l}{\It{non-finite verb forms:}}\\\hline
-\MC{2}{|r||}{\INFs}				&str			&V			&		&\MC{3}{r||}{\CONNEGs}				&wk			&V			&	\\\hline%\cline{2-8}
-\MC{2}{|r||}{\PRFs}				&str			&V			&		&\MC{6}{c}{}		\\\cline{1-5}
+\MC{2}{r}{\INFs}				&str			&V			&		&\MC{3}{r}{\CONNEGs}				&wk			&V			&	\\%\cline{2-8}
+\MC{2}{r}{\PRFs}				&str			&V			&		&\MC{6}{c}{}		\\\hline
 \end{tabular}
 %\caption{Summary of Class II verb paradigm features; here, \Bf{V} stands for \It{a} in Class IIa verbs, and for \It{å} in Class IIb verbs}\label{VclassIIsummaryTable}
 %\end{table}
@@ -840,8 +854,8 @@ Table \vref{VclassIIsummaryTable} summarizes the gradation pattern, class suffix
 %\afterpage{\clearpage}%\clearpage
 
 %Examples:\\
-%\begin{tabular}{|l|c|c|l|l|l|l|}\hline
-%\INFs	&\it c-grad	&\it umlaut&2\SGs.\PRSs	& \CONNEGs	&1\DUs.\PRSs	&\it gloss	\\\dline
+%\begin{tabular}{lccllll}\hline
+%\INFs	&\it c-grad	&\it umlaut&2\SGs.\PRSs	& \CONNEGs	&1\DUs.\PRSs	&\it gloss	\\\hline
 %bassat	&ss-s	&a-i		&basa		&basa		&bissin		&\it wash	\\\hline
 %juhkat	&hk-g	&-		&juga		&juga		&juhken		&\it drink	\\\hline
 %tjájbmat	&jbm-jm	&á-i		&tjájma		&tjájma		&tjijbmen		&\it laught	\\\hline
@@ -868,22 +882,23 @@ The verb \It{bassat} ‘wash’ is provided in Table \vref{fryParadigm} as an ex
 \begin{table}\centering
 \caption{The inflectional paradigm for the Class III verb \It{basset} ‘fry’}\label{fryParadigm}
 \resizebox{1\linewidth}{!} {
-\begin{tabular}{|cc||x{80pt}|x{80pt}|p{80pt}|}\hline
-\It{tense/}			&			&\MC{3}{c|}{\It{number}}	\\
-\It{mood}			&\It{person}	&\MC{1}{c}{\SGs}	&\MC{1}{c}{\DUs}		&\Xp{\PLs}	\\\dline
+\begin{tabular}{ccx{80pt}x{80pt}p{80pt}}
+\It{tense/}			&			&\MC{3}{c}{\It{number}}	\\
+\It{mood}			&\It{person}	&\MC{1}{c}{\SGs}	&\MC{1}{c}{\DUs}		&\Xp{\PLs}	\\\hline
 %PRESENT
-\MR{3}{*}{\PRSs}	&1\superS{st}	&bas-á-v	&biss-i-n			&\Xp{bass-e-p}		\\\cline{3-5}
-				&2\superS{nd}	&bas-á	&bass-e-bähten	&\Xp{bass-e-bähtet}	\\\cline{3-5}
-				&3\superS{rd}	&bass-a	&bass-e-ba		&\Xp{biss-e}		\\\dline%\cline{2-5}
+\PRSs	&1\superS{st}	&bas-á-v	&biss-i-n			&\Xp{bass-e-p}		\\%\cline{3-5}
+				&2\superS{nd}	&bas-á	&bass-e-bähten	&\Xp{bass-e-bähtet}	\\%\cline{3-5}
+				&3\superS{rd}	&bass-a	&bass-e-ba		&\Xp{biss-e}		\\%\cline{2-5}
 %PAST
-\MR{3}{*}{\PSTs}	&1\superS{st}	&biss-i-v	&bis-i-jmen		&\Xp{bis-i-jmä}		\\\cline{3-5}
-				&2\superS{nd}	&biss-e	&bis-i-jden		&\Xp{bis-i-jdä}		\\\cline{3-5}
-				&3\superS{rd}	&bis-i-j	&bis-i-jga			&\Xp{biss-i-n}		\\\dline%\cline{2-5}
+\PSTs	&1\superS{st}	&biss-i-v	&bis-i-jmen		&\Xp{bis-i-jmä}		\\%\cline{3-5}
+				&2\superS{nd}	&biss-e	&bis-i-jden		&\Xp{bis-i-jdä}		\\%\cline{3-5}
+				&3\superS{rd}	&bis-i-j	&bis-i-jga			&\Xp{biss-i-n}		\\%\cline{2-5}
 %IMPERATIVE
-\IMPs			&2\superS{nd}	&bas-e	&bass-e-n			&\Xp{biss-i-t}		\\\hline%\cline{3-5}
+\IMPs			&2\superS{nd}	&bas-e	&bass-e-n			&\Xp{biss-i-t}		\\\hline%%\cline{3-5}
+&&&&\\
 \MC{5}{l}{\It{non-finite verb forms:}}\\\hline
-\MC{1}{|c}{\INFs}	&\MC{2}{c|}{bass-e-t}	&\MC{1}{c}{\CONNEGs}&bas-e			\\\hline
-\MC{1}{|c}{\PRFs}	&\MC{2}{c|}{bass-a-m}	&\MC{2}{c}{}\\\cline{1-3}
+\MC{1}{c}{\INFs}	&\MC{2}{c}{bass-e-t}	&\MC{1}{c}{\CONNEGs}&bas-e			\\
+\MC{1}{c}{\PRFs}	&\MC{2}{c}{bass-a-m}	&\MC{2}{c}{}\\\hline%\cline{1-3}
 \end{tabular}}
 \end{table}
 
@@ -893,23 +908,24 @@ Table \vref{VclassIIIsummaryTable} summarizes the gradation pattern, class suffi
 \begin{sidewaystable}[p]\centering
 \caption{Summary of Class III verb paradigm features}\label{VclassIIIsummaryTable}
 %\begin{table}\centering
-\begin{tabular}{|cc|| c|c|c|| c|c|c|| c|c|c|}\hline
-				&			&\MC{9}{c|}{\It{number}}	\\
-\It{tense/}			&			&\MC{3}{c||}{\SGs}					&\MC{3}{c||}{\DUs}					&\MC{3}{c|}{\PLs}	\\%\dline
+\begin{tabular}{cc ccc ccc ccc}
+				&			&\MC{9}{c}{\It{number}}	\\
+\It{tense/}			&			&\MC{3}{c}{\SGs}					&\MC{3}{c}{\DUs}					&\MC{3}{c}{\PLs}	\\%\hline
 \It{mood}			&\It{person}	&\MC{1}{c}{\It{C-grad}}&\MC{1}{c}{\It{cl.\,sx.}}&\It{VH}&\MC{1}{c}{\It{C-grad}}&\MC{1}{c}{\It{cl.\,sx.}}&\It{VH}&\MC{1}{c}{\It{C-grad}}&\MC{1}{c}{\It{cl.\,sx.}}	&\It{VH}	\\\cline{1-11}%\cline{1-8}
 %PRESENT
-\MR{3}{*}{\PRSs}	&1\superS{st}	&wk			&a/á			&		&str			&i			&\CH	&str			&e			&	\\\cline{3-11}
-				&2\superS{nd}	&wk			&a/á			&		&str			&e			&		&str			&e			&	\\\cline{3-11}
-				&3\superS{rd}	&str			&a			&		&str			&e			&		&str			&e			&\CH	\\\hline%\cline{3-8}
+\PRSs	&1\superS{st}	&wk			&a/á			&		&str			&i			&\CH	&str			&e			&	\\%\cline{3-11}
+				&2\superS{nd}	&wk			&a/á			&		&str			&e			&		&str			&e			&	\\%\cline{3-11}
+				&3\superS{rd}	&str			&a			&		&str			&e			&		&str			&e			&\CH	\\%\cline{3-8}
 %PAST
-\MR{3}{*}{\PSTs}	&1\superS{st}	&str			&i			&\CH	&wk			&i			&\CH	&wk			&i			&\CH	\\\cline{3-11}
-				&2\superS{nd}	&str			&e			&\CH	&wk			&i			&\CH	&wk			&i			&\CH	\\\cline{3-11}
-				&3\superS{rd}	&wk			&i			&\CH	&wk			&i			&\CH	&str			&i			&\CH	\\\hline%\cline{3-8}
+\PSTs	&1\superS{st}	&str			&i			&\CH	&wk			&i			&\CH	&wk			&i			&\CH	\\%\cline{3-11}
+				&2\superS{nd}	&str			&e			&\CH	&wk			&i			&\CH	&wk			&i			&\CH	\\%\cline{3-11}
+				&3\superS{rd}	&wk			&i			&\CH	&wk			&i			&\CH	&str			&i			&\CH	\\%\cline{3-8}
 %%IMPERATIVE
 \IMPs			&2\superS{nd}	&wk			&e			&		&str			&e			&		&str			&i			&\CH	\\\hline%\cline{3-8}
+&&&&\\
 \MC{8}{l}{\It{non-finite verb forms:}}\\\hline
-\MC{2}{|r||}{\INFs}				&str			&e			&		&\MC{3}{r||}{\CONNEGs}				&wk			&e			&	\\\hline%\cline{2-8}
-\MC{2}{|r||}{\PRFs}				&str			&a			&		&\MC{6}{c}{}		\\\cline{1-5}
+\MC{2}{r}{\INFs}				&str			&e			&		&\MC{3}{r}{\CONNEGs}				&wk			&e			&	\\
+\MC{2}{r}{\PRFs}				&str			&a			&		&\MC{6}{c}{}		\\\hline
 \end{tabular}
 \end{sidewaystable}
 %\end{table}
@@ -937,27 +953,28 @@ A nearly complete paradigm for the verb \It{välldut} ‘marry’ is provided in
 \begin{table}\centering
 \caption{The inflectional paradigm for the Class IV verb \It{välldut} ‘marry’}\label{marryParadigm}
 \resizebox{1\linewidth}{!} {
-\begin{tabular}{|cc||x{80pt}|x{80pt}|p{80pt}|}\hline
-\It{tense/}			&			&\MC{3}{c|}{\It{number}}	\\
-\It{mood}			&\It{person}	&\SGs		&\DUs			&\Xp{\PLs}	\\\dline
+\begin{tabular}{ccx{80pt}x{80pt}p{80pt}}
+\It{tense/}			&			&\MC{3}{c}{\It{number}}	\\
+\It{mood}			&\It{person}	&\SGs		&\DUs			&\Xp{\PLs}	\\\hline
 %PRESENT
-\MR{3}{*}{\PRSs}	&1\superS{st}	&välld-u-v			&välld-u-jin		&\Xp{välld-u-p}		\\\cline{3-5}
-%\MR{3}{*}{\PRSs}	&1\superS{st}	&välld-u-v			&\TabGray vällduj-i-n	&\Xp{välld-u-p}		\\\cline{3-5}
-				&2\superS{nd}	&välld-u			&välld-u-bähten		&\Xp{välld-u-bähtet}	\\\cline{3-5}
-				&3\superS{rd}	&välld-u-ja		&välld-u-ba		&\Xp{välld-u-je}		\\\dline%\cline{2-5}
-%				&3\superS{rd}	&\TabGray vällduj-a-	&välld-u-bah		&\Xp{\TabGray vällduj-e-}		\\\dline%\cline{2-5}
+\PRSs	&1\superS{st}	&välld-u-v			&välld-u-jin		&\Xp{välld-u-p}		\\%\cline{3-5}
+%\PRSs	&1\superS{st}	&välld-u-v			&\TabGray vällduj-i-n	&\Xp{välld-u-p}		\\%\cline{3-5}
+				&2\superS{nd}	&välld-u			&välld-u-bähten		&\Xp{välld-u-bähtet}	\\%\cline{3-5}
+				&3\superS{rd}	&välld-u-ja		&välld-u-ba		&\Xp{välld-u-je}		\\%\cline{2-5}
+%				&3\superS{rd}	&\TabGray vällduj-a-	&välld-u-bah		&\Xp{\TabGray vällduj-e-}		\\\hline%\cline{2-5}
 %PAST
-\MR{3}{*}{\PSTs}	&1\superS{st}	&välld-u-jiv		&välld-u-jmen		&\Xp{välld-u-jme}	\\\cline{3-5}
-				&2\superS{nd}	&välld-u-je		&välld-u-jden		&\Xp{välld-u-jde}		\\\cline{3-5}
-				&3\superS{rd}	&välld-u-j			&välld-u-jga		&\Xp{välld-u-jin}		\\\dline%\cline{2-5}
-%\MR{3}{*}{\PSTs}	&1\superS{st}	&\TabGray vällduj-i-v	&välld-u-jmin		&\Xp{välld-u-jmä}	\\\cline{3-5}
-%				&2\superS{nd}	&\TabGray vällduj-e-	&välld-u-jdin		&\Xp{välld-u-jdä}		\\\cline{3-5}
-%				&3\superS{rd}	&välld-u-j			&välld-u-jgah		&\Xp{\TabGray vällduj-i-n}		\\\dline%\cline{2-5}
+\PSTs	&1\superS{st}	&välld-u-jiv		&välld-u-jmen		&\Xp{välld-u-jme}	\\%\cline{3-5}
+				&2\superS{nd}	&välld-u-je		&välld-u-jden		&\Xp{välld-u-jde}		\\%\cline{3-5}
+				&3\superS{rd}	&välld-u-j			&välld-u-jga		&\Xp{välld-u-jin}		\\%\cline{2-5}
+%\PSTs	&1\superS{st}	&\TabGray vällduj-i-v	&välld-u-jmin		&\Xp{välld-u-jmä}	\\%\cline{3-5}
+%				&2\superS{nd}	&\TabGray vällduj-e-	&välld-u-jdin		&\Xp{välld-u-jdä}		\\%\cline{3-5}
+%				&3\superS{rd}	&välld-u-j			&välld-u-jgah		&\Xp{\TabGray vällduj-i-n}		\\\hline%\cline{2-5}
 %IMPERATIVE
-\IMPs			&2\superS{nd}	&?		&?			&\Xp{?}		\\\hline%\cline{3-5}
+\IMPs			&2\superS{nd}	&n.a.		&n.a.			&\Xp{n.a.}		\\\hline%%\cline{3-5}
+&&&&\\
 \MC{5}{l}{\It{non-finite verb forms:}}\\\hline
-\MC{1}{|c}{\INFs}	&\MC{2}{c|}{välld-u-t}		&\MC{1}{c}{\CONNEGs}&välld-u				\\\hline
-\MC{1}{|c}{\PRFs}	&\MC{2}{c|}{välld-u-m}	&\MC{2}{c}{}\\\cline{1-3}
+\MC{1}{c}{\INFs}	&\MC{2}{c}{välld-u-t}		&\MC{1}{c}{\CONNEGs}&välld-u				\\
+\MC{1}{c}{\PRFs}	&\MC{2}{c}{välld-u-m}	&\MC{2}{c}{}\\\hline%\cline{1-3}
 \end{tabular}}
 \end{table}
 
@@ -974,24 +991,25 @@ Table \vref{VclassIVsummaryTable} summarizes the preliminary class suffix patter
 This is based on the paradigm for \It{välldut} in Table \vref{marryParadigm} and the paradigm for \It{tjerrot} provided in \citet[154]{Lehtiranta1992}.\footnote{Note the difference in orthographic forms between those used here, with \It{tjerrot} for the infinitive form, and the forms used in \citet{Lehtiranta1992}, with \It{tjierˈrut} for the infinitive form.} %Note that, umlaut alternations align with consonant gradation alternations. 
 \begin{table}\centering
 \caption{Preliminary summary of Class IV verb paradigm features}\label{VclassIVsummaryTable}
-\begin{tabular}{|cc|| c|c|| c|c|| c|c|}\hline
-				&			&\MC{6}{c|}{\It{number}}	\\
-				&			&\MC{2}{c||}{\SGs}			&\MC{2}{c||}{\DUs}			&\MC{2}{c|}{\PLs}	\\%\dline
+\begin{tabular}{cc cc cc cc}
+				&			&\MC{6}{c}{\It{number}}	\\
+				&			&\MC{2}{c}{\SGs}			&\MC{2}{c}{\DUs}			&\MC{2}{c}{\PLs}	\\%\hline
 \It{tense/}			&			&\MC{1}{c}{}		&\It{dev.}		&\MC{1}{c}{}	&\It{dev.}	&\MC{1}{c}{}		&\It{dev.}	\\
 \It{mood}			&\It{person}	&\MC{1}{c}{\It{cl.\,sx.}}&\It{agr. sx.}	&\MC{1}{c}{\It{cl.\,sx.}}&\It{agr. sx.}	&\MC{1}{c}{\It{cl.\,sx.}}		&\It{agr. sx.}\\\cline{1-8}%\cline{1-8}
 %PRESENT
-\MR{3}{*}{\PRSs}	&1\superS{st}	&V			&			&V			&\CH		&V			&		\\\cline{3-8}
-				&2\superS{nd}	&V			&			&V			&			&V			&		\\\cline{3-8}
-				&3\superS{rd}	&V			&\CH		&V			&			&V			&\CH	\\\hline%\cline{3-8}
+\PRSs	&1\superS{st}	&V			&			&V			&\CH		&V			&		\\%\cline{3-8}
+				&2\superS{nd}	&V			&			&V			&			&V			&		\\%\cline{3-8}
+				&3\superS{rd}	&V			&\CH		&V			&			&V			&\CH	\\%%\cline{3-8}
 %PAST
-\MR{3}{*}{\PSTs}	&1\superS{st}	&V			&\CH		&V			&			&V			&		\\\cline{3-8}
-				&2\superS{nd}	&V			&\CH		&V			&			&V			&		\\\cline{3-8}
-				&3\superS{rd}	&V			&			&V			&			&V			&\CH	\\\hline%\cline{3-8}
+\PSTs	&1\superS{st}	&V			&\CH		&V			&			&V			&		\\%\cline{3-8}
+				&2\superS{nd}	&V			&\CH		&V			&			&V			&		\\%\cline{3-8}
+				&3\superS{rd}	&V			&			&V			&			&V			&\CH	\\%%\cline{3-8}
 %%IMPERATIVE
-\IMPs			&2\superS{nd}	&?			&?			&?			&?			&?			&?		\\\hline%\cline{3-8}
+\IMPs			&2\superS{nd}	&n.a.			&n.a.			&n.a.			&n.a.			&n.a.			&n.a.		\\\hline%%\cline{3-8}
+&&&&\\
 \MC{8}{l}{\It{non-finite verb forms:}}\\\hline
-\MC{2}{|r||}{\INFs}				&V			&			&\MC{2}{r||}{\CONNEGs}		&V			&		\\\hline%\cline{2-8}
-\MC{2}{|r||}{\PRFs}				&V			&			&\MC{4}{c}{}		\\\cline{1-4}
+\MC{2}{r}{\INFs}				&V			&			&\MC{2}{r}{\CONNEGs}		&V			&		\\%\cline{2-8}
+\MC{2}{r}{\PRFs}				&V			&			&\MC{4}{c}{}		\\\hline
 \end{tabular}
 \end{table}
 
@@ -1011,45 +1029,47 @@ Table \vref{VclassVsummaryTable} summarizes the gradation pattern and class suff
 \begin{table}\centering
 \caption{The inflectional paradigm for the Class V verb \It{ságastit} ‘speak’}\label{speakParadigm}
 \resizebox{1\linewidth}{!} {
-\begin{tabular}{|cc||x{80pt}|x{80pt}|p{80pt}|}\hline
-\It{tense/}			&			&\MC{3}{c|}{\It{number}}	\\
-\It{mood}			&\It{person}	&\SGs		&\DUs			&\Xp{\PLs}		\\\dline
+\begin{tabular}{ccx{80pt}x{80pt}p{80pt}}
+\It{tense/}			&			&\MC{3}{c}{\It{number}}	\\
+\It{mood}			&\It{person}	&\SGs		&\DUs			&\Xp{\PLs}		\\\hline
 %PRESENT
-\MR{3}{*}{\PRSs}	&1\superS{st}	&ságast-a-v	&ságast-e-n		&\Xp{ságast-e-p}	\\\cline{3-5}
-				&2\superS{nd}	&ságast-a		&ságast-ä-hpen	&\Xp{ságast-e-hpit}	\\\cline{3-5}
-				&3\superS{rd}	&ságast-a		&ságast-ä-ba		&\Xp{ságast-e}		\\\dline%\cline{2-5}
+\PRSs	&1\superS{st}	&ságast-a-v	&ságast-e-n		&\Xp{ságast-e-p}	\\%\cline{3-5}
+				&2\superS{nd}	&ságast-a		&ságast-ä-hpen	&\Xp{ságast-e-hpit}	\\%\cline{3-5}
+				&3\superS{rd}	&ságast-a		&ságast-ä-ba		&\Xp{ságast-e}		\\%\cline{2-5}
 %PAST
-\MR{3}{*}{\PSTs}	&1\superS{st}	&ságast-i-jiv	&ságast-i-jmen		&\Xp{ságast-i-jme}	\\\cline{3-5}
-				&2\superS{nd}	&ságast-i-je	&ságast-i-jden		&\Xp{ságast-i-jde}	\\\cline{3-5}
-				&3\superS{rd}	&ságast-i-j	&ságast-i-jga		&\Xp{ságast-e-n}	\\\dline%\cline{2-5}
+\PSTs	&1\superS{st}	&ságast-i-jiv	&ságast-i-jmen		&\Xp{ságast-i-jme}	\\%\cline{3-5}
+				&2\superS{nd}	&ságast-i-je	&ságast-i-jden		&\Xp{ságast-i-jde}	\\%\cline{3-5}
+				&3\superS{rd}	&ságast-i-j	&ságast-i-jga		&\Xp{ságast-e-n}	\\%\cline{2-5}
 %IMPERATIVE
-\IMPs			&2\superS{nd}	&ságast-e		&ságast-ä-hten		&\Xp{ságast-ä-htet}	\\\hline%\cline{3-5}
+\IMPs			&2\superS{nd}	&ságast-e		&ságast-ä-hten		&\Xp{ságast-ä-htet}	\\\hline%%\cline{3-5}
+&&&&\\
 \MC{5}{l}{\It{non-finite verb forms:}}\\\hline
-\MC{1}{|c}{\INFs}	&\MC{2}{c|}{ságast-i-t}		&\MC{1}{c}{\CONNEGs}&ságast-e		\\\hline
-\MC{1}{|c}{\PRFs}	&\MC{2}{c|}{ságast-a-m}	&\MC{2}{c}{}\\\cline{1-3}
+\MC{1}{c}{\INFs}	&\MC{2}{c}{ságast-i-t}		&\MC{1}{c}{\CONNEGs}&ságast-e		\\
+\MC{1}{c}{\PRFs}	&\MC{2}{c}{ságast-a-m}	&\MC{2}{c}{}\\\hline%\cline{1-3}
 \end{tabular}}
 \end{table}
 
-\renewcommand{\Xp}[1]{\MC{1}{x{60pt}|}{#1}}%JW: added to allow centering in final set-length column in verb paradigm tables; redefined here
+\renewcommand{\Xp}[1]{\MC{1}{x{60pt}}{#1}}%JW: added to allow centering in final set-length column in verb paradigm tables; redefined here
 \begin{table}\centering
 \caption[Summary of Class V verb paradigm features]{Summary of Class V verb paradigm features (only class suffix)}\label{VclassVsummaryTable}
-\begin{tabular}{|cc|| x{60pt}|| x{60pt}|| c|}\hline
-				&			&\MC{3}{c|}{\It{number}}	\\
-\It{tense/}			&			&\MC{1}{c||}{\SGs}	&\MC{1}{c||}{\DUs}	&\MC{1}{c|}{\PLs}	\\%\dline
+\begin{tabular}{cc x{60pt} x{60pt} c}
+				&			&\MC{3}{c}{\It{number}}	\\
+\It{tense/}			&			&\MC{1}{c}{\SGs}	&\MC{1}{c}{\DUs}	&\MC{1}{c}{\PLs}	\\%\hline
 \It{mood}			&\It{person}	&\It{cl.\,sx.}		&\It{cl.\,sx.}		&\Xp{\It{cl.\,sx.}}	\\\cline{1-5}%\cline{1-8}
 %PRESENT
-\MR{3}{*}{\PRSs}	&1\superS{st}	&a			&e			&\Xp{e}		\\\cline{3-5}
-				&2\superS{nd}	&a			&ä			&\Xp{e}		\\\cline{3-5}
-				&3\superS{rd}	&a			&ä			&\Xp{e}		\\\hline%\cline{3-8}
+\PRSs	&1\superS{st}	&a			&e			&\Xp{e}		\\%\cline{3-5}
+				&2\superS{nd}	&a			&ä			&\Xp{e}		\\%\cline{3-5}
+				&3\superS{rd}	&a			&ä			&\Xp{e}		\\%\cline{3-8}
 %PAST
-\MR{3}{*}{\PSTs}	&1\superS{st}	&i			&i			&\Xp{i}		\\\cline{3-5}
-				&2\superS{nd}	&i			&i			&\Xp{i}		\\\cline{3-5}
-				&3\superS{rd}	&i			&i			&\Xp{e}		\\\hline%\cline{3-8}
+\PSTs	&1\superS{st}	&i			&i			&\Xp{i}		\\%\cline{3-5}
+				&2\superS{nd}	&i			&i			&\Xp{i}		\\%\cline{3-5}
+				&3\superS{rd}	&i			&i			&\Xp{e}		\\%\cline{3-8}
 %%IMPERATIVE
 \IMPs			&2\superS{nd}	&e			&ä			&\Xp{ä}		\\\hline%\cline{3-8}
+&&&&\\
 \MC{5}{l}{\It{non-finite verb forms:}}\\\hline
-\MC{2}{|r||}{\INFs}				&i			&\MC{1}{r||}{\CONNEGs}		&\Xp{e}		\\\hline%\cline{2-8}
-\MC{2}{|r||}{\PRFs}				&a			&\MC{2}{c}{}		\\\cline{1-3}
+\MC{2}{r}{\INFs}				&i			&\MC{1}{r}{\CONNEGs}		&\Xp{e}		\\%\cline{2-8}
+\MC{2}{r}{\PRFs}				&a			&\MC{2}{c}{}		\\\hline%\cline{1-3}
 \end{tabular}
 \end{table}
 %\clearpage
@@ -1065,26 +1085,27 @@ exists in the corpus indicating that these may belong to Class IV or some subset
 
 \subsection{The verb \It{årrot} ‘be’}\label{theCopulaVerb}
 The verb \It{årrot} ‘be’ can be used as a copula (cf. §\,\ref{copulaClauses}) or as an auxiliary (cf. §\,\ref{auxV}); its paradigm is presented in Table \vref{beParadigm}. %on page \pageref{beParadigm}. 
-\renewcommand{\Xp}[1]{\MC{1}{x{80pt}|}{#1}}%JW: added to allow centering in final set-length column in verb paradigm tables; redefined here
+\renewcommand{\Xp}[1]{\MC{1}{x{80pt}}{#1}}%JW: added to allow centering in final set-length column in verb paradigm tables; redefined here
 \begin{table}\centering
 \caption{The inflectional paradigm for the verb \It{årrot} ‘be’}\label{beParadigm}
 \resizebox{1\linewidth}{!} {
-\begin{tabular}{|cc||x{80pt}|x{80pt}|p{80pt}|}\hline
-\It{tense/}			&			&\MC{3}{c|}{\It{number}}	\\
-\It{mood}			&\It{person}	&\MC{1}{c}{\SGs}	&\MC{1}{c}{\DUs}		&\Xp{\PLs}	\\\dline
+\begin{tabular}{ccx{80pt}x{80pt}p{80pt}}
+\It{tense/}			&			&\MC{3}{c}{\It{number}}	\\
+\It{mood}			&\It{person}	&\MC{1}{c}{\SGs}	&\MC{1}{c}{\DUs}		&\Xp{\PLs}	\\\hline
 %PRESENT
-\MR{3}{*}{\PRSs}	&1\superS{st}	&lev		&lin				&\Xp{lep}		\\\cline{3-5}
-				&2\superS{nd}	&lä/’l	&lähpen			&\Xp{lehpet}	\\\cline{3-5}
-				&3\superS{rd}	&lä/’l	&lähpa			&\Xp{lea/’l}		\\\dline%\cline{2-5}
+\PRSs	&1\superS{st}	&lev		&lin				&\Xp{lep}		\\%\cline{3-5}
+				&2\superS{nd}	&lä/’l	&lähpen			&\Xp{lehpet}	\\%\cline{3-5}
+				&3\superS{rd}	&lä/’l	&lähpa			&\Xp{lea/’l}		\\%\cline{2-5}
 %PAST
-\MR{3}{*}{\PSTs}	&1\superS{st}	&lidjiv	&lijmen			&\Xp{lijme}	\\\cline{3-5}
-				&2\superS{nd}	&lidje	&lijden			&\Xp{lijde}		\\\cline{3-5}
-				&3\superS{rd}	&lij		&lijga			&\Xp{lidjen}		\\\dline%\cline{2-5}
+\PSTs	&1\superS{st}	&lidjiv	&lijmen			&\Xp{lijme}	\\%\cline{3-5}
+				&2\superS{nd}	&lidje	&lijden			&\Xp{lijde}		\\%\cline{3-5}
+				&3\superS{rd}	&lij		&lijga			&\Xp{lidjen}		\\%\cline{2-5}
 %IMPERATIVE
-\IMPs			&2\superS{nd}	&?		&?				&\Xp{?}		\\\hline%\cline{3-5}
+\IMPs			&2\superS{nd}	&n.a.		&n.a.				&\Xp{n.a.}		\\\hline%%\cline{3-5}
+&&&&\\
 \MC{5}{l}{\It{other nonfinite verb forms:}}\\\hline
-\MC{1}{|c}{\INFs}	&\MC{2}{c|}{årrot}			&\MC{1}{c}{\CONNEGs}&lä			\\\hline
-\MC{1}{|c}{\PRFs}	&\MC{2}{c|}{urrum/lam}		&\MC{2}{c}{}			\\\cline{1-3}%\hline
+\MC{1}{c}{\INFs}	&\MC{2}{c}{årrot}			&\MC{1}{c}{\CONNEGs}&lä			\\
+\MC{1}{c}{\PRFs}	&\MC{2}{c}{urrum/lam}		&\MC{2}{c}{}			\\\hline%\cline{1-3}%\hline
 \end{tabular}}
 \end{table}
 
@@ -1136,21 +1157,21 @@ presents the paradigm for the negation verb.
 \begin{table}\centering
 \caption{The inflectional paradigm for the negation verb}\label{NEGParadigm}
 \resizebox{1\linewidth}{!} {
-\begin{tabular}{|cc||x{80pt}|x{80pt}|p{80pt}|}\hline
-\It{tense/}			&			&\MC{3}{c|}{\It{number}}	\\
-\It{mood}			&\It{person}	&\SGs	&\DUs		&\Xp{\PLs}	\\\dline
+\begin{tabular}{ccx{80pt}x{80pt}p{80pt}}
+\It{tense/}			&			&\MC{3}{c}{\It{number}}	\\
+\It{mood}			&\It{person}	&\SGs	&\DUs		&\Xp{\PLs}	\\\hline
 %PRESENT
-\MR{3}{*}{\PRSs}	&1\superS{st}	&iv		&en			&\Xp{ep}		\\\cline{3-5}
-				&2\superS{nd}	&i		&ehpen		&\Xp{ehpet}	\\\cline{3-5}
-				&3\superS{rd}	&ij		&eba			&\Xp{eh}		\\\dline%\cline{2-5}
+\PRSs	&1\superS{st}	&iv		&en			&\Xp{ep}		\\%\cline{3-5}
+				&2\superS{nd}	&i		&ehpen		&\Xp{ehpet}	\\%\cline{3-5}
+				&3\superS{rd}	&ij		&eba			&\Xp{eh}		\\%\cline{2-5}
 %PAST
-\MR{3}{*}{\PSTs}	&1\superS{st}	&ittjiv	&ettjijmen		&\Xp{ittjijme}	\\\cline{3-5}
-				&2\superS{nd}	&ittje		&ettjijden		&\Xp{ittjijde}	\\\cline{3-5}
-				&3\superS{rd}	&ittjij		&ettjijga		&\Xp{ittjin}		\\\dline%\cline{2-5}
+\PSTs	&1\superS{st}	&ittjiv	&ettjijmen		&\Xp{ittjijme}	\\%\cline{3-5}
+				&2\superS{nd}	&ittje		&ettjijden		&\Xp{ittjijde}	\\%\cline{3-5}
+				&3\superS{rd}	&ittjij		&ettjijga		&\Xp{ittjin}		\\%\cline{2-5}
 %IMPERATIVE
-\IMPs			&2\superS{nd}	&ele/ilu	&ellen/illun	&\Xp{ellet/illut}	\\\hline%\cline{3-5}
+\IMPs			&2\superS{nd}	&ele/ilu	&ellen/illun	&\Xp{ellet/illut}	\\\hline%%\cline{3-5}
 %\MC{5}{l}{\It{non-finite verb forms:}}\\\hline
-%\MC{1}{|c}{\INFs}	&\MC{2}{c|}{-}			&\MC{1}{c}{\CONNEGs}&-			\\\hline
+%\MC{1}{c}{\INFs}	&\MC{2}{c}{-}			&\MC{1}{c}{\CONNEGs}&-			\\\hline
 \end{tabular}}
 \end{table}
 Concerning the imperative forms, both forms indicated for each number slot are attested in the corpus. 
@@ -1164,33 +1185,32 @@ Table \vref{verbClassExamples} is provided to facilitate a cross-class compariso
 \begin{sidewaystable}\centering
 \caption{Comparison of verb class examples}\label{verbClassExamples}
 %\hspace{-15mm}
-\begin{tabular}{| cc | c | c | c | c | c | c || l |}\hline
-\MC{2}{|c|}{\It{class}}&\Sc{inf}	&\Sc{2sg.prs}	&\Sc{3sg.prs}	&\Sc{2sg.pst}	&\Sc{3sg.pst}	&\Sc{conneg}	&\It{gloss}	\\\dline
-I	&		&viess-o-t		&vies-o		&viess-o		&viess-o		&vies-o-j		&vies-o		& ‘live, feel’	\\\cline{3-9}%\hline
-	&		&årr-o-t		&år-o		&årr-o		&årr-o		&år-o-j		&år-o		& ‘live, reside’	\\\cline{3-9}%\hline
-	&		&gårr-o-t		&går-o		&gårr-o		&gårr-o		&går-o-j		&går-o		& ‘sew’	\\%\cline{3-9}%\hline
-\dline
-II	&a		&tjájbm-a-t	&tjájm-a		&tjájbm-a		&tjijbm-e		&tjájm-a-j		&tjájm-a		& ‘laugh’	\\\cline{3-9}%\hline
+\begin{tabular}{ cc  c  c  c  c  c  c  l }
+\MC{2}{c}{\It{class}}&\Sc{inf}	&\Sc{2sg.prs}	&\Sc{3sg.prs}	&\Sc{2sg.pst}	&\Sc{3sg.pst}	&\Sc{conneg}	&\It{gloss}	\\\hline
+I	&		&viess-o-t		&vies-o		&viess-o		&viess-o		&vies-o-j		&vies-o		& ‘live, feel’	\\%\cline{3-9}%\hline
+	&		&årr-o-t		&år-o		&årr-o		&årr-o		&år-o-j		&år-o		& ‘live, reside’	\\%\cline{3-9}%\hline
+	&		&gårr-o-t		&går-o		&gårr-o		&gårr-o		&går-o-j		&går-o		& ‘sew’	\\%%\cline{3-9}%\hline\hline
+II	&a		&tjájbm-a-t	&tjájm-a		&tjájbm-a		&tjijbm-e		&tjájm-a-j		&tjájm-a		& ‘laugh’	\\%\cline{3-9}%%\hline
 	&		&gähtj-a-t		&gietj-a		&gähtj-a		&gihtj-e	%\Red{?}
-															&gietj-a-j		&gietj-a		& ‘look’	\\\cline{3-9}%\hline
-	&		&bass-a-t		&bas-a		&bass-a		&biss-e		&bas-a-j		&bas-a		& ‘wash’	\\\cline{2-9}%\hline
-	&b		&bårr-å-t		&bår-å		&bårr-a		&burr-e		&bår-å-j		&bår-å		& ‘eat’		\\\dline
+															&gietj-a-j		&gietj-a		& ‘look’	\\%\cline{3-9}%%\hline
+	&		&bass-a-t		&bas-a		&bass-a		&biss-e		&bas-a-j		&bas-a		& ‘wash’	\\%\cline{2-9}%%\hline
+	&b		&bårr-å-t		&bår-å		&bårr-a		&burr-e		&bår-å-j		&bår-å		& ‘eat’		\\%\hline
 
-III	&		&bass-e-t		&bas-á		&bass-a		&biss-e		&bis-i-j		&bas-e		& ‘fry’		\\\cline{3-9}%\hline
-	&		&buälld-e-t	&buold-a		&bualld-a		&bulld-e		&buld-i-j		&buold-e		& ‘ignite, burn’	\\\cline{3-9}%\hline
-	&		&adn-e-t		&an-á		&adn-a		&edn-e		&en-i-j		&an-e		& ‘have’	\\\cline{3-9}%\hline
-	&		&vádts-e-t		&váts-a		&vádts-a		&vädts-e		&väts-i-j		&váts-e		& ‘go’		\\\dline
+III	&		&bass-e-t		&bas-á		&bass-a		&biss-e		&bis-i-j		&bas-e		& ‘fry’		\\%\cline{3-9}%%\hline
+	&		&buälld-e-t	&buold-a		&bualld-a		&bulld-e		&buld-i-j		&buold-e		& ‘ignite, burn’	\\%\cline{3-9}%%\hline
+	&		&adn-e-t		&an-á		&adn-a		&edn-e		&en-i-j		&an-e		& ‘have’	\\%\cline{3-9}%%\hline
+	&		&vádts-e-t		&váts-a		&vádts-a		&vädts-e		&väts-i-j		&váts-e		& ‘go’		\\%\hline
 
-IV	&		&välld-u-t		&välld-u		&välld-u-ja	&välld-u-je	&välld-u-j		&välld-u		& ‘marry’		\\\dline
-%	&		&årr-a-t		&årr-a		&årr-aj		&år-aj-e		&år-aji-j		&?			& ‘fall asleep’		\\\dline
+IV	&		&välld-u-t		&välld-u		&välld-u-ja	&välld-u-je	&välld-u-j		&välld-u		& ‘marry’		\\%\hline
+%	&		&årr-a-t		&årr-a		&årr-aj		&år-aj-e		&år-aji-j		&?			& ‘fall asleep’		\\%\hline
 
-V	&		&ságast-i-t	&ságast-a		&ságast-a		&ságast-e		&ságast-i-j	&ságast-e		& ‘say’		\\\cline{3-9}%\hline
-	&		&málest-i-t	&málest-a		&málest-a		&málest-e		&málest-i-j	&málest-e		& ‘cook, boil’	\\\cline{3-9}%\hline
-	&		&bargatj-i-t	&bargatj-a		&bargatj-a		&bargatj-e		&bargatj-i-j	&bargatj-e		& ‘work a little’	\\\dline%JW: corrected gloss AFTER final version sent in -- Jan 2013!!!
+V	&		&ságast-i-t	&ságast-a		&ságast-a		&ságast-e		&ságast-i-j	&ságast-e		& ‘say’		\\%\cline{3-9}%%\hline
+	&		&málest-i-t	&málest-a		&málest-a		&málest-e		&málest-i-j	&málest-e		& ‘cook, boil’	\\%\cline{3-9}%%\hline
+	&		&bargatj-i-t	&bargatj-a		&bargatj-a		&bargatj-e		&bargatj-i-j	&bargatj-e		& ‘work a little’	\\%\hline%JW: corrected gloss AFTER final version sent in -- Jan 2013!!!
 
-\MC{2}{|c|}{cop.}&årrot		&lä			&lä			&lidje		&lij			&lä			& ‘be	’	\\\dline
+\MC{2}{l}{copula}&årrot		&lä			&lä			&lidje		&lij			&lä			& ‘be	’	\\%\hline
 
-\MC{2}{|c|}{neg.}&-			&i			&ij			&ittje			&ittjij			&-			& ‘\NEGs’	\\\hline
+\MC{2}{l}{negation}&-			&i			&ij			&ittje			&ittjij			&-			& ‘\NEGs’	\\\hline
 \end{tabular}
 \end{sidewaystable}
 

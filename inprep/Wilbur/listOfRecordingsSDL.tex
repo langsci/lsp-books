@@ -21,12 +21,12 @@ The column ‘brief description’ provides a concise summary of the content of 
 \begin{tabular}{c}
 Abbreviations used in the inventory of recordings\\
 \end{tabular}
-\begin{tabular}{|l c l|}\hline
-\It{column} &\It{abbreviation}	&\It{explanation} \\\dline
-\multirow{2}{*}{\textit{media}}
+\begin{tabular}{l c l}
+\It{column} &\It{abbreviation}	&\It{explanation} \\\hline
+\It{media}
 & A				& audio only\\
-& A/V			& audio and video \\\hline
-\multirow{7}{*}{\textit{genre}}
+& A/V			& audio and video \\%\hline
+\It{genre}
 & conv.			& conversation \\
 & elic.			& elicitation \\
 & expl.			& explanation \\
@@ -39,11 +39,14 @@ Abbreviations used in the inventory of recordings\\
 \end{table}
 
 
+
 \begin{landscape}
-\begin{longtable}[c]{| l | x{15mm} | c | c | p{95mm} |}
-\hline
-\It{name}	&\It{genre}	&\It{medium}	&\It{words}	&\It{brief description}\\\dline
-\endhead\endfoot
+%\begin{longtable}[c]{| l | x{15mm} | c | c | p{95mm} |}
+\begin{longtable}[c]{ l  x{15mm}  c  c  p{95mm} }
+%\hline
+\It{name}	&\It{genre}	&\It{medium}	&\It{words}	&\It{brief description}\\\hline
+\endhead
+\hline\endfoot
 %\multicolumn{5}{l}{here end\label{inventoryEnd}}\endlastfoot
 \label{inventoryBegin}
 
