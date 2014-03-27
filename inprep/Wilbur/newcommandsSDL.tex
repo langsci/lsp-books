@@ -115,10 +115,8 @@
 
 
 %%new transl tier in gb4e; syntax: #1=free translation (in single quotes), #2=additional comments, z.B. literal meaning:
-\newcommand{\Transl}[2]{\trans \mbox{‘#1’ \Tn{#2}}}%new transl tier in gb4e;
-\newcommand{\TranslLong}[2]{\trans ‘#1’ \Tn{#2}}%new transl tier in gb4e when free translation particularly long
-\newcommand{\TranslMulti}[2]{\trans \mbox{\hspace{10pt}‘#1’ \Tn{#2}}}%new transl tier in gb4e for a dialog to be included under a single example number
-\newcommand{\TranslLongMulti}[2]{\trans \hspace{10pt}‘#1’ \Tn{#2}}%new transl tier in gb4e for a dialog when free translation is particularly long
+\newcommand{\Transl}[2]{\trans\rm ‘#1’ #2}%new transl tier in gb4e;
+\newcommand{\TranslMulti}[2]{\trans\rm \hspace{10pt}‘#1’ \Tn{#2}}%new transl tier in gb4e for a dialog to be included under a single example number
 
 
 %% used for examples in the Prosody and Segmental phonology chapters:
