@@ -24,8 +24,9 @@
 \newcommand{\Blue}[1]{{\color{blue}{#1}}}%for blue text
 \newcommand{\PLUS}{+}%nicer looking plus symbol
 \newcommand{\MINUS}{-}%nicer looking plus symbol
-\newcommand{\ARROW}{→}%%dieser dicke Pfeil ➜ wird nicht von der LSP-Font unterstützt: %\newcommand{\ARROW}{{\fontspec{DejaVu Sans}➜}}
-\newcommand{\DARROW}{↔︎}%%DoubleARROW
+%    Was die Pfeile betrifft, kannst Du mal \Rightarrow \mapsto \textrightarrow probieren und dann \mathbf \boldsymbol oder \pbm dazutun.
+\newcommand{\ARROW}{\textrightarrow}%→%dieser dicke Pfeil ➜ wird nicht von der LSP-Font unterstützt: %\newcommand{\ARROW}{{\fontspec{DejaVu Sans}➜}}
+\newcommand{\DARROW}{\textleftrightarrow}%↔︎%DoubleARROW
 \newcommand{\BULLET}{•}%
 %%✓ does not exist in the default LSP font!
 \newcommand{\CH}{\checkmark}%%\newcommand{\CH}{\fontspec{Arial Unicode MS}✓}%CH as in CHeck
@@ -99,11 +100,11 @@
 \newcommand{\NEGs}{{\Sc{neg}}}%shortcut for NEG in small caps
 \newcommand{\CONNEGs}{{\Sc{conneg}}}%shortcut for CONNEG in small caps
 
-\newcommand{\subNP}{\sub{NP}}%shortcut for NP (nominal phrase) in subscript
-\newcommand{\subVC}{\sub{VC}}%shortcut for VC (verb complex) in subscript
-\newcommand{\subAP}{\sub{AP}}%shortcut for NP (adjectival phrase) in subscript
-\newcommand{\subAdvP}{\sub{AdvP}}%shortcut for AdvP (adverbial phrase) in subscript
-\newcommand{\subPP}{\sub{PP}}%shortcut for NP (postpoistional phrase) in subscript
+\newcommand{\subNP}{{\footnotesize\sub{NP}}}%shortcut for NP (nominal phrase) in subscript
+\newcommand{\subVC}{{\footnotesize\sub{VC}}}%shortcut for VC (verb complex) in subscript
+\newcommand{\subAP}{{\footnotesize\sub{AP}}}%shortcut for NP (adjectival phrase) in subscript
+\newcommand{\subAdvP}{{\footnotesize\sub{AdvP}}}%shortcut for AdvP (adverbial phrase) in subscript
+\newcommand{\subPP}{{\footnotesize\sub{PP}}}%shortcut for NP (postpoistional phrase) in subscript
 
 \newcommand{\Nth}{{\footnotesize(\It{n})}}%used in table of numerals in ADJ chapter
 
@@ -139,18 +140,18 @@
 }
 \z}
 
-
 %%for derivation examples in the derivational morphology chapter!
 %syntax: \DerivExam{#1}{#2}{#3}{#4}{#5}{#6}
 %#1: base, #2: base-gloss, #3: derived form, #4: derived form gloss, #5: derived form translation, #6: pit-recording, #7: utterance number
-\newcommand{\DerivExam}[7]{\Tn{\begin{tabular}{lcl}\It{#1}&\ARROW&\It{#3}\\#2&&#4\\\end{tabular}\hfill\pbox{.3\textwidth}{\hfill‘#5’\\\hbox{}\hfill\hyperlink{pit#6}{{\small\textnormal[pit#6.#7]}}}
+\newcommand{\DW}{28mm}%for following three commands, to align arrows throughout
+\newcommand{\DerivExam}[7]{\Tn{\begin{tabular}{p{\DW}cl}\It{#1}&\ARROW&\It{#3}\\#2&&#4\\\end{tabular}\hfill\pbox{.3\textwidth}{\hfill‘#5’\\\hbox{}\hfill\hyperlink{pit#6}{{\small\textnormal[pit#6.#7]}}}
 %\index{Z\Red{rec}!\Red{pit#6}}\index{Z\Red{utt}!\Red{pit#6.#7}}
 }}
 %%same as above, but supress any reference to a specific utterance
-\newcommand{\DerivExamX}[7]{\Tn{\begin{tabular}{lcl}\It{#1}&\ARROW&\It{#3}\\#2&&#4\\\end{tabular}\hfill\pbox{.3\textwidth}{\hfill‘#5’\\\hbox{}\hfill\hyperlink{pit#6}{{\small\textnormal[pit#6]}}}
+\newcommand{\DerivExamX}[7]{\Tn{\begin{tabular}{p{\DW}cl}\It{#1}&\ARROW&\It{#3}\\#2&&#4\\\end{tabular}\hfill\pbox{.3\textwidth}{\hfill‘#5’\\\hbox{}\hfill\hyperlink{pit#6}{{\small\textnormal[pit#6]}}}
 %\index{Z\Red{rec}!\Red{pit#6}}\index{Z\Red{utt}!\Red{pit#6.#7}}
 }}
-\newcommand{\DerivExamWL}[6]{\Tn{\begin{tabular}{lcl}\It{#1}&\ARROW&\It{#3}\\#2&&#4\\\end{tabular}\hfill\pbox{.3\textwidth}{\hfill‘#5’\\\hbox{}\hfill\hyperlink{explExs}{{\small\textnormal[#6]}}}
+\newcommand{\DerivExamWL}[6]{\Tn{\begin{tabular}{p{\DW}cl}\It{#1}&\ARROW&\It{#3}\\#2&&#4\\\end{tabular}\hfill\pbox{.3\textwidth}{\hfill‘#5’\\\hbox{}\hfill\hyperlink{explExs}{{\small\textnormal[#6]}}}
 %\index{Z\Red{wl}!\Red{#6}}
 }}
 
