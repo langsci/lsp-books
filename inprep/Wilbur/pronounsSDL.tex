@@ -17,7 +17,7 @@ Note that there are also a number of non-nominal interrogative pro-forms which d
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Personal pronouns}\label{personalPronouns}\index{pronouns!personal pronouns}
 %The singular, dual and plural forms of the personal pronouns for the various cases can be found in Tables \ref{pronSG} through \ref{pronPL}.\marginpar{These pronouns are mostly from \citet[163]{Lehtiranta1992}, still need to be compared with/verified by PSDP field work}. The orthography based on current \PS\ orthography (and still under construction!).
-%Personal pronouns replace a noun phrase which has already occurred or at least been implied in the preceding discourse. %UM: delete definitions!
+%Personal pronouns replace a noun phrase which has already occurred or at least been implied in the preceding discourse. 
 Personal pronouns inflect for person and number (singular, dual or plural) as well as for case. They are listed in Table \vref{PersPronTable}. Personal pronouns do not inflect for the biological gender of their referents, but are restricted in referring only to humans (demonstrative pronouns are used when the referent is not human). 
 The nominative forms all have two possible forms, e.g. \It{mån}\TILDE\It{månnå} ‘\Sc{1sg.nom}’. In general, the monosyllabic form is the default, while the bisyllabic form is typically used as a citation form and when the pronoun is emphasized.
 \begin{table}\centering
@@ -163,7 +163,7 @@ Distal demonstrative pronouns can also be used for anaphoric text deixis. For in
 
 %Demonstratives can also refer to entire clauses, as in \REF{}.
 
-\FloatBarrier
+\FB
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -268,7 +268,7 @@ as illustrated by the utterance in \REF{reflPron2} (here as an intensifier as we
 
 
 
-\FloatBarrier
+\FB
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -280,21 +280,38 @@ as illustrated by the utterance in \REF{reflPron2} (here as an intensifier as we
 The pronouns can be divided into those with human referents (cf. §\,\ref{QpronounHUM}), which use the stem \It{ge-}, and those with non-human referents (cf. §\,\ref{QpronounNoHUM}), which use the stem \It{m-}. 
 Furthermore, there are two classes of interrogatives which enquire about the selection of a particular item (semantically equivalent to English ‘which’; described in §\,\ref{QpronounDEM}): the first refers to a choice from a selection in general and uses the stem \It{mikkir-}, while the other refers to a choice of one or two items and uses the stem \It{gåb-}. 
 Interrogative pro-forms not referring to NPs mostly feature the stem \It{g-} (cf. §\,\ref{interrogativeProForms}). This classification is summarized in Figure \vref{interrogativeProFormSummary}, which also indicates the stem for each type.
-\begin{figure}\centering
+\begin{figure}[h]\centering
 \resizebox{\columnwidth}{!} {
 \begin{tabular}{c}
+%%using qtree%better horizontal alignment, poorer vertical alignment, thus sticking to syntree
+%\Tree [.{interrogative pro-forms} [.pronouns {\PLUS hum\\\It{ge-}} {\MINUS hum\\\It{m-}} [.selection {general\\\It{mikkir-}} {limited\\\It{gåb-}} ]]!\qsetw{30mm} [.{non-nominal pro-forms} ] ]%\Tree [.{interrogative pro-forms} [.pronouns ] [.{non-nominal pro-forms}]]
 \synttree{4}[interrogative pro-forms[pronouns[{\parbox{60pt}{\centering\PLUS hum\\\It{ge-}}}][{\parbox{60pt}{\centering\MINUS hum\\\It{m-}}}][selection[{\parbox{60pt}{\centering general\\\It{mikkir-}}}][{\parbox{60pt}{\centering limited\\\It{gåb-}}}]]][{\parbox{130pt}{\centering non-nominal pro-forms\\\It{g-}}}]]%synttree syntax: {3} = maximum tree depth, .b = send to bottom, [node]
-\end{tabular}   }
+\end{tabular}   
+}
 \caption{A taxonomy of interrogative pro-form types and their stems}\label{interrogativeProFormSummary}
 \end{figure}
 %\parbox{100pt}{a \\ b}%\parbox[position]{width}{text}%NB: width and text are required
 
-\FloatBarrier
+\FB
 
 
 \subsection{Interrogative pronouns with human referents}\label{QpronounHUM}
 Interrogative pronouns with human referents use the stem \It{ge-} and inflect for the number (singular or plural) of the intended referent and for case. These pronouns are listed in Table \vref{QpronounHUMtable}; examples are provided in \REF{QpronounHUMex1} and \REF{QpronounHUMex2}. 
-\begin{table}[ht]\centering
+
+\ea\label{QpronounHUMex1}
+\glll	nå, gejna dä tjuovo?\\
+	nå ge-jna dä tjuovo\\
+	well who-\Sc{com.sg} then accompany\BS\Sc{2sg.pst}\\\nopagebreak
+\Transl{well, who did you go with?}{}	\Corpus{080924}{071}
+\z
+\ea\label{QpronounHUMex2}
+\glll	gen gabmaga lä dá?\\
+	ge-n gabmag-a lä d-á\\
+	who-\Sc{gen.sg} shoe-\Sc{nom.pl} be\BS\Sc{3pl.prs} \Sc{dem}-\Sc{prox}\BS\Sc{nom.pl}\\\nopagebreak
+\Transl{whose shoes are these?}{}	\Corpus{100404}{326}
+\z
+
+\begin{table}[h]\centering
 \caption{Interrogative pronouns with human referents}\label{QpronounHUMtable}
 \begin{tabular}{ c  c  c }
 		&\MC{2}{c}{\It{number}}\\
@@ -311,23 +328,18 @@ Interrogative pronouns with human referents use the stem \It{ge-} and inflect fo
 \end{tabular}
 \end{table}
 
-\ea\label{QpronounHUMex1}
-\glll	nå, gejna dä tjuovo?\\
-	nå ge-jna dä tjuovo\\
-	well who-\Sc{com.sg} then accompany\BS\Sc{2sg.pst}\\\nopagebreak
-\Transl{well, who did you go with?}{}	\Corpus{080924}{071}
-\z
-\ea\label{QpronounHUMex2}
-\glll	gen gabmaga lä dá?\\
-	ge-n gabmag-a lä d-á\\
-	who-\Sc{gen.sg} shoe-\Sc{nom.pl} be\BS\Sc{3pl.prs} \Sc{dem}-\Sc{prox}\BS\Sc{nom.pl}\\\nopagebreak
-\Transl{whose shoes are these?}{}	\Corpus{100404}{326}
-\z
-
+%\clearpage
 
 \subsection{Interrogative pronouns with non-human referents}\label{QpronounNoHUM}
 Interrogative pronouns with non-human referents use the stem \It{m-} and inflect for the number (singular or plural) of the intended referent and for case. These pronouns are listed in Table \vref{QpronounNoHUMtable}; an example is provided in \REF{QpronounNoHUMex}.
-\begin{table}[ht]\centering
+
+\ea\label{QpronounNoHUMex}
+\glll	mav dån sida?\\
+	ma-v dån sida\\
+	what-\Sc{acc.sg} \Sc{2sg.nom} want\BS\Sc{2sg.prs}\\\nopagebreak
+\Transl{what do you want?}{}	\Corpus{090519}{194}
+\z
+\begin{table}[]\centering
 \caption{Interrogative pronouns with non-human referents}\label{QpronounNoHUMtable}
 \begin{tabular}{ c  c  c }
 		&\MC{2}{c}{\It{number}}\\
@@ -343,13 +355,6 @@ Interrogative pronouns with non-human referents use the stem \It{m-} and inflect
 %\ESSs	&\MC{2}{c|}{?}		\\\hline
 \end{tabular}
 \end{table}
-
-\ea\label{QpronounNoHUMex}
-\glll	mav dån sida?\\
-	ma-v dån sida\\
-	what-\Sc{acc.sg} \Sc{2sg.nom} want\BS\Sc{2sg.prs}\\\nopagebreak
-\Transl{what do you want?}{}	\Corpus{090519}{194}
-\z
 
 \subsection{Interrogative pronouns concerning a selection}\label{QpronounDEM}
 The two selective interrogative pronouns are used to enquire about the selection or choice of an item. The stem \It{mikkir-} refers to a selection in general, while the stem \It{gåb-} limits the selection to one or two choices. These are described in the following two sections.
@@ -376,7 +381,7 @@ Note that the inessive forms are not attested in the corpus.
 \end{table}
 %Note that, in the corpus, the \ILL\ forms are only used as pro-demonstratives (modifying a noun), and so the pronoun forms with case/number marking are not attested (thus the \ILLs\ forms are in \It{italic} font in Table \vref{QpronounDEMGeneralTable}).
 
-\FloatBarrier
+\FB
 
 Two examples are provided in \REF{QpronounDEMGeneralEx1} and \REF{QpronounDEMGeneralEx2}.
 %The interrogative pro-forms can be used as pronouns, as in \REF{QpronounDEMGeneralEx1} and \REF{QpronounDEMGeneralEx2}.
@@ -458,21 +463,6 @@ This interrogative pronoun is only attested in elicitation sessions in the corpu
 
 \subsection{Non-nominal interrogative pro-forms}\label{interrogativeProForms}
 There are a number of non-nominal interrogative pro-forms. These enquire about information typically expressed by a clause-level adverbial, an adjunct or a complement clause. They are listed and glossed in Table \vref{otherQpronounTable}, and three examples are provided in \REF{otherQpronounEx1} through \REF{otherQpronounEx3}.
-\begin{table}[ht]\centering
-\caption{Non-nominal interrogative pro-forms}\label{otherQpronounTable}
-\begin{tabular}{ c  l }
-\It{pro-form}		&\It{gloss} \\\hline
-gåsse			&when	\\
-gusa\TILDE guse	&to where	\\
-gånne			&where	\\
-guste			&from where	\\
-manen			&why	\\
-man (\PLUS\It{adj.})	&how (big)	\\
-maktes\TILDE gukte	&how	\\
-galla				&how many \\\hline
-%		&how	\\\hline
-\end{tabular}
-\end{table}
 \ea\label{otherQpronounEx1}
 \glll	gånne dajt tjogijdä?\\
 	gånne d-a-jt tjogi-jdä\\
@@ -492,12 +482,28 @@ galla				&how many \\\hline
 \Transl{how far it was, when one was home, I don’t know}{}	\Corpus{100404}{317}
 \z
 
+\begin{table}[t]\centering
+\caption{Non-nominal interrogative pro-forms}\label{otherQpronounTable}
+\begin{tabular}{ c  l }
+\It{pro-form}		&\It{gloss} \\\hline
+gåsse			&when	\\
+gusa\TILDE guse	&to where	\\
+gånne			&where	\\
+guste			&from where	\\
+manen			&why	\\
+man (\PLUS\It{adj.})	&how (big)	\\
+maktes\TILDE gukte	&how	\\
+galla				&how many \\\hline
+%		&how	\\\hline
+\end{tabular}
+\end{table}
+
 The list in Table \vref{otherQpronounTable} is likely not complete, as there are several other non-nominal interrogative pro-forms listed in the \PS\ wordlist which are not attested in the corpus. Furthermore, the data does not indicate what the difference is between the various alternate forms for ‘to where’ and ‘how’. %, if there is any at all. 
 
 
 
 
-\FloatBarrier
+\FB
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%RELATIVE%%%%%%%%%%%%%%%%%%
