@@ -13,8 +13,13 @@
 \avmfont{\sc} 
 \avmvalfont{\it}
                                                       
-\usepackage{layout}  
-\usepackage{lipsum}   
+\usepackage{layout}
+\usepackage{lipsum}
+
+%%for LSP-lines in tables: %%doesn’t work for some reason. Plus, not all my tables have a single-line header. Double-lines aren’t typeset properly in ‘longtable’-environment across several pages.
+%\usepackage{booktabs}
+%\newcommand{\mytoprule}{\midrule\toprule}
+%\newcommand{\mybottomrule}{\bottomrule\midrule}
 
 %%%following now in main document (XeTeX_pitePhDSDL.tex)
 %\title{A corpus-based grammar \\ of spoken Pite Saami}  

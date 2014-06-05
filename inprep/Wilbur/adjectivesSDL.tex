@@ -8,12 +8,12 @@ Adjectivals in \PS\ are defined syntactically by their ability to head an adject
 \begin{table}\centering
 \caption{Summary of syntactic and morphological features for the four types of adjectivals}\label{adjectivalsSummary}
 \resizebox{\columnwidth}{!}{
-\begin{tabular}{c p{140pt} p{140pt}}%\hline
-					&\MC{1}{c}{\It{syntax}}		&\MC{1}{c}{\It{morphology}}	\\\hline
-\It{attributive adjectives}	& attributive position within an NP	& no inflection (except in elliptic constructions)\\\hline%, morphologically, form their own sub-group by not inflecting}
-\It{predicative adjectives}	& predicative position (complement of \It{årrot} ‘be’)	&inflect for number\\\hline% (like nominals)
-\It{demonstratives}		& initial attributive position within an NP	& inflect for number \& case\\\hline%, morphologically, form their own sub-group by not inflecting}
-\It{numerals}			& attributive or predicative position	& never inflect\\\hline
+\begin{tabular}{l p{140pt} p{140pt}}\dline
+					&{syntactic}		&{morphological}	\\\hline
+{attributive adjectives}	& attributive position within an NP	& no inflection (except in elliptic constructions)\\%\hline%, morphologically, form their own sub-group by not inflecting}
+{predicative adjectives}	& predicative position (complement of \It{årrot} ‘be’)	&inflect for number\\%\hline% (like nominals)
+{demonstratives}		& initial attributive position within an NP	& inflect for number \& case\\%\hline%, morphologically, form their own sub-group by not inflecting}
+{numerals}			& attributive or predicative position	& never inflect\\\dline
 \end{tabular}}
 \end{table}
 
@@ -23,15 +23,15 @@ Demonstratives agree in number and case with the noun they modify.
 Numerals, on the other hand, are consistently uninflected. 
 Finally, the two types of adjectives form an open sub-class, while numerals are a closed sub-class. 
 
-The rest of this chapter covers adjectives, demonstratives and numerals as follows: §\,\ref{adjectivesATTR} provides a description of attributive adjectives, %(\ref{ADJinHeadlessNPs}) describes adjectives in headless NPs, 
-while §\,\ref{predADJ} deals with predicative adjectives, before §\,\ref{notePredNounsAdjs} takes up the formal relationship between these two types. 
-§\,\ref{compSuperlADJs} then goes on to describe comparative and superlative forms, 
-before §\,\ref{comparingNPs} illustrates the implementation of such forms in making comparisons. 
-Syntactic restrictions on the adjectives corresponding to ‘small, little’ are described in §\,\ref{smallADJs}. 
-Quantifiers (a semantic sub-class of adjectives) are discussed in §\,\ref{quantifiers}, while 
-demonstratives are presented in §\,\ref{demonstratives}. 
-Finally, §\,\ref{numerals} covers numerals. %, which essentially function like other adjective and predicate adjective forms. %are morphosyntactically like other adjectives and predicate adjective forms, but semantically like numerals in that they quantify the referents of the nouns they modify. 
-%Finally, demonstrative adjectives, which inflect like nouns, not adjectives, are described briefly in §\,\ref{demonstrativeAdjectives}.
+The rest of this chapter covers adjectives, demonstratives and numerals as follows: \SEC\ref{adjectivesATTR} provides a description of attributive adjectives, %(\ref{ADJinHeadlessNPs}) describes adjectives in headless NPs, 
+while \SEC\ref{predADJ} deals with predicative adjectives, before \SEC\ref{notePredNounsAdjs} takes up the formal relationship between these two types. 
+\SEC\ref{compSuperlADJs} then goes on to describe comparative and superlative forms, 
+before \SEC\ref{comparingNPs} illustrates the implementation of such forms in making comparisons. 
+Syntactic restrictions on the adjectives corresponding to ‘small, little’ are described in \SEC\ref{smallADJs}. 
+Quantifiers (a semantic sub-class of adjectives) are discussed in \SEC\ref{quantifiers}, while 
+demonstratives are presented in \SEC\ref{demonstratives}. 
+Finally, \SEC\ref{numerals} covers numerals. %, which essentially function like other adjective and predicate adjective forms. %are morphosyntactically like other adjectives and predicate adjective forms, but semantically like numerals in that they quantify the referents of the nouns they modify. 
+%Finally, demonstrative adjectives, which inflect like nouns, not adjectives, are described briefly in \SEC\ref{demonstrativeAdjectives}.
 
 
 
@@ -40,7 +40,7 @@ Finally, §\,\ref{numerals} covers numerals. %, which essentially function like 
 \section{Attributive adjectives}\label{adjectivesATTR}\index{adjectives}\index{parts of speech!adjectives}\index{attribution}\index{attributive adjectives}
 Attributive adjectives form the head of an AP modifying the head of the matrix nominal phrase, and are normally not subject to inflectional morphology. 
 %Adjectives in \PS\ form a subclass of nouns which can modify the nominal head of an NP in attributive position. Unlike the nouns they modify, adjectives in attributive position do not inflect for case or number. 
-As part of an attributive AP, an attributive adjective occurs before the head noun it modifies, but after a demonstrative, if present (cf. §\,\ref{nominalPhrases} on the structure of NPs). Examples are provided in \REF{adjEx1} through \REF{adjEx3}. 
+As part of an attributive AP, an attributive adjective occurs before the head noun it modifies, but after a demonstrative, if present (cf. \SEC\ref{nominalPhrases} on the structure of NPs). Examples are provided in \REF{adjEx1} through \REF{adjEx3}. 
 \ea\label{adjEx1}
 \glll	dat lä tjähppis båtsoj ja villges åjjve\\
 	d-a-t lä tjähppis båtsoj ja villges åjjve\\
@@ -73,14 +73,14 @@ As the head of an AP, attributive adjectives can be modified by adverbs of grade
 \z
 
 A number of adjectives end in \It{-s} (cf. the two adjectives \It{tjähppes} ‘black’ and \It{villges} ‘white’ in \REF{adjEx1}), which is often considered an ‘attribution’ marking suffix in the literature.\footnote{\citet[215-228]{Riessler2011} deals in detail with this final \It{-s}, which is common to all Saami languages. Rießler claims that it was grammaticalized from a 3\SGs\ possessive suffix, and originally only marked the attributive form of adjectives. However, note that Rießler also points out that “the system of attributive and predicative marking is highly irregular in the Saamic languages” \citep[215]{Riessler2011}.} 
-However, as \It{njalga} ‘tasty’ in \REF{adjEx2} illustrates, not all adjectives are marked this way. Furthermore, corresponding predicate adjective forms (cf. §\,\ref{predADJ} below) often also have a final \It{-s}, sometimes even to the exclusion of the attributive adjective form. Because no consistent relationship between forms with and forms without a final \It{-s} exists, it is no longer a productive way to mark or derive either attributive or predicative adjectives, and is not considered to be morphologically meaningful in the present discussion. Nonetheless, it is worth nothing that adjectival forms (both attributive and predicative) ending in \It{-s} are common. 
+However, as \It{njalga} ‘tasty’ in \REF{adjEx2} illustrates, not all adjectives are marked this way. Furthermore, corresponding predicate adjective forms (cf. \SEC\ref{predADJ} below) often also have a final \It{-s}, sometimes even to the exclusion of the attributive adjective form. Because no consistent relationship between forms with and forms without a final \It{-s} exists, it is no longer a productive way to mark or derive either attributive or predicative adjectives, and is not considered to be morphologically meaningful in the present discussion. Nonetheless, it is worth nothing that adjectival forms (both attributive and predicative) ending in \It{-s} are common. 
 
 %One difficulty encountered in researching adjectives was that s
 Note also that some attributive adjectives appear to have two possible forms. For instance, \It{guhka} and \It{guhkes} ‘long’ were both encountered in elicitation sessions with a single speaker who insisted that both forms were equally valid (cf. recording \hyperlink{pit080819a}{pit080819a} starting at 33m14s). %In general there does not seem to be any reason to choose one form over another, and speakers used both forms seemingly interchangeably. 
 
 \vfill
 \subsection{Attributive adjectives in elliptic constructions}\label{ADJinHeadlessNPs}
-If the context of the wider discourse is sufficiently unambiguous, it is possible that the nominal head of an NP is not realized, but implied. %Because case and number marking occurs on the element of an NP which occurs at the right edge of the NP (cf. \Red{§\,\ref{}}), when such elliptic constructions (sometimes called ‘headless NPs’) feature an adjective, the adjective is then the right-most element and receives case and number marking. 
+If the context of the wider discourse is sufficiently unambiguous, it is possible that the nominal head of an NP is not realized, but implied. %Because case and number marking occurs on the element of an NP which occurs at the right edge of the NP (cf. \Red{\SEC\ref{}}), when such elliptic constructions (sometimes called ‘headless NPs’) feature an adjective, the adjective is then the right-most element and receives case and number marking. 
 When such elliptic constructions (sometimes called ‘headless NPs’) feature an AP, the head adjective is then inflected for case and number. 
 
 For instance, in the elliptic construction in \REF{adjNPheadEx1}, the adjective \It{ruopsis} ‘red’ %is the right-most element in the NP which 
@@ -111,7 +111,7 @@ as in \REF{adjNPheadEx3}.
 \z
 
 As the host of case/number inflection, such adjectives look morphologically like nouns. 
-However, syntactically, these adjectives remain adjectives for two reasons. First, they can be modified by adverbs of grade, while nouns cannot be. Second, they generally have a referential antecedent that is the bearer of the property they denote.\footnote{The quantifier \It{aktak} ‘none, any’ can be used in an elliptic NP without a referential antecedent; cf. §\,\ref{quantifiers}, specifically example \REF{noneEx3}.} 
+However, syntactically, these adjectives remain adjectives for two reasons. First, they can be modified by adverbs of grade, while nouns cannot be. Second, they generally have a referential antecedent that is the bearer of the property they denote.\footnote{The quantifier \It{aktak} ‘none, any’ can be used in an elliptic NP without a referential antecedent; cf. \SEC\ref{quantifiers}, specifically example \REF{noneEx3}.} 
 Semantically, they do not denote an entity (as nouns do), but a property, as with all adjectives. 
 A further example is provided in \REF{adjNPheadEx4}. 
 Here, the choice of the attributive adjective form \It{tjábba} ‘beautiful’ (as opposed to the corresponding predicate adjective form \It{tjábbe}) indicates that this is indeed an elliptical NP construction, and not predication. 
@@ -149,7 +149,7 @@ In \REF{adjPredEx1} and \REF{adjPredEx2}, for instance, the predicative adjectiv
 \z
 Morphologically, predicative adjectives are much like nouns because they inflect for number. In fact, many predicative adjectives inflect for number in ways that clearly align with the \NOMs.\SGs\TILDE\NOMs.\PLs\ inflectional marking of certain noun classes. 
 %Note that predicative adjectives are only attested in the corpus as a complement to a copula clause. 
-The case could be made that they also inflect for case, although they are always in nominative case (cf. §\,\ref{copulaClauses} on copula clauses). %; with this in mind, the case could be made that predicative adjectives also inflect for case (even if that case is always \NOM). 
+The case could be made that they also inflect for case, although they are always in nominative case (cf. \SEC\ref{copulaClauses} on copula clauses). %; with this in mind, the case could be made that predicative adjectives also inflect for case (even if that case is always \NOM). 
 However, because no paradigmatic opposition to other case forms exists for predicative adjectives (they are only attested in the corpus as a nominative complement to a copula clause), I conclude that they only inflect for number. 
 %, %\footnote{In non-predicative cases, the adjective (atributive) form is chosen.} %JW: not nec. because of next paragraph so claiming that case marking is present is purely based on analogous forms in other, full noun paradigms that clearly inflect for case.\footnote{For instance, the class IVa noun \It{vienak} ‘friend\Sc{nom.sg}’ is marked for \NOMs.\PLs\ by an \It{-a} suffix: \It{vienaga}.} 
 
@@ -167,48 +167,48 @@ The table is divided into subgroups of word forms (indicated by small Roman nume
 %The example in \REF{adjNPheadEx2} above illustrates\marginpar{not sure \REF{adjNPheadEx2} really illustrates this well; maybe delete this sentence} this well: the subject is the adjective \It{tjähppis} ‘black’, and the copula’s complement is the predicative nominal \It{njallge} ‘tasty’ (and not the adjective \It{njalga} ‘tasty’, as in \REF{adjEx2}). 
 
 \begin{table}\centering
-\caption[Some attributive and predicative adjective sets]{Some attributive and predicative adjective sets, including the noun class corresponding to the number marking pattern exhibited by the predicate adjective}\label{typcialPredAdjTable}
-\begin{tabular}{llllll}%\hline
-	&		&\MC{3}{c}{\It{predicative adjectives}}			&\\
-	&\It{attributive}&\MC{2}{c}{\It{number}}	&\It{corresp.}	&		\\%\hline
-\It{no.}&\It{adjective}	&\SG	&\PL			&\It{N-class}	&\It{gloss}	\\\dline
+\caption[Some attributive and predicative adjective sets]{Some attributive and predicative adjective sets, including the noun class corresponding to the number marking pattern exhibited by the predicate adjectives}\label{typcialPredAdjTable}
+\begin{tabular}{llllll}\dline
+%	&		&\MC{2}{c}{{predicative adjectives}}	&		&\\
+	&{attributive}&\MC{2}{l}{{predicative adjectives}}	&{corresp.}	&		\\%\hline
+{no.}&{adjective}	&\SG	&\PL			&{N-class}	&{}	\\\hline
 %attr +s, pred +t
-\MR{2}{*}{\It{i}}
-	&tjähpis	&tjáhpat		&tjáhpada		&IIIa	& ‘black’	\\%\hline
-	&rusjgis	&russjgat		&russjgada	&IIIa	& ‘red’	\\\hline%%\hline
+%\MR{2}{*}{\It{i}}
+i	& \It{tjähpis	} & \It{tjáhpat		} & \It{tjáhpada		} & IIIa	& ‘black’	\\%%\hline
+	& \It{rusjgis	} & \It{russjgat		} & \It{russjgada	} &	& ‘red’	\\%\hline%%%\hline
 %attr=pred.pl+s
-\MR{4}{*}{\It{ii}}%\MR{4}{*}{\ATTRs=\PREDs.\PLs+s}
-	&nievres	&nävvre		&nievre		&Ie	& ‘bad’	\\%\hline
-	&vastes	&vasste		&vaste		&Ie	& ‘ugly’	\\%\hline
-	&buosjes	&buossje		&buosje		&Ie	& ‘fearless’	\\%\hline
-	&fávros	&fávvro		&fávro		&Ic	& ‘attractive’	\\\hline
+%\MR{4}{*}{\It{ii}}%\MR{4}{*}{\ATTRs=\PREDs.\PLs+s}
+ii	& \It{nievres	} & \It{nävvre		} & \It{nievre		} & Ie	& ‘bad’	\\%%\hline
+	& \It{vastes	} & \It{vasste		} & \It{vaste		} &	& ‘ugly’	\\%%\hline
+	& \It{buosjes	} & \It{buossje		} & \It{buosje		} &	& ‘fearless’	\\%%\hline
+	& \It{fávros	} & \It{fávvro		} & \It{fávro		} & Ic	& ‘attractive’	\\%\hline
 %attr=pred.sg, both +s
-\MR{6}{*}{\It{iii}}%\MR{6}{*}{\ATTRs=\PREDs.\SGs (-s)}
-	&dájges	&dájges		&dájgesa		&IIIa	& ‘cowardly’	\\%\hline
-	&åvros	&åvros		&åvrosa		&IIIa	& ‘nervous’	\\%\hline
-	&vuoras	&vuoras		&vuorasa		&IIIa	& ‘old’	\\%\hline
+%\MR{6}{*}{\It{iii}}%\MR{6}{*}{\ATTRs=\PREDs.\SGs (-s)}
+iii	& \It{dájges	} & \It{dájges		} & \It{dájgesa		} & IIIa	& ‘cowardly’	\\%%\hline
+	& \It{åvros	} & \It{åvros		} & \It{åvrosa		} &	& ‘nervous’	\\%%\hline
+	& \It{vuoras	} & \It{vuoras		} & \It{vuorasa		} &	& ‘old’	\\%%\hline
 	
-	&gujos	&gujos		&gudjosa		&IIIa	& ‘frozen solid’	\\%\hline
-	&luvas	&luvas		&luvvasa		&IIIa	& ‘wet’	\\%\hline
-	&nanos	&nanos		&nannosa		&IIIa	& ‘sturdy’	\\\hline
+	& \It{gujos	} & \It{gujos		} & \It{gudjosa		} &	& ‘frozen solid’	\\%%\hline
+	& \It{luvas	} & \It{luvas		} & \It{luvvasa		} &	& ‘wet’	\\%%\hline
+	& \It{nanos	} & \It{nanos		} & \It{nannosa		} &	& ‘sturdy’	\\%\hline
 %attr=pred.sg, pred.pl -s
-\MR{1}{*}{\It{iv}}%\parbox{100pt}{\ATTRs=\PREDs.\SGs (-s); \PREDs.\PL\ w/o -s}
-	&sádnes	&sádnes		&sádna		&II	& ‘true’	\\\hline%%\hline
+%\MR{1}{*}{\It{iv}}%\parbox{100pt}{\ATTRs=\PREDs.\SGs (-s); \PREDs.\PL\ w/o -s}
+iv	& \It{sádnes	} & \It{sádnes		} & \It{sádna		} & II	& ‘true’	\\%\hline%%%\hline
 %pred.sg+is
-\MR{2}{*}{\It{v}}%\MR{2}{*}{\ATTRs=\PREDs.\SGs+s}
-	&bivvalis	&bivval		&bivvala		&IIIa	& ‘warm’ (weather)	\\%\hline
-	&buoragis	&buorak		&buoraga		&IIIa	& ‘good’	\\\hline%%\hline
+%\MR{2}{*}{\It{v}}%\MR{2}{*}{\ATTRs=\PREDs.\SGs+s}
+v	& \It{bivvalis	} & \It{bivval		} & \It{bivvala		} & IIIa	& ‘warm’ (weather)	\\%%\hline
+	& \It{buoragis	} & \It{buorak		} & \It{buoraga		} &	& ‘good’	\\%\hline%%%\hline
 %attr=pred.pl +g+s
-\MR{1}{*}{\It{vi}}%
-	&ånegis	&ådne		&åne			&Ie	& ‘short’	\\\hline%%\hline
+%\MR{1}{*}{\It{vi}}%
+vi	& \It{ånegis	} & \It{ådne		} & \It{åne			} & Ie	& ‘short’	\\%\hline%%%\hline
 %pred +t
-\MR{4}{*}{\It{vii}}%
-	&jallga	&jallgat		&jallgada		&IIIa	& ‘flat’	\\%\hline
-	&njuallga	&njuallgat		&njuallgada	&IIIa	& ‘straight’	\\%\hline
+%\MR{4}{*}{\It{vii}}%
+vii	& \It{jallga	} & \It{jallgat		} & \It{jallgada		} & IIIa	& ‘flat’	\\%\hline
+	& \It{njuallga	} & \It{njuallgat		} & \It{njuallgada	} &	& ‘straight’	\\%\hline
 %attr=pred.pl -s
 %\MR{2}{*}{\It{viii}%
-	&lägga	&lieggas		&läggasa		&IIIa	& ‘warm’	\\%\hline
-	&galbma	&galmas		&galbmasa	&IIIa	& ‘cold’	\\\hline
+	& \It{lägga	} & \It{lieggas		} & \It{läggasa		} &	& ‘warm’	\\%\hline
+	& \It{galbma	} & \It{galmas		} & \It{galbmasa	} &	& ‘cold’	\\\dline
 \end{tabular}
 \end{table}
 
@@ -219,40 +219,40 @@ These correspondence patterns are described here: %\marginpar{how to best format
 \vspace{.5em}\\
 \begin{tabular}{c p{315pt}}
 %\BfIt{subgroup}	& description\\
-\BfIt{i}& The attributive form differs from the predicative form in the choice of stem allomorph concerning V1, consonant center, V2 and the final consonant. %\footnotemark\ 
+{i}& The attributive form differs from the predicative form in the choice of stem allomorph concerning V1, consonant center, V2 and the final consonant. %\footnotemark\ 
 Number marking like class IIIa nouns.\\%\hline
-\BfIt{ii}& The attributive form and the plural predicative form have the same V1 and consonant center, as opposed to the singular predicative adjective; the attributive form has a stem final \It{-s}, while the predicative forms have an open final syllable. Number marking like class I nouns.\\ 
-\BfIt{iii}& The attributive form and the singular predicative form are syncretic and have a stem-final \It{-s}, while the plural predicative form’s stem is also identical, but marked for plural by a final \It{-a}. Number marking like class IIIa nouns.\\ 
-\BfIt{iv}& The attributive form and the singular predicative form are syncretic and have a stem-final \It{-s}, while the plural predicative form is marked by a final \It{-a} instead of the final \It{es} in the other forms. Only one example in the corpus; number marking like a class II noun.\\ 
-\BfIt{v}& The bare stem in the singular predicative form, an additional final \It{-is} for the attributive form and \It{-a} for the plural predicative form. Number marking like class IIIa nouns.\\ 
-\BfIt{vi}& The singular and plural predicative forms differ only in the choice of stem allomorph (in the consonant center), while the attributive form is in the ‘weak’ grade (like predicative plural) but with a stem-final \It{gis}. %\footnote{Historically, the \It{-g-} could have been a nominalizer, which was then further derived to the attributive form by the (historical) \It{-s} adjectivizer.} 
+{ii}& The attributive form and the plural predicative form have the same V1 and consonant center, as opposed to the singular predicative adjective; the attributive form has a stem final \It{-s}, while the predicative forms have an open final syllable. Number marking like class I nouns.\\ 
+{iii}& The attributive form and the singular predicative form are syncretic and have a stem-final \It{-s}, while the plural predicative form’s stem is also identical, but marked for plural by a final \It{-a}. Number marking like class IIIa nouns.\\ 
+{iv}& The attributive form and the singular predicative form are syncretic and have a stem-final \It{-s}, while the plural predicative form is marked by a final \It{-a} instead of the final \It{es} in the other forms. Only one example in the corpus; number marking like a class II noun.\\ 
+{v}& The bare stem in the singular predicative form, an additional final \It{-is} for the attributive form and \It{-a} for the plural predicative form. Number marking like class IIIa nouns.\\ 
+{vi}& The singular and plural predicative forms differ only in the choice of stem allomorph (in the consonant center), while the attributive form is in the ‘weak’ grade (like predicative plural) but with a stem-final \It{gis}. %\footnote{Historically, the \It{-g-} could have been a nominalizer, which was then further derived to the attributive form by the (historical) \It{-s} adjectivizer.} 
 Only one example in the corpus; number marking like a class Ie noun.\\ 
-\BfIt{vii}& The predicative forms have a stem-final \It{-t} or \It{-s}, which is lacking in the attributive form. The plural predicative form is marked with a final \It{-a}. In the case of \It{galbma}, the attributive form and plural predicative form have the ‘strong’ stem form, as opposed to the singular predicative form, which is ‘weak’. Number marking like class IIIa nouns. 
+{vii}& The predicative forms have a stem-final \It{-t} or \It{-s}, which is lacking in the attributive form. The plural predicative form is marked with a final \It{-a}. In the case of \It{galbma}, the attributive form and plural predicative form have the ‘strong’ stem form, as opposed to the singular predicative form, which is ‘weak’. Number marking like class IIIa nouns. 
 %\BfIt{viii}& The predicative forms have a stem final \It{-s}, which is lacking in the attributive form. The plural predicative form is marked with a final \It{-a}. Only class IVa nouns. 
 \end{tabular}%\end{longtable}
 %\addtocounter{table}{-1}%added because the longtable above, which is not marked as a table in the output, increased the counter {table} by one, which throws off any following actual tables
 \\
 
-Despite the similarities with nouns described above, it is important to point out that there are a number of predicative adjectives which do \It{not} inflect for number. Moreover, this lack of number marking cannot be assigned to any specific noun class, % described in §\,\ref{nounClasses} above because the predicative forms are not marked for number, 
+Despite the similarities with nouns described above, it is important to point out that there are a number of predicative adjectives which do \It{not} inflect for number. Moreover, this lack of number marking cannot be assigned to any specific noun class, % described in \SEC\ref{nounClasses} above because the predicative forms are not marked for number, 
 particularly since noun classes with similar prosodic structures exhibit clear number marking strategies. Examples of such predicative adjectives are presented in Table \vref{noPredAdjTable}. 
 
 \begin{table}\centering
 \caption{Some attributive and predicative adjective sets for which the predicative adjective does not inflect for number}\label{noPredAdjTable}
-\begin{tabular}{cccl}
-	&\It{attributive}	&\It{predicative}	&\\
-\It{no.}&\It{adjective}	&\It{adjective}				&\It{gloss}	\\\dline
-\MR{4}{*}{\It{viii}}
-	&tjábba	&tjábbe		& ‘beautiful’	\\%\hline
-	&guhka	&guhke		& ‘long’		\\%\hline
-	&unna	&unne 		& ‘small’ (only \SGs)	\\%\hline
-	&smáva	&smáve		& ‘small’ (only \PLs)	\\\hline
-\MR{5}{*}{\It{ix}}
-	&tjåskes	&tjåskes		& ‘cold’ (weather)	\\%\hline
-	&låjes	&låjes		& ‘tame’	\\%\hline
+\begin{tabular}{cccl}\dline
+	&{attributive}	&{predicative}	&\\
+{no.}&{adjective}	&{adjective}				&{}	\\\hline
+%\MR{4}{*}{\It{viii}}
+viii	& \It{tjábba	} & \It{tjábbe		} & ‘beautiful’	\\%\hline
+	& \It{guhka	} & \It{guhke		} & ‘long’		\\%\hline
+	& \It{unna	} & \It{unne 		} & ‘small’ (only \SGs)	\\%\hline
+	& \It{smáva	} & \It{smáve		} & ‘small’ (only \PLs)	\\%\hline
+%\MR{5}{*}{\It{ix}}
+ix	& \It{tjåskes	} & \It{tjåskes		} & ‘cold’ (weather)	\\%\hline
+	& \It{låjes	} & \It{låjes		} & ‘tame’	\\%\hline
 %\MR{3}{*}{\It{x}
-	&gårå	&gårå		& ‘bad’	\\%\hline
-	&räkta	&räkta		& ‘correct’	\\%\hline
-	&buorre	&buorre		& ‘good’	\\\hline
+	& \It{gårå	} & \It{gårå		} & ‘bad’	\\%\hline
+	& \It{räkta	} & \It{räkta		} & ‘correct’	\\%\hline
+	& \It{buorre	} & \It{buorre		} & ‘good’	\\\dline
 \end{tabular}
 \end{table}
 \FB
@@ -260,7 +260,7 @@ particularly since noun classes with similar prosodic structures exhibit clear n
 The paradigms in Table \ref{noPredAdjTable} are divided into two sub-groupings, again based on the relationship between the attributive form and the predicative forms. They are summarized here: 
 %%\begin{tabular}{c p{310pt}}
 %\begin{longtable}{c p{320pt}}
-%\BfIt{viii}& The attributive form ends in \It{-a}, while the predicative form ends in \It{-e}.\footnote{Cf. §\,\ref{smallADJs} for more details on \It{unna}/\It{unna} and \It{smáve}/\It{smáve}, the words for ‘small’.} \\
+%\BfIt{viii}& The attributive form ends in \It{-a}, while the predicative form ends in \It{-e}.\footnote{Cf. \SEC\ref{smallADJs} for more details on \It{unna}/\It{unna} and \It{smáve}/\It{smáve}, the words for ‘small’.} \\
 %\BfIt{ix}& All forms are syncretic. The first two examples have a closed final syllable, while the last three examples have an open final syllable. \\
 %\end{longtable}
 %%\end{tabular}
@@ -268,20 +268,20 @@ The paradigms in Table \ref{noPredAdjTable} are divided into two sub-groupings, 
 \vspace{.5em}\\
 \begin{tabular}{c p{315pt}}
 %\begin{longtable}{c p{320pt}}
-\BfIt{viii}& The attributive form ends in \It{-a}, while the predicative form ends in \It{-e}.\footnotemark \\
-\BfIt{ix}& All forms are syncretic. The first two examples have a closed final syllable, while the last three examples have an open final syllable. \\
+{viii}& The attributive form ends in \It{-a}, while the predicative form ends in \It{-e}.\footnotemark \\
+{ix}& All forms are syncretic. The first two examples have a closed final syllable, while the last three examples have an open final syllable. \\
 %\end{longtable}
-\end{tabular}\footnotetext{Cf. §\,\ref{smallADJs} for more details on \It{unna}/\It{unna} and \It{smáve}/\It{smáve}, the words for ‘small’.}%\addtocounter{table}{-1}%added because the longtable above, which is not marked as a table in the output, increased the counter {table} by one, which throws off any following actual tables
+\end{tabular}\footnotetext{Cf. \SEC\ref{smallADJs} for more details on \It{unna}/\It{unna} and \It{smáve}/\It{smáve}, the words for ‘small’.}%\addtocounter{table}{-1}%added because the longtable above, which is not marked as a table in the output, increased the counter {table} by one, which throws off any following actual tables
 \\
 
-The variety evident in morphological correlations between the attributive and the predicative forms indicates that there is no regular form-to-function relationship between the attributive and predicative forms. Therefore, on formal grounds, the attributive and predicative forms of these property words are assigned to different, though formally and semantically related, adjectival lexemes, as argued for in the following section (§\,\ref{notePredNounsAdjs}). 
+The variety evident in morphological correlations between the attributive and the predicative forms indicates that there is no regular form-to-function relationship between the attributive and predicative forms. Therefore, on formal grounds, the attributive and predicative forms of these property words are assigned to different, though formally and semantically related, adjectival lexemes, as argued for in the following section (\SEC\ref{notePredNounsAdjs}). 
 %\FB
 %\clearpage
 
 \section{A note on attributive and predicative adjectives}\label{notePredNounsAdjs}
 %\marginpar{what is wrong with this section? where is the pagebreak?!? something to do with longtable in previous section!}
 In the literature on Saami languages, a convention prevails by which predicative adjectives are treated as having more or less derivable attributive forms.\footnote{Cf. \citet[71]{Sammallahti1998}, \citet[74-76;98]{Svonni2009} and \citet[179]{Feist2010}.} 
-From a historical point of view, this may be reasonable, particularly if there was a point in the history of the Saami languages at which attributive forms were derived by adding \mbox{\It{-s}} and selecting the phonologically relevant stem allomorph, and thus the attributive forms were derivable from the predicate forms. For \PS, however, there is no clear or consistent morphological relationship synchronically between attributive adjectives and the corresponding predicative adjectives, as shown above. This is particularly exemplified by the existence of more than one acceptable attributive form, (as pointed out in §\,\ref{adjectivesATTR} for the attributive adjective forms \It{guhkes}\TILDE\It{guhka} ‘long’), as well as by the existence of a number of predicative forms ending in \It{-s}, but attributive forms lacking \It{-s} (cf. pattern \It{vii} above). 
+From a historical point of view, this may be reasonable, particularly if there was a point in the history of the Saami languages at which attributive forms were derived by adding \mbox{\It{-s}} and selecting the phonologically relevant stem allomorph, and thus the attributive forms were derivable from the predicate forms. For \PS, however, there is no clear or consistent morphological relationship synchronically between attributive adjectives and the corresponding predicative adjectives, as shown above. This is particularly exemplified by the existence of more than one acceptable attributive form, (as pointed out in \SEC\ref{adjectivesATTR} for the attributive adjective forms \It{guhkes}\TILDE\It{guhka} ‘long’), as well as by the existence of a number of predicative forms ending in \It{-s}, but attributive forms lacking \It{-s} (cf. pattern \It{vii} above). 
 Due to cases like those illustrated by subgrouping \It{ix} in Table \ref{noPredAdjTable}, it is not clear that it is sensible to claim that \It{all} adjectives have corresponding predicative adjectives that differ at all. 
 Because of the wide variety of and the inconsistencies in morphological patterns between corresponding attributive and predicative adjectives, it is ultimately more elegant to analyze these two sets of adjectives simply as semantically and etymologically related – but not morphologically derivable – adjectives. 
 
@@ -295,7 +295,7 @@ to the stem of the positive plural predicative form, but a number of exceptions 
 
 Table \vref{compSuperlADJsTable} provides some example paradigms. 
 To help illustrate the morphophonemic relationship to positive forms, the singular predicative adjective form is also indicated. %as a comparison in the summary in Table \vref{compSuperlADJsTable}. 
-Furthermore, the paradigms are divided into subgroupings (each marked with a Roman numeral) based on suffix allomorph patterns. The third and fifth columns in Table \ref{compSuperlADJsTable} provide the singular comparative and superlative adjectives (the attributive and predicative singular forms are syncretic), respectively, while the fourth and sixth columns only indicate the suffix used to mark the plural predicative comparative and superlative adjectives, respectively. Note that there are allomorphic alternations in the superlative suffix for subgroupings \It{iii} and \It{iv}; the relevant suffixes are indicated by italics. 
+Furthermore, the paradigms are divided into subgroupings (each marked with a Roman numeral) based on suffix allomorph patterns. The third and fifth columns in Table \ref{compSuperlADJsTable} provide the singular comparative and superlative adjectives (the attributive and predicative singular forms are syncretic), respectively, while the fourth and sixth columns only indicate the suffix used to mark the plural predicative comparative and superlative adjectives, respectively. Note that there are allomorphic alternations in the superlative suffix for subgroupings \It{iii} and \It{iv}. %; the relevant suffixes are indicated by italics. %no longer the case because everything is in italics b/c orthographic forms!
 
 %The \ATTRs\ form and the \PREDs.\SGs\ form %of a comparative or a superlative adjective 
 %are never marked as such (these are therefore always homophonous), while the \PREDs.\PLs\ form features the plural suffix \It{-a}. 
@@ -303,29 +303,31 @@ Furthermore, the paradigms are divided into subgroupings (each marked with a Rom
 \begin{table}\centering
 \caption{Some comparative and superlative adjective paradigms}\label{compSuperlADJsTable}
 \resizebox{\columnwidth}{!}{
-\begin{tabular}{ccccccl}
-	&\It{positive}		&\MC{2}{c}{\It{comparative}}	&\MC{2}{c}{\It{superlative}}	&	\\
-\It{no.}&\PREDs.\SGs	&\ATTRs /\PREDs.\SGs&\PREDs.\PLs\ &\ATTRs /\PREDs.\SGs&\PREDs.\PLs\ &\It{gloss}	\\\dline
-\MR{3}{*}{\It{i}}
-	&nävvre		&nievre-p		&-a			&nievre-mus		&-a	& ‘bad’	\\%\hline
-	&ådne		&åne-p		&-a			&åne-mus			&-a	& ‘short’	\\%\hline
-	&guhke		&guhke-p		&-a			&guhke-mus		&-a	& ‘long’	\\\hline%%\hline
-\MR{4}{*}{\It{ii}}
-	&tjábbe		&tjábba-p		&-a			&tjábba-jmus		&-a	& ‘beautiful’	\\%\hline
-	&vasste		&vasste-p		&-a			&vasste-jmus		&-a	& ‘ugly’	\\%\hline
-	&gårå		&gårå-p		&-a			&gårå-jmus		&-a	& ‘bad’	\\%\hline
-	&fávvro		&fávro-p		&-a			&fávro-jmus		&-a	& ‘attractive’	\\\hline%%\hline
-\MR{2}{*}{\It{iii}}
-	&luvas		&luvasu-p		&-o			&luvasu-\It{mos}	&-\It{bmus}-a	& ‘wet’	\\%\hline
-	&garras		&garrasu-p	&-o			&garrasu-\It{mos}	&-\It{bmus}-a	& ‘hard’	\\\hline%%\hline
-%låjes			&låjes-u-p		&-o			&låjes-u-mos		&-musa	& ‘tame’	\\%\hline%JW: DS provides conflicting data!
-\MR{6}{*}{\It{iv}}
-	&nanos		&nanosu-p	&-a			&nanosu-\It{mos}	&-\It{bmus}-a	& ‘strong’	\\%\hline
-	&bivval		&bivvalu-p		&-a			&bivvalu-\It{mos}	&-\It{bmus}-a	& ‘warm’	\\%\hline
-	&tjáhpat		&tjáhpadu-p	&-a			&tjáhpadu-\It{mos}	&-\It{bmus}-a	& ‘black’	\\%\hline
-	&galmas		&galbmasu-p	&-a			&galbmasu-\It{mos}	&-\It{bmus}-a	& ‘cold’	\\%\hline
-	&vuoras		&vuorasu-p	&-a			&vuorasu-\It{mos}	&-\It{bmus}-a	& ‘old’	\\%\hline
-	&njuallgat		&njuallgadu-p	&-a			&njuallgadu-\It{mos}	&-\It{bmus}-a	& ‘correct’	\\\hline
+\begin{tabular}{lllllll}\dline
+%\begin{tabular}{ccccccl}
+	&{positive}		&\MC{2}{c}{{comparative}}	&\MC{2}{c}{{superlative}}	&	\\
+{no.}&\PREDs.\SGs	&\ATTRs /\PREDs.\SGs&\PREDs.\PLs\ &\ATTRs /\PREDs.\SGs&\PREDs.\PLs\ &{}	\\\hline
+%\MR{3}{*}{\It{i}}
+i	& \It{nävvre		} & \It{nievre-p		} & \It{-a			} & \It{nievre-mus		} & \It{-a	} & ‘bad’	\\%\hline
+	& \It{ådne		} & \It{åne-p		} & \It{-a			} & \It{åne-mus			} & \It{-a	} & ‘short’	\\%\hline
+	& \It{guhke		} & \It{guhke-p		} & \It{-a			} & \It{guhke-mus		} & \It{-a	} & ‘long’	\\%\hline%%\hline
+%\MR{4}{*}{\It{ii}}
+ii	& \It{tjábbe		} & \It{tjábba-p		} & \It{-a			} & \It{tjábba-jmus		} & \It{-a	} & ‘beautiful’	\\%\hline
+	& \It{vasste		} & \It{vasste-p		} & \It{-a			} & \It{vasste-jmus		} & \It{-a	} & ‘ugly’	\\%\hline
+	& \It{gårå		} & \It{gårå-p		} & \It{-a			} & \It{gårå-jmus		} & \It{-a	} & ‘bad’	\\%\hline
+	& \It{fávvro		} & \It{fávro-p		} & \It{-a			} & \It{fávro-jmus		} & \It{-a	} & ‘attractive’	\\%\hline%%\hline
+%\MR{2}{*}{\It{iii}}
+iii	& \It{luvas		} & \It{luvasu-p		} & \It{-o			} & \It{luvasu-{mos}	} & \It{-{bmus}-a	} & ‘wet’	\\%\hline
+	& \It{garras		} & \It{garrasu-p	} & \It{-o			} & \It{garrasu-{mos}	} & \It{-{bmus}-a	} & ‘hard’	\\%\hline%%\hline
+%låjes			} & \It{låjes-u-p		} & \It{-o			} & \It{låjes-u-mos		} & \It{-musa	} & ‘tame’	\\%\hline%JW: DS provides conflicting data!
+%\MR{6}{*}{{iv}}
+iv	& \It{nanos		} & \It{nanosu-p	} & \It{-a			} & \It{nanosu-{mos}	} & \It{-{bmus}-a	} & ‘strong’	\\%\hline
+	& \It{bivval		} & \It{bivvalu-p		} & \It{-a			} & \It{bivvalu-{mos}	} & \It{-{bmus}-a	} & ‘warm’	\\%\hline
+	& \It{tjáhpat		} & \It{tjáhpadu-p	} & \It{-a			} & \It{tjáhpadu-{mos}	} & \It{-{bmus}-a	} & ‘black’	\\%\hline
+	& \It{galmas		} & \It{galbmasu-p	} & \It{-a			} & \It{galbmasu-{mos}	} & \It{-{bmus}-a	} & ‘cold’	\\%\hline
+	& \It{vuoras		} & \It{vuorasu-p	} & \It{-a			} & \It{vuorasu-{mos}	} & \It{-{bmus}-a	} & ‘old’	\\%\hline
+	& \It{njuallgat		} & \It{njuallgadu-p	} & \It{-a			} & \It{njuallgadu-{mos}	} & \It{-{bmus}-a	} & ‘correct’	\\
+\dline
 %nävvre		&nievre-p	&-a				&nievre-mus			&-musa	&\It{bad	\\\hline
 %ådne			&åne-p	&-a					&åne-mus				&-musa	&\It{short	\\\hline
 %gårå			&gårå-p	&-a				&gårå-jmus			&-jmusa	&\It{bad	\\\hline
@@ -346,9 +348,9 @@ is added to an adjective root. If the root has a closed final syllable, then an 
 The superlative suffix has four allomorphs. For the attributive and the singular predicative forms, the allomorph \It{-mos} is chosen when the root has a closed final syllable, as in groups \It{iii} and \It{iv}. Roots with an open final syllable have either the superlative suffix allomorph \It{-mus} or \It{-jmus}; however, it is not clear what drives the selection of these latter two allomorphs. 
 
 The allomorph \It{-bmus-} occurs whenever the resulting form has an odd number of syllables, as is the case for roots with a final odd syllable in the plural predicative form. %
-Essentially, the superlative suffix always forms the final foot of a word, and thus is the location for consonant gradation alternations. If a final, odd syllable is present (e.g., for the plural predicative form), then the \mbox{\It{-bmus-}} allomorph is chosen.\footnote{Cf. §\,\ref{prosodicDomains} on prosodic domains and §\,\ref{Cgrad} on consonant gradation.} 
+Essentially, the superlative suffix always forms the final foot of a word, and thus is the location for consonant gradation alternations. If a final, odd syllable is present (e.g., for the plural predicative form), then the \mbox{\It{-bmus-}} allomorph is chosen.\footnote{Cf. \SEC\ref{prosodicDomains} on prosodic domains and \SEC\ref{Cgrad} on consonant gradation.} 
 
-Examples for C/S adjectives in attributive position can be found in \REF{compATTRADJex1} and \REF{superlATTRADJex1}, respectively. Instances for predicative usage can be found in \REF{comparingNPsEx3} and \REF{comparingNPsEx5} in §\,\ref{comparingNPs}.
+Examples for C/S adjectives in attributive position can be found in \REF{compATTRADJex1} and \REF{superlATTRADJex1}, respectively. Instances for predicative usage can be found in \REF{comparingNPsEx3} and \REF{comparingNPsEx5} in \SEC\ref{comparingNPs}.
 \ea\label{compATTRADJex1}
 \glll	bivvalup dállke\\
 	bivvalu-p dállke\\
@@ -364,7 +366,7 @@ Examples for C/S adjectives in attributive position can be found in \REF{compATT
 \Transl{So then it’s the oldest place}{}	\CorpusLink{0906_Ahkajavvre_a}{0906\_Ahkajavvre\_a}{123}
 \z
 
-As with positive adjectives, C/S adjectives can occur in elliptic NPs, in which case they inflect for case and number (cf. §\,\ref{ADJinHeadlessNPs}). Examples are provided in \REF{compATTRADJex2} and \REF{superlATTRADJex2}. Note that in the second example, the superlative suffix allomorph is \It{-bmus} because the adjective has an odd number of syllables.
+As with positive adjectives, C/S adjectives can occur in elliptic NPs, in which case they inflect for case and number (cf. \SEC\ref{ADJinHeadlessNPs}). Examples are provided in \REF{compATTRADJex2} and \REF{superlATTRADJex2}. Note that in the second example, the superlative suffix allomorph is \It{-bmus} because the adjective has an odd number of syllables.
 \ea\label{compATTRADJex2}%
 \glll	mån uvadav tjábbabuv\\
 	mån uvada-v tjábba-b-uv\\
@@ -638,12 +640,12 @@ this is illustrated by \REF{quantifierEx4a} and \REF{quantifierEx4b}. This indic
 
 
 \section{Demonstratives}\label{demonstratives}
-%Note that demonstrative pronouns are identical to demonstrative adjectives modifying a noun; cf. §\,\ref{demonstrativeAdjectives}.
+%Note that demonstrative pronouns are identical to demonstrative adjectives modifying a noun; cf. \SEC\ref{demonstrativeAdjectives}.
 %\marginpar{should this perhaps be part of section on demonstrative pronouns?}
-Demonstratives %described in §\,\ref{demonstrativePronouns} and inventoried in Table \vref{DemPronTable} on page \pageref{DemPronTable} 
+Demonstratives %described in \SEC\ref{demonstrativePronouns} and inventoried in Table \vref{DemPronTable} on page \pageref{DemPronTable} 
 modify a noun phrase by further specifying the head noun concerning the distance of the referent relative to the speaker. Just as with demonstrative pronouns, the corpus data indicates that there is a three-way distinction between referents close to the speaker (proximal), those away from the speaker (distal), and those particularly far away (remote). 
-Indeed, they are identical in form with the demonstrative pronouns listed in Table \vref{DemProTable} in the section on demonstrative pronouns (§\,\ref{demonstrativePronouns}), and are therefore not listed separately here. 
-Unlike adjectives, demonstratives always agree with the noun they modify in number (singular and plural, but not dual) and in case. %, and indicate distance of the referent relative to the speaker (just as when they are demonstrative pronouns). %The demonstrative adjectives are identical to the demonstrative pronouns described in §\,\ref{demonstrativePronouns} and inventoried in Table \vref{DemPronTable} on page \pageref{DemPronTable}. 
+Indeed, they are identical in form with the demonstrative pronouns listed in Table \vref{DemProTable} in the section on demonstrative pronouns (\SEC\ref{demonstrativePronouns}), and are therefore not listed separately here. 
+Unlike adjectives, demonstratives always agree with the noun they modify in number (singular and plural, but not dual) and in case. %, and indicate distance of the referent relative to the speaker (just as when they are demonstrative pronouns). %The demonstrative adjectives are identical to the demonstrative pronouns described in \SEC\ref{demonstrativePronouns} and inventoried in Table \vref{DemPronTable} on page \pageref{DemPronTable}. 
 Examples of demonstratives % \It{dajd} 
 are provided in \REF{demonstrativeAdjectivesEx1} through \REF{demonstrativeAdjectivesEx3}.
 \ea\label{demonstrativeAdjectivesEx1}
@@ -672,14 +674,14 @@ are provided in \REF{demonstrativeAdjectivesEx1} through \REF{demonstrativeAdjec
 Numerals in \PS\ form a closed class and a distinct closed sub-class of adjectives. Syntactically, they are adjectives because they head an adjectival phrase; however, morphologically, they differ from other adjectives by never inflecting (neither for number in predicative APs, nor for case and number in ellipsis constructions). 
 %: in attributive position, they can modify a noun within a nominal phrase and do not inflect; in predicative position, they are found as the complement of a copula modifying the subject NP. 
 Furthermore, numerals do not consist of attributive/predicative sets differing in form. %, nor do they ever inflect (not in predicative position for number, nor in elliptical constructions for case and number). %In other words, to the extent that, they do not feature corresponding sets of distinct attributive and predicative forms, and in predicative position, they do not inflect for number; 
-Instead, numerals are consistent in form, regardless of being in attributive or predicative position. %\footnote{Quantifiers are similar to numerals semantically in that they also quantify the referent of the noun they modify; however, quantifiers behave morphosyntactically like adjectives, and are thus discussed in §\,\ref{quantifiers} in the chapter on adjectives.} 
+Instead, numerals are consistent in form, regardless of being in attributive or predicative position. %\footnote{Quantifiers are similar to numerals semantically in that they also quantify the referent of the noun they modify; however, quantifiers behave morphosyntactically like adjectives, and are thus discussed in \SEC\ref{quantifiers} in the chapter on adjectives.} 
 %Finally, attributive numerals in elliptic constructions in which the head of an NP is not realized remain uninflected for case or number, unlike other attributive adjectives. %, while quantifiers inflect for case and number. % as nouns do. %
 %\marginpar{Difference between Nums and other Quants (morphosyntactic), whether/how they form one or two closed class(es)}
 %Numerals and quantifiers are described in the following two sections, respectively. %The final section (\ref{caseNumberOnNums}) discusses case and number marking on 
-%In the following, §\,\ref{numerals} describes numerals, and §\,\ref{quantifiers} deals with quantifiers.
+%In the following, \SEC\ref{numerals} describes numerals, and \SEC\ref{quantifiers} deals with quantifiers.
 
 %\section{Numerals}\label{numerals}\index{numerals}\index{parts of speech!numerals}
-\PS\ numerals form a decimal system consisting of the basic numerals for the numbers one through ten, hundred and thousand. All other numerals are compounds based on these basic terms, with the exception of \It{nolla} ‘zero’. Basic and complex numerals are dealt with in §\,\ref{basicNums} and §\,\ref{complexNums}, respectively; the derivation of ordinal numerals is described in §\,\ref{ordinalNums}. %Zero is also
+\PS\ numerals form a decimal system consisting of the basic numerals for the numbers one through ten, hundred and thousand. All other numerals are compounds based on these basic terms, with the exception of \It{nolla} ‘zero’. Basic and complex numerals are dealt with in \SEC\ref{basicNums} and \SEC\ref{complexNums}, respectively; the derivation of ordinal numerals is described in \SEC\ref{ordinalNums}. %Zero is also
 
 
 \subsection{Basic numerals}\label{basicNums}
@@ -689,42 +691,45 @@ The numerals \It{nolla} ‘zero’ and \It{tuvsan} ‘thousand’ are likely mor
 These basic cardinal numerals are listed on the left side of Table \vref{basicNumsTable}.
 \begin{table}[h]\centering
 \caption{Cardinal and ordinal numerals}\label{basicNumsTable}
-\begin{tabular}{ y{35pt}  x{70pt} c x{70pt}  p{35pt} }%\cline{2-2}\cline{4-4}%\hline
-\MC{1}{c}{}&\It{cardinal}&&\It{ordinal}	&\MC{1}{c}{} \\\hline%\cline{1-2}\cline{4-5}%%\cline{1-2}\cline{4-5}%\dline
-0	&nolla		&&-			&\\%\cline{1-2}\cline{4-5}%\hline
-1	&akkta		&&vuostas	&1\superS{st}\\%%\cline{1-2}\cline{4-5}%\hline
-	&			&&aktát		&{\footnotesize\It{n}}1\superS{st}\\%\cline{1-2}\cline{4-5}%\hline
-2	&guäkte		&&mubbe		&2\superS{nd}	\\%%\cline{1-2}\cline{4-5}%\hline
-	&			&&guoktát		&{\footnotesize\It{n}}2\superS{nd}\\%\cline{1-2}\cline{4-5}%\hline
-3	&gålbmå		&&gålmát		&\Nth3\superS{rd}	\\%\cline{1-2}\cline{4-5}%\hline
-4	&nällje		&&nielját		&\Nth4\superS{th}	\\%\cline{1-2}\cline{4-5}%\hline
-5	&vihta		&&vidát		&\Nth5\superS{th}	\\%\cline{1-2}\cline{4-5}%\hline
-6	&guhta		&&gudát		&\Nth6\superS{th}	\\%\cline{1-2}\cline{4-5}%\hline
-7	&gietjav		&&giehtjet		&\Nth7\superS{th}	\\%\cline{1-2}\cline{4-5}%\hline
-8	&gakktse		&&gáktsát		&\Nth8\superS{th} 	\\%\cline{1-2}\cline{4-5}%\hline
-9	&åktse		&&åktsát		&\Nth9\superS{th}	\\%\cline{1-2}\cline{4-5}%\hline
-10	&lågev		&&lågát		&\Nth10\superS{th}	\\%\cline{1-2}\cline{4-5}%\hline
-100	&tjuohte		&&n/a		&100\superS{th}	\\%\cline{1-2}\cline{4-5}%\hline
-1000	&tuvsan		&&n/a		&1000\superS{th}	\\%\cline{1-2}\cline{4-5}%\hline
-\hline\end{tabular}
+\begin{tabular}{llll }\dline
+%\begin{tabular}{ p{35pt}  p{70pt} c p{70pt}  p{35pt} }\dline
+%\begin{tabular}{ y{35pt}  x{70pt} c x{70pt}  p{35pt} }%\cline{2-2}\cline{4-4}%\hline
+\MC{1}{c}{}&\It{cardinal}&\It{ordinal}	&\MC{1}{c}{} \\\hline%\cline{1-2}\cline{4-5}%%\cline{1-2}\cline{4-5}%\dline
+0	& \It{nolla		} & \It{-			} &\\%\cline{1-2}\cline{4-5}%\hline
+1	& \It{akkta		} & \It{vuostas	} & 1\superS{st}\\%%\cline{1-2}\cline{4-5}%\hline
+	& \It{			} & \It{aktát		} & {\footnotesize\It{n}}1\superS{st}\\%\cline{1-2}\cline{4-5}%\hline
+2	& \It{guäkte		} & \It{mubbe		} & 2\superS{nd}	\\%%\cline{1-2}\cline{4-5}%\hline
+	& \It{			} & \It{guoktát		} & {\footnotesize\It{n}}2\superS{nd}\\%\cline{1-2}\cline{4-5}%\hline
+3	& \It{gålbmå		} & \It{gålmát		} & \Nth3\superS{rd}	\\%\cline{1-2}\cline{4-5}%\hline
+4	& \It{nällje		} & \It{nielját		} & \Nth4\superS{th}	\\%\cline{1-2}\cline{4-5}%\hline
+5	& \It{vihta		} & \It{vidát		} & \Nth5\superS{th}	\\%\cline{1-2}\cline{4-5}%\hline
+6	& \It{guhta		} & \It{gudát		} & \Nth6\superS{th}	\\%\cline{1-2}\cline{4-5}%\hline
+7	& \It{gietjav		} & \It{giehtjet		} & \Nth7\superS{th}	\\%\cline{1-2}\cline{4-5}%\hline
+8	& \It{gakktse		} & \It{gáktsát		} & \Nth8\superS{th} 	\\%\cline{1-2}\cline{4-5}%\hline
+9	& \It{åktse		} & \It{åktsát		} & \Nth9\superS{th}	\\%\cline{1-2}\cline{4-5}%\hline
+10	& \It{lågev		} & \It{lågát		} & \Nth10\superS{th}	\\%\cline{1-2}\cline{4-5}%\hline
+100	& \It{tjuohte		} & n/a		& 100\superS{th}	\\%\cline{1-2}\cline{4-5}%\hline
+1000	& \It{tuvsan		} & n/a		& 1000\superS{th}	\\%\cline{1-2}\cline{4-5}%\hline
+\dline\end{tabular}
 \end{table}
 
 \subsubsection{Derivation and suppletion in ordinal numerals}\label{ordinalNums}
-In general, ordinal numerals, which are listed on the right side of Table \vref{basicNumsTable}, can be derived from the corresponding cardinal numeral by replacing the vowel in V2 position and any final consonant with the suffix \It{-át} (and its allomorph \It{-et} in \It{giehtjet} ‘seventh’).  In addition, the weak stem allomorph is selected and umlaut of V1 occurs, if applicable (cf. §\,\ref{morphophonology} on stem allomorphy). %and subjecting the stem to the consonant gradation and/or umlaut, when relevant. 
+In general, ordinal numerals, which are listed on the right side of Table \vref{basicNumsTable}, can be derived from the corresponding cardinal numeral by replacing the vowel in V2 position and any final consonant with the suffix \It{-át} (and its allomorph \It{-et} in \It{giehtjet} ‘seventh’).  In addition, the weak stem allomorph is selected and umlaut of V1 occurs, if applicable (cf. \SEC\ref{morphophonology} on stem allomorphy). %and subjecting the stem to the consonant gradation and/or umlaut, when relevant. 
 The ordinal numerals corresponding to \It{tjuohte} ‘hundred’ and \It{tuvsan} ‘thousand’ are not attested in the corpus. 
 
 However, there are exceptions. First, the ordinals \It{vuostas} ‘first’ and \It{mubbe} ‘second’ are suppletive forms compared to the corresponding cardinal numerals \It{akkta} ‘one’ and \It{guäkte} ‘two’.\footnote{Note that \It{vuostas} ‘first’ and \It{mubbe} ‘second’ are also reconstructable to at least Proto-Saami \citep[257;268]{Sammallahti1998}.} 
 These two ordinals are used exclusively for the single-digit numbers ‘first’ and ‘second’; any ordinal numeral referring to a number of two or more digits uses a form derived from the cardinal numeral, as described above. This is illustrated in Table \vref{firstSecondOrdinals}.
 \begin{table}\centering
 \caption{Suppletive and derived ordinal numerals}\label{firstSecondOrdinals}
-\begin{tabular}{c c cc c}%\hline
+\begin{tabular}{l l ll l}\dline
+%\begin{tabular}{c c cc c}\dline
 	&\It{cardinal}			&		&			&\It{ordinal}\\\hline
 1	&\Bf{akkta}			&\ARROW&1\superS{st}	&\Bf{vuostas}		\\
 11	&akta-låg-\Bf{akkta}		&\ARROW&11\superS{th}	&akta-låg-\Bf{aktát}	\\
-21	&guäkte-låg-\Bf{akkta}	&\ARROW&21\superS{st}	&guäkte-låg-\Bf{aktát}\\\dline
+21	&guäkte-låg-\Bf{akkta}	&\ARROW&21\superS{st}	&guäkte-låg-\Bf{aktát}\\%\dline
 2	&\Bf{guäkte}			&\ARROW&2\superS{nd}	&\Bf{mubbe}		\\
 12	&akta-låg-\Bf{guäkte}	&\ARROW&12\superS{th}	&akta-låg-\Bf{guoktát}	\\
-22	&guäkte-låg-\Bf{guäkte}	&\ARROW&22\superS{nd}	&guäkte-låg-\Bf{guoktát}\\\hline
+22	&guäkte-låg-\Bf{guäkte}	&\ARROW&22\superS{nd}	&guäkte-låg-\Bf{guoktát}\\\dline
 %\begin{tabular}{c c | c c || c c | c c}\hline
 %1	&akkta		&1\superS{st}	&vuostas		& 2	&guäkte			& 2\superS{nd}	& mubbe	\\\hline
 %11	&akta-låg-akkta	&11\superS{th}	&akta-låg-aktát	& 12	&akta-låg-guäkte	& 12\superS{th}	& akta-låg-guoktát	\\\hline
