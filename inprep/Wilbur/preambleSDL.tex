@@ -8,6 +8,7 @@
 			   ,draftmode   
 			  ]{LSP/langsci}                          
 
+
 \usepackage{LSP/lsp-styles/lsp-gb4e}		% verhindert Komma bei mehrfachen Fußnoten?
 \usepackage{LSP/lsp-styles/avm}
 \avmfont{\sc} 
@@ -16,24 +17,15 @@
 \usepackage{layout}
 \usepackage{lipsum}
 
-%%for LSP-lines in tables: %%doesn’t work for some reason. Plus, not all my tables have a single-line header. Double-lines aren’t typeset properly in ‘longtable’-environment across several pages.
-%\usepackage{booktabs}
-%\newcommand{\mytoprule}{\midrule\toprule}
-%\newcommand{\mybottomrule}{\bottomrule\midrule}
-
-%%%following now in main document (XeTeX_pitePhDSDL.tex)
-%\title{A corpus-based grammar \\ of spoken Pite Saami}  
-%%\subtitle{2000+ Years of Language Science and no End in Sight}  
-%\author{Joshua Wilbur}
-%\dedication{Gijtov adnet!}
-%\renewcommand{\lsBackBody}{This grammar of Pite Saami (Uralic; Sweden) is simply bad-ass.}%for back cover text
-%\renewcommand{\lsBackTitle}{Biddumsáme giella}%for back title
-
 %%%% ABOVE FOR LangSciPress %%%%
 %%%% ABOVE FOR LangSciPress %%%%
 %%%% ABOVE FOR LangSciPress %%%%
 
 \usepackage{longtable}
+%%for LSP-lines in tables: %%doesn’t work for some reason. Plus, not all my tables have a single-line header. Double-lines aren’t typeset properly in ‘longtable’-environment across several pages.
+%\usepackage{booktabs}
+%\newcommand{\mytoprule}{\midrule\toprule}
+%\newcommand{\mybottomrule}{\bottomrule\midrule}
 
 \usepackage{multirow}
 \usepackage{array} %allows, among other things, centering column content in a table while also specifying width, creates new column style "x" for center-alignment, "y" for right-alignment
@@ -58,7 +50,7 @@
   \footnotemark[\value{#1}]} 
 %%%previous allows you to refer to footnotes: use \footnoteremember{referenceText} in footnote, then \footnoterecall{referenceText} to refer.
 
-\usepackage{tikz}
+\usepackage{tikz}%
 \usetikzlibrary{plothandlers,matrix,decorations.text,shapes.arrows,shadows,chains,positioning,scopes}
 
 \usepackage{synttree} %zeichnet linguistische Bäume
@@ -71,16 +63,17 @@
 
 
 
+
 %%%TAKE OUT FOR FINAL VERSION:
 %%%TAKE OUT FOR FINAL VERSION:
 %%%TAKE OUT FOR FINAL VERSION:
 
-%%%following readjusts margin text!
-\setlength{\marginparwidth}{20mm}
-\let\oldmarginpar\marginpar
-\renewcommand\marginpar[1]{\-\oldmarginpar[\raggedleft\footnotesize\vspace{-7pt}\color{red}\It{→ #1}]%
-{\raggedright\footnotesize\vspace{-7pt}\color{red}\It{→ #1}}}
-%%%previous readjusts margin text!
+%%%%following readjusts margin text!
+%\setlength{\marginparwidth}{20mm}
+%\let\oldmarginpar\marginpar
+%\renewcommand\marginpar[1]{\-\oldmarginpar[\raggedleft\footnotesize\vspace{-7pt}\color{red}\It{→ #1}]%
+%{\raggedright\footnotesize\vspace{-7pt}\color{red}\It{→ #1}}}
+%%%%previous readjusts margin text!
 
 %%%The following lines set depth of ToC (LSP default is only 3 levels)!
 %%%\renewcommand{\contentsname}{Table of Contents} % überschrift des inhaltsverzeichnisses
