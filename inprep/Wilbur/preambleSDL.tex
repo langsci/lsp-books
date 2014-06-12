@@ -10,19 +10,18 @@
 
 
 \usepackage{LSP/lsp-styles/lsp-gb4e}		% verhindert Komma bei mehrfachen Fußnoten?
-\usepackage{LSP/lsp-styles/avm}
-\avmfont{\sc} 
-\avmvalfont{\it}
                                                       
 \usepackage{layout}
 \usepackage{lipsum}
 
+%\let\sups\relax\usepackage{tipa}
+
 %%%% ABOVE FOR LangSciPress %%%%
 %%%% ABOVE FOR LangSciPress %%%%
 %%%% ABOVE FOR LangSciPress %%%%
 
-\usepackage{longtable}
-%%for LSP-lines in tables: %%doesn’t work for some reason. Plus, not all my tables have a single-line header. Double-lines aren’t typeset properly in ‘longtable’-environment across several pages.
+\usepackage{longtable}%Double-lines aren’t typeset properly in ‘longtable’-environment across several pages!
+%%for LSP-lines in tables: %%doesn’t work for some reason. Plus, not all my tables have a single-line header. 
 %\usepackage{booktabs}
 %\newcommand{\mytoprule}{\midrule\toprule}
 %\newcommand{\mybottomrule}{\bottomrule\midrule}
@@ -35,7 +34,7 @@
 >{\raggedleft\hspace{0pt}}p{#1}}%
 
 \usepackage[]{placeins}%using \FloatBarrier command, all floats still floating at that point will be typeset, and cannot cross that boundary. the option here \usepackage[section]{placeins} automatically adds \FloatBarrier to every \section command (only works for \section commands, nothing lower than that!)
-\usepackage{afterpage}%by using the command \afterpage{\clearpage}, all floats will appear, but no new page will be started, thus avoiding bad page breaks around floats
+%\usepackage{afterpage}%by using the command \afterpage{\clearpage}, all floats will appear, but no new page will be started, thus avoiding bad page breaks around floats
 
 \usepackage{vowel} %for vowel space chart
 
