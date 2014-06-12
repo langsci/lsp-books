@@ -1,0 +1,79 @@
+\documentclass[number=??                 %replace by your number in series
+                ,series=dummyseries,     % Choose series abbreviation as appropriate
+                ,isbn=xxx-x-xxxxxx-xx-x, %add your isbn here
+                ,url=http://langsci-press.org/catalog/book/0,  %change to the running number of your book
+	        ,output=short             % long|short|inprep              
+	        %,blackandwhite
+	        %,smallfont
+	        ,noindex
+	        ,draftmode
+	        ,collection
+	        ,collectionchapter
+	        ,collectiontoclong
+	        %,biblatexbackend=bibtex
+	        ,biblatex  
+		  ]{LSP/langsci}
+
+\bibliography{localbibliography}
+  
+\input{localhyphenation.sty}
+\input{localpackages.sty}
+\input{localcommands.sty}
+\input{localmetadata.sty}
+
+\renewcommand{\lsEditorPrefix}{}  % default is ``Edited by''
+\renewcommand{\lsCollectionPaperCitationText}{Marian Klamer (ed.). 2014. The Alor-Pantar languages: History and typology. Berlin: Language Science Press}
+
+\begin{document}  
+
+   
+\maketitle                 
+\frontmatter
+\tableofcontents      
+\mainmatter
+
+\includepaper{chapters/01intro} 
+
+\includepaper{chapters/02history} 
+
+\includepaper{chapters/03relatedness} 
+
+\includepaper{chapters/04position}
+
+\includepaper{chapters/05kinship} 
+
+\includepaper{chapters/07elevation}
+
+\includepaper{chapters/06numerals} 
+ 
+\includepaper{chapters/08arithmetic} 
+
+\includepaper{chapters/09plural} 
+
+\includepaper{chapters/10participant} 
+
+% \addchap{Introduction}
+% 
+% \lipsum
+% 
+% \addpart{Part 1}
+%  
+%  
+% %\includepaper{contrib1}
+% 
+% \addpart{Part 2} 
+% 
+% \chapter{Next paper}
+
+%\includepaper{contrib2}
+
+  
+
+\printbibliography[notkeyword=this] 
+
+
+\end{document}
+
+
+		  
+		  
