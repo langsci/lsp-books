@@ -18,7 +18,13 @@
 %%%% ABOVE FOR LangSciPress %%%%
 \usepackage{libertine}%work-around solution for rendering problematic characters ʦ, ͡  (mostly in \textbf{})
 
-\usepackage{longtable}%Double-lines (\hline\hline) aren’t typeset properly in ‘longtable’-environment across several pages! conflict with other package (maybe xcolor with option ‘tables’?)
+\usepackage{multicol}
+
+\usepackage{booktabs}%for top/bottom borders in tables
+\newcommand{\mytoprule}{\midrule\toprule}
+\newcommand{\mybottomrule}{\bottomrule\midrule}
+
+\usepackage{longtable}%Double-lines (\hline\hline) aren’t typeset properly in ‘longtable’-environment across several pages! conflict with other xcolor-package with option ‘tables’ (see line 218 in langsci.cls)
 
 \usepackage{multirow}
 

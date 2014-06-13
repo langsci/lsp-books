@@ -19,7 +19,7 @@ The column ‘brief description’ provides a summary of the content of each rec
 \begin{tabular}{c}
 Abbreviations used in the inventory of recordings\\
 \end{tabular}
-\begin{tabular}{l l l}\dline
+\begin{tabular}{l l l}\mytoprule
 {column} &{abbreviation}	&{explanation} \\\hline
 {media}
 & A				& audio only\\
@@ -41,10 +41,10 @@ Abbreviations used in the inventory of recordings\\
 \begin{landscape}
 %\begin{longtable}[c]{| l | x{15mm} | c | c | p{95mm} |}
 \begin{longtable}[c]{ l  x{15mm}  c  c  p{95mm} }
-\hline\hline
+\mytoprule%\hline\hline
 {name}	&{genre}	&{medium}	&{words}	&{brief description}\\\hline
 \endhead
-\hline\hline\endfoot
+\mybottomrule\endfoot
 %\multicolumn{5}{l}{here end\label{inventoryEnd}}\endlastfoot
 \label{inventoryBegin}
 
