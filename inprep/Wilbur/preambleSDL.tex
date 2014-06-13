@@ -8,31 +8,23 @@
 			   ,draftmode   
 			  ]{LSP/langsci}                          
 
-
 \usepackage{LSP/lsp-styles/lsp-gb4e}		% verhindert Komma bei mehrfachen Fußnoten?
                                                       
 \usepackage{layout}
 \usepackage{lipsum}
-\usepackage{libertine}
-
-%\let\sups\relax\usepackage{tipa}
 
 %%%% ABOVE FOR LangSciPress %%%%
 %%%% ABOVE FOR LangSciPress %%%%
 %%%% ABOVE FOR LangSciPress %%%%
+\usepackage{libertine}%work-around solution for rendering problematic characters ʦ, ͡  (mostly in \textbf{})
 
-\usepackage{longtable}%Double-lines aren’t typeset properly in ‘longtable’-environment across several pages!
-%%for LSP-lines in tables: %%doesn’t work for some reason. Plus, not all my tables have a single-line header. 
-%\usepackage{booktabs}
-%\newcommand{\mytoprule}{\midrule\toprule}
-%\newcommand{\mybottomrule}{\bottomrule\midrule}
+\usepackage{longtable}%Double-lines (\hline\hline) aren’t typeset properly in ‘longtable’-environment across several pages! conflict with other package (maybe xcolor with option ‘tables’?)
 
 \usepackage{multirow}
+
 \usepackage{array} %allows, among other things, centering column content in a table while also specifying width, creates new column style "x" for center-alignment, "y" for right-alignment
-\newcolumntype{x}[1]{%
->{\centering\hspace{0pt}}p{#1}}%
-\newcolumntype{y}[1]{%
->{\raggedleft\hspace{0pt}}p{#1}}%
+\newcolumntype{x}[1]{>{\centering\hspace{0pt}}p{#1}}%
+\newcolumntype{y}[1]{>{\raggedleft\hspace{0pt}}p{#1}}%
 
 \usepackage[]{placeins}%using \FloatBarrier command, all floats still floating at that point will be typeset, and cannot cross that boundary. the option here \usepackage[section]{placeins} automatically adds \FloatBarrier to every \section command (only works for \section commands, nothing lower than that!)
 %\usepackage{afterpage}%by using the command \afterpage{\clearpage}, all floats will appear, but no new page will be started, thus avoiding bad page breaks around floats
@@ -40,15 +32,15 @@
 \usepackage{vowel} %for vowel space chart
 
 
-%%IS THIS NECESSARY??
-%%%following allows you to refer to footnotes (from http://anthony.liekens.net/index.php/LaTeX/MultipleFootnoteReferences)
-\newcommand{\footnoteremember}[2]{
-  \footnote{#2}
-  \newcounter{#1}
-  \setcounter{#1}{\value{footnote}}
-} \newcommand{\footnoterecall}[1]{
-  \footnotemark[\value{#1}]} 
-%%%previous allows you to refer to footnotes: use \footnoteremember{referenceText} in footnote, then \footnoterecall{referenceText} to refer.
+%%%IS THIS NECESSARY??
+%%%%following allows you to refer to footnotes (from http://anthony.liekens.net/index.php/LaTeX/MultipleFootnoteReferences)
+%\newcommand{\footnoteremember}[2]{
+%  \footnote{#2}
+%  \newcounter{#1}
+%  \setcounter{#1}{\value{footnote}}
+%} \newcommand{\footnoterecall}[1]{
+%  \footnotemark[\value{#1}]} 
+%%%%previous allows you to refer to footnotes: use \footnoteremember{referenceText} in footnote, then \footnoterecall{referenceText} to refer.
 
 \usepackage{tikz}%
 \usetikzlibrary{plothandlers,matrix,decorations.text,shapes.arrows,shadows,chains,positioning,scopes}
@@ -60,8 +52,6 @@
 
 \usepackage{polyglossia}
 \setmainlanguage{english}
-
-
 
 
 %%%TAKE OUT FOR FINAL VERSION:
