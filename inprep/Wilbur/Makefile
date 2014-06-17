@@ -24,8 +24,8 @@ LSP/langsci.cls
 	xelatex -no-pdf $* 
 	bibtex -min-crossrefs=200 $*
 	xelatex  -no-pdf $*
-	correct-toappear
-	correct-index
+#	correct-toappear
+#	correct-index
 	makeindex -o $*.ind $*.idx
 	makeindex -o $*.lnd $*.ldx
 	makeindex -o $*.wnd $*.wdx
@@ -35,6 +35,7 @@ LSP/langsci.cls
 	authorindex -i -p $*.aux > $*.adx
 	sed -e 's/}{/|hyperpage}{/g' $*.adx > $*.adx.hyp
 	makeindex -o $*.and $*.adx.hyp
+	xelatex $* 
 	xelatex $* 
 
 
