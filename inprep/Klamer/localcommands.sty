@@ -13,36 +13,37 @@
 
 % \newcommand{\textbhook}{B}
 % \renewcommand{\texthtb}{ɓ}
-% \renewcommand{\textglotstop}{?} %ʔ
-% \renewcommand{\textepsilon}{E} %ε 
-% \renewcommand{\textupsilon}{U} %ʊ 
+\renewcommand{\textglotstop}{?} %ʔ
+\renewcommand{\textepsilon}{ε} % {E} 
+\renewcommand{\textupsilon}{ʊ} % {U} 
 % 
 %  
-% \renewcommand{\textlengthmark}{:}%ː
-% \renewcommand{\textesh}{SH}%ʃ
-% \renewcommand{\textyogh}{Y}%ȝ
-% \renewcommand{\textprimstress}{'}%ˈ
-% \renewcommand{\textphi}{PH}%ɸ
-% \renewcommand{\textschwa}{\@}%əs
-% \renewcommand{\textltailn}{N}%ɲ
-% \renewcommand{\textrtaild}{D}%ɖ
-% \renewcommand{\textrtailt}{T}%ʈ
-% \renewcommand{\textopeno}{O}%ɔ
-% \renewcommand{\textsci}{I}%ɪ
+\renewcommand{\textlengthmark}{ː} % {:}
+\renewcommand{\textesh}{ʃ} % {SH}
+\renewcommand{\textyogh}{ȝ} % {Y}
+\renewcommand{\textprimstress}{ˈ} % {'}
+\renewcommand{\textsecstress}{ˌ} % 
+\renewcommand{\textphi}{ɸ} % {PH}
+\renewcommand{\textschwa}{ə} % {\@}
+\renewcommand{\textltailn}{ɲ} % {N}
+\renewcommand{\textrtaild}{ɖ} % {D}
+\renewcommand{\textrtailt}{ʈ} % {T}
+\renewcommand{\textopeno}{ɔ} % {O}
+\renewcommand{\textsci}{ɪ} % {I}
 % \renewcommand{\textscripta}{A}%
-% \newcommand{\textezh}{ZH}%ȝ
-% \renewcommand{\textdyoghlig}{dʒ}%
-% \renewcommand{\textbardotlessj}{J}%ɟ
+\renewcommand{\textezh}{ȝ}%ZH
+\renewcommand{\textdyoghlig}{dʒ}%
+\renewcommand{\textbardotlessj}{ɟ} % {J}
 
  
-% \renewcommand{\textbari}{I}%ɨ
-% \renewcommand{\textgamma}{G}%ɣ
-% \renewcommand{\texthtd}{D}%ɗ
-% \renewcommand{\textteshlig}{TSH}%tʃ
-% \renewcommand{\textturnr}{R}%ɹ
-% \renewcommand{\textpm}{+-}%	±
+\renewcommand{\textbari}{ɨ} % {I}
+\renewcommand{\textgamma}{ɣ} % {G}
+\renewcommand{\texthtd}{ɗ} % {D}
+\renewcommand{\textteshlig}{ʃ} % {TSH}
+\renewcommand{\textturnr}{ɹ} % {R}
+% \newcommand{\textpm}{±} % {+-}
 
-\newcommand{\pharfric}{H}%ħ
+\newcommand{\pharfric}{ħ}%H
 
 
 \newcommand{\mytoprule}{\midrule\toprule}
@@ -69,26 +70,38 @@
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}}
 
 
-%\newcommand{\ist}[1]{\todo[inline]{\tiny #1}}
-\newcommand{\ist}{\is}
-\newcommand{\ilt}{\il}
-% \renewcommand{\il}{}
-% \renewcommand{\is}[1]{\marginpar{\tiny #1}}
-%\renewcommand{\il}[1]{\marginpar{\tiny #1}}
- 
-
 \newcommand{\trs}[2]{{\em #1} `#2'}
-\newcommand{\citew}{\citet}
+\newcommand{\citew}{\citealt}
 
 \newcounter{tablenote}[chapter]
 \newcommand{\tablenote}{\stepcounter{tablenote}\textsuperscript{\arabic{tablenote}}}
 \newcommand{\tablenotetext}{\noindent\stepcounter{tablenote}\textsuperscript{\arabic{tablenote}}\,}
-
+\newcommand{\ist}[1]{\is{#1}}
+\newcommand{\ilt}[1]{\il{#1}}
 \newcommand{\startappendix}{%
     \clearpage%
     \renewcommand{\thesection}{\Alph{section}}%
     \setcounter{section}{0}%
     \section{Appendix}%
-    }
+}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \makeindex
+% \newindex{lan}{ldx}{lnd}{Language index}
+% \newindex{aut}{adx}{and}{Name index}
+% \renewindex{default}{idx}{ind}{Subject index}
+% \newindex{wrd}{wdx}{wnd}{Expression index}
+% \newindex{rwrd}{rdx}{rnd}{Reverse expression index}
+
+\renewcommand{\langinfo}[3]{{\rm #1%
+{\il{#1}}~%
+(%
+\ifthenelse{\equal{#2}{}}{}{#2;}% 
+#3)}\nopagebreak[4]\ignorespaces}
+
+    
+
+    
+    
 
