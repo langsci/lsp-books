@@ -14,54 +14,34 @@
 \usepackage{lipsum}
 
 %adds index tags to margin of text:
-\iflsDraft\proofmodetrue\fi
+%\iflsDraft\proofmodetrue\fi
 
 
 %%%% ABOVE FOR LangSciPress %%%%
 %%%% ABOVE FOR LangSciPress %%%%
 %%%% ABOVE FOR LangSciPress %%%%
 \usepackage{libertine}%work-around solution for rendering problematic characters ʦ, ͡  (mostly in \textbf{})
-
 \usepackage{multicol}
-
 \usepackage{booktabs}%for top/bottom borders in tables
 \newcommand{\mytoprule}{\midrule\toprule}
 \newcommand{\mybottomrule}{\bottomrule\midrule}
-
 \usepackage{longtable}%Double-lines (\hline\hline) aren’t typeset properly in ‘longtable’-environment across several pages! conflict with other xcolor-package with option ‘tables’ (see line 218 in langsci.cls)
-
 \usepackage{multirow}
-
 \usepackage{array} %allows, among other things, centering column content in a table while also specifying width, creates new column style "x" for center-alignment, "y" for right-alignment
 \newcolumntype{x}[1]{>{\centering\hspace{0pt}}p{#1}}%
 \newcolumntype{y}[1]{>{\raggedleft\hspace{0pt}}p{#1}}%
 
-\usepackage[]{placeins}%using \FloatBarrier command, all floats still floating at that point will be typeset, and cannot cross that boundary. the option here \usepackage[section]{placeins} automatically adds \FloatBarrier to every \section command (only works for \section commands, nothing lower than that!)
-%\usepackage{afterpage}%by using the command \afterpage{\clearpage}, all floats will appear, but no new page will be started, thus avoiding bad page breaks around floats
-
 \usepackage{vowel} %for vowel space chart
-
-
-%%%IS THIS NECESSARY??
-%%%%following allows you to refer to footnotes (from http://anthony.liekens.net/index.php/LaTeX/MultipleFootnoteReferences)
-%\newcommand{\footnoteremember}[2]{
-%  \footnote{#2}
-%  \newcounter{#1}
-%  \setcounter{#1}{\value{footnote}}
-%} \newcommand{\footnoterecall}[1]{
-%  \footnotemark[\value{#1}]} 
-%%%%previous allows you to refer to footnotes: use \footnoteremember{referenceText} in footnote, then \footnoterecall{referenceText} to refer.
-
 \usepackage{tikz}%
 \usetikzlibrary{plothandlers,matrix,decorations.text,shapes.arrows,shadows,chains,positioning,scopes}
-
 \usepackage{synttree} %zeichnet linguistische Bäume
 \branchheight{36pt}%sets height between rows in synttree
-
 \usepackage{lscape}%used for landscape pages in index (list of recordings)
-
 \usepackage{polyglossia}
 \setmainlanguage{english}
+
+\usepackage[]{placeins}%using \FloatBarrier command, all floats still floating at that point will be typeset, and cannot cross that boundary. the option here \usepackage[section]{placeins} automatically adds \FloatBarrier to every \section command (only works for \section commands, nothing lower than that!)
+%\usepackage{afterpage}%by using the command \afterpage{\clearpage}, all floats will appear, but no new page will be started, thus avoiding bad page breaks around floats
 
 
 %%%TAKE OUT FOR FINAL VERSION:
