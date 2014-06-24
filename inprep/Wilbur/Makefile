@@ -2,7 +2,7 @@
 all: XeTeX_piteSaami_SDL.pdf
 
 # specify teh main file and all the files that you are including
-SOURCE= abbreviationsSDL.tex     derivationalMorphSDL.tex  listOfRecordingsSDL.tex  nounsSDL.tex           phraseTypesSDL.tex  pronounsSDL.tex             verbsSDL.tex acknowledgementsSDL.tex  hyphenationSDL.tex        morphWordformsSDL.tex    otherWordFormsSDL.tex  postambleSDL.tex   RecordingsInventorySDL.tex  XeTeX_piteSaami_SDL.tex adjectivesSDL.tex        introductionSDL.tex       newcommandsSDL.tex       phonologySDL.tex       syntaxSentencesSDL.tex\
+SOURCE= abbreviationsSDL.tex     derivationalMorphSDL.tex  listOfRecordingsSDL.tex  nounsSDL.tex           phraseTypesSDL.tex  pronounsSDL.tex             verbsSDL.tex acknowledgementsSDL.tex  hyphenationSDL.tex        morphWordformsSDL.tex    otherWordFormsSDL.tex  RecordingsInventorySDL.tex  XeTeX_piteSaami_SDL.tex adjectivesSDL.tex        introductionSDL.tex       newcommandsSDL.tex       phonologySDL.tex       syntaxSentencesSDL.tex\
 PiteGrammarBibSDL.bib\
 LSP/langsci.cls
 	 
