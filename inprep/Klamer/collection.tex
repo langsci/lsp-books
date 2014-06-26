@@ -69,9 +69,17 @@
 %\includepaper{contrib2}
 
   
-
-\printbibliography[notkeyword=this] 
-
+\backmatter
+% \printbibliography[notkeyword=this] 
+\addcontentsline{toc}{chapter}{Language Index}
+\ohead{Language Index}
+\printindex[lan]
+\addcontentsline{toc}{chapter}{Name Index}
+\ohead{Name Index}
+\printindex[aut]
+\addcontentsline{toc}{chapter}{Subject Index}
+\ohead{Subject Index}
+\printindex
 
 \end{document}
 
