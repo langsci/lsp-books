@@ -113,10 +113,11 @@
 \newcommand{\Nth}{{\footnotesize(\It{n})}}%used in table of numerals in ADJ chapter
 
 %%newcommands for tables in introductionSDL.tex:
-\newcommand{\cliticExs}[3]{\Tn{\begin{tabular}{p{28mm} c p{28mm} p{35mm}}\It{#1}&\ARROW &\It{#2} & ‘#3’\\\end{tabular}}}%specifically for the next two examples
-%for orthography tables:
-\newcommand\Grapheme[1]{\It{#1}}
-\newcommand\IPA[1]{#1}
+\newcommand{\cliticExs}[3]{\Tn{\begin{tabular}{p{28mm} c p{28mm} p{35mm}}\It{#1}&\ARROW &\It{#2} & ‘#3’\\\end{tabular}}}%specifically for the two clitic examples
+\newcommand{\Grapheme}[1]{\It{#1}}%formatting for graphemes in orthography tables
+\newcommand{\IPA}[1]{#1}%formatting for IPA in orthography tables
+%%new command for the section on orthographic examples; syntax: #1=orthography, #2=phonology, #3=gloss
+\newcommand{\SpellEx}[3]{\Tn{\begin{tabular}{p{70pt} p{70pt} l}/#2/&\It{#1}& ‘#3’ \\\end{tabular}}}%formatting for orthographic examples (intro-Chapter)
 
 
 %%new transl tier in gb4e; syntax: #1=free translation (in single quotes), #2=additional comments, z.B. literal meaning:
@@ -175,8 +176,6 @@
 }%
 
 
-%%new command for the section on orthographic examples; syntax: #1=orthography, #2=phonology, #3=gloss
-\newcommand\SpellEx[3]{\Tn{\begin{tabular}{p{70pt} p{70pt} l}/#2/&\It{#1}& ‘#3’ \\\end{tabular}}}
 
 
 
