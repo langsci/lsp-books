@@ -129,7 +129,7 @@
 \newcommand{\PhonGloss}[7]{%PhonGloss = Phonology Gloss;
 %pattern: \PhonGloss{label}{phonemic}{phonetic}{orthographic}{gloss}{recording}{utterance}
 \ea\label{#1}
-\Tn{\begin{tabular}{p{30mm} l}
+\Tn{\begin{tabular}[t]{p{30mm} l}
 /#2/	& \It{#4} \\
 \MC{1}{l}{[#3]}	&\HANG ‘#5’\\%no table row can start with square brackets! thus the workaround with \MC
 \end{tabular}\hfill\hyperlink{#6}{{\small\textnormal[pit#6#7]}}%\index{Z\Red{rec}!\Red{pit#6}}\index{Z\Red{utt}!\Red{pit#6#7} \Blue{Phon}}
@@ -138,7 +138,7 @@
 \newcommand{\PhonGlossWL}[6]{%PhonGloss = Phonology Gloss for words from WORDLIST, not from corpus!;
 %pattern: \PhonGloss{label}{phonemic}{phonetic}{orthographic}{gloss}{wordListNumber}
 \ea\label{#1}
-\Tn{\begin{tabular}{p{30mm} l}
+\Tn{\begin{tabular}[t]{p{30mm} l}
 /#2/	& \It{#4} \\
 \MC{1}{l}{[#3]}	&\HANG ‘#5’\\%no table row can start with square brackets! thus the workaround with \MC
 \end{tabular}\hfill\hyperlink{explExs}{{\small\textnormal[#6]}}%\index{Z\Red{wl}!\Red{#6}\Blue{Phon}}
@@ -149,14 +149,14 @@
 %syntax: \DerivExam{#1}{#2}{#3}{#4}{#5}{#6}
 %#1: base, #2: base-gloss, #3: derived form, #4: derived form gloss, #5: derived form translation, #6: pit-recording, #7: utterance number
 \newcommand{\DW}{28mm}%for following three commands, to align arrows throughout
-\newcommand{\DerivExam}[7]{\Tn{\begin{tabular}{p{\DW}cl}\It{#1}&\ARROW&\It{#3}\\#2&&#4\\\end{tabular}\hfill\pbox{.3\textwidth}{\hfill‘#5’\\\hbox{}\hfill\hyperlink{pit#6}{{\small\textnormal[pit#6.#7]}}}
+\newcommand{\DerivExam}[7]{\Tn{\begin{tabular}[t]{p{\DW}cl}\It{#1}&\ARROW&\It{#3}\\#2&&#4\\\end{tabular}\hfill\pbox{.3\textwidth}{\hfill‘#5’\\\hbox{}\hfill\hyperlink{pit#6}{{\small\textnormal[pit#6.#7]}}}
 %\index{Z\Red{rec}!\Red{pit#6}}\index{Z\Red{utt}!\Red{pit#6.#7}}
 }}
 %%same as above, but supress any reference to a specific utterance
-\newcommand{\DerivExamX}[7]{\Tn{\begin{tabular}{p{\DW}cl}\It{#1}&\ARROW&\It{#3}\\#2&&#4\\\end{tabular}\hfill\pbox{.3\textwidth}{\hfill‘#5’\\\hbox{}\hfill\hyperlink{pit#6}{{\small\textnormal[pit#6]}}}
+\newcommand{\DerivExamX}[7]{\Tn{\begin{tabular}[t]{p{\DW}cl}\It{#1}&\ARROW&\It{#3}\\#2&&#4\\\end{tabular}\hfill\pbox{.3\textwidth}{\hfill‘#5’\\\hbox{}\hfill\hyperlink{pit#6}{{\small\textnormal[pit#6]}}}
 %\index{Z\Red{rec}!\Red{pit#6}}\index{Z\Red{utt}!\Red{pit#6.#7}}
 }}
-\newcommand{\DerivExamWL}[6]{\Tn{\begin{tabular}{p{\DW}cl}\It{#1}&\ARROW&\It{#3}\\#2&&#4\\\end{tabular}\hfill\pbox{.3\textwidth}{\hfill‘#5’\\\hbox{}\hfill\hyperlink{explExs}{{\small\textnormal[#6]}}}
+\newcommand{\DerivExamWL}[6]{\Tn{\begin{tabular}[t]{p{\DW}cl}\It{#1}&\ARROW&\It{#3}\\#2&&#4\\\end{tabular}\hfill\pbox{.3\textwidth}{\hfill‘#5’\\\hbox{}\hfill\hyperlink{explExs}{{\small\textnormal[#6]}}}
 %\index{Z\Red{wl}!\Red{#6}}
 }}
 
