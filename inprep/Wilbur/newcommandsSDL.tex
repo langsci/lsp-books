@@ -108,7 +108,8 @@
 \newcommand{\subAdvP}{{\footnotesize\sub{AdvP}}}%shortcut for AdvP (adverbial phrase) in subscript
 \newcommand{\subPP}{{\footnotesize\sub{PP}}}%shortcut for NP (postpoistional phrase) in subscript
 
-\newcommand{\SEC}{§\,}%standardize section symbol and spacing afterwards
+\newcommand{\SEC}{§}%standardize section symbol and spacing afterwards
+%\newcommand{\SEC}{§\,}%
 
 \newcommand{\Nth}{{\footnotesize(\It{n})}}%used in table of numerals in ADJ chapter
 
@@ -121,8 +122,8 @@
 
 
 %%new transl tier in gb4e; syntax: #1=free translation (in single quotes), #2=additional comments, z.B. literal meaning:
-\newcommand{\Transl}[2]{\trans\rm ‘#1’ #2}%new transl tier in gb4e;
-\newcommand{\TranslMulti}[2]{\trans\rm \hspace{10pt}‘#1’ \Tn{#2}}%new transl tier in gb4e for a dialog to be included under a single example number
+\newcommand{\Transl}[2]{\trans\Tn{‘#1’ #2}}%new transl tier in gb4e;
+\newcommand{\TranslMulti}[2]{\trans\hspace{12pt}\Tn{‘#1’ #2}}%new transl tier in gb4e for a dialog to be included under a single example number
 
 
 %% used for examples in the Prosody and Segmental phonology chapters:
