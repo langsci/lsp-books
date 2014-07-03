@@ -6,31 +6,17 @@ SOURCE= abbreviationsSDL.tex     derivationalMorphSDL.tex  listOfRecordingsSDL.t
 PiteGrammarBibSDL.bib\
 LSP/langsci.cls
 	 
-	 
-
-# irgendwie braucht man vier mal latex, weil sonst die Seiten nicht stimmen
-
-# http://tex.stackexchange.com/questions/8791/speeding-up-latex-compilation
-# xelatex danish
-# 58.509u 5.358s 1:00.76 105.0%	0+0k 2+388io 0pf+0w
-
-# xelatex -no-pdf danish
-# 27.946u 0.379s 0:28.39 99.7%	0+0k 0+12io 0pf+0w
-
-
 %.pdf: %.tex $(SOURCE)
 	xelatex -no-pdf $* 
 	bibtex -min-crossrefs=200 $*
 	xelatex -no-pdf $* 
 	bibtex -min-crossrefs=200 $*
 	xelatex  -no-pdf $*
-#	correct-toappear
-#	correct-index
 	makeindex -o $*.ind $*.idx
-	makeindex -o $*.lnd $*.ldx
-	makeindex -o $*.wnd $*.wdx
-	LSP/bin/reverse-index <$*.wdx >$*.rdx
-	makeindex -o $*.rnd $*.rdx
+#	makeindex -o $*.lnd $*.ldx
+#	makeindex -o $*.wnd $*.wdx
+#	LSP/bin/reverse-index <$*.wdx >$*.rdx
+#	makeindex -o $*.rnd $*.rdx
 	\rm $*.adx
 	authorindex -i -p $*.aux > $*.adx
 	sed -e 's/}{/|hyperpage}{/g' $*.adx > $*.adx.hyp
