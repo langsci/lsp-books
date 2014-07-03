@@ -34,8 +34,11 @@
 \usepackage{synttree} %zeichnet linguistische Bäume
 \branchheight{36pt}%sets height between rows in synttree
 \usepackage{lscape}%used for landscape pages in index (list of recordings)
-\usepackage{polyglossia}
-\setmainlanguage{english}
+%\usepackage{polyglossia}
+%\setmainlanguage{english}
+
+\usepackage{german}
+\selectlanguage{USenglish}
 
 \usepackage[]{placeins}%using \FloatBarrier command, all floats still floating at that point will be typeset, and cannot cross that boundary. the option here \usepackage[section]{placeins} automatically adds \FloatBarrier to every \section command (only works for \section commands, nothing lower than that!)
 %\usepackage{afterpage}%by using the command \afterpage{\clearpage}, all floats will appear, but no new page will be started, thus avoiding bad page breaks around floats
@@ -61,7 +64,7 @@ This book should be equally useful for scholars of Uralic linguistics, typologis
 %The grammar is descriptive in style. 
 }
 
-%\includeonly{syntaxSentencesSDL}%this has only the documents listed printed/TeXed, but all refs, page nos. etc. are accurate (assuming .aux files for ALL included documents already exist. syntax: \includeonly{firstfile,secondfile,fifthfile}
+%\includeonly{nounsSDL,syntaxSentencesSDL}%this has only the documents listed printed/TeXed, but all refs, page nos. etc. are accurate (assuming .aux files for ALL included documents already exist. syntax: \includeonly{firstfile,secondfile,fifthfile}
 
 
 \begin{document}
