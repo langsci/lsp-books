@@ -7,8 +7,8 @@
   \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
 
-\bibitem[{{\'A}lgu(2006+)}]{alguWebsite}
-{\'A}lgu. 2006+.
+\bibitem[{{\'A}lgu(2006)}]{alguWebsite}
+{\'A}lgu. 2006.
 \newblock \emph{The {{\'A}}lgu database: {E}tymological database of the {S}aami
   languages}.
 \newblock Helsinki: Research Institute for the Languages of Finland.
