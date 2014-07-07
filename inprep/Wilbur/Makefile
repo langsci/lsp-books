@@ -8,10 +8,10 @@ LSP/langsci.cls
 	 
 %.pdf: %.tex $(SOURCE)
 	xelatex -no-pdf $* 
-	bibtex -min-crossrefs=200 $*
+#	bibtex -min-crossrefs=200 $*
 	xelatex -no-pdf $* 
-	bibtex -min-crossrefs=200 $*
-	xelatex  -no-pdf $*
+#	bibtex -min-crossrefs=200 $*
+#	xelatex  -no-pdf $*
 	makeindex -o $*.ind $*.idx
 #	makeindex -o $*.lnd $*.ldx
 #	makeindex -o $*.wnd $*.wdx
@@ -38,11 +38,18 @@ cover: XeTeX_piteSaami_SDL.pdf
 # http://www.imagemagick.org/script/command-line-options.php#quality
 
 clean:
-	rm -f *.bak *~ *.log *.blg *.bbl *.aux *.toc *.cut *.out *.tmp *.tpm *.adx *.adx.hyp *.idx *.ilg *.ind \
+	rm -f *.bak *~ *.log *.blg *.aux *.toc *.cut *.out *.tmp *.tpm *.adx *.adx.hyp *.idx *.ilg *.ind \
 	*.and *.glg *.glo *.gls *.wdx *.wnd *.wrd *.wdv *.ldx *.lnd *.rdx *.rnd *.xdv 
 
 realclean: clean
-	rm -f *.dvi *.ps *.pdf
+	rm -f *.dvi *.ps *.pdf *.bbl
+
+#clean:
+#	rm -f *.bak *~ *.log *.blg *.bbl *.aux *.toc *.cut *.out *.tmp *.tpm *.adx *.adx.hyp *.idx *.ilg *.ind \
+#	*.and *.glg *.glo *.gls *.wdx *.wnd *.wrd *.wdv *.ldx *.lnd *.rdx *.rnd *.xdv 
+#
+#realclean: clean
+#	rm -f *.dvi *.ps *.pdf
 
 
 
