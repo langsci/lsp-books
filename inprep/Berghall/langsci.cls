@@ -120,36 +120,36 @@
   \usepackage{amssymb} % has to be loaded before other stuff			
   \usepackage{fontspec}
   \newcommand{\fontpath}{./LSP/lsp-fonts/}
-			
-  \setsansfont[
-  			%Ligatures={TeX,Common},		% not supported by ttf
-  			Scale=MatchLowercase,
-  			Path=\fontpath,
-            BoldFont = Arimo-Bold_B.ttf ,
-			ItalicFont = Arimo-Italic_B.ttf ,				
-			BoldItalicFont = Arimo-BoldItalic_B.ttf 		
-			]
-			{Arimo_B.ttf}
-			
-  \setmonofont[
-  			Ligatures={TeX},Scale=MatchLowercase,Path=\fontpath,
-			BoldFont = FreeMonoBold_B.otf ,
-			SlantedFont = FreeMonoOblique_B.otf ,				
-			BoldSlantedFont = FreeMonoBoldOblique_B.otf 		
-			]
-			{FreeMono_B.otf}
-
-
-  \setmainfont[
-  			Ligatures={TeX,Common},
-  			Path=\fontpath,
-  			PunctuationSpace=0,							
-%  			Numbers={OldStyle,Proportional},				% for tables use \addfontfeatures{Numbers={Monospaced,Lining}}
-  			Numbers={Proportional},	% normal numbers			% for tables use \addfontfeatures{Numbers={Monospaced,Lining}}
-			BoldFont = LinLibertine_RZ_B.otf ,				% semi-bold
-			ItalicFont = LinLibertine_RI_B.otf ,			
-			BoldItalicFont = LinLibertine_RZI_B.otf ]		% semi-bold
-			{LinLibertine_R_B.otf}			
+% 			
+%   \setsansfont[
+%   			%Ligatures={TeX,Common},		% not supported by ttf
+%   			Scale=MatchLowercase,
+%   			Path=\fontpath,
+%             BoldFont = Arimo-Bold_B.ttf ,
+% 			ItalicFont = Arimo-Italic_B.ttf ,				
+% 			BoldItalicFont = Arimo-BoldItalic_B.ttf 		
+% 			]
+% 			{Arimo_B.ttf}
+% 			
+%   \setmonofont[
+%   			Ligatures={TeX},Scale=MatchLowercase,Path=\fontpath,
+% 			BoldFont = FreeMonoBold_B.otf ,
+% 			SlantedFont = FreeMonoOblique_B.otf ,				
+% 			BoldSlantedFont = FreeMonoBoldOblique_B.otf 		
+% 			]
+% 			{FreeMono_B.otf}
+% 
+% 
+%   \setmainfont[
+%   			Ligatures={TeX,Common},
+%   			Path=\fontpath,
+%   			PunctuationSpace=0,							
+% %  			Numbers={OldStyle,Proportional},				% for tables use \addfontfeatures{Numbers={Monospaced,Lining}}
+%   			Numbers={Proportional},	% normal numbers			% for tables use \addfontfeatures{Numbers={Monospaced,Lining}}
+% 			BoldFont = LinLibertine_RZ_B.otf ,				% semi-bold
+% 			ItalicFont = LinLibertine_RI_B.otf ,			
+% 			BoldItalicFont = LinLibertine_RZI_B.otf ]		% semi-bold
+% 			{LinLibertine_R_B.otf}			
   
   \usepackage[libertine]{newtxmath}
   
@@ -1114,7 +1114,7 @@ guarantee the accuracy of such information thereafter.
 \usepackage{authorindex}
 
 
-\usepackage{./LSP/lsp-styles/lsp-eng-hyp}
+% \usepackage{./LSP/lsp-styles/lsp-eng-hyp}
 
 
 % The following allows for a quick reference to following or preceeding examples (\mex{1}) or
