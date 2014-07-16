@@ -12,7 +12,7 @@ LSP/langsci.cls
 	xelatex -no-pdf $* 
 #	bibtex -min-crossrefs=200 $*
 #	xelatex  -no-pdf $*
-	makeindex -o $*.ind $*.idx
+#	makeindex -o $*.ind $*.idx
 #	makeindex -o $*.lnd $*.ldx
 #	makeindex -o $*.wnd $*.wdx
 #	LSP/bin/reverse-index <$*.wdx >$*.rdx
@@ -38,7 +38,7 @@ cover: XeTeX_piteSaami_SDL.pdf
 # http://www.imagemagick.org/script/command-line-options.php#quality
 
 clean:
-	rm -f *.bak *~ *.log *.blg *.aux *.toc *.cut *.out *.tmp *.tpm *.adx *.adx.hyp *.idx *.ilg *.ind \
+	rm -f *.bak *~ *.log *.blg *.aux *.toc *.cut *.out *.tmp *.tpm *.adx *.adx.hyp *.idx *.ilg \
 	*.and *.glg *.glo *.gls *.wdx *.wnd *.wrd *.wdv *.ldx *.lnd *.rdx *.rnd *.xdv 
 
 realclean: clean
