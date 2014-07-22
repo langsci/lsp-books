@@ -2,6 +2,7 @@
 \documentclass[ number=2
 			   ,series=sidl
 			   ,isbn=xxx-x-xxxxxx-xx-x
+			   ,url=http://langsci-press.org/catalog/book/19
 			   ,output=long   % long|short|inprep              
 			   %,blackandwhite
 			   %,smallfont
@@ -9,10 +10,7 @@
 			  ]{LSP/langsci}                          
           
 \usepackage{LSP/lsp-styles/lsp-gb4e}
-\usepackage{LSP/lsp-styles/avm}
-\avmfont{\sc} 
-\avmvalfont{\it}
-                                                      
+
 % just for the XeLaTeX logo
 \usepackage{xspace}\newcommand{\latex}{\LaTeX\xspace}
 \usepackage{dtklogos}\newcommand{\xelatex}{\XeLaTeX\xspace}
@@ -24,16 +22,15 @@
 \usepackage{multicol}
 
 \usepackage{lscape}
-\usepackage{longtable}
+\usepackage{longtable,tabularx}
 
 \usepackage{tikz-qtree}
-% has strange side effects
-%\tikzset{every tree node/.style={align=left, anchor=north}}
-\tikzset{every roof node/.append style={inner sep=0.1pt,text height=2ex,text depth=0.3ex}}
+%% has strange side effects
+%%\tikzset{every tree node/.style={align=left, anchor=north}}
+%\tikzset{every roof node/.append style={inner sep=0.1pt,text height=2ex,text depth=0.3ex}}
 
-\usepackage{tabularx}
-%\usepackage{jambox}
- 
+\include{hyphenation}
+          
 \title{Adjective Attribution}  
 \author{Michael Rießler}
 
@@ -45,21 +42,22 @@
 \typesetter{Michael Rießler}
 \proofreader{Joshua Wilbur, ??}
 
+\hypersetup{bookmarksopenlevel=0}
 
 \begin{document}
 
-\include{hyphenation}
-          
 \maketitle  
 
-\frontmatter 
+\frontmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \tableofcontents    
 
 \include{chapters/preface}
 \include{chapters/abbreviations}
 
-\mainmatter
+\mainmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\lehead{\leftmark}\rohead{\rightmark}
 
 \include{chapters/part-theory}
 \include{chapters/chap-intro}
@@ -83,19 +81,25 @@
 %%%%%%
 \include{chapters/part-concl}
 %\include{chapters/chap-results}
-%%%%%%
-%%%%%%
-%%%%%%
 
-%%%%%%
-\backmatter
-\appendix\include{chapters/appendix}
+\backmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\ohead{Appendix: ??}
+\include{chapters/appendix}
+
+\ohead{Bibliography}
+\bibliography{test}
+
+\cleardoublepage\phantomsection%this allows hyperlink in ToC to work
+\addcontentsline{toc}{chapter}{Name index}
+\ohead{Name index}
+\printindex[aut]
+
+\cleardoublepage\phantomsection%this allows hyperlink in ToC to work
+\addtocontents{toc}{\protect\enlargethispage{2\baselineskip}}
+\addcontentsline{toc}{chapter}{Subject index}
+\ohead{Subject index}
+\raggedright
 \printindex
 
-\newpage
-
-\addcontentsline{toc}{chapter}{Bibliography} 
-\bibliography{test}
-                              
 \end{document}
