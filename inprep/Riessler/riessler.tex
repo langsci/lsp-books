@@ -1,7 +1,7 @@
 
 \documentclass[ number=2
 			   ,series=sidl
-			   ,isbn=xxx-x-xxxxxx-xx-x
+			   ,isbn=978-3-944675-49-7
 			   ,url=http://langsci-press.org/catalog/book/19
 			   ,output=long   % long|short|inprep              
 			   %,blackandwhite
@@ -44,6 +44,12 @@
 
 \hypersetup{bookmarksopenlevel=0}
 
+%Draftmode
+\iflsDraft%indizierte Begriffe am Seitenrand anzeigen\proofmodetrue\fi
+%%%
+\usepackage[textsize=tiny,textwidth=1.5cm]{todonotes}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{document}
 
 \maketitle  
@@ -62,7 +68,7 @@
 \include{chapters/part-theory}
 \include{chapters/chap-intro}
 \include{chapters/chap-np-adj}
-%\include{interface}
+\include{chapters/chap-interface}
 
 \include{chapters/part-typology}
 \include{chapters/chap-typologizing-np}
