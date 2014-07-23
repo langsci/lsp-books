@@ -1,8 +1,8 @@
 # specify your main target here:
 all: riessler.pdf
 
-# specify teh main file and all the files that you are including
-SOURCE= riessler.tex chapters/abbreviations.tex chapters/appendix.tex chapters/chap-areal.tex chapters/chap-areal-typ.tex chapters/chap-evolution-nea.tex chapters/chap-intro.tex chapters/chap-lg-nea.tex chapters/chap-np-adj.tex chapters/chap-ontology.tex chapters/chap-polyfunctionality.tex chapters/chap-results.tex chapters/chap-syn-introduction.tex chapters/chap-typologizing-np.tex chapters/chap-typology-of.tex chapters/interface.tex chapters/part-concl.tex chapters/part-diachrony.tex chapters/part-synchrony.tex chapters/part-theory.tex chapters/part-typology.tex chapters/preface.tex\
+# specify the main file and all the files that you are including
+SOURCE= riessler.tex chapters/abbreviations.tex chapters/appendix.tex chapters/chap-areal.tex chapters/chap-areal-typ.tex chapters/chap-evolution-nea.tex chapters/chap-interface.tex chapters/chap-intro.tex chapters/chap-lg-nea.tex chapters/chap-np-adj.tex chapters/chap-ontology.tex chapters/chap-polyfunctionality.tex chapters/chap-results.tex chapters/chap-syn-introduction.tex chapters/chap-typologizing-np.tex chapters/chap-typology-of.tex chapters/part-concl.tex chapters/part-diachrony.tex chapters/part-synchrony.tex chapters/part-theory.tex chapters/part-typology.tex chapters/preface.tex\
 LSP/langsci.cls
 	 
 riessler.pdf: riessler.tex  $(SOURCE)
