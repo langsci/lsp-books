@@ -19,7 +19,7 @@ We begin with an overview of the terminology used throughout this chapter in {\S
 \section{Terminological preliminaries}\label{sec:6:2}
 Numerals are `spoken normed expressions that are used to denote the exact number of objects for an open class of objects in an open class of social situations with the whole speech community in question' \citep[11]{Hammarstrom2010}. A numeral system is thus the arrangement of individual numeral expressions together in a language.
 
-Numeral systems typically make use of a base to construct their numeral expressions.\footnote{{}   Notable exceptions, i.e., numeral systems without bases, are the body-tally systems mentioned above, and the languages discussed in \citet[17-22]{Hammarstrom2010}.} A ``base'' in a numeral system is a numerical value~\textit{n~}which is used repeatedly in numeral expressions thus: \textit{xn {\textpm}}/x\textit{y}, that is, numeral~\textit{x}~is multiplied by the base \textit{n} plus, minus or multiplied by numeral \textit{y} (\citealt{Comrie2005numbase},\citealt[15]{Hammarstrom2010}).\footnote{We
+Numeral systems typically make use of a base to construct their numeral expressions.\footnote{Notable exceptions, i.e., numeral systems without bases, are the body-tally systems mentioned above, and the languages discussed in \citet[17-22]{Hammarstrom2010}.} A ``base'' in a numeral system is a numerical value~\textit{n~}which is used repeatedly in numeral expressions thus: \textit{xn {\textpm}}/x\textit{y}, that is, numeral~\textit{x}~is multiplied by the base \textit{n} plus, minus or multiplied by numeral \textit{y} (\citealt{Comrie2005numbase},\citealt[15]{Hammarstrom2010}).\footnote{We
  do not adopt the notion of `base' of \citet{Greenberg1978} where `base' is defined as a serialised multiplicand upon which the recursive structure of \textit{all} higher complex numerals is constructed. That is, even where a language has for instance a small sequence of numerals formed on a non-decimal pattern (e.g., `5 2' for `seven', `5 3' for `eight', and `5 4' for `nine'),  if `10' is the higher, more productive base, then the language is classed as having a decimal system only.
 }  
 Many languages have multiple bases. For instance, Dutch\il{Dutch} numerals have five different bases: \textit{tien} `10', \textit{honderd} `100', \textit{duizend} `1000', \textit{miljoen} `100,000', \textit{miljard} `1,000,000'. These bases are all powers of ten (10, 10\textsuperscript{2}, 10\textsuperscript{3}\textsubscript{,} 10\textsuperscript{6}, 10\textsuperscript{9}). However, the higher powers are not typically considered important in defining a numeral system type; the lowest base gives its name to the whole system, that is, Dutch would be characterised as a ``decimal'' or ``base-10'' numeral system. 
@@ -56,7 +56,7 @@ In this chapter we deal with several ``mixed numeral systems''. We define a ``mi
 21 & 2 x 10 + 1 & {\itshape dowampo no sit} &   2 x 10 + 1 & uirua ma set\\
 25 & 2 x 10 + 5 & \textit{dowampo no tambia}\textit{{\ng}} &   2 x 10 + 5& uirua ma lima \\
 30 & 3 x 10 & \textit{te}\textit{{\textgamma}}\textit{ompo} &   3 x 10& uilati\\
-  & {\bfseries\scshape Bases} & {5-10} &   & {10}\\
+   {\bfseries\scshape Bases} & {5-10} &   & {10} & \\
 \mybottomline
 \end{tabular}
 
@@ -128,9 +128,9 @@ Dissimilation of segments across members of a compound is also found. An example
 In short, the reconstruction of numerals must take into account regular sound changes\is{sound change} as well as irregular changes in the members of compounds. 
 
 \section{Numerals `one' to `five'}\label{sec:6:4}
-The numerals `one' to `five' are for the most part simple mono-morphemic words in Alor- Pantar. Table \ref{tab:6:2} presents an overview with the reconstructions to proto-Alor-Pantar (pAP)\il{proto-Alor-Pantar}.\footnote{{}   Not all elements of the reconstructed forms as they are given here are motivated in this chapter; see the reconstructed sound changes\is{sound change} reported on in \citet{HoltonEtAl2012} and Holton and Robinson (this volume).}  The Proto-AP\il{proto-Alor-Pantar} numerals `one' to `five' have been retained in most of its descendants. Only in eastern Alor have numerals in this range been innovated. 
+The numerals `one' to `five' are for the most part simple mono-morphemic words in Alor- Pantar. Table \ref{tab:6:2} presents an overview with the reconstructions to proto-Alor-Pantar (pAP)\il{proto-Alor-Pantar}.\footnote{Not all elements of the reconstructed forms as they are given here are motivated in this chapter; see the reconstructed sound changes\is{sound change} reported on in \citet{HoltonEtAl2012} and Holton and Robinson (this volume).}  The Proto-AP\il{proto-Alor-Pantar} numerals `one' to `five' have been retained in most of its descendants. Only in eastern Alor have numerals in this range been innovated. 
  
-A non-etymological initial /a/ is present on Western Pantar\il{Western Pantar} `one' and `four' and Reta\il{Retta} `one'. This development is apparently due to analogy with the numerals `two' and possibly `three'. Such analogical adjustments in numeral forms, sometimes referred to as `onset runs' \citep{Matisoff1995}, are cross-linguistically relatively common.\footnote{{}   For example, in the Austronesian language\il{Austronesian language(s)} Thao\il{Thao} (Taiwan), initial /s/ in *susha `two' was replaced by /t/ (\textit{tusha)} in analogy to the onsets of \textit{ta} `one' and \textit{turu} `three' \citep[274]{Blust2009}. The initial /d/ on `nine' in Slavonic languages (e.g., Russian\il{Russian} \textit{d\'evjat}) is thought to have arisen due to the influence of the following numeral, Common Slavonic *des\k{e}t\u{\i}, `ten' PIE *dekm[2F3?](t) \citep[760]{Comrie1992}. \citet{Winter1964} discuses how the form for `four' influences `five' in Indo-European languages. These examples illustrate that `[a]nalogy is a powerful factor in counting, in both alliteration and rhyme, such that regular sound laws can be broken.' \citep[256]{Sidwell1999}.} The prothetic /a/ is also found on Western Pantar\il{Western Pantar} `thousand' which can be realised as either \textit{ribu} or \textit{aribu}, an Austronesian\il{Austronesian language(s)} loan\is{borrowing}. 
+A non-etymological initial /a/ is present on Western Pantar\il{Western Pantar} `one' and `four' and Reta\il{Retta} `one'. This development is apparently due to analogy with the numerals `two' and possibly `three'. Such analogical adjustments in numeral forms, sometimes referred to as `onset runs' \citep{Matisoff1995}, are cross-linguistically relatively common.\footnote{For example, in the Austronesian language\il{Austronesian language(s)} Thao\il{Thao} (Taiwan), initial /s/ in *susha `two' was replaced by /t/ (\textit{tusha)} in analogy to the onsets of \textit{ta} `one' and \textit{turu} `three' \citep[274]{Blust2009}. The initial /d/ on `nine' in Slavonic languages (e.g., Russian\il{Russian} \textit{d\'evjat}) is thought to have arisen due to the influence of the following numeral, Common Slavonic *des\k{e}t\u{\i}, `ten' PIE *dekm[2F3?](t) \citep[760]{Comrie1992}. \citet{Winter1969} discuses how the form for `four' influences `five' in Indo-European languages. These examples illustrate that `[a]nalogy is a powerful factor in counting, in both alliteration and rhyme, such that regular sound laws can be broken.' \citep[256]{Sidwell1999}.} The prothetic /a/ is also found on Western Pantar\il{Western Pantar} `thousand' which can be realised as either \textit{ribu} or \textit{aribu}, an Austronesian\il{Austronesian language(s)} loan\is{borrowing}. 
 
 
 \begin{sidewaystable}\centering
@@ -172,7 +172,7 @@ A non-etymological initial /a/ is present on Western Pantar\il{Western Pantar} `
 \stepcounter{footnote}\footnotetext{Liquid-stop metathesis has occurred in Blagar-Bama\ilt{Blagar} \textit{akur} `two', but not in other Blagar dialects.}
 \stepcounter{footnote}\footnotetext{In Abui\ilt{Abui} and Kamang\ilt{Kamang}, the vowels in `four' display some irregular patterns. For Kamang, it is necessary to posit the following metathesis: Proto-Alor Pantar\il{proto-Alor-Pantar} *buta {\textless} *bita {\textless} biat.} 
 
-The etymologies of the AP numerals `two' and `five' have been the subject of some speculation and typological interest. In his early comparative study on Alor-Pantar languages, \citet[21]{Stokhof1975} makes two observations about these AP numerals which are not supported by our data. First, his claim that AP languages frequently use the root `tooth' to express `five' is not supported by more recent historical work on the family, which reconstructs `five' as pAP\il{proto-Alor-Pantar} *jiwesin, and `tooth/teeth' as *-uas(in) (Holton and Robinson, this volume). It should also be noted that no known cognitive link exists between `five' and `tooth', unlike the link between `five' and `hand' \citep{Majewicz1981,Majewicz1984,Heine1997}. Second, contra Stokhof, pAP\il{proto-Alor-Pantar} *(a)tiga `three' is not a loan word\is{borrowing} from Malay\il{Malay}, despite the similarity with Malay\il{Malay} \textit{tiga} `three'. Whilst there is evidence of Austronesian\il{Austronesian language(s)} influence in pAP\il{proto-Alor-Pantar},\footnote{{}   For instance, pAP\il{proto-Alor-Pantar} *bui `betel nut' is probably borrowed\is{borrowing} from Austronesian\il{Austronesian language(s)} (proto-West Malayo-Polynesian\il{proto-West Malayo-Polynesian}) *buyuq `leaf of betel vine' (Blust n.d.).}   there is no evidence of influence from Malay\il{Malay}. Malay\il{Malay} first arrived in the Alor-Pantar region in colonial times,{} \footnote{{}   The function of Malay\il{Malay} as the \textit{lingua franca} of the Dutch East Indies appears irrelevant for Alor-Pantar, as the area was under (remote) Portuguese control till 1860, and Dutch colonial influence only became apparent in the first decades of the 20\textsuperscript{th} century \citep[14 and references cited there]{Klamer2010grammar}. There is no evidence that Malay\il{Malay} was used as a trade language in the Alor archipelago in pre-colonial times. On the other hand, there is anecdotal evidence that Alorese was used for interethnic communications in Pantar and coastal parts of west Alor until the mid 20\textsuperscript{th} century \citep{Klamer2011}.}  thousands of years after the likely break-up of pAP. If there were an Austronesian\il{Austronesian language(s)} numeral `three' borrowed\is{borrowing} into the family, this would more likely be similar to proto-Austronesian\il{proto-Austronesian}  *telu `three' \citep[268]{Blust2009} instead of Malay\il{Malay} \textit{tiga}. The Austronesian languages\il{Austronesian language(s)} surrounding Alor-Pantar reflect proto-Austronesian\il{proto-Austronesian} *telu. For instance, Alorese\il{Alorese} (an Austronesian language\il{Austronesian language(s)} spoken on the coasts of Pantar and Alor) has \textit{tilu}, Kedang\il{Kedang} (on Lembata) has \textit{telu}, the language of Atauro (a small island of the north coast of Timor) has \textit{hetelu} and Tetun Fehan\il{Tetun Fehan} (on Timor) has \textit{tolu}.
+The etymologies of the AP numerals `two' and `five' have been the subject of some speculation and typological interest. In his early comparative study on Alor-Pantar languages, \citet[21]{Stokhof1975} makes two observations about these AP numerals which are not supported by our data. First, his claim that AP languages frequently use the root `tooth' to express `five' is not supported by more recent historical work on the family, which reconstructs `five' as pAP\il{proto-Alor-Pantar} *jiwesin, and `tooth/teeth' as *-uas(in) (Holton and Robinson, this volume). It should also be noted that no known cognitive link exists between `five' and `tooth', unlike the link between `five' and `hand' \citep{Majewicz1981,Majewicz1984,Heine1997}. Second, contra Stokhof, pAP\il{proto-Alor-Pantar} *(a)tiga `three' is not a loan word\is{borrowing} from Malay\il{Malay}, despite the similarity with Malay\il{Malay} \textit{tiga} `three'. Whilst there is evidence of Austronesian\il{Austronesian language(s)} influence in pAP\il{proto-Alor-Pantar},\footnote{For instance, pAP\il{proto-Alor-Pantar} *bui `betel nut' is probably borrowed\is{borrowing} from Austronesian\il{Austronesian language(s)} (proto-West Malayo-Polynesian\il{proto-West Malayo-Polynesian}) *buyuq `leaf of betel vine' (Blust n.d.).}   there is no evidence of influence from Malay\il{Malay}. Malay\il{Malay} first arrived in the Alor-Pantar region in colonial times,{} \footnote{The function of Malay\il{Malay} as the \textit{lingua franca} of the Dutch East Indies appears irrelevant for Alor-Pantar, as the area was under (remote) Portuguese control till 1860, and Dutch colonial influence only became apparent in the first decades of the 20\textsuperscript{th} century \citep[14 and references cited there]{Klamer2010grammar}. There is no evidence that Malay\il{Malay} was used as a trade language in the Alor archipelago in pre-colonial times. On the other hand, there is anecdotal evidence that Alorese was used for interethnic communications in Pantar and coastal parts of west Alor until the mid 20\textsuperscript{th} century \citep{Klamer2011}.}  thousands of years after the likely break-up of pAP. If there were an Austronesian\il{Austronesian language(s)} numeral `three' borrowed\is{borrowing} into the family, this would more likely be similar to proto-Austronesian\il{proto-Austronesian}  *telu `three' \citep[268]{Blust2009} instead of Malay\il{Malay} \textit{tiga}. The Austronesian languages\il{Austronesian language(s)} surrounding Alor-Pantar reflect proto-Austronesian\il{proto-Austronesian} *telu. For instance, Alorese\il{Alorese} (an Austronesian language\il{Austronesian language(s)} spoken on the coasts of Pantar and Alor) has \textit{tilu}, Kedang\il{Kedang} (on Lembata) has \textit{telu}, the language of Atauro (a small island of the north coast of Timor) has \textit{hetelu} and Tetun Fehan\il{Tetun Fehan} (on Timor) has \textit{tolu}.
 
 In short, AP languages have by and large cognate forms for numerals `one' to `five' that reflect monomorphemic lexemes inherited from proto-AP\il{proto-Alor-Pantar}. 
 
@@ -220,7 +220,7 @@ In most AP languages, the form `six' is mono-morphemic, as shown in Table \ref{t
 \label{tab:6:3}
 \end{table}
 
-The simplex numeral\is{simplex numeral} `six' reconstructs as pAP\il{proto-Alor-Pantar} *talam `six'. It is generally assumed that a base-five system originates from counting the fingers of one hand. In such a system, the numeral `six' often involves crossing over from one hand to the other,\footnote{{}   Cross-linguistically, other strategies to express `six' include (in bodily counting routines) touching or grabbing the wrist \citep{Evans2009,Donohue2008num}, or using the etymon `fist' \citep[343]{Plank2009}. We do not find any such practices in Alor Pantar.} and may etymologically be related to words like `cross over' (\citealt{Majewicz1981,Majewicz1984}, \citealt[399-401]{Lynch2009}). Synchronic evidence that pAP\il{proto-Alor-Pantar} *talam may have been such a `cross-over' verb comes from Sawila\il{Sawila}, which has a modern form \textit{talama{\ng}} `step on, change legs in dance'. 
+The simplex numeral\is{simplex numeral} `six' reconstructs as pAP\il{proto-Alor-Pantar} *talam `six'. It is generally assumed that a base-five system originates from counting the fingers of one hand. In such a system, the numeral `six' often involves crossing over from one hand to the other,\footnote{Cross-linguistically, other strategies to express `six' include (in bodily counting routines) touching or grabbing the wrist \citep{Evans2009,Donohue2008num}, or using the etymon `fist' \citep[343]{Plank2009}. We do not find any such practices in Alor Pantar.} and may etymologically be related to words like `cross over' (\citealt{Majewicz1981,Majewicz1984}, \citealt[399-401]{Lynch2009}). Synchronic evidence that pAP\il{proto-Alor-Pantar} *talam may have been such a `cross-over' verb comes from Sawila\il{Sawila}, which has a modern form \textit{talama{\ng}} `step on, change legs in dance'. 
 
 AP compounds for `six' are composed of two juxtaposed numeral morphemes. In several AP languages, compounds for `six' have replaced etymological *talam `six'. There appears to have been three independent innovations\is{innovation} of this kind. One area where this has happened is eastern Alor, represented by Sawila\il{Sawila}, Kula\il{Kula} and Wersing\il{Wersing} in Table \ref{tab:6:4}. Kula\il{Kula}, Sawila and Wersing-Kolana have replaced *talam `six' with a base-five compound, as set out in \REF{ex:6:4}. Whereas Sawila and Kula use `one' in the compounds, the morpheme \textit{nu}\textit{{\ng}} used in Wersing-Kolana\il{Wersing} for the `[plus] one' part of the compound is not identical to the synchronic numeral `one', which is \textit{no}. Rather, \textit{nu}\textit{{\ng}} appears to be a reflex of a distinct pAP\il{proto-Alor-Pantar} lexeme *naku{\ng} `single', which is reflected in, for example, Kamang\il{Kamang} \textit{nuku}\textit{{\ng}} `single', and Western Pantar\il{Western Pantar} \textit{nakki}\textit{{\ng}} `single'.
 
@@ -228,7 +228,7 @@ AP compounds for `six' are composed of two juxtaposed numeral morphemes. In seve
 
 \ea%4
 \label{ex:6:4}
-Formation of `six' in eastern Alor languages\\
+\upshape Formation of `six' in eastern Alor languages\\
  Sawila\ilt{Sawila}:\\
  \textit{jo:ti}\textit{{\ng}}\textit{sundana}\textbf{}   `six'   {\textless} \textit{jo:ti}\textit{{\ng}} `five'   [plus] \textit{sundana}' one'\\
    Kula\ilt{Kula}:\\
@@ -250,10 +250,10 @@ In the north-central Alor language Kamang\il{Kamang}, the formation of `six' dif
 
 \ea%5
 \label{ex:6:5}
-Formation of `six' in Kamang dialects\\
- Kamang{}-Atoitaa: \\
+ \upshape Formation of `six' in Kamang dialects\\
+ Kamang{}-Atoitaa: 
 \textit{isi}\textit{{\ng}}\textit{nok}\textbf{} `six'     {\textless} \textit{iwesi}\textit{{\ng}} `five' [plus] \textit{nok} `one'\\
-    Kamang{}-Takailubui:\\
+    Kamang{}-Takailubui:
     \textit{ta:ma} `six'      \\ 
 \z
 
@@ -320,7 +320,7 @@ The languages of central-east Alor construct `seven' to `nine' with an additive\
 
 \ea%6
 \label{ex:6:6}
-Compound `seven' to nine' in central-east Alor\\
+\upshape Compound `seven' to nine' in central-east Alor\\
 \ea
 \glllllll   { }    		`seven'      		{\textless}  `five'  		[plus]  `two' \\
 {\rm Abui\ilt{Abui}}    		{jeti}{{\ng}}{ajoku}    	{\textless}  {jeti}{{\ng}} 	{}   	{ajoku}\\
@@ -357,25 +357,31 @@ Compound `seven' to nine' in central-east Alor\\
 \let\eachwordsix=\rm
 \let\eachwordseven=\rm
 
-By contrast, languages of the Pantar subgroup have compounds for numerals `seven' through `nine' that are synchronically non-transparent. The patterns found across the Pantar languages show certain regularities, indicating that the reductions were probably already present in their immediate ancestor, proto-Pantar\il{proto-Pantar} (pP).\footnote{{}   The sub-groups within the AP group that we name here are based purely on evidence from formal and phonological (often sporadic and/or irregular) changes shared between languages in their numerals. The reconstruction of pAP\ilt{proto-Alor-Pantar} in \citet{HoltonEtAl2012} is too preliminary and coarse-grained to pick up any real subgrouping evidence. We take the detailed study of numerals that we make here to be indicative of how we may go about identifying AP subgroups in the future.}  In \REF{ex:6:7} we present the reconstructed numeral compounds and their constituent numeral roots. Only the major changes leading to the forms in the modern languages are detailed here. 
+By contrast, languages of the Pantar subgroup have compounds for numerals `seven' through `nine' that are synchronically non-transparent. The patterns found across the Pantar languages show certain regularities, indicating that the reductions were probably already present in their immediate ancestor, proto-Pantar\il{proto-Pantar} (pP).\footnote{The sub-groups within the AP group that we name here are based purely on evidence from formal and phonological (often sporadic and/or irregular) changes shared between languages in their numerals. The reconstruction of pAP\ilt{proto-Alor-Pantar} in \citet{HoltonEtAl2012} is too preliminary and coarse-grained to pick up any real subgrouping evidence. We take the detailed study of numerals that we make here to be indicative of how we may go about identifying AP subgroups in the future.}  In \REF{ex:6:7} we present the reconstructed numeral compounds and their constituent numeral roots. Only the major changes leading to the forms in the modern languages are detailed here. 
 
-  The final segments /in/ of pP *jiwasin `five' were already lost in pP\il{proto-Pantar} `seven'. This was followed by the loss of (probably unstressed) medial /wa/ in the subgroup containing Sar\il{Sar}, Teiwa\il{Teiwa} and Kaera\il{Kaera} (proto-Central Pantar, pCP\il{proto-Central Pantar}). In the pP-forms\il{proto-Pantar} of `eight' and `nine', medial /we/ of *je\textbf{wa}sin `five' was lost, as well as the final /a/ of *(a\textbf{)}tig\textbf{a} `three'. In pCP\il{proto-Central Pantar} `eight' and `nine', a metathesis of /an/ to /na/ occured,\footnote{{}   The medial glottal stop in the Teiwa\ilt{Teiwa} form appears to have been inserted as a syllable boundary marker as the adjacent vowels /au/ of pCP *jesnaut began to harmonise in Teiwa.}  followed by a reduction of the resulting /sn/ cluster to /s/ in the group containing Sar and Kaera (proto-Central East Pantar, pCEP\il{proto-Central East Pantar}). 
+  The final segments /in/ of pP *jiwasin `five' were already lost in pP\il{proto-Pantar} `seven'. This was followed by the loss of (probably unstressed) medial /wa/ in the subgroup containing Sar\il{Sar}, Teiwa\il{Teiwa} and Kaera\il{Kaera} (proto-Central Pantar, pCP\il{proto-Central Pantar}). In the pP-forms\il{proto-Pantar} of `eight' and `nine', medial /we/ of *je\textbf{wa}sin `five' was lost, as well as the final /a/ of *(a\textbf{)}tig\textbf{a} `three'. In pCP\il{proto-Central Pantar} `eight' and `nine', a metathesis of /an/ to /na/ occured,\footnote{The medial glottal stop in the Teiwa\ilt{Teiwa} form appears to have been inserted as a syllable boundary marker as the adjacent vowels /au/ of pCP *jesnaut began to harmonise in Teiwa.}  followed by a reduction of the resulting /sn/ cluster to /s/ in the group containing Sar and Kaera (proto-Central East Pantar, pCEP\il{proto-Central East Pantar}). 
 
-  Developments in proto-Pantar\il{proto-Pantar} cardinals\is{cardinal numeral(s)} `seven' to `nine' 
 
+\xbox{\textwidth}{
 \ea%7
 \label{ex:6:7}
-\ea
+\upshape Developments in proto-Pantar\il{proto-Pantar} cardinals\is{cardinal numeral(s)} `seven' to `nine' \ea
+\upshape
   `seven':\\
   pP *jewasin `five' [plus] *raqo `two' {\textgreater} *\textbf{{\textsecstress}ewa}s{\textprimstress}raqo     {\textgreater}  pCP *jesraqo 
 
-\ex  `eight':\\   
+\ex
+\upshape
+  `eight':\\   
 *jewasin `five' [plus] *atiga `three' {\textgreater} *je{\textprimstress}santig {\textgreater} pCP *jesnatig {\textgreater} pCEP *jenatig 
 
-\ex  `nine': \\
+\ex
+\upshape
+  `nine': \\
 pP *jewasin `five' [plus] *ut `four' {\textgreater} *je{\textprimstress}sanut  {\textgreater} pCP *jesnaut {\textgreater} pCEP *jenaut 
 \z
 \z
+}
 
 The presence of base-five numerals for `seven' through `nine' in separate groups of the AP languages at opposite ends of the archipelago, coupled with the absence of any other equally widely attested forms for these numerals, is a strong indication that a base-five system was used in proto-AP\il{proto-Alor-Pantar} `seven' through `nine'. 
 
@@ -415,8 +421,6 @@ The second strategy of creating numerals `seven' through `nine' found in the AP 
 
 The subtractive\is{subtractive numeral} basis for the formation of Straits-West-Alor numerals `seven' through `nine' is evident from the remnants of reflexes of proto-AP\il{proto-Alor-Pantar} *(a)tiga `three', *araqu `two' and *nuk `one' in the final syllables of modern forms, as set out in \REF{ex:6:8}. Bolding indicates the matching strings of segments. 
 
-Formatives `three', `two', and `one' in Straits-West-Alor `seven' through `nine' 
-
 
 
 \let\eachwordone=\rm
@@ -428,7 +432,9 @@ Formatives `three', `two', and `one' in Straits-West-Alor `seven' through `nine'
 \let\eachwordseven=\it
 \let\eachwordeight=\it
 
+\newpage
 \ea%8 
+\upshape Formatives `three', `two', and `one' in Straits-West-Alor `seven' through `nine' 
 \label{ex:6:8} 
 \ea 
 \gllllllll {} 	`seven'	 Compare:	 `three'\\
@@ -460,6 +466,7 @@ Formatives `three', `two', and `one' in Straits-West-Alor `seven' through `nine'
 \z
 \z
 
+
 \let\eachwordone=\it
 \let\eachwordtwo=\rm
 \let\eachwordthree=\rm
@@ -473,13 +480,11 @@ Two different subtractive\is{subtractive numeral} bases are apparent in the mode
 
 The unanalysable initial elements in the compounds for `eight' (*tur-) and `nine' appear to go back to a single morpheme pre-proto-Straits-West-Alor\il{proto-Straits-West-Alor} *tukari, originally meaning something like `[ten] less' or `[ten] take away'. On this reconstruction, pre-pSWA *tukari was already reduced to *tur- in pSWA `eight', but maintained in `nine'. We suggest that *tukari meant `less' or `take away' rather than `ten' for two reasons. First, the reconstructed pAP\il{proto-Alor-Pantar} *qar `ten' \citep{HoltonEtAl2012} has a distinct form which cannot be reconciled with pre-pSWA\il{proto-Straits-West-Alor} *tukari. Second, to assign *tukari the meaning `ten' would imply that the numerals formed by subtraction would be composed of a simple sequence of the subtrahend and the minuend. This would be a cross-linguistically unusual pattern and is judged to be unlikely here, but by no means impossible. 
 
-We analyse these subtractive numerals\is{subtractive numeral} as originally constructed along the lines of `ten less one', `ten less two', and `ten less three'. However, over time, the numeral overtly denoting `ten' was dropped and `less one' was conventionalised to mean `nine', `less two' to mean `eight', and `less three' to mean `seven'. In turn, it appears that pre-pSWA\il{proto-Straits-West-Alor} *tukari was reanalysed as a subtrahend rather than the actual morpheme expressing the subtraction. This is seen in its replacement by another base in pSWA\il{proto-Straits-West-Alor} `seven', the other subtrahend that is apparent in the modern numerals, *{\texthtb}uti-. We propose that this is a borrowed\is{borrowing} numeral which is a reflex of proto-Austronesian\il{proto-Austronesian} *pitu `seven'. It is followed by reflexes of pAP\il{proto-Alor-Pantar} *(a)tiga `three' to denote `seven', and has replaced the pre-pSWA\il{proto-Straits-West-Alor} morpheme *tukari in the numeral `seven', as laid out in \REF{ex:6:9}:
+We analyse these subtractive numerals\is{subtractive numeral} as originally constructed along the lines of `ten less one', `ten less two', and `ten less three'. However, over time, the numeral overtly denoting `ten' was dropped and `less one' was conventionalised to mean `nine', `less two' to mean `eight', and `less three' to mean `seven'. In turn, it appears that pre-pSWA\il{proto-Straits-West-Alor} *tukari was reanalysed as a subtrahend rather than the actual morpheme expressing the subtraction. This is seen in its replacement by another base in pSWA\il{proto-Straits-West-Alor} `seven', the other subtrahend that is apparent in the modern numerals, *{\texthtb}uti-. We propose that this is a borrowed\is{borrowing} numeral which is a reflex of proto-Austronesian\il{proto-Austronesian} *pitu `seven'. It is followed by reflexes of pAP\il{proto-Alor-Pantar} *(a)tiga `three' to denote `seven', and has replaced the pre-pSWA\il{proto-Straits-West-Alor} morpheme *tukari in the numeral `seven', as laid out in Table \ref{tab:ex:6:9}.
 
-\ea%9
-\label{ex:6:9}
-   Pre-Proto-Straits-West-Alor\ilt{proto-Straits-West-Alor} and Proto-Straits-West-Alor `seven' to `nine'\\
- 
-
+\begin{table}
+\caption{Pre-Proto-Straits-West-Alor\ilt{proto-Straits-West-Alor} and Proto-Straits-West-Alor `seven' to `nine'}
+\label{tab:ex:6:9}
 \begin{tabular}{llp{2cm}p{2cm}p{2cm}}
 \mytopline
  &  & `seven' & `eight' & `nine'\\
@@ -497,7 +502,7 @@ less.\textbf{one}\\
 pSWA &  & *\textit{{\texthtb}utitoga} & *\textit{turarok} & *\textit{tukarinuk}\\
 \mybottomline
 \end{tabular}
-\z
+\end{table}
 
 In other words, Proto-Straits-West-Alor\il{proto-Straits-West-Alor} *{\texthtb}utitoga is composed of *{\texthtb}uti, a borrowed\is{borrowing} base that is a reflex of PAN *pitu `seven', conjoined with \textit{toga} as a reflex of pAP *(a)tiga `three'. The Straits-West-Alor languages are located along a narrow and busy strait where language contact with Austronesian\il{Austronesian language(s)} speakers is highly plausible. The motivation for borrowing\is{borrowing} an Austronesian\il{Austronesian language(s)} base for `seven' may have been Austronesian cultural influence. Among Austronesian\il{Austronesian language(s)} groups in eastern Indonesia, `seven' is a culturally significant numeral (e.g., in languages across Flores \citep[221]{Forth2004}; Kedang\il{Kedang} on Lembata \citep[14-18]{Barnes1982number}; Tetun Fehan\il{Tetun Fehan} on Timor \citealt[102]{VanKlinken1999} and Kambera\il{Kambera} on east Sumba \citealt[212-213]{Forth1981}.
 
@@ -514,18 +519,18 @@ It should be added that there is no evidence that a new [4 3] pattern could have
 \subsubsection{Other mixed systems for `seven' to `nine'}\label{sec:6:5.2.3}
 In the previous section it was mentioned that `seven' through `nine' in Kui\il{Kui} and Western Pantar\il{Western Pantar} include formative elements of the Straits West Alor system. However, the formatives are part of different systems, using a range of bases.
 
-In \REF{ex:6:10} we set out the formatives found in Kui `seven' to `nine'. We can see that Kui has replaced the proto-Straits-West-Alor\il{proto-Straits-West-Alor} subtractive numerals\is{subtractive numeral} for `seven' and `nine' with additive\is{additive numeral} base-five numerals [5 2], [5 4]. The numeral \textit{tadusa} `eight' follows a different pattern, apparently being built from two morphemes: (i) the first element \textit{tad-} appears to reflect the subtractive\is{subtractive numeral} morpheme *tur- ({\textless} pre-pSWA\il{proto-Straits-West-Alor} *tukari) used in forming pSWA *turarok `eight' (see \REF{ex:6:9}), and (ii) the second element \textit{usa} is the Kui numeral `four' ({\textless} pAP\il{proto-Alor-Pantar} *buta `four'). 
+In \REF{ex:6:10} we set out the formatives found in Kui `seven' to `nine'. We can see that Kui has replaced the proto-Straits-West-Alor\il{proto-Straits-West-Alor} subtractive numerals\is{subtractive numeral} for `seven' and `nine' with additive\is{additive numeral} base-five numerals [5 2], [5 4]. The numeral \textit{tadusa} `eight' follows a different pattern, apparently being built from two morphemes: (i) the first element \textit{tad-} appears to reflect the subtractive\is{subtractive numeral} morpheme *tur- ({\textless} pre-pSWA\il{proto-Straits-West-Alor} *tukari) used in forming pSWA *turarok `eight' (see Table \ref{tab:ex:6:9}), and (ii) the second element \textit{usa} is the Kui numeral `four' ({\textless} pAP\il{proto-Alor-Pantar} *buta `four'). 
 
  
 
 \ea%10
 \label{ex:6:10}
- Formatives in Kui `seven' to `nine'\\
-\ea `seven': \\
+\upshape Formatives in Kui `seven' to `nine'\\
+\ea \upshape  `seven': \\
 \textit{j}\textit{esaroku}  {\textless}  \textit{jesan} `five'   [plus]  \textit{oruku} `two'
-\ex `eight':\\
+\ex \upshape  `eight':\\
 \textit{tadusa}    {\textless}  \textit{tad-}      \textit{usa} `four'
-\ex `nine':\\
+\ex \upshape  `nine':\\
 \textit{je}\textit{sanusa}  {\textless}    \textit{jesan} `five'  [plus]  \textit{usa} `four'
 \z
 \z
@@ -538,24 +543,23 @@ In \REF{ex:6:11} we set out the formatives found in Western Pantar\il{Western Pa
 
 \ea%11
 \label{ex:6:11}
-Formatives in Western Pantar\ilt{Western Pantar} `seven' to `nine'\\
-\ea `seven':\\
+\upshape Formatives in Western Pantar\ilt{Western Pantar} `seven' to `nine'\\
+\ea \upshape `seven':\\
 \textit{betalaku}    {\textless}  \textit{bet-} `?'   \textit{alaku} `two'  
-\ex `eight':\\
+\ex \upshape  `eight':\\
 \textit{betiga}      {\textless}  \textit{be-} `?'     \textit{tiga} `three'
-\ex  `nine':\\
+\ex  \upshape  `nine':\\
 \textit{anukutanna}\textit{{\ng}}   {\textless}  \textit{anuku} `one'   \textit{tanna}\textit{{\ng}} `take away'
 \z
 \z
 
 Synchronic evidence for their poly-morphemic status includes the distributive formation of `seven', which takes the right-most element as the base for the reduplication\is{reduplication} \citet{KlamerSchapperCorbettTVnumeralwords}: \textit{betalaku\~{}talaku} `seven\textsc{\~{}redup}' `seven by seven', \textit{betiga\~{}tiga} `eight\textsc{\~{}redup}' `eight by eight', and \textit{anuktanna}\textit{{\ng}}\textit{\~{}tanna}\textit{{\ng}} `nine\textsc{\~{}redup}' `nine by nine'. The segmentation in distributives appears to be a historical relic. This is suggested by the irregularities in the distributive derivation of `seven': there has been a reanalysis of the morpheme boundary between \textit{bet-} and \textit{alaku} `two' to become \textit{be-talaku,} analogous to the segmentation of the numeral \textit{betiga} `three'. The reanalysis points to speakers not being able to decompose the complex numerals into their orginal forms.
 
-Thus, in Western Pantar\il{Western Pantar}, *{\texthtb}uti- has been adopted not as a minuend (as in proto{}-Straits-West-Alor\il{proto-Straits-West-Alor} `seven'), but as an augend. We posit that proto-Western Pantar\il{proto-Western Pantar} originally had an additive\is{additive numeral} base-5 system in which `seven' and `eight' were formed by means of compounds of `five [plus] two' and `five [plus] three' respectively, as set out in stage I in \REF{ex:6:12}. In stage II, pre-Western Pantar `five' is replaced by a reflex of proto-Austronesian\il{proto-Austronesian} *pitu `seven' borrowed\is{borrowing} either directly from an Austronesian language\il{Austronesian language(s)} under the same forces for pre-proto-Straits-West-Alor\il{proto-Straits-West-Alor} as described in {\S} \ref{sec:6:5.2.2}, or perhaps more likely from a ([pre]-proto)-Straits-West-Alor\il{proto-Straits-West-Alor} language. In stage III, the pattern of using *{\texthtb}uti- as an augend for the formation of `seven' in stage II is extended to the formation of `eight'.
+Thus, in Western Pantar\il{Western Pantar}, *{\texthtb}uti- has been adopted not as a minuend (as in proto{}-Straits-West-Alor\il{proto-Straits-West-Alor} `seven'), but as an augend. We posit that proto-Western Pantar\il{proto-Western Pantar} originally had an additive\is{additive numeral} base-5 system in which `seven' and `eight' were formed by means of compounds of `five [plus] two' and `five [plus] three' respectively, as set out in stage I in \REF{ex:6:12}. In stage II, pre-Western Pantar `five' is replaced by a reflex of proto-Austronesian\il{proto-Austronesian} *pitu `seven' borrowed\is{borrowing} either directly from an Austronesian language\il{Austronesian language(s)} under the same forces for pre-proto-Straits-West-Alor\il{proto-Straits-West-Alor} as described in {\S} \ref{sec:6:5.2.2}, or perhaps more likely from a ([pre]-proto)-Straits-West-Alor\il{proto-Straits-West-Alor} language. In stage III, the pattern of using *{\texthtb}uti- as an augend for the formation of `seven' in stage II is extended to the formation of `eight' (Table \ref{tab:ex:6:12}).
 
-\ea%12
-\label{ex:6:12}
-   Proto-W Pantar\ilt{proto-Western Pantar} developments leading to modern W Pantar `seven', `eight'\\
-
+\begin{table}
+\caption{Proto-W Pantar\ilt{proto-Western Pantar} developments leading to modern W Pantar `seven', `eight'}
+\label{tab:ex:6:12}
 \begin{tabular}{llp{2cm}p{2cm}p{2cm}}
 \mytopline
 &  & `seven' & `eight' & \\
@@ -565,7 +569,7 @@ Proto-WP\ilt{proto-Western Pantar} & stage I & *\textit{\textbf{jasi{\ng}}alaku}
  & stage III &  & *\textit{\textbf{{\texthtb}}\textbf{u}\textbf{ti}atoga} \textbf{seven}.three & \\
 \mybottomline
 \end{tabular}
-\z
+\end{table}
 
 In sum, in Kui\il{Kui}, the proto-Straits-West-Alor\il{proto-Straits-West-Alor} subtractive numerals\is{subtractive numeral} for `seven' and `nine' have been replaced by additive\is{additive numeral} base-five forms [5 2] and [5 4], while `eight' has become a base-four compound [2x4]. In Western Pantar\il{Western Pantar}, on the other hand, the proto-Straits-West-Alor\il{proto-Straits-West-Alor} subtractive numeral\is{subtractive numeral} `nine' has been replaced by an innovative, but still subtractive\is{subtractive numeral} form composed of the numeral `one' denoting the subtrahend and the lexical verb `take away'. Western Pantar `seven' and `eight' involve a borrowed\is{borrowing} and reanalysed quinary base.
 
@@ -580,14 +584,11 @@ In the modern AP languages, reflexes of *qar for the most part do not stand alon
 
 
 \begin{table}
-
-
-
 \begin{tabular}{p{2cm}llll}
 \mytopline
 &  & {`ten'} & {`twenty'} & {`thirty'}\\
 \midrule 
-{Pantar} & Western Pantar\ilt{Western Pantar} & \textit{ke}\footnotemark{}\textit{anuku} & {\itshape ke alaku} & {\itshape ke atiga}\\
+{Pantar} & Western Pantar\ilt{Western Pantar} & \textit{ke}{\dag}\textit{anuku} & {\itshape ke alaku} & {\itshape ke atiga}\\
  & Deing\ilt{Deing} & {\itshape qar nuk} & {\itshape qar raq} & {\itshape qar atig}\\
  & Sar\ilt{Sar} & {\itshape qar nuk} & {\itshape qar raq} & {\itshape qar tig}\\
  & Teiwa\ilt{Teiwa} & {\itshape qa:r nuk} & {\itshape qa:r raq} & {\itshape qa:r jerig}\\
@@ -608,13 +609,14 @@ In the modern AP languages, reflexes of *qar for the most part do not stand alon
 \mybottomline
 \end{tabular}
 
-\caption{Numerals `ten' and the formation of decades}
+\caption[Numerals `ten' and the formation of decades]{Numerals `ten' and the formation of decades
+{\dag}In Western Pantar\ilt{Western Pantar} the final consonant of *qar underwent irregular loss at the word-internal morpheme boundary.}
 
 \label{tab:6:6}
 \end{table}
 
-\footnotetext{In Western Pantar\ilt{Western Pantar} the final consonant of *qar underwent irregular loss at the word-internal morpheme boundary.}
-In the east of Alor we find deviations from this majority pattern for forming decades. First, Sawila\il{Sawila}, Kula\il{Kula} and Wersing\il{Wersing} do not denote `ten' by `ten [times] one' [10 1] as elsewhere, but employ the numeral `ten' alone without `one'. Second, in the formation of decades higher than `ten', these languages do not simply juxtapose numerals to express multiplication of the base-ten, but mark it with a prefix (Kula/Wersing \textit{mi-} and Sawila \textit{m(a)-}) on the multiplicand. These are verbal prefixes which have developed from the proto-AP\il{proto-Alor-Pantar} postposition\is{adposition} *mi `be in/on' \citep{HoltonRobinsonTVhistory}. They are attested in other Alor languages where, as in the eastern languages, they are multifunctional items. Attached to numerals, \textit{mi} \textsc{`ord'} derives ordinals\is{ordinal numeral(s)} in the Pantar-Straits languages Kaera\il{Kaera}, Blagar\il{Blagar} and Adang\il{Adang} \citep{KlamerSchapperCorbettTVnumeralwords}, while \textit{mi-} \textsc{`time'} derives frequency verbs such as `to do twice' in the Alor languages Kamang\il{Kamang} and Klon\il{Klon}.\footnote{{}   Teiwa\il{Teiwa} has no prefix \textit{mi-} and derives ordinal\is{ordinal numeral(s)} and frequency verbs by prefixing \textit{ma-}.}   
+
+In the east of Alor we find deviations from this majority pattern for forming decades. First, Sawila\il{Sawila}, Kula\il{Kula} and Wersing\il{Wersing} do not denote `ten' by `ten [times] one' [10 1] as elsewhere, but employ the numeral `ten' alone without `one'. Second, in the formation of decades higher than `ten', these languages do not simply juxtapose numerals to express multiplication of the base-ten, but mark it with a prefix (Kula/Wersing \textit{mi-} and Sawila \textit{m(a)-}) on the multiplicand. These are verbal prefixes which have developed from the proto-AP\il{proto-Alor-Pantar} postposition\is{adposition} *mi `be in/on' \citep{HoltonRobinsonTVhistory}. They are attested in other Alor languages where, as in the eastern languages, they are multifunctional items. Attached to numerals, \textit{mi} \textsc{`ord'} derives ordinals\is{ordinal numeral(s)} in the Pantar-Straits languages Kaera\il{Kaera}, Blagar\il{Blagar} and Adang\il{Adang} \citep{KlamerSchapperCorbettTVnumeralwords}, while \textit{mi-} \textsc{`time'} derives frequency verbs such as `to do twice' in the Alor languages Kamang\il{Kamang} and Klon\il{Klon}.\footnote{Teiwa\il{Teiwa} has no prefix \textit{mi-} and derives ordinal\is{ordinal numeral(s)} and frequency verbs by prefixing \textit{ma-}.}   
 
 
 
@@ -651,7 +653,7 @@ In the east of Alor we find deviations from this majority pattern for forming de
 In the east of Alor, prefix \textit{mi-} occurs on multiplicands to denote decades `twenty' and above. This appears an extension of how \textit{mi-}\textsc{} derives frequency verbs and ordinals\is{ordinal numeral(s)} from cardinals\is{cardinal numeral(s)}. In other words, the construction used to express higher decades in eastern Alor languages can be paraphrased as `ten twice' or `ten second' for `twenty', `ten thrice' or `ten third' for `thirty', and so on. In Kula\il{Kula}, the use of \textit{mi-} in the decade construction has conventionalised to such an extent that \textit{adajakwu} `ten' can be left off entirely, with the prefixed multiplicand carrying the decade meaning alone. That is, \textit{mi-jakwu} for instance, would etymologically denote `twice' or `second', but is now used alone to mean `twenty'.
 
 \subsection{Numerals within decades} \label{sec:6:6.2}
-As above, a `decade' is a numeral which is a set or series of ten (e.g., `20', `30' etc.). The term `numeral within decades' is used here to refer to any numeral expression such as `eighteen', `eighty-nine' etc., involving an operator word that signifies addition.\footnote{{}   Such operators are referred to variously in the typological literature as `marker of addition', `additive marker'\is{additive numeral} or `additive link'. See, e.g., \citet[264-265]{Greenberg1978},\citet[73]{Hanke2010}.} In AP languages, an additive\is{additive numeral} operator separates the decades from the numerals `one' to `nine', as illustrated in Table \ref{tab:6:7}.
+As above, a `decade' is a numeral which is a set or series of ten (e.g., `20', `30' etc.). The term `numeral within decades' is used here to refer to any numeral expression such as `eighteen', `eighty-nine' etc., involving an operator word that signifies addition.\footnote{Such operators are referred to variously in the typological literature as `marker of addition', `additive marker'\is{additive numeral} or `additive link'. See, e.g., \citet[264-265]{Greenberg1978},\citet[73]{Hanke2010}.} In AP languages, an additive\is{additive numeral} operator separates the decades from the numerals `one' to `nine', as illustrated in Table \ref{tab:6:7}.
 
  
 
@@ -789,7 +791,7 @@ In most AP languages, bases for `hundred' and `thousand' cannot be used as numer
 \end{sidewaystable}
 
 
-Across much of Alor we find reflexes of a form *a(j)saka `hundred', but it is not clear to what level this form should be reconstructed. The languages of Pantar, Straits and West Alor have borrowed\is{borrowing} an Austronesian\il{Austronesian language(s)} form reflecting PAN\il{proto-Austronesian} *Ratus `hundred'.\footnote{{}   In proto-Austronesian\il{proto-Austronesian} *R represents an{~}alveolar{~}or{~}uvular trill, contrasting with Proto-Austronesian\il{proto-Austronesian} *r which is thought to have been an{~}alveolar flap.} There is no evidence of an indigenous AP numeral for `thousand'; all AP languages have borrowings\is{borrowing} from Austronesian\il{Austronesian language(s)} reflecting PAN *[1E37?]ibu `thousands'. Possible source languages include Malay\il{Malay} (\textit{ratus} `hundreds', \textit{ribu} `thousands'), or Lamaholot\il{Lamaholot} (spoken on Adonara, Lomblen, Solor and Flores located west of Pantar), which employs the bases \textit{ratu} `hundreds' and \textit{ribu} `thousands'. Austronesian languages\il{Austronesian language(s)} in eastern Timor are not probable sources as they reflect neither PAN *R in `hundred' (e.g., Tetun\il{Tetun}, Kemak\il{Kemak} and Tokodede\il{Tokodede} \textit{atus} `hundred') nor PAN *b in `thousand' (e.g., Tetun and Tokodede \textit{rihun}, Kemak \textit{lihur} `thousand').
+Across much of Alor we find reflexes of a form *a(j)saka `hundred', but it is not clear to what level this form should be reconstructed. The languages of Pantar, Straits and West Alor have borrowed\is{borrowing} an Austronesian\il{Austronesian language(s)} form reflecting PAN\il{proto-Austronesian} *Ratus `hundred'.\footnote{In proto-Austronesian\il{proto-Austronesian} *R represents an{~}alveolar{~}or{~}uvular trill, contrasting with Proto-Austronesian\il{proto-Austronesian} *r which is thought to have been an{~}alveolar flap.} There is no evidence of an indigenous AP numeral for `thousand'; all AP languages have borrowings\is{borrowing} from Austronesian\il{Austronesian language(s)} reflecting PAN *[1E37?]ibu `thousands'. Possible source languages include Malay\il{Malay} (\textit{ratus} `hundreds', \textit{ribu} `thousands'), or Lamaholot\il{Lamaholot} (spoken on Adonara, Lomblen, Solor and Flores located west of Pantar), which employs the bases \textit{ratu} `hundreds' and \textit{ribu} `thousands'. Austronesian languages\il{Austronesian language(s)} in eastern Timor are not probable sources as they reflect neither PAN *R in `hundred' (e.g., Tetun\il{Tetun}, Kemak\il{Kemak} and Tokodede\il{Tokodede} \textit{atus} `hundred') nor PAN *b in `thousand' (e.g., Tetun and Tokodede \textit{rihun}, Kemak \textit{lihur} `thousand').
 
 \section{Alor-Pantar numerals from a typological and areal perspective} \label{sec:6:7}
 In this section, we consider how forms and systems used in the composition of AP numerals relate to those used in other languages. First, we place the AP numeral systems in a broad typological perspective ({\S} \ref{sec:6:7.1}); next, we take an areal perspective, addressing the question to what extent the AP systems are similar to those of the surrounding Austronesian languages\il{Austronesian language(s)}, and suggest where contact could have played a role in shaping the numerals ({\S} \ref{sec:6:7.2}).
@@ -821,9 +823,9 @@ In Table \ref{tab:6:9} we represent the various systems that AP languages use to
 \label{tab:6:9}
 \end{sidewaystable}
 
-Two major typological points are of interest in the AP numeral systems. The first is that they combine a mono-morphemic `six' with base-five compounds for numerals `seven' to `nine'. We reconstruct this system for proto-AP\il{proto-Alor-Pantar}, and it is presently reflected in languages of northern Pantar and central Alor. Cross-linguistically, this is a rather uncommon numeral system; it is much more common to have a system where the quinary base is used in forming all numerals `six' through nine',\footnote{{}   Harald Hammarstr\"om, p.c. 2012, based on his extensive numeral database reported on in \citet{Hammarstrom2010}.} as attested in the languages of east Alor. However, because pAP\il{proto-Alor-Pantar} *talam `six' is a reflex of the higher pTAP\il{proto-Timor Alor Pantar} *talam `six' \citep{SchapperEtAlTV}, we consider this form older than the quinary numeral for `six'. In other words, where we find [5 1] `six', this is viewed as a later extension of the quinary system that was already in use for `seven' through `nine' in proto AP\il{proto-Alor-Pantar}.\footnote{{}   This contrasts with the view expressed by Vatter, who considered monomorphemic\is{simplex numeral} `six' to be a `deviation'(`Abweichung') from the base-five compounds `six' (1932: 279-280).}\nocite{Vatter1932}
+Two major typological points are of interest in the AP numeral systems. The first is that they combine a mono-morphemic `six' with base-five compounds for numerals `seven' to `nine'. We reconstruct this system for proto-AP\il{proto-Alor-Pantar}, and it is presently reflected in languages of northern Pantar and central Alor. Cross-linguistically, this is a rather uncommon numeral system; it is much more common to have a system where the quinary base is used in forming all numerals `six' through nine',\footnote{Harald Hammarstr\"om, p.c. 2012, based on his extensive numeral database reported on in \citet{Hammarstrom2010}.} as attested in the languages of east Alor. However, because pAP\il{proto-Alor-Pantar} *talam `six' is a reflex of the higher pTAP\il{proto-Timor Alor Pantar} *talam `six' \citep{SchapperEtAlTVtimor}, we consider this form older than the quinary numeral for `six'. In other words, where we find [5 1] `six', this is viewed as a later extension of the quinary system that was already in use for `seven' through `nine' in proto AP\il{proto-Alor-Pantar}.\footnote{This contrasts with the view expressed by Vatter, who considered monomorphemic\is{simplex numeral} `six' to be a `deviation'(`Abweichung') from the base-five compounds `six' (1932: 279-280).}\nocite{Vatter1932}
 
-A second point of typological interest are the subtractive\is{subtractive numeral} decimal systems used in the Straits-West-Alor languages, where numerals `seven' through `nine' are formed by subtraction,\footnote{{}   This is independent of the substitution of the Austroneisan base into `seven'.} while `six' is monomorphemic\is{simplex numeral}. Systems like this, where subtraction is used in the formation of more than one numeral, and where such subtractive\is{subtractive numeral} forms occur \textit{alongside} a monomorphemic\is{simplex numeral} form for `six', are crosslinguistically uncommon. 
+A second point of typological interest are the subtractive\is{subtractive numeral} decimal systems used in the Straits-West-Alor languages, where numerals `seven' through `nine' are formed by subtraction,\footnote{This is independent of the substitution of the Austroneisan base into `seven'.} while `six' is monomorphemic\is{simplex numeral}. Systems like this, where subtraction is used in the formation of more than one numeral, and where such subtractive\is{subtractive numeral} forms occur \textit{alongside} a monomorphemic\is{simplex numeral} form for `six', are crosslinguistically uncommon. 
 
 \subsection{AP numerals in their areal context}\label{sec:6:7.2}
 It is useful to complement the genealogical perspective of sections 4 to 6 with an areal perspective, and compare the numeral system patterns in the AP family with those of the Austronesian languages\il{Austronesian language(s)} in their immediate vicinity, to see what this might tell us about the history of AP numerals. Where similar forms or patterns are found, we may ask whether there is evidence that these are contact-induced. In this section, we look at the evidence that may suggest influence from AP languages into nearby Austronesian languages\il{Austronesian language(s)}, followed by the evidence suggesting influence in the opposite direction. We also point out cases where the data currently available are inconclusive. 
@@ -831,6 +833,7 @@ It is useful to complement the genealogical perspective of sections 4 to 6 with 
 It is a well-established fact that proto-Austronesian\il{proto-Austronesian} (pAN) had a decimal system, with numerals `one' through `nine' all being simple mono-morphemic words. \citet[268]{Blust2009} claims that outside of Melanesia few Austronesian languages\il{Austronesian language(s)} have innovated\is{innovation} complex - additive\is{additive numeral}, subtractive\is{subtractive numeral} or multiplicative\is{multiplicative numeral} - numerals for `one' to `ten'. The Austronesian languages\il{Austronesian language(s)} around AP, however, show a notable clustering of just such innovations\is{innovation}. We compiled numeral data for 32 Austronesian languages\il{Austronesian language(s)} spoken west and south-east of Alor and Pantar (see Appendix \ref{sec:6:app:2} and \ref{sec:6:app:3}). In these, we observe three distinct patterns of innovations\is{innovation} in the formation of numerals `six' through `nine', reflected in nine modern Austronesian languages\il{Austronesian language(s)} (Table \ref{tab:6:10}). These are: the Timor pattern (1-5, 5+1, 5+2, 5+3, 5+4, 10), the Lembata pattern (1-7, 4x2, 5+4, 10), and the Flores pattern (1-5, 5+1, 5+2, 2x4, 10-1, 10). Proto-Austronesian\il{proto-Austronesian} numerals are provided for comparative purposes in the top row. 
 
 \begin{figure}
+\includegraphics[width=\textwidth]{ch7fig1.png}
 \caption{Austronesian (Austronesian) languages\ilt{Austronesian language(s)} to the west and south of Alor{}-Pantar. Names in bold are language names, names in italics are names of islands.}
 \label{fig:6:1}
 \end{figure}
@@ -942,7 +945,7 @@ Typologically, the constellations of numerals `six' through `nine' in AP represe
 
 Historically, this study has provided information on the numeral system of proto-AP\il{proto-Alor-Pantar}, and additional details on affiliations and distinctions between members of the AP group that may be used as evidence to construct particular subgroups within the family. The proto-AP\il{proto-Alor-Pantar} numeral system was a mixed quinary and decimal system, with a monomorphemic\is{simplex numeral} `six' (i.e. 1, 2, 3, 4, 5, 6, [5 2], [5 3], [5 4], [10 1]). The arithmetic operations involved were addition and multiplication. Over time, the system was complicated by reorganisations of patterns as well as borrowings\is{borrowing} of numeral bases, or patterns, or both. As a result, some modern languages have introduced subtractive\is{subtractive numeral} procedures instead of, or along with, addition and multiplication. Some languages incorporated non-numeral formatives into their numerals. 
 
-Numeral forms were reconstructed to different nodes in the the AP family, as summarised in Table \ref{tab:6:11}. The table is to be read from left to right. The left-most column represents the oldest numeral forms, that is, those that can be reconstructed to proto-AP\il{proto-Alor-Pantar}. Numerals `one' through `six' in this proto-language were monomorphemic\is{simplex numeral} forms, while `seven' through `nine' were regular quinary forms. The right-hand columns represent numeral innovations\is{innovation} which can be reconstructed to different subgroups of the AP family.\footnote{{}   The ordering of right-hand columns is by number of languages; it should not be interpreted as representing a chronology of the age of subgroups in the case of proto-Straits-West-Alor (pSWA)\il{proto-Straits-West-Alor} and proto-Pantar (pP)\il{proto-Pantar}. Naturally, proto-Central-East-Alor (pCEA)\il{proto-Central East Alor}, proto-East Alor (pEA)\il{proto-East Alor} and proto-East Alor Montane (pEAM)\il{proto-East Alor Montane} can be taken to represent a chronological sequence, since pEA\il{proto-East Alor} forms a subgroup of pCEA\il{proto-Central East Alor}, and pEAM\il{proto-East Alor Montane} a subgroup of pEA\il{proto-East Alor}.} 
+Numeral forms were reconstructed to different nodes in the the AP family, as summarised in Table \ref{tab:6:11}. The table is to be read from left to right. The left-most column represents the oldest numeral forms, that is, those that can be reconstructed to proto-AP\il{proto-Alor-Pantar}. Numerals `one' through `six' in this proto-language were monomorphemic\is{simplex numeral} forms, while `seven' through `nine' were regular quinary forms. The right-hand columns represent numeral innovations\is{innovation} which can be reconstructed to different subgroups of the AP family.\footnote{The ordering of right-hand columns is by number of languages; it should not be interpreted as representing a chronology of the age of subgroups in the case of proto-Straits-West-Alor (pSWA)\il{proto-Straits-West-Alor} and proto-Pantar (pP)\il{proto-Pantar}. Naturally, proto-Central-East-Alor (pCEA)\il{proto-Central East Alor}, proto-East Alor (pEA)\il{proto-East Alor} and proto-East Alor Montane (pEAM)\il{proto-East Alor Montane} can be taken to represent a chronological sequence, since pEA\il{proto-East Alor} forms a subgroup of pCEA\il{proto-Central East Alor}, and pEAM\il{proto-East Alor Montane} a subgroup of pEA\il{proto-East Alor}.} 
 
 \begin{sidewaystable}\centering
 \caption{Numeral (pattern) reconstructions for `one' through `ten' in AP subgroups} 
@@ -974,7 +977,7 @@ Translated into a tree, the reconstruction of numerals in AP languages yields th
 \caption{Tree of the AP languages based on numeral innovations\ist{innovation}}
 \label{fig:6:2}
 
-\Tree [.pAP\ilt{proto-Alor-Pantar} [.pP\ilt{proto-Pantar} [.pCP\ilt{proto-Central Pantar} [.pCEP\ilt{proto-Central Pantar} Kaera\ilt{Kaera} Sar\ilt{Sar} ] Teiwa\ilt{Teiwa} ] Deing\ilt{Deing} ] [.pSWA\ilt{proto-Straits-West-Pantar} \qroof{\parbox{1cm}{\vspace{.1cm}Blagar\ilt{Blagar}\\Reta\ilt{Retta}\\Kabola\ilt{Kabola}\\Adang\ilt{Adang}\\Hamap\ilt{Hamap}\\Klon\ilt{Klon}}}.{}  Kui\ilt{Kui}\raisebox{.4cm}[-2cm]{\hspace{-.2cm}?} West{ }Pantar\ilt{Western Pantar}\raisebox{.4cm}[-2cm]{\hspace{-1.1cm}?\hspace{1cm}} ]!\qsetw{3.3cm} \parbox{.1cm}{Abui\ilt{Abui}} [.pCEA\ilt{proto-Central East Alor} Kamang\ilt{Kamang} [.pEA\ilt{proto-East Alor} Wersing\ilt{Wersing} [.pEAM\ilt{proto-East Alor Montane} Sawila\ilt{Sawila} Kula\ilt{Kula} ]  ]  ]  ] 
+\Tree [.pAP\ilt{proto-Alor-Pantar} [.pP\ilt{proto-Pantar} [.pCP\ilt{proto-Central Pantar} [.pCEP\ilt{proto-Central Pantar} Kaera\ilt{Kaera} Sar\ilt{Sar} ] Teiwa\ilt{Teiwa} ] Deing\ilt{Deing} ] [.pSWA\ilt{proto-Straits-West-Pantar} \qroof{\parbox{1cm}{\vspace{.1cm}Blagar\ilt{Blagar}\\Reta\ilt{Retta}\\Kabola\ilt{Kabola}\\Adang\ilt{Adang}\\Hamap\ilt{Hamap}\\Klon\ilt{Klon}}}.{}  Kui\ilt{Kui}\raisebox{.4cm}[-2cm]{\hspace{-.2cm}?} West{ }Pantar\ilt{Western Pantar}\raisebox{.4cm}[-2cm]{\hspace{-1.1cm}?\hspace{1cm}} ]!\qsetw{4.3cm} \parbox{.1cm}{Abui\ilt{Abui}} [.pCEA\ilt{proto-Central East Alor} Kamang\ilt{Kamang} [.pEA\ilt{proto-East Alor} Wersing\ilt{Wersing} [.pEAM\ilt{proto-East Alor Montane} Sawila\ilt{Sawila} Kula\ilt{Kula} ]  ]  ]  ] 
 
 %\includegraphics[width=4.1874in,height=2.3957in,width=\textwidth]{a5c369bcf9e04c7abcbe33fc0d1515af-img1}
 \end{sidewaysfigure}
@@ -985,16 +988,13 @@ The preliminary reconstruction of Proto-AP\il{proto-Alor-Pantar} based on sound 
 
 In sum, cardinal numerals\is{cardinal numeral(s)} in the Alor-Pantar languages are fertile ground for understanding how diverse numeral systems can evolve in related languages. In particular, Alor-Pantar languages provide us with unique, typological insights into the historical changes and influences that can complicate and prompt reorganisations of patterns of numeral formation and borrowings\is{borrowing} into the numeral paradigm.
 
-
+\newpage
 \section{Sources} \label{sec:6:9}
-Sources of the language data cited in the text and the Appendices are given in the table below. We provide information about the dialect in cases where unpublished sources are used, or where multiple dialects are cited. Abbreviations: ABVD = Austronesian\il{Austronesian language(s)} Basic Vocabulary Database \citep{GreenhillEtAl2005}. AN = member of Austronesian\il{Austronesian language(s)} family, AP = member of Alor Panar family, TAP = member of Timor-Alor-Pantar family.
+Sources of the language data cited in the text and the Appendices are given in the table below. We provide information about the dialect in cases where unpublished sources are used, or where multiple dialects are cited. \vspace{.2cm}
 
 
 
-
-
-\begin{tabular}{p{4cm}p{6cm}}
-\mytopline
+\begin{tabular}{p{5cm}p{6cm}} 
 Abui\ilt{Abui} (AP) 	&  \citet{Kratochvil2007}, Schapper fieldnotes 2010 	  \\
 Adang\ilt{Adang} (AP, Pitungbang dialect) 	&  Robinson fieldnotes 2010 	 \\
 Alorese\ilt{Alorese} (AN\ilt{Austronesian language(s)}) 	&  \citet{Klamer2011} 	  \\
@@ -1020,11 +1020,9 @@ Klon\ilt{Klon} (AP) 	&  \citet{Baird2008} 	\\
 Komodo\ilt{Komodo} (AN) 	&  \citet{Verheijen1982} 	\\
 Kui\ilt{Kui} (AP) 	&  Baird fieldnotes 2003, Holton fieldnotes 2010 	\\
 Kula\ilt{Kula} (AP) 	&  Holton fieldnotes 2010, Nicholas Williams p.c. 2011 	  \\
-\mybottomline
 \end{tabular}
 
 \begin{tabular}{p{4cm}p{6cm}}
-\mytopline
 Lakalei\ilt{Lakalei} (AN\ilt{Austronesian language(s)}) 	&  Klamer fieldnotes  2002\\
 Lamaholot\ilt{Lamaholot} (AN, Lewoingu dialect) 	&   \citet{NishiyamaEtAl2007}\\
 Lamaholot (AN, Lewotobi dialect) 	&  Naonori Nagaya p.c. 2011\\
@@ -1037,7 +1035,7 @@ Mambae\ilt{Mambai} (AN, Ainaro dialect) 	&  Schapper fieldnotes 2007\\
 Manggarai\ilt{Manggarai} (AN) 	&  \citet[518]{Verheijen1967}, \citet[173]{Verheijen1970}\\
 Nage\ilt{Nage} (AN) 	&  Gregory Forth p.c. 2011\\
 Ngadha\ilt{Ngadha} (AN) 	&  \citet{Arndt1961}\\
-Palu'e\ilt{Palu'e} (AN) 	&  \citet{GreenhillEtAl2005} \\
+Palu'e\ilt{Palu'e} (AN) 	&  ABVD \\
 Reta\ilt{Retta} (AP) 	&  Robinson fieldnotes 2010\\
 Rembong\ilt{Rembong} (AN) 	&  \citet{Verheijen1978}\\
 Rongga\ilt{Rongga} (AN) 	&  \citet{ArkaEtAl2007}\\
@@ -1050,7 +1048,6 @@ Uab Meto\ilt{Uab Meto} (AN) 	&  \citet[421-424]{Middelkoop1950}\\
 Waima'a\ilt{Waima'a} (AN) 	&  \citet{Hull2002}\\
 Western Pantar\ilt{Western Pantar} (AP) 	&  \citet{Holtonnda} \\
 Wersing\ilt{Wersing} (AP) 	&  Holton fieldnotes 2010; Schapper fieldnotes 2012\\
-\mybottomline
 \end{tabular}
 
 \clearpage
@@ -1060,7 +1057,7 @@ Wersing\ilt{Wersing} (AP) 	&  Holton fieldnotes 2010; Schapper fieldnotes 2012\\
 Varieties within a language are indicated by the name of one of the places where the dialect is spoken, though often dialects cover more than one place.
 
 
-\begin{table}[b]\centering
+\begin{table}[h!]\centering
 \caption{Numerals `one' through `four'}
 \label{tab:6:12}
 \begin{tabular}{lp{3cm}llll}
@@ -1283,13 +1280,13 @@ Varieties within a language are indicated by the name of one of the places where
 
 \end{sidewaystable}
 
-\section{Abbreviations}
+\section*{Abbreviations}
 \begin{tabular}{p{5cm}p{5cm}}
 \begin{tabular}{>{\sc}lp{3cm}}
 — & no data available\\
 \~{}redup & reduplication\\
 A & refers to the most agent-like argument of a canonical transitive verb\\
-ABVD & Austronesian Basic Vocabulary Database\\
+ABVD & Austronesian Basic Vocabulary Database  \citep{GreenhillEtAl2005}\\
 AN & Austronesian\\
 AP & Alor-Pantar\\
 B & Blagar B > Blagar-Bama\ilt{Blagar}\\
@@ -1312,6 +1309,7 @@ pTAP & proto-Timor-Alor-Pantar\\
 TAP & Timor-Alor-Pantar\\
 W & West\\
 WP & Western Pantar\\
+
 \end{tabular}
 \end{tabular}
 
