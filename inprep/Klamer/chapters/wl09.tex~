@@ -1,1421 +1,1812 @@
-%8
+%9  
 % examples done
-% bib done
 % tables done
-% crossrefs 
-\chapter{Numeral Words and Arithmetic Operations in the Alor-Pantar languages} 
-
+% bib done
+% crossrefs
  
-\begin{abstract}
-The indigenous numerals of the AP languages, as well as the indigenous structures for arithmetic operations are currently under pressure from Indonesian\il{Indonesian}, and will inevitably be replaced with Indonesian\il{Indonesian} forms and structures. This chapter presents a documentary record of the forms and patterns currently in use to express numerals and arithmetic operations in the Alor-Pantar languages. We describe the structure of cardinal\is{cardinal numerals}, ordinal\is{ordinal numerals} and distributive numerals\is{distributive numerals}, and how operations of addition, subtraction, multiplication, division, and fractions are expressed.
-\end{abstract}
+\section{Introduction}\label{sec:9:1}%1
+ 
+\hypertarget{Toc376962648}{}
+The majority of the world's languages express nominal plurality\is{plural (number) word} by affixation. After affixation, the use of independent plural\is{plural (number) word} words is the most widespread strategy: it is used in 16\% of Dryer's (2011) sample of 1066 languages.\nocite{Dryer2011} Yet, `plural\is{plural (number) word} words' have received remarkably little attention since their preliminary treatment in \citet{Dryer1989}. In this chapter, we build on  \citet{SchapperEtAl2011} in furthering the investigation of plural\is{plural (number) word} words using data from the Alor-Pantar (AP) languages, which are of great typological interest.
 
-\todo{you can use {\textbackslash}todo\{Doe iets\} to leave comments in the text}
+A plural\is{plural (number) word} word is ``a morpheme whose meaning and function is similar to that of plural\is{plural (number) word} affixes in other languages, but which is a separate word'' (\citealt[865]{Dryer1989},\citealt[166]{Dryer2007}). Plural\is{plural (number) word} words are the most common example of a more general category, that of grammatical number words - a number of languages employ singular or dual words as well as plural\is{plural (number) word} words. For Dryer, to be a plural\is{plural (number) word} word a lexeme must be the prime indicator of plurality\is{plural (number) word}: ``I do not treat a word as a plural\is{plural (number) word} word if it co-occurs with an inflectional indication of plural\is{plural (number) word} on the noun'' (1989: 867). Dryer further makes a distinction between `pure' number words and other kinds of number expressions: ``We can [...] distinguish `pure' plural\is{plural (number) word} words, which only code plurality\is{plural (number) word}, from articles that code number in addition to other semantic or grammatical features of the noun phrase, in which these articles are the sole indicator of number in noun phrases''. Thus the bar is set quite high: plural\is{plural (number) word} words are the prime indicator of plurality\is{plural (number) word}, and in the
+pure case they have this as their unique function.
 
-\section{Introduction}
-\label{sec:8:Introduction}
-\hypertarget{Toc376958929}{}Numeral systems are more endangered than languages. Cultural or commercial superiority of one group over another often results in borrowing\is{borrowing} of numerals, or replacements of parts or all of a numeral system, even in a language that itself is not endangered \citep{Comrie2005numsys}. In the Alor-Pantar (AP) context, the national language, Indonesian\il{Indonesian}, plays a dominant role in education and commerce, and this will inevitably lead to the replacement of the numerals and the arithmetic expressions with Indonesian\il{Indonesian} equivalents. It is therefore crucial to keep a record of the forms and patterns as they are currently used for future reference, and this chapter aims to be such a documentary record. 
+ Plural\is{plural (number) word} words in Alor-Pantar languages carry also a range of additional semantic connotations beyond simple plurality\is{plural (number) word}, including completeness, abundance, individuation, and partitivity. These are interrelated to the other options the individual languages have for marking plurality\is{plural (number) word}. This means that our discussion of plural\is{plural (number) word} words in Alor-Pantar languages necessarily also touches on other plurality\is{plural (number) word} expressing strategies available in the languages. We will see that the form, syntax and semantics of plural\is{plural (number) word} words across the Alor-Pantar languages display a high degree of diversity.
+
+This paper is structured as follows. {\S} \ref{sec:9:2} introduces the lexical forms of the plural\is{plural (number) word} words of the languages and the sources of the data discussed in this paper. {\S} \ref{sec:9:3} discusses their syntax, while {\S} \ref{sec:9:4} looks in detail at the semantics of the plural\is{plural (number) word} words. {\S} \ref{sec:9:5} places AP plural\is{plural (number) word} words in a wider typological context, and section \ref{sec:9:6} presents our conclusions.
+
+\section{Plural\ist{plural (number) word} number words across Alor-Pantar}  %2
+\label{sec:9:2}
+Plural\is{plural (number) word} words are found across the Alor-Pantar languages, as shown in Table \ref{tab:9:1} 1. Cognate forms attested in Teiwa\il{Teiwa} (West Pantar), Klon\il{Klon} (West Alor) and Kamang\il{Kamang} (Central-East Alor) indicate that a plural\is{plural (number) word} word *non can be reconstructed for proto-Alor-Pantar (pAP)\il{proto-Alor-Pantar}. Western Pantar\il{Western Pantar}, Abui\il{Abui}, Wersing\il{Wersing}, Kula\il{Kula} and Sawila\il{Sawila} do not reflect this item, and instead appear to have innovated\is{innovation} new lexemes for plural\is{plural (number) word} words. Several AP languages in our sample (Klon\il{Klon}, Abui\il{Abui}, Wersing\il{Wersing}, Kula\il{Kula} and Sawila\il{Sawila}) have two plural\is{plural (number) word} words encoding different kinds of plurality\is{plural (number) word}, though the other languages do have a range of plural-marking\is{plural (number) word} strategies in addition to their plural\is{plural (number) word} word. There are also Alor-Pantar languages for which no plural\is{plural (number) word} word has been attested; an example is Kaera\il{Kaera} (North-East Pantar; \citealt{Klamertakaera}).
 
 
-The patterns described in this chapter fall into two broad classes, pertaining to two distinct linguistic levels: the word (Section \ref{sec:8:Operations}) and the clause or sentence (Section \ref{sec:8:Structures}). At the word level we describe how numeral words are created, discussing the structure of cardinals\is{cardinal numerals} (Section \ref{sec:8:Cardinal}), ordinals\is{ordinal numerals} (Section \ref{sec:8:Ordinal}) and distributives\ist{distributive numerals} (Section \ref{sec:8:Distributive}). At the clause and sentence level, we describe the constructions that contain numerals and function to express the arithmetic of addition (\ref{sec:8:Addition}), subtraction (Section \ref{sec:8:Subtraction}), multiplication (Section \ref{sec:8:Multiplication}), division (Section \ref{sec:8:Division}), and fractions (Section \ref{sec:8:Fractions}). Section \ref{sec:8:Summary} presents a summary and conclusions. 
-
-Details on the data on which this chapter is based is given in the  Sources section at the end of this chapter. Adang\il{Adang}, Blagar\il{Blagar}, Kamang\il{Kamang} and Abui\il{Abui} are each very diverse internally. The data presented in this chapter are from the Dolap dialect of Blagar\il{Blagar}, the Takailubui dialect of Kamang\il{Kamang}, the Lawahing dialect of Adang\il{Adang}, and the Takalelang dialect of Abui\il{Abui}. These dialect names refer to the place where the variety is spoken.
-
-
-\section{Operations to create numeral words} 
-\label{sec:8:Operations}
-\todo{You can doubleclick in the pdf to go to the corresponding passage in the text}
-Most of the cardinals\is{cardinal numerals} in AP languages are historically morphologically complex forms. Within and across the languages we find variation in choice of numeral base, the type of operations invoked for the interpretation of the composite elements, and the ways in which these operations are expressed (Section \ref{sec:8:Cardinal}). Ordinals\is{ordinal numerals} in AP languages are possessive\is{possession} constructions that are derived from cardinals\is{cardinal numerals}, where the ordered entity is the grammatical possessor\is{possession} of the cardinal\is{cardinal numerals} (Section \ref{sec:8:Ordinal}). Distributive numerals\is{distributive numerals} in AP languages are also derived from the cardinal\is{cardinal numerals}, by reduplicating\is{reduplication} it partially or fully. When the cardinal\is{cardinal numerals} contains more than one morpheme, generally only the right-most formative is reduplicated\is{reduplication} (section \ref{sec:8:Irregularities}).  In all cases, the numeral words follow the noun they quantify. Cardinals\is{cardinal numerals} may be preceded by a classifier\is{numeral classifier}, if the language has them. 
-
-\subsection{Cardinal numerals}
-\label{sec:8:Cardinal}
-By cardinal\is{cardinal numerals} numerals, we understand the set of numerals used in attributive quantification of nouns (e.g., `three dogs'). In enumeration, the numeral follows the noun in all AP languages (N NUM), as in Teiwa\il{Teiwa} \textit{yaf haraq} `house two' {\textgreater} `two houses'. If a language uses a sortal or mensural classifier\is{numeral classifier}, the classifier\is{numeral classifier} occurs between the noun and the numeral (N CLF NUM). The same cardinals\is{cardinal numerals} that are used in enumeration are also used for non-referential counting (\textit{one, two, three, four, five, etc.}), and all the AP languages use the same numeral forms to count small animates (ants, flies, bees, or house lizards), large animates\is{animacy} (children, dogs, or pigs), and inanimates\is{animacy} (houses, rocks, stars, or coconut trees).
-
-In all the AP languages we surveyed, the cardinal\is{cardinal numerals} numbers `one' to `five' are morphologically simple forms, as illustrated in Table \ref{tab:8:1}. The composition of `six' varies. Most of the AP languages have a monomorphemic `six', an example is Teiwa\il{Teiwa} \textit{tiaam}. Bi-morphemic forms for `six' are composed of (reflexes) of `five' and `one', e.g., Kula\il{Kula} \textit{yawaten sona}. The cardinals\is{cardinal numerals} `seven' and higher consist of minimally two formatives in all AP languages. Often, these forms involve reflexes of `five', `one', `two', `three' and `four', as illustrated in Table \ref{tab:8:1}, though other patterns are also attested \citep{SchapperKlamerTV}. 
 
 \begin{table}\centering
-\caption{`One' through `nine' in Teiwa\ilt{Teiwa} (Pantar) and Kula\ilt{Kula} (East Alor)}
-\label{tab:8:1}
-
-
-\begin{tabular}{llll}
+\begin{tabular}{p{1.5cm}p{1.5cm}p{2cm}p{5.5cm}}
 \mytopline
-\textbf{Cardinal\ist{cardinal numerals}} & \textbf{Analysis} & \textbf{Teiwa\ilt{Teiwa}} & \textbf{Kula\ilt{Kula}}\\
+\textbf{Language}  &\textbf{Reflecting} \textbf{*non} &\textbf{Not reflecting} \textbf{*non} &\textbf{Source}\\
 \midrule
-1 & 1 & \textit{nuk} & \textit{sona}\\
-2 & 2 & \textit{(ha)raq} & \textit{yakwu}\\
-3 & 3 & \textit{yerig} & \textit{tu}\\
-4 & 4 & \textit{ut} & \textit{arasiku}\\
-5 & 5 & \textit{yusan} & \textit{yawatena}\\
-6 & 5  1 &  & \textit{yawaten sona}\\
-6 & 6 & \textit{tiaam} & \\
-7 & 5  2 & \textit{yes raq} & \textit{yawaten yakwu}\\
-8 & 5  3 & \textit{yes nerig} & \textit{yawaten tu}\\
-9 & 5  4 & \textit{yes na'ut} & \textit{yawaten arasiku}\\
+Western Pantar\ilt{Western Pantar} & &\textit{maru(ng)} &\citet{HoltonEtAl2008}; \citet{Holton2012,Holtontawesternpantar}, p.c.\\
+Teiwa\ilt{Teiwa} &\textit{non} & &\citet{Klamer2010grammar}, Teiwa\ilt{Teiwa} corpus; Schapper and \citet{Klamer2011}\\
+Adang\ilt{Adang} &\textit{nun} & &\citet{RobinsonEtAltaadang}\\
+Klon\ilt{Klon} &\textit{(o)non} &\textit{maang} &\citet{Baird2008}, Klon\ilt{Klon} corpus, p.c.\\
+Abui\ilt{Abui} & &\textit{loku,}\textit{we} &Schapper fieldnotes; \citet{Kratochvil2007}, Abui\ilt{Abui} corpus\\
+Kamang\ilt{Kamang} &\textit{nung} & &Schapper Kamang\ilt{Kamang} corpus, \citeyear{Schapperta}, fieldnotes;  \citet{SchapperEtAl2011};  \citet{Stokhof1978,Stokhof1982}\\
+Wersing\ilt{Wersing} & &\textit{deing,}\textit{naing} & \citet{SchapperEtAltawersing}, fieldnotes,  Wersing\ilt{Wersing} corpus; \citet{Malikosand}\\
+Kula\ilt{Kula} & &\textit{du(a),}\textit{araman} &Nicholas Williams p.c.\\
+Sawila\ilt{Sawila} & &\textit{do,}\textit{maarang} &Franti\v{s}ek Kratochv\'il p.c.\\
 \mybottomline
 \end{tabular}
+\caption{Cognate and non-cognate plural\ist{plural (number) word} words in Alor-Pantar languages}
+\label{tab:9:1}
 \end{table}
 
-From the above it can be inferred that the AP languages have at most six mono-morphemic numerals. This number is significantly fewer than the number we find in many European languages. Present-day English, for example, has twelve mono-morphemic cardinal\is{cardinal numerals} numerals \citep[26]{VonMengden2010}. 
+In all Alor-Pantar languages, nouns are uninflected for number, and a noun phrase without a plural\is{plural (number) word} word can refer to any number of individuals. For instance, Teiwa\il{Teiwa} \textit{qavif} `goat' in (a) can be interpreted as either singular or plural\is{plural (number) word}, depending on the context. Those Alor-Pantar languages that have a plural\is{plural (number) word} word use it to express plurality\is{plural (number) word}: `more than one'. Illustrations are Teiwa\il{Teiwa} \textit{non} in (b), and Klon\il{Klon} \textit{onon} in (b). The plural\is{plural (number) word} word pluralises\is{plural (number) word} the preceding nominal expression. In none of the AP languages we investigated is the plural\is{plural (number) word} word obligatory when plural\is{plural (number) word} reference is intended.
 
-Both within and across the AP languages we find variation in the way cardinals\is{cardinal numerals} are composed \citep[cf.][]{Stump2010}. First, in choice of numeral base: in all systems both quinary (`base-five') and decimal (`base-ten') bases are used. Table \ref{tab:8:1} includes examples of numerals with a quinary base (\textit{yes} in Teiwa\il{Teiwa}, \textit{yawaten} in Kula\il{Kula}). A decimal base is used in numerals `ten' and above; an illustration is Teiwa\il{Teiwa} \textit{qaar} in \textit{qaar nuk} `ten' and \textit{qaar raq} `twenty'. 
-
-Second, the type of operations invoked for the interpretation of the morphemes that make up the compound numerals vary between addition (Abui\il{Abui} \textit{yeting} \textit{buti} `nine'{\textless} \textit{yeting} `five' + \textit{buti} `four'), subtraction (Adang\il{Adang}  \textit{ti}\textit{{\textglotstop}}\textit{i} \textit{nu} `nine' {\textless} \textit{ti}\textit{{\textglotstop}}\textit{i} (semantically opaque), \textit{nu} `one' {\textless} `minus one') and multiplication (Western Pantar\il{Western Pantar} \textit{ke atiga} `thirty' {\textless} \textit{ke} `ten' x \textit{atiga} `three'). Of these, subtraction is the least frequent.
-
-Third, different types of operations are involved in the derivation of cardinals\is{cardinal numerals}: typically they involve simple juxtaposition of bases (e.g., Abui\il{Abui} \textit{kar nuku} `ten' {\textless} \textit{kar} `ten', \textit{nuku} `one'), but in some cases, a lexeme is added that expresses the operation (e.g., the operator \textit{wal} signifying addition in numerals 11-19, e.g., Abui\il{Abui} \textit{kar nuku} \textbf{\textit{wal}}\textit{nuku} `eleven'. 
-
-The number compounds in AP languages are all exocentric, that is, they lack a morphological head. In this respect they contrast with nominal compounds, which are typically endocentric (e.g., Teiwa\il{Teiwa} \textit{xam yir} `milk' {\textless} \textit{xam} `breast', \textit{yir} `water', where the rightmost element is the head). As both nominal and numeral compounds have stress on their final member, we can analyse both types of compounds as prosodically right-headed across the board in Alor-Pantar. 
-
-In the Pantar languages in particular, the synchronic morphological make-up of numeral compounds can be rather obscure. For instance, Teiwa\il{Teiwa} \textit{yesnerig} `eight' is not a transparent compound of synchronic \textit{yusan} `five' + \textit{yerig} `three'. In contrast, the languages of Central and East Alor have more transparent numeral compounds, for instance Abui\il{Abui} \textit{yetingsua} `eight' {\textless} \textit{yeting} `five' + \textit{sua} `three'. Phonologically, however, in all the languages of the sample discussed here, we can still recognise compound forms because they consist of two stressed phonological words, the second of which has primary stress. (We return to this issue in Section \ref{sec:8:2.3.2} below.) 
-
-We have not attested an AP language with a number word for `null' or `zero'. The absence of entities is rather expressed predicatively, using a word meaning `(be) empty', such as Teiwa\il{Teiwa} \textit{hasak} in \REF{bkm:Ref355363568}.
-\todo[inline]{fix broken crossref by inserting corresponding label bkm:Ref355363568 between {\textbackslash}REF\{\}}\footnote{{}  Compare proto-Alor-Pantar\ilt{proto-Alor-Pantar} *hasak \citep{HoltonRobinsonTV}, reflected in Western Pantar\ilt{Western Pantar} \textit{hakkas}, Kaera\il{Kaera} \textit{isik}, Abui\ilt{Abui} \textit{taka}, Kamang\ilt{Kamang} \textit{saka}.} In the Teiwa\ilt{Teiwa} idioms in \REF{bkm:Ref355363568}, a subject precedes a nominal predicate that is headed by the place pronoun\is{pronoun} \textit{i} `it.(place)', so that absent entities are expressed as ``X is (an) empty place(s)'', compare (\REF{bkm:Ref355363568} (a-b).
-
-
-\ea%bkm:Ref355363568
-\label{bkm:Ref355363568}
-\langinfo{Teiwa}{}{}\\
 \ea
-\label{ex:8:1234}
-\gll Guru       [i       hasak]\textsc{\textsubscript{pred}} \\  
-     teacher\textsc{(ind)}   it.(place)    empty'  \\
-\glt  `No / zero teachers' 
+\langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
+\label{bkm:Ref334184518}
+\ea
+\gll  Qavif ita{{\textglotstop}}{a} ma gi? \\
+ goat where \textsc{obl} go \\
+\glt `Where did the goat(s) go?'
 \ex
-\gll Yaf [i     hasak]\textsc{\textsubscript{pred}} \\
-    house      it.(place)   empty\\
-\glt    `No / zero people' 
+\gll Qavif non ita{{\textglotstop}}a  ma gi? \\
+ goat \textsc{pl} where \textsc{obl} go \\
+\glt `Where did the (several) goats go?';  *`Where did the goat go?'
 \z
 \z
 
-In sum, AP languages have up to six morphologically simple cardinals\is{cardinal numerals}; in all AP languages, the non-borrowed\is{borrowing} cardinals\is{cardinal numerals} `seven' and up are morphologically complex. Most cardinals\is{cardinal numerals} are compounds, consisting of two or more morphemes in apposition, the second of which gets word stress. The definition of the morphological structure of these compounds varies along three dimensions: the choice of base, the arithmetic operations invoked for the interpretation of the cardinals\is{cardinal numerals} that make up the numeral, and the ways in which these arithmetic operations are expressed. 
-
-\subsection{Ordinal  numerals\ist{ordinal numerals}}
-\label{sec:8:Ordinal}
-Ordinal\is{ordinal numerals} numerals are words that identify the position that a given member of a set occupies relative to other members of the same set (e.g., `the third dog'). The main function of ordinal\is{ordinal numerals} numerals is thus to indicate the position of an entity in an ordered sequence. 
-
-All AP languages have distinct forms for cardinal\is{cardinal numerals} and ordinal\is{ordinal numerals} numerals, and all of them have ordinal\is{ordinal numerals} numbers associated with any cardinal\is{cardinal numerals} from `two' and above. Ordinals\is{ordinal numerals} in AP languages are derived from cardinals\is{cardinal numerals}, which is a cross-linguistically common pattern \citep{StolzEtAl2013}. Variation exists only in the expression of `first', which in some of the languages is unrelated to the numeral `one', as discussed below. 
-
-The derivation of ordinals\is{ordinal numerals} involves a third person possessive\is{possession} pronoun\is{pronoun} or prefix at the left periphery of the cardinal\is{cardinal numerals} numeral. The ordered entity functions grammatically as the possessor\is{possession} of the cardinal\is{cardinal numerals} number. For example, Kamang\il{Kamang} \textit{dum yeok} `child 3.\textsc{poss}{}-two', lit. `child its-two' {\textgreater} `second child'. 
-
-Within the ordinal\is{ordinal numerals} possessive\is{possession} constructions, three areal patterns are discernible. The first pattern is that of the languages of Pantar and the Straits, where the possessive\is{possession} ordinal\is{ordinal numerals} construction includes an additional element specific for ordinals\is{ordinal numerals}. The second pattern is found in Central-East Alor, where ordinals\is{ordinal numerals} are also expressed like possessive\is{possession} constructions, but without including an additional ordinal\is{ordinal numerals} element. The third pattern is found in Kula\il{Kula} and Sawila\il{Sawila} in East Alor, where the ordinals\is{ordinal numerals} involve an applicative verb. We discuss the three patterns in turn.
-
-In the languages of Pantar and the Straits, possessive\is{possession} constructions like those in \REF{bkm:Ref342649616} are the base for ordinal\is{ordinal numerals} constructions such as those in \REF{bkm:Ref342649632}, where the elements \textit{maing},\textit{ma} or \textit{mi} occur between the possessor\is{possession} prefix and the numeral. (Full paradigms of ordinal\is{ordinal numerals} constructions are presented in the Appendix.) 
-
-\ea\label{bkm:Ref342649616}
-\gllllll  {W Pantar\ilt{Western Pantar}}    aname    gai    bla\\
-  Teiwa\ilt{Teiwa}      masar    ga-    yaf\\
-  Kaera\ilt{Kaera}      masik    ge-    ma\\
-  Blagar\ilt{Blagar}      mehal    {\textglotstop}e-    hava\\
-  Adang\ilt{Adang}       nami    o-    bang\\
-   { }        man   \textsc{3.poss}  house  \\
-\glt `the man's house'  \\ 
+\ea\label{bkm:Ref354060976}
+\langinfo{Klon}{}{Baird, Klon corpus, p.c.} \\
+  \ea
+  \gll Ge-ebeng go-thook. \\
+  3.\textsc{gen}-friend 3-meet \\
+\glt `(He) met his friend(s).'\footnote{Compare \textit{Iniq ge-ebeng go-thook} `They met his friend(s)', where the non-singular pronoun\is{pronoun} \textit{iniq} encodes the subject (Baird, p.c. ).}
+  \ex
+  \gll Ge-ebeng onon go-thook. \\
+  3.\textsc{gen}-friend \textsc{pl} 3-meet \\
+\glt `His friends met him'/`(He) met his friends.'\\
+  (*`(He) met his friend.'; *`(They) met their friend.')
+  \ex
+  \gll Ininok onon ge-ebeng go-thook. \\
+  person  \textsc{pl} 3.\textsc{gen}-friend 3-meet \\
+\glt `The people met their friend.'
+  \z
 \z
 
+While plural\is{plural (number) word} words only occur with third person referents, none of the languages seems to have semantic restrictions on which referents can be marked plural\is{plural (number) word}. For instance, in all the languages we examined, both animate\is{animacy} and inanimate\is{animacy} entities can be pluralised\is{plural (number) word}. There does not seem to be a preference to use a plural\is{plural (number) word} word more often with animate\is{animacy} than with animate\is{animacy} nouns, or vice versa. In Wersing\il{Wersing}, for example, the plural\is{plural (number) word} word can be used to signal the plurality\is{plural (number) word} of a human \REF{ex:9:3}, animal \REF{ex:9:4} or inanimate\is{animacy} referent \REF{ex:9:5}. There is similarly no difference in the plural\is{plural (number) word} marking of large versus small referents, as illustrated for Western Pantar\il{Western Pantar} \textit{raya} `chief' \REF{ex:9:6} and \textit{bal} `ball' \REF{ex:9:7}. \textit{Bal} \textit{marung} `ball \textsc{pl'} in \REF{ex:9:7} refers to an unspecified number of balls. This can be a small number of balls, say two or three; it does not have to be a large number of balls.
+
+
+
+
+\ea%3
+\label{ex:9:3}
+\langinfo{Wersing}{}{Schapper and Hendery, Wersing corpus} \\
+\gll  {\dots}, saku deing bias ol tamu poko dein=a ge-pai ge-tai...\\
+  {\dots} adult \textsc{pl} usually child grandchild small \textsc{pl=art} \textsc{3-}make 3-sleep\\
+\glt `{\dots}, the adults would usually [do it] to make the children and grandchildren sleep{\dots}'
+\z
+
+
+
+
+
+
+
+
+\ea%4
+\label{ex:9:4}
+\langinfo{Wersing}{}{Schapper and Hendery, Wersing corpus} \\
+\gll Ne-karbau wari ne-wai deing na yeta le-gadar.{\upshapefootnotemark}\\
+  \textsc{1sg}\textsc{-}buffalo and \textsc{1sg-}goat \textsc{pl} \textsc{foc} \textsc{2pl.agt} \textsc{appl-}guard\\
+\glt `You watch out for my buffalos and my goats.' 
+\z
+
+
+
+
+
+
+
+\ea%5
+\label{ex:9:5}
+\langinfo{Wersing}{}{Schapper and Hendery, Wersing corpus} \\
+\gll Kiki deing aso ge-mira susa. \\
+  flower \textsc{pl} also 3-inside suffer  \\
+\glt `The flowers were also suffering.'
+ \z
+
+
+
+
+
+
+
+
+\ea%6
+\label{ex:9:6}
+\langinfo{Western Pantar}{}{\citealt{Holton2012}} \\
+\gll  Raya marung wang hundar. \\
+   chief \textsc{pl} exist amazed  \\
+\glt `The chiefs were amazed.' (*`The chief is amazed.')
+\z
+
+
+
+
+
+
+
+\ea%7
+\label{ex:9:7}
+\langinfo{Western Pantar}{}{\citealt{Holton2012}} \\
+\gll Bal  marung mea tang pering.  \\
+  ball \textsc{pl} table on pour   \\
+\glt `A bunch of balls are spread out on the table.'
+\z
+
+
+\footnotetext{Here the plural\is{plural (number) word} word must have scope over both nouns, such that this example cannot be read to mean ``my buffalo and my goats''.}
+
+
+
+
+
+Where the plural\is{plural (number) word} words do differ from plural\is{plural (number) word} affixes in other languages is in their shape and distribution: they are for the most part free word forms, and they need not occur next to the noun they pluralise\is{plural (number) word}. This is illustrated in \REF{ex:9:8}, where Teiwa\il{Teiwa} \textit{non} occurs next to the adjective \textit{sib} `clean' while pluralising\is{plural (number) word} \textit{gakon} `his shirt'. Similarly in \REF{ex:9:9} we see Adang\il{Adang} \textit{nun} follows the verb \textit{mat}\textit{{\textepsilon}} `large' modifying the head noun \textit{ti} `tree'.
+
+
+\ea%8
+\langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
+\label{ex:9:8}
+\gll  Uy masar ga-kon  sib non ga{{\textglotstop}}{an,} ma {tona}{{\textglotstop}}{.}\\
+   person male \textsc{3sg.poss\ist{possession}}-shirt clean \textsc{pl} \textsc{dem} come collect\\
+\glt `Those clean shirts of that man, collect them.'
+\z
+
+
+
+
+
+
+
+\ea%9
+\langinfo{Adang}{}{Robinson and Haan to appear} \\
+\label{ex:9:9}
+\gll Pen ti {mat}{{\textepsilon}} nun {\textglotstop}a-b{{\textopeno}}{{\textglotstop}}{{\textopeno}}{i.} \\
+   Pen tree large \textsc{pl} \textsc{3incl.obj}-cut \\
+\glt `Pen cut some large trees.'
+\z
+
+
+
+
+
+
+Plural\is{plural (number) word} words in AP languages cannot co-occur with a numeral in a single NP. For instance, in Teiwa\il{Teiwa}, a noun can be pluralised\is{plural (number) word} with either a plural\is{plural (number) word} word or with a numeral (plus optional classifier\is{numeral classifier}) (\ref{ex:9:10}a-b), but not with both at the same time (\ref{ex:9:10}c). Adang\il{Adang} shows the same restriction; the plural\is{plural (number) word} word \textit{nun} cannotco-occur with a numeral, compare (\ref{ex:9:11}a-b).\footnote{A combination of a mass noun and a numeral is also ungrammatical: *\textit{s}\textit{{\textepsilon}}\textit{i} \textit{ut} `water four' \citep[296]{Haan2001}.}
+
+
+\ea%bkm:Ref354063073
+\label{ex:9:10}
+\langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
 \ea
-\label{bkm:Ref342649632}
-\gllllll
-      {W Pantar\ilt{Western Pantar}}     aname  gai  maing  atiga \\  
-      Teiwa\ilt{Teiwa}          masar  ga-  ma-  yerig \\
-      Kaera\ilt{Kaera}          masik  ge-  mi-  tug \\
-      Blagar\ilt{Blagar}         mehal {\textglotstop}e-  mi-  tue  \\
-      Adang\ilt{Adang}          nami  o-  mi-  towo  {}-mi \\      
-      { }            man \textsc{3.poss}  \textsc{ord-} three  -\textsc{ord} \\
-\glt  `the third man'
-\z
-
-
-In Western Pantar\il{Western Pantar}, the ordinal\is{ordinal numerals} element is a free form \textit{maing}; in Teiwa\il{Teiwa}, Kaera\il{Kaera}, Blagar\il{Blagar}, and Adang\il{Adang} it is a bound morpheme (\textit{ma-} or \textit{mi-}). The ordinal\is{ordinal numerals} elements are formally similar to existing words in the respective languages: Western Pantar\il{Western Pantar} \textit{mayang} `to place', Teiwa\il{Teiwa}\textit{ma} `come, \textsc{obl}', and Kaera\il{Kaera}/Blagar\il{Blagar}/Adang\il{Adang} \textit{mi} `\textsc{obl' (}{\textless}pAP\il{proto-Alor-Pantar} *mai `come' and *mi `be in/on' \citealt{HoltonRobinsonTV}). Synchronically, the semantic and syntactic link between these free forms and the ordinal\is{ordinal numerals} markers is obscure. It may be that the ordinal\is{ordinal numerals} morphemes express notions that are (historically) related to notions of placement or location at a particular numeral rank. However, their position preceding the numeral does not parallel the position of verbs and oblique markers, which in AP languages always \textit{follow} their nominal complement. Note however, that the ordinals\is{ordinal numerals} in Adang\il{Adang} involve two identical morphemes: one preceding and one following the numeral. This might reflect an earlier structure where the ordinal\is{ordinal numerals} marker followed the numeral, paralleling the position of case markers and verbs.
-
-The second areal pattern of ordinal\is{ordinal numerals} constructions is found in Central-East Alor, where ordinal\is{ordinal numerals} constructions are also possessive\is{possession} constructions but now without an ordinal\is{ordinal numerals} element included. Compare the constructions in \REF{bkm:Ref342649962} and \REF{bkm:Ref342309284}. The basic possessive\is{possession} construction in \REF{bkm:Ref342649962} includes a possessor\is{possession}, an alienable\is{alienability} possessive\is{possession} prefix and a possessum. In the ordinal\is{ordinal numerals} constructions in \REF{bkm:Ref342309284}, the ranked entity is the possessor\is{possession} of the numeral indicating the rank.
-
-\ea%bkm:Ref342649962
-\label{bkm:Ref342649962}
-   Nominal possessive\ist{possession} construction in Central-East Alor \\
-\langinfo{}{}{}\\
-\glll  Kamang\ilt{Kamang}  lami  ge-  kadii \\  
-     Abui\ilt{Abui}     neng  he-  fala  \\
-     {}      man  3\textsc{.poss- } house\\
- \glt `the man's house'
-\z
-
-\ea%bkm:Ref342309284
-\label{bkm:Ref342309284}
-    Ordinal\ist{ordinal numerals} construction in Central-East Alor\\
-\langinfo{}{}{}\\
-\glll Kamang\ilt{Kamang}   lami  ge- su \\  
-    Abui\ilt{Abui}     neng  he-  sua   \\
-    { }  man  3\textsc{.poss-}  three\\
-\glt  `the third man'
-\z 
-
-
-In East Alor, ordinal\is{ordinal numerals} structures that diverge from both these areal patterns are found in Kula\il{Kula} and Sawila\il{Sawila}. Kula\il{Kula} (Nick Williams, p.c. 2013) and Sawila\il{Sawila} ordinals\is{ordinal numerals} employ applicative verbs involving the cognate prefixes \textit{we-/wii-}, illustrated in \REF{bkm:Ref355275027} and \REF{bkm:Ref355277550}. In Kula\il{Kula} ordinals\is{ordinal numerals} this verb combines with a possessive\is{possession} structure, \REF{bkm:Ref358037937}. In Sawila\il{Sawila}, possessive\is{possession} constructions  are not used in ordinals\is{ordinal numerals}, \REF{bkm:Ref342737790}. 
-
-
-\ea%bkm:Ref355275027
-\label{bkm:Ref355275027}
- 
-\langinfo{Kula}{}{}\\
-\gll wanta   gi-we-araasiku\\  
-  day   3.\textsc{poss}{}-\textsc{appl}{}-four  \\
-\glt  `the fourth day'
-\z
- 
-
-\ea%bkm:Ref358037937
-\label{bkm:Ref358037937}
-\langinfo{Kula}{}{}\\
-\gll Maria   gi-skola\\  
-   Maria   3.\textsc{poss-}school \\
-\glt`Maria's school'
-\z
- 
-  
-
-  
-
-
-\ea%bkm:Ref355277550
-\label{bkm:Ref355277550}
-\langinfo{Sawila}{}{}\\
-\gll   imyalara   wii-tua\\  
-   man    \textsc{appl-}three \\
-\glt  `the third man'
-\z
-
-  
-
-  
-
-
-
-
-\ea%bkm:Ref342737790
-\label{bkm:Ref342737790}
-\langinfo{Sawila}{}{}\\
-\gll imyalara   gi-\textbf{araasing} \\  
-    man    3.\textsc{poss}-house   \\
-\glt`the man's house'
-\z
- 
-
-In all AP languages, the ordinals\is{ordinal numerals} for `second' and higher are regularly derived. There is no limit in the creation of ordinals\is{ordinal numerals} on the basis of higher, morphologically more complex, cardinals\is{cardinal numerals}.
-
-Some variation exists, however, in the expression of `first'. Adang\il{Adang} and Kamang\il{Kamang} form `first' by the regular process used for `second' and above. Teiwa\il{Teiwa} and Abui\il{Abui} use forms for `first' that are unrelated to the numeral `one', compare \REF{bkm:Ref342651040} (a-b) and \REF{bkm:Ref342651068} (a-b). In Teiwa\il{Teiwa}, the regular derivation from \textit{nuk} does not exist, \REF{bkm:Ref342651040}(b); in Abui\il{Abui}, it does exist, but has a different meaning (`the only/single/particular'), \REF{bkm:Ref342651068}(b). Western Pantar\il{Western Pantar} has two options to express `first'. One is to use the regular construction derived from \textit{(a)nuku} `one', as in \REF{bkm:Ref342651067}(a) while the other option is to use a different root \textit{ye} \REF{bkm:Ref342651067}(b) with an unclear etymology. There is a functional difference between Western Pantar\il{Western Pantar} ordinal\is{ordinal numerals} based on \textit{anuku} which is often used in predicative contexts (`you are the first'), and \textit{ye}, which is preferred in attributive contexts (`my first child'). 
-
-
-\ea%bkm:Ref342651040
-\label{bkm:Ref342651040}
-\langinfo{Teiwa}{}{}\\
-\ea
-\gll  uy    ga-xol \\  
-     person    3\textsc{.poss}-first\\
-\glt`first person'
+\gll  war non\\
+   rock \textsc{pl}  \\
+\glt `(several/many) rocks'
 \ex
-\gll *uy    ga- ma    nuk\\
-person    3\textsc{.poss-ord } one\\ 
-\z\z
- 
-
-
-\ea%bkm:Ref342651068
-\label{bkm:Ref342651068}
-\langinfo{Abui\ilt{Abui}}{}{}\\
-\ea
-\gll ama     he-teitu\\  
-    person    3\textsc{.poss-}  first  \\
-\glt`first person'
+\gll war (bag) {haraq}\\
+ rock \textsc{clf} two  \\
+\glt   `two rocks'
 \ex
-\gll ama     he-nuku\\  
-  person    3\textsc{.poss- } one  \\
-\glt `(the) only/single person,  particular person'
-\z\z
+\gll *war (bag) haraq non \\
+ rock \textsc{clf} two \textsc{pl} \\
+ \glt Intended: `two rocks'
+\z
+\z
 
- 
 
 
-\ea%bkm:Ref342651067
-\label{bkm:Ref342651067}
-\langinfo{Western Pantar}{}{}\\
- 
+\ea%11
+\label{ex:9:11}
+\langinfo{Adang}{}{Robinson and Haan to appear} \\
 \ea
-\gll aname    gai  maing   anuku\\  
-     person    3\textsc{.poss   ord } one\\ 
+\gll {s}{\textepsilon}{i} nun ho {\textglotstop}uhu{\textltailn} {\textepsilon}  b{\textepsilon}{\ng} tanib \\
+   water \textsc{pl} \textsc{def} pour and other draw.water.from.well  \\
+\glt `Pour out that little bit of water and get some more from the well.'
 \ex
-\gll aname    gai  maing   ye\\
-    person    3\textsc{.poss   ord } one\\
-\glt `first person'
-\z\z
- 
-
-      
-
-In sum, the AP languages regularly derive ordinals\is{ordinal numerals} from numerals with a possessor\is{possession} morpheme, so that syntactically the ordinal\is{ordinal numerals} construction is a possessed\is{possession} nominal phrase. Apart from the third person possessor\is{possession} morpheme, which is used across the board, ordinals\is{ordinal numerals} vary in structure when we go from west to east. In the western languages (Pantar-Straits-West Alor) special morphemes are employed which may be etymologically related to free forms encoding locations, though synchronically, this relation is not transparent. In the eastern languages, ordinals\is{ordinal numerals} involve an applicative morpheme. At least three of the AP languages have an ordinal\is{ordinal numerals} `first' involving a root that is different from the cardinal\is{cardinal numerals} `one'. This is in line with the cross-linguistic tendency for languages with ordinals\is{ordinal numerals} unrelated to cardinals\is{cardinal numerals} to confine them to the lowest numerals \citep{StolzEtAl2013}.
-
-\subsection{Distributive numerals\ist{distributive numerals}}
-\label{sec:8:Distributive}
-\subsubsection{Forms and distribution of distributives\ist{distributive numerals}}
-Distributive numerals\is{distributive numerals} function to express notions such as `one by one' or `in groups of three'. AP languages create distributive\is{distributive numerals} numerals by reduplication\is{reduplication} of the cardinal\is{cardinal numerals} numeral, or a part of it. Cross-linguistically, reduplication\is{reduplication} is the most common strategy to form distributives\is{distributive numerals}: in about 33\% of the 251 languages in Gil's (2013) \nocite{Gil2013} sample, distributives\is{distributive numerals} are created in this way. As Gil points out, the reduplicative\is{reduplication} strategy is iconically motivated: repeated copies of the cardinal\is{cardinal numerals} correspond to multiple sets of objects.
-
-Distributive numerals\is{distributive numerals} follow the noun or pronoun\is{pronoun} they modify, as illustrated in \REF{bkm:Ref342655549}-\REF{ex:8:1235}. Distributives\is{distributive numerals} can modify different clausal arguments; for example, an actor subject in \REF{bkm:Ref342655549} and \REF{bkm:Ref342738939} or a patient object in \REF{bkm:Ref342655553}.
-
-
-\ea%bkm:Ref342655549
-\label{bkm:Ref342655549}
-\langinfo{Teiwa}{}{}\\
-\gll Iman  nuk\textit{\~{}}nuk  aria-n\\  
-    \textsc{3pl}   \textsc{rdp}\textit{\~{}}one   arrive-\textsc{real}\\
-\glt `They arrived one by one' 
+\gll *s{\textepsilon}{i} nun al{\textopeno} ho {\textglotstop}uhu{\textltailn} {\textepsilon} b{\textepsilon}{\ng} tanib \\
+   water \textsc{pl} two \textsc{def} pour and other draw.water.from.well  \\
+\glt  Intended: `Pour out the two bits of water and get some more from the well.'
+\z
 \z
 
-    
+In sum, proto-Alor-Pantar\il{proto-Alor-Pantar} had a plural\is{plural (number) word} word of the shape *non. Some Alor-Pantar languages inherited both form and function, others innovated\is{innovation} a plural\is{plural (number) word} word. The languages under investigation do not show restrictions on which referents can be marked plural\is{plural (number) word}, and in none of the languages does the plural\is{plural (number) word} word co-occur with a numeral in an NP.
 
-   
+\section{Syntax of plural\ist{plural (number) word} words in Alor-Pantar}  %3
 
+\label{sec:9:3}
+The plural\is{plural (number) word} words investigated in \citet{Dryer1989} are very heterogeneous in their categorial properties. They belong to one of the following classes: (i) articles; (ii) numerals; (iii) grammatical number words like singular, dual, trial; (iv) closed class of noun modifiers; and (v) a class of their own. Dryer concludes that ``there is little basis for using the term [plural\is{plural (number) word} word] as a syntactic category'' (1989: 879).
 
-\ea%bkm:Ref342738939
-\label{bkm:Ref342738939}
-\langinfo{Abui}{}{}\\
-\gll  Ama    rifi-rifi    sei        hel  buku  nu  he-waalri \\  
-    person    \textsc{rdp\~{}}thousand   come.down.\textsc{cont}    \textsc{top  } land  \textsc{spec}   3.\textsc{loc-}gather.in.\textsc{compl}  \\
-\glt `People came in thousands to that place' 
-\z
-
-    
- 
-
-   
-
-   
-
-\ea%bkm:Ref342655553
-\label{bkm:Ref342655553}
-\langinfo{Teiwa}{}{}\\
-\gll Yi   ma   gula   yerig\~{}yerig   mat\\  
-     2\textsc{pl } come  sweet  \textsc{rdp}\textit{\~{}}three  take \\
-\glt `You take three sweets each'
-\z
-
-   
-
-  
-
-   
-
-In some AP languages distributives\is{distributive numerals} may float outside the NP to a position adjacent to the verb; an example is Adang\il{Adang}, \REF{ex:8:1235}. The exact restrictions and possibilities of such constructions across the AP languages remain a topic for future research; here we focus on the morphological shape of the distributives\is{distributive numerals}.
-
-
-\ea
-\label{ex:8:1235}
-\langinfo{Adang}{}{}\\
- \gll  Sunui{\textltailn}   papan   du   teweng al-alu  [all\'u]\\
-   3\textsc{pl}    board  \textsc{def}   carry   \textsc{rdp}\textit{\~{}}two \\
- \glt `They carry the board two by two (i.e., two at a time)'
-\z
-
-    
-
- 
-
- 
-
-The following sections describe how distributives\is{distributive numerals} are derived: the regular patterns are discussed in Section \ref{sec:8:2.3.2}, and the irregularities in Section \ref{sec:8:2.3.3.}  Full paradigms of distributives\is{distributive numerals} in five languages of our sample are given in the Appendix.
-
-\subsubsection{Regular distributive\is{distributive numerals} formation  }
-\label{sec:8:Regular}
-Regular distributive\is{distributive numerals} formation in Alor-Pantar involves reduplication\is{reduplication} of (a part of) the cardinal\is{cardinal numerals} number. In complex numerals it is usually the right-most element, the prosodic head (Section \ref{sec:8:2.1}), that is the base for the reduplication\is{reduplication}. The result is a distributive\is{distributive numerals} form that contains word-internal reduplication\is{reduplication}. 
-
-Even in languages where the morphological make-up of compound cardinals\is{cardinal numerals} is synchronically opaque, such as Teiwa\il{Teiwa}, distributive\is{distributive numerals} reduplication\is{reduplication} splits the cardinal\is{cardinal numerals} in two parts, and only the rightmost element, the prosodic head, is reduplicated\is{reduplication}; see the numerals `seven' to `nine' in Table \ref{tab:8:2}. Also in numerals that contain an operator expressing addition, it is the right-most morpheme that is reduplicated\is{reduplication}, see \REF{bkm:Ref342661452}-\REF{bkm:Ref342744393} below.
- 
-
-
-\begin{table}\centering
-\caption{Teiwa\ilt{Teiwa} cardinals\is{cardinal numerals} and distributives\ist{distributive numerals}}
-\label{tab:8:2}
-
-
-\begin{tabular}{lll} & Cardinal\is{cardinal numerals} & Distributive\ist{distributive numerals}\\
-\mytopline
-1 & \textit{nuk} & \textit{nuk\~{}nuk}\\
-2 & \textit{raq} & \textit{raq\~{}raq}\\
-3 & \textit{yerig} & \textit{yerig\~{}yerig}\\
-4 & \textit{{\textglotstop}}\textit{ut} & \textit{{\textglotstop}}\textit{ut\~{}}\textit{{\textglotstop}}\textit{ut}\\
-5 & \textit{yusan} & \textit{yusan\~{}yusan}\\
-6 & \textit{tiaam} & \textit{tiaam\~{}tiaam}\\
-7 & \textit{yes}\textbf{\textit{raq}} & \textit{yes}\textbf{\textit{raq}}\textit{\~{}raq}\\
-8 & \textit{yesn}\textbf{\textit{erig}} & \textit{yesne}\textbf{\textit{rig}}\textit{\~{}rig}\\
-9 & \textit{yesna}\textbf{\textit{{\textglotstop}}}\textbf{\textit{ut}} & \textit{yesna}\textbf{\textit{{\textglotstop}}}\textbf{\textit{ut}}\textit{\~{}}\textit{{\textglotstop}}\textit{ut}\\
-\mybottomline
-\end{tabular}
- 
-\end{table}
-
-In Adang\il{Adang}, distributives\is{distributive numerals} are formed by partial reduplication\is{reduplication}, as shown in Table \ref{tab:8:3}. In the mono-morphemic forms `one' through `six', reduplication\is{reduplication} copies the first two segments (CV or VC) of the cardinal\is{cardinal numerals}. Note that this analysis assumes that distributive\is{distributive numerals} `two' \textit{allo} and `five' \textit{iwwihing} are (historical) contractions of \textit{al-alu} and \textit{iw-iwing}. Numerals `seven' to `nine' are subtractive compound forms, in which the right-most element is the base for the reduplication\is{reduplication} (cf. \textit{to} {\textless} \textit{towo} `three', \textit{lo {\textless} alu} `two', \textit{nu {\textless} nu} `one'). 
- 
-
-
-\begin{table}\centering
-
-
-\begin{tabular}{lll} & Cardinal\ist{cardinal numerals} & Distributive\ist{distributive numerals}\\
-\mytopline
-1 & \textit{nu} & \textit{nu\~{}nu}\\
-2 & \textit{alu} [alu] & \textit{                al}\textit{\~{}}\textit{lo} [al:o]\footnotemark{} \\
-3 & \textit{towo} & \textit{to\~{}towo}\\
-4 & \textit{{\textglotstop}}\textit{ut} & \textit{{\textglotstop}}\textit{u\~{}}\textit{{\textglotstop}}\textit{ut}\\
-5 & \textit{iwihing} & \textit{iw\~{}wihing} \\
-6 & \textit{talang} & \textit{ta\~{}talang}\\
-7 & \textit{wit}\textbf{\textit{to}} & \textit{wit}\textbf{\textit{to}}\textit{\~{}to} \\
-8 & \textit{tur}\textbf{\textit{lo}} & \textit{tur}\textbf{\textit{lo}}\textit{\~{}lo} \\
-9 & \textit{ti}\textit{{\textglotstop}}\textit{i}\textbf{\textit{nu}} & \textit{ti}\textit{{\textglotstop}}\textit{i}\textbf{\textit{nu}}\textit{\~{}nu} \\
-\mybottomline
-\end{tabular}
-
-\caption{Adang\ilt{Adang} cardinals\ist{cardinal numerals} and distributives\ist{distributive numerals}}
-\label{tab:8:3}
-%\label{}
-\end{table}
-
-\footnotetext{Synchronically, the vowel in the distributive\ist{distributive numerals} \textit{allo} has a distinct quality from the vowel in the cardinal\ist{cardinal numerals}.}
-Across the AP family, the formation of distributives\is{distributive numerals} by reduplicating\is{reduplication} (parts of) cardinals\is{cardinal numerals} is a productive process. It applies not only to frequent or morphologically simple numerals such as `one' or `two', but also to less frequent and morphologically complex numerals like `27' in \REF{bkm:Ref342661452}, `201' in \REF{bkm:Ref342656299}, and `1054' in \REF{bkm:Ref342744393}. It must be noted that, while it is difficult to imagine a distributive\is{distributive numerals} context for numerals like these, speakers are able to mechanically derive their distributive\is{distributive numerals} form. 
-
-\ea%bkm:Ref342661452
-\label{bkm:Ref342661452}
-\langinfo{Abui}{}{}\\
-\gll Kar   ayoku   wal   yeting   ayok\~{}ayok-da\\  
-   ten   two   \textsc{add}   five   \textsc{rdp}\textit{\~{}}two-\textsc{} get.\textsc{cont} \\
-\glt  `in groups of 27' 
-\z
- 
-
-
-\ea%bkm:Ref342656299
-\label{bkm:Ref342656299}
- 
- Distributive\ist{distributive numerals} for `201' \\
-\glllll  {} 100    2    \textsc{add}    \textsc{rdp}\~{}1\\  
- {W Pantar\ilt{Western Pantar}:} ratu    alaku    wali     ye\~{}ye        \\
- Teiwa\ilt{Teiwa}:    ratu    raq    rug    nuk\~{}nuk      \\
- Abui\ilt{Abui}:     aisaha     ayoku    wal    nuk\~{}nukda      \\
- Kamang\ilt{Kamang}:   ataak     ok     waal    no\~{}nok     \\  
-\z
-
-
-    
-
- 
- 
- 
- 
-
-\ea%bkm:Ref342744393
-\label{bkm:Ref342744393}
- 
- Distributive\ist{distributive numerals} for `1054'\\
-\glllll   {}   1000    1  10  5    \textsc{add}  \textsc{rdp}\~{}4 \\      
-   {W Pantar\ilt{Western Pantar}:}  (a)ribu   nuk   ke  yasing     wali  atu\~{}atu    \\
-   Teiwa\ilt{Teiwa}:    ribu     nuk  qaar  yusan    rug  ut\~{}ut    \\
-   Abui\ilt{Abui}:     rifi    nuku  kar  yeting    wal  buk\~{}bukna      \\
-   Kamang\ilt{Kamang}:   ribu    nok  ataak  wesing    waal  bye\~{}biat     \\
-\z
-
-
-In sum, distributives\is{distributive numerals} are productively derived from cardinals\is{cardinal numerals} by reduplicating\is{reduplication} part of or the whole cardinal\is{cardinal numerals} base. In morphologically complex forms, the right-most element is the prosodic head and the reduplicative\is{reduplication} base. 
-
-\subsubsection{Irregularities in distributive\ist{distributive numerals} formation}
-\label{sec:8:Irregularities}
-Exceptions to the regular derivations are mainly found in the formation of the morphologically complex low numerals `six' to `nine'. The irregularities include: (i) irregular segmental changes in reduplicated\is{reduplication} forms; (ii) irregular patterns of partial viz. full reduplication\is{reduplication}; and (iii) irregular choice of reduplicative\is{reduplication} base. 
-
-Abui\il{Abui} shows the greatest amount of formal difference between its cardinal\is{cardinal numerals} and distributive\is{distributive numerals} numerals, as shown in Table \ref{tab:8:4}. The distributives\is{distributive numerals} are reduplicated\is{reduplication} verbal constructions: their verbal status is clear from the suffixes -\textit{da/-na/-ra} which encode light verbs and (continuative) aspect \citep{Kratochvil2007}. In Table \ref{tab:8:4}, the parts printed in bold show the irregular relation between Abui\il{Abui} cardinals\is{cardinal numerals} and the numeral morphemes used in distributives\is{distributive numerals}.
- 
-
-\begin{table}\centering
-
-
-\begin{tabular}{lll} & Cardinal\ist{cardinal numerals} & Distributive\ist{distributive numerals}\\
-\mytopline
-1 & \textit{nuk}\textbf{\textit{u}} & \textit{nuk\~{}nuk-da}\\
-2 & \textit{ayok}\textbf{\textit{u}} & \textit{ayok\~{}ayok-da} \\
-3 & \textit{su}\textbf{\textit{a}} & \textit{su}\textbf{\textit{i}}\textit{\~{}sui-da}\\
-4 & \textit{bu}\textbf{\textit{ti}} & \textit{bu}\textbf{\textit{k}}\textit{\~{}buk-na}\\
-5 & \textit{ye}\textbf{\textit{ting}} & \textit{ye}\textbf{\textit{k}}\textit{\~{}yek-na}\\
-6 & \textit{tala}\textbf{\textit{ama}} & \textit{tala}\textbf{\textit{n}}\textit{\~{}talan-ra}\\
-\mybottomline
-\end{tabular}
-
-\caption{Abui\ilt{Abui} cardinals\ist{cardinal numerals} and distributives\ist{distributive numerals}}
-\label{tab:8:4}
-%\label{}
-\end{table}
-
-  In Kamang\il{Kamang} distributives\is{distributive numerals}, the reduplicant\is{reduplication} varies in shape. In the numerals `one' to `four' and `six', a morpheme with the shape (C)VV is reduplicated\is{reduplication}, while in the numeral `five' and the complex numerals built on it---`seven' through `nine'---the reduplicant\is{reduplication} has the shape CVCV. This is shown in \REF{bkm:Ref342656818}:
-
-\ea%bkm:Ref342656818
-\label{bkm:Ref342656818}
- 
- Kamang\ilt{Kamang} distributive\ist{distributive numerals} numeral formation
-\begin{tabular}{llll}            
-\mytopline
-            & Cardinal\ist{cardinal numerals}  &  Reduplicant\is{reduplication} shape & Distributive\ist{distributive numerals}\\
-\midrule
-\textit{nok } & `1'  &  CV  &  \textit{no\~{}nok}\\
-\textit{ok }  & `2' &  V & \textit{o}\textit{{\textglotstop}}\textit{\~{}ok}\footnotemark{}\\
-\textit{su }  & `3' &  CV & \textit{su\~{}su}\\
-\textit{biat }  & `4'  &   CVV & \textit{bie\~{}biat}\\
-\textit{wesing } &  `5' &  CVCV & \textit{wesi\~{}wesing}\\
-\textit{taama } &  `6' &  CVV & \textit{taa\~{}taama}    \\
-\mybottomline
-\end{tabular}
-\z
-
-
-
-
-
-\footnotetext{The glottal stop in this form is phonetic. It is required to break up the sequence of like vowels in separate syllables. Speakers insist on including it in writing in order to distinguish /o/ from /o:/, orthographically \{oo\}.} 
-
-Kamang\il{Kamang} has an irregular choice of reduplicative\is{reduplication} base. Compare the reduplicants\is{reduplication} (in bold-face) in the numerals `seven' to `nine' in \REF{ex:8:1236}. We see that Abui\il{Abui} reduplicates\is{reduplication} only the right-most numeral, resulting in word-internal reduplication\is{reduplication}, which is consistent with the regular distributive\is{distributive numerals} pattern in AP languages (Section \ref{sec:8:2.3.2}). By contrast, Kamang\il{Kamang} reduplicates\is{reduplication} the initial element \textit{wesing}. As main stress is on the final syllable of the numerals in Kamang\il{Kamang} just as it is in Abui\il{Abui}, we analyse this as a choice of reduplicative\is{reduplication} base in Kamang\il{Kamang} distributives\is{distributive numerals} which diverges from the overall pattern of AP languages. 
-
-\ea
-\label{ex:8:1236}
-Reduplication\ist{reduplication} of base-5 numerals in Abui\ilt{Abui} and Kamang\ilt{Kamang}\\
-\begin{tabular}{lll}
-\mytopline
-   &  Abui\ilt{Abui}   &     Kamang\ilt{Kamang}\\
-\midrule
-  `7' &  \textit{yeting}\textbf{\textit{ayok}}\textit{\~{}ayokda}  &   \textbf{\textit{wesi}}\textit{\~{}wesingok}\\
-  `8' &  \textit{yeting}\textbf{\textit{sui}}\textit{\~{}suida}& \textbf{\textit{wesi}}\textit{\~{}wesingsu}\\
-  `9' &  \textit{yeting}\textbf{\textit{buk}}\textit{\~{}bukna}& \textbf{\textit{wesi}}\textit{\~{}wesingbiat}\\
-\mybottomline
-\end{tabular}
-\z
-
-
-In sum, AP languages derive distributive numerals\is{distributive numerals} by partial or full reduplication\is{reduplication} of the cardinal\is{cardinal numerals}. In complex numerals, the right-most element is the prosodic head and as a rule this item is the base for the reduplication\is{reduplication}. Exceptions to the regular derivations of distributives\is{distributive numerals} are mainly found in the formation of the morphologically complex low numerals `six' through `nine' in Central-East Alor, and include segmental changes in reduplicated\is{reduplication} forms (Abui\il{Abui}); irregular patterns of reduplication\is{reduplication} (Abui\il{Abui}, Kamang\il{Kamang}), and an irregular choice of reduplicative\is{reduplication} base (Kamang\il{Kamang}). 
-
-\section{Structures expressing arithmetic operations} 
-\label{sec:8:Structures}
-To complete the catalogue of numeral expressions in AP languages, this section presents the basic arithmetic operations in which numbers are combined. We describe addition (section \ref{sec:8:Addition}), subtraction (section \ref{sec:8:Subtraction}), multiplication (section \ref{sec:8:Multiplication}), division (section \ref{sec:8:Division}), and fractions (section \ref{sec:8:Fractions}). To elicit math constructions from speakers was generally easy and not forced at all. This is remarkable in light of the fact that for none of the languages is it the case that children acquire or use these arithmetic expressions in school: the language of education in Alor-Pantar is Indonesian\il{Indonesian}. 
-
-\subsection{Addition}
-\label{sec:8:Addition}
-Across Alor-Pantar, addition takes the shape of imperative sentences involving more than one verb. In such constructions, the agent or actor is not expressed and the added numerals are the arguments of verbs in a serial construction\is{serial verb constructions}. The number that represents the sum amount is a predicate that follows a clause-coordinating element. Languages may abbreviate the expression by omitting a verb or the clause-coordinator. Examples \REF{bkm:Ref342663714} through \REF{bkm:Ref342663723} illustrate `three plus three is six':
-
-
-\ea%bkm:Ref342663714
-\label{bkm:Ref342663714}
-\langinfo{Western Pantar}{}{}\\
- 
-\gll Atiga  ma{\footnotemark}  atiga  tang  tiggung  (allang)  hisnakkung\\  
-   three   come  three  on  add  (then)  six \\
-\glt  `Bring three, add on three, (then) [get] six.'
-\z
-\footnotetext{\textit{Ma} may be omitted; in that case there must be a pause between both occurrences of \textit{atiga}.}
-
-
-\ea
-\label{ex:8:1237}
- 
-\langinfo{Teiwa}{}{}\\
- \gll Yerig  ma  yerig  taxa'   si  a  tiaam\\
-   three  come  three  add  \textsc{sim  3sg } six \\
- \glt`Add three with three so it's six.'
-\z
-
-
- 
-
-  
-
-
-\ea
-\label{ex:8:1238}
-\langinfo{Adang}{}{}\\ 
- \gll Towo  med  towo  ta  talang.\\
-    three   take   three   add   six\\
- \glt `Take three add three (it's) six.'
-\z
-
-\ea
-\label{ex:8:1239}
-\langinfo{Abui}{}{}\\
- \gll Sua  mi  sua-ng  h-ai  maiye  talaama\\
-  three  take  three-\textsc{see}  \textsc{3.pat}{}-add.to  if  six \\
- \glt  `If you add three to three, it is six.'  
-\z
-
-
-
-
-\ea%bkm:Ref342663723
-\label{bkm:Ref342663723}
-\langinfo{Kamang\ilt{Kamang}}{}{}\\
-\gll   Su  me  su  wo-tte  an-ing  bo  taama\\  
-   three   take  three  3.\textsc{loc}{}-add  thus-\textsc{set}   \textsc{conj}  six  \\
-\glt `Add three to three makes six.'  
-\z
-
-
-
- 
-
-  
-
-\subsection{Subtraction}
-\label{sec:8:Subtraction}
-Just like addition, subtraction is also expressed in imperative sentences. Syntactically, the subtrahend (i.e., the numeral subtracted) is expressed as the complement of transitive verbs such as `throw away X', `split off X', `move X', or `take X'. The grammatical role of the minuend (i.e., the numeral subtracted from) is less clear. As is the case with the sum of addition, the result of the subtraction typically occurs as the predicate of a separate clause, following a clause coordinating element. Examples \REF{bkm:Ref358042906} through \REF{bkm:Ref358115306} illustrate `five minus two is three':
-
-
-\ea%bkm:Ref358042906
-\label{bkm:Ref358042906}
-\langinfo{Western Pantar}{}{}\\
-\gll  Yasing  alaku  sussung  allang  (gang)  atiga.  \\  
-   five  two  throw.away  then  (\textsc{3sg) } three  \\
-\glt `Discard two from five then there are three.'
-\z
-
- 
-
-\ea
-\label{ex:8:1240}
-\langinfo{Teiwa}{}{}\\
- \gll Muxui  kam  yusan,     haraq  ma  ga-fa'   mai   ha  si,  kam  yerig   qai.      \\
-    banana  \textsc{clf}  five   two  come  \textsc{3sg-}split.off  save  then  \textsc{sim}  \textsc{clf} three  only    \\
- \glt `Five bananas,    split off two [to] save then only three [are left].' 
-\z
- 
-\ea
-\label{ex:8:1241}
-\langinfo{Adang}{}{}\\ 
-\gll Iwihing  a-no'   kurung  alu  towo\\
- five  \textsc{caus}{}-affect  less  two  three\\
-\glt `Five minus two is three.' 
-\z  
-
-
-\ea
-\label{ex:8:1242}
-\langinfo{Abui}{}{}\\
- \gll Yeting  nu  ayoku-ng  ha-bel  maiye  he-pot  sua\\
-  five  \textsc{spec}   two-\textsc{see } 3.\textsc{pat}{}-subtract  if  \textsc{3.alien\is{alienability}}{}-remainder  three \\
- \glt `If two is subtracted from five, the remainder is three.' 
-\z 
-  
-\ea
-\label{ex:8:1243}
-\langinfo{Abui}{}{}\\
- \gll Yeting  nu  ayoku  mi-a  maiye  sua\\
-  five  \textsc{spec } two  take-\textsc{dur } if  three   \\
- \glt `If two is taken from five, it is three.' 
-\z
- 
-  
-
-\ea%bkm:Ref358115306
-\label{bkm:Ref358115306}
-  
-\langinfo{Kamang\ilt{Kamang}}{}{}\\
-\gll  Wesing  ok  wo-met  an-ing  bo  su.   \\  
-    five  two   3.\textsc{loc-}take  thus\textsc{{}-set}  \textsc{conj} three   \\
-\glt `Take two from five thus there are three.' 
-\z
-
-
-
- 
-
- 
-
-\subsection{Multiplication}
-\label{sec:8:Multiplication}
-The strategy used in multiplication is variable. All languages start with the multiplicant, but its shape differs. In Western Pantar\il{Western Pantar} and Teiwa\il{Teiwa} it is an underived cardinal\is{cardinal numerals} followed by a demonstrative, while in Abui\il{Abui} it is a morphologically derived distributive\is{distributive numerals} (Section \ref{sec:8:2.3}). Examples \REF{bkm:Ref358043144} through \REF{bkm:Ref358043179}  illustrate `five times four is twenty':
-
-
-\ea%bkm:Ref358043144
-\label{bkm:Ref358043144}
-  
-\langinfo{Western Pantar}{}{}\\
-\gll Attu  si  gaunung  me  yasing   allang  (gang)  ke alaku. \\  
-   four  that  just  on  five  then  3\textsc{sg } ten two   \\
-\glt `Five on just that four then (it's) twenty.'
-\z
-
-
-\ea
-\label{ex:8:1244}
-\langinfo{Teiwa}{}{}\\ 
- \gll   Ut  ga'an  tag-an  ma-yusan  si,  a   qaar raq.  \\
-    four  that   count-\textsc{real } come-five  \textsc{sim}  \textsc{3sg} ten two  \\
- \glt `Count these four five times and it's twenty.'
-\z
-
-
-
-\ea
-\label{ex:8:1245}
-\langinfo{Abui}{}{}\\ 
- \gll Buk\~{}bukna  ha-lakda  nu  ming  yekna  maiye  kar ayoku. \\
-  \textsc{rdp}\~{}group.of.four  \textsc{3.pat}-count.\textsc{cont}  \textsc{spec}  about  five.times  if  ten two  \\
- \glt  `If a group of four is counted five times, it is twenty.'
-\z
-
- 
-
-Kamang\il{Kamang} expresses multiplication with an applicative verb derived from a cardinal\is{cardinal numerals} base by prefixing \textit{mi-}. (Compare Teiwa\il{Teiwa}, where the applicative derivation is used for fractions, see Section \ref{sec:8:3.5}). 
-
-
-
-
-\ea%bkm:Ref358043179
-\label{bkm:Ref358043179}
-\langinfo{Kamang\ilt{Kamang}}{}{}\\
-\gll   Biat=a  mi-wesing  an-ing  bo  ataak   ok.  \\  
-    four=\textsc{spec}  \textsc{appl-}five  thus\textsc{-set}  \textsc{conj} ten  two   \\
-\glt  `Five times these four makes twenty.'
-\z
-
-
-\subsection{Division}
-\label{sec:8:Division}
-Expressions for division involve the transitive verbs `split' and `divide' in Western Pantar\il{Western Pantar}, Teiwa\il{Teiwa}, and Adang\il{Adang}. The following examples illustrate `ten divided by two is five': 
-
-
-\ea%bkm:Ref342664493
-\label{bkm:Ref342664493}
-\langinfo{Western  Pantar}{}{}\\
- 
-\gll   Ke anuku  daai  alaku  allang  yasing\\  
-    ten one  split  two  then  five \\
-\glt `Ten split (by) two then (it's) five.'
-\z
-
-
-
- 
-
- 
-
-
-\ea
-\label{ex:8:1246}
-\langinfo{Teiwa}{}{}\\  
- \gll Qaar  nuk  paxai  g-et  haraq  si  yusan.   \\
-  ten  one  divide  3sg-eye  two  \textsc{sim}  five   \\
- \glt `Ten divided in two parts (lit. eyes), then [it's] five.'
-\z
- 
-
-\ea%bkm:Ref342664505
-\label{bkm:Ref342664505}
-\langinfo{Adang}{}{}\\
-\gll  'Air nu  'aba'ang  o-alu  iwihing\\  
-    ten one  divide  \textsc{poss-}two  five \\
-\glt `Ten divided (by) two (is) five.'  
-\z
-
- 
-
- 
-
-  
-
-Note that the order of the verb relative to its complement `two' in \REF{bkm:Ref342664493}-\REF{bkm:Ref342746525} is unexpected, as it goes against the canonical AP object-verb order, found in subtraction (Section \ref{sec:8:3.2}). Note that the equivalent expression in Indonesian\il{Indonesian}/Malay\il{Malay} is \textit{sepuluh bagi dua (adalah)} \textit{lima} lit. `ten divide two (is) five', with verb complement order. It may be the case that the constructions in \REF{bkm:Ref342664493}-\REF{bkm:Ref342746525} are calques from Indonesian\il{Indonesian}/Malay\il{Malay}. 
-
-Abui\il{Abui} divisions are expressed as imperative sentences with regular serial verb constructions, where the result follows a coordinating element, see \REF{bkm:Ref358116296}. Kamang\il{Kamang} expresses a fraction by marking the dividing numeral with \textit{wo-}, the same prefix that is used to express, for instance, fractions resulting from an action, e.g., \textit{bo'ne wo-ok} `hit into two pieces', \REF{ex:8:1247}. 
-
-
-\ea%bkm:Ref358116296
-\label{bkm:Ref358116296}
-\langinfo{Abui}{}{}\\
-\gll  Kar  nuku  nu  mi  ayoku  he-yeng  maiye  yek-yekna \\  
-    ten  one  \textsc{spec}  take  two  3.\textsc{loc-}divide  if  \textsc{rdp-}group.of.five \\
-\glt  `If a ten is divided into two (you get) a group of five.'
-\z
-
-
-
- 
-
-
-
-
-\ea
-\label{ex:8:1247}
-\langinfo{Kamang\ilt{Kamang}}{}{}\\
- \gll Ataak  nok=a  wo-ok  an-ing  bo  wesing \\
-  ten  one=\textsc{spec}  \textsc{3.loc}-two  thus-set  \textsc{conj}  five \\
- \glt`Ten divided into two makes five.'
-\z
-
-
-\subsection{Fractions}
-\label{sec:8:Fractions}
-Expressions for fractions show much variety across the AP languages. Western Pantar\il{Western Pantar}, Teiwa\il{Teiwa} and Adang\il{Adang} express fractions using a verb, while Kamang\il{Kamang} uses fraction adverbs, and no fractions appear to exist in Abui\il{Abui}. 
-
-Western Pantar\il{Western Pantar} derives fractions productively with the verb `divide', \REF{bkm:Ref342746525}. In Teiwa\il{Teiwa}, expressions for fractions contain an applicative verb derived from a cardinal\is{cardinal numerals} base by prefixing \textit{g-un-,} a fossilized combination of a 3\textsc{sg} object prefix and an applicative prefix \textit{un-}. The fraction verb occurs as second verb in a serial verb construction, \REF{bkm:Ref342746583}: 
-
-
-\ea%bkm:Ref342746525
-\label{bkm:Ref342746525}
- 
-\langinfo{Western Pantar }{}{}\\
-\gll   Ye  daai  atiga,  ye   daai  attu\\  
-   one   divide  three   one  divide  four \\
-\glt  `one third, one fourth'   
-\z
-
- 
-
-\ea%bkm:Ref342746583
-\label{bkm:Ref342746583}
-\langinfo{Teiwa}{}{}\\
-\gll  Taxaran  g-  un-  yerig,  g-  un-  ut,  g-  un-  qaar nuk \\  
-   divide  \textsc{3sg}-  \textsc{appl} three  \textsc{3sg-}  \textsc{appl} four  \textsc{3sg-}  \textsc{appl-} ten one   \\
-\glt  `a third, a fourth, a tenth' (lit. `Divide into three, four, ten')
-\z
-
-
- 
-
-\ea
-\label{ex:8:1248}
-\langinfo{Adang}{}{}\\
-\gll Nu  'aba'ang  o-ut\\
-  one  divide  \textsc{poss}{}-four\\
-\glt `one fourth'
-\z 
-
-  
-
-In Kamang\il{Kamang}, fractions are verbs derived by prefixing \textit{wo-} `3.LOC' to the numeral base, as in \REF{bkm:Ref342746224}. In \REF{bkm:Ref342746258}, the derived verb is part of a resultative serial verb construction.
-
-
-\ea%bkm:Ref342746224
-\label{bkm:Ref342746224}
-\langinfo{Kamang\ilt{Kamang}}{}{}\\
-\gll wo-ok,    wo-su,  wo-biat,  wo-ataak     \\  
-   3.\textsc{loc-}two    3.\textsc{loc-}three  3.\textsc{loc-} four  3.\textsc{loc-}ten   \\
-\glt `half, a third, a fourth/quarter, a tenth' 
-\z
-
-   
-
- 
-
- 
-
-
-\ea%bkm:Ref342746258
-\label{bkm:Ref342746258}
-\langinfo{Kamang\ilt{Kamang}}{}{}\\
-\gll  Nala  le  nok  katee  wo-biat  \\  
-   \textsc{1sg } mango  one  eat  3.\textsc{loc-} four    \\
-\glt `I eat a fourth of the mango', `I eat the mango in fourths'
-\z
-
-     
-
- 
-
-Abui\il{Abui} does not seem to have a construction dedicated to derive fractions. It does have a word for `half' that is unrelated to `two':  
-
-
-\ea
-\label{ex:8:1249}
-\langinfo{Abui}{}{}\\
- \gll   Nalama  pingai  nuku  ahama   \\
-    cooked.rice  plate  one  half   \\
- \glt  `One and a half platesof rice'  
-\z
-
- 
-Words for `half' that are unrelated to `two' are also found in Western Pantar\il{Western Pantar},  Teiwa\il{Teiwa}, and Adang\il{Adang}, as shown below.  In Western Pantar\il{Western Pantar}, `half' can be a nominal \textit{gamme} `half, portion', but also a fraction involving the verb `divide', compare \REF{bkm:Ref342746707}-\REF{bkm:Ref342746708}. In Teiwa\il{Teiwa}, `half' may be a nominal (\textit{qaas} `side, half', \textit{abaq} `half' in \REF{bkm:Ref342746924}-\REF{bkm:Ref342746926}), but may also be expressed by an applicative verb derived from `two', as in \REF{bkm:Ref342746963}.
-
-
-\ea%bkm:Ref342746707
-\label{bkm:Ref342746707}
-\langinfo{Western Pantar}{}{}\\
-\gll   Gang  maggi  gamme  na  \\  
-      3sg  banana  half  eat  \\
-\glt  `He ate half a banana.'
-\z
-
-
-
-
-
-
-
-
-\ea%bkm:Ref342746708
-\label{bkm:Ref342746708}
-\langinfo{Western Pantar}{}{}\\
-\gll  ye  daai  alaku   \\  
-    one  divide  two    \\
-\glt  `half' 
-\z
-
-
-
-
-
-
-
-
-\ea%bkm:Ref342746924
-\label{bkm:Ref342746924}
-\langinfo{Teiwa}{}{}\\
-\gll  Ha  wou  ga'an  tu'un  qaas  na-mian \\  
-     \textsc{2sg } mango  that  peel  side  \textsc{1sg}{}-give \\
-\glt  `Peel that mango [and] give me half.'
-\z
-
-
-
-
-
-
-
-
-\ea%bkm:Ref342746926
-\label{bkm:Ref342746926}
-\langinfo{Teiwa}{}{}\\
-\gll   Yir  sluan  abaq   \\  
-    water  glass  half      \\
-\glt  `half a glass of water'
-\z
-
-               
-
-              
-
-
-
-
-\ea%bkm:Ref342746963
-\label{bkm:Ref342746963}
-\langinfo{Teiwa}{}{}\\
-\gll   Taxaran  g-  un-raq   \\  
-   divide  \textsc{3sg-}  \textsc{appl-} two      \\
-\glt `half' 
-\z
-
-               
-
-               
-\ea
-\label{ex:8:1250}
-\langinfo{Adang}{}{}\\
-\gll na  be  bo'oden  solo  `adi  no'o  me-nani? \\
-  1\textsc{sg } mango  half  only  eat  can  or-not\\
-\glt `Can I only eat half a mango?'
-\z
- 
- 
-
- 
-
-\section{Summary and conclusions}
-\label{sec:8:Summary}
-The majority of cardinal\is{cardinal numerals} numerals in AP languages are morphologically complex expressions---most are compounds. These forms have quinary or decimal bases, though mathematical operations always employ a decimal base. No AP language has a numeral `null' or a word for `zero'---the absence of entities is expressed predicatively instead.
-
-Ordinals\is{ordinal numerals} are derived from cardinals\is{cardinal numerals} by means of a third person possessor\is{possession} morpheme. Syntactically, ordinals\is{ordinal numerals} are possessive\is{possession} phrases where the ranked numeral is possessed\is{possession} by the ranked item. In the languages of Pantar, the Straits and West Alor, ordinal\is{ordinal numerals} constructions also contain a dedicated ordinal\is{ordinal numerals} morpheme; an applicative morpheme is used in the ordinals\is{ordinal numerals} of languages of Central and East Alor. 
-
-Most languages derive distributives\is{distributive numerals} from cardinals\is{cardinal numerals} by reduplicating\is{reduplication} part or whole of the cardinal\is{cardinal numerals}. In complex forms, the right-most lexeme, which is the prosodic head of the compound, is taken as the base for the reduplication\is{reduplication}. This applies even to those forms that are synchronically morphologically opaque. Kamang\il{Kamang} is exceptional in that it reduplicates\is{reduplication} the left-most element of the compound rather than the prosodic head, and in Abui\il{Abui}, distributives\is{distributive numerals} and cardinals\is{cardinal numerals} are only indirectly related. 
-
-Across the languages, there is more homogeneity in the expressions of addition and subtraction than there is in the expression of multiplication and division. Addition and subtraction typically take the shape of imperative sentences. In additive expressions, the added numerals each have their own predicate. The second numeral is often the grammatical object of a transitive verb (`add X') that has an implied subject, the imperative addressee. In subtraction, the subtrahend is also the object of a transitive verb (`throw away X') but the grammatical role of the `minuend' is less clear. In both addition and subtraction, the result follows a clause coordinating element.
-
-The strategies used in multiplication, division, and fractions vary significantly across the languages. While all the languages express multiplication by a multiplicant followed by a verb, the morpho-syntactic shape of the multiplicant and the choice of verb differ. In expressions for division, the number of verbs involved range from zero to two, and word orders in the western languages go against the head-final order that is typical for AP and follow the order of Indonesian\il{Indonesian}/Malay\il{Malay}, suggesting they may be calques. Across the AP languages, the expression of fractions shows the largest variety. The lack of homogeneity in the expressions for multiplication, division and fractions suggests that these expressions are more labile than those for addition and subtraction, which is probably due to their lower frequency in everyday language.
-
-The indigenous numeral forms of the AP languages, as well as the indigenous structures for arithmetic operations are currently under pressure from Indonesian\il{Indonesian} as the language of interethnic trade and national education. This will inevitably lead to their replacement with Indonesian\il{Indonesian} forms and constructions. This chapter keeps a snapshot of them for future generations. 
-
-\subsection{Sources}
-\label{sec:8:Sources}
-The data sets on which this paper is based were collected from 2010-2012 by the authors. We used a questionnaire on numerals designed in 2010 by Marian Klamer and Antoinette Schapper for the purpose of documenting the numerals and numeral systems in AP languages (see Appendix B). The core dataset discussed in this chapter thus comes from questionnaires filled in for Teiwa\il{Teiwa} (by Klamer and Robinson), Western Pantar\il{Western Pantar} (by Holton), Adang\il{Adang} (by Robinson), Abui\il{Abui} (by Kratochv\'il and Schapper), and Kamang\il{Kamang} (by Schapper). Comparative information on additional languages was provided through personal communication with Hein Steinhauer (Blagar\il{Blagar}), Nick Williams (Kula\il{Kula}), Franti{\v{s}}ek Kratochv\'il (Sawila\il{Sawila}) and Marian Klamer (Kaera\il{Kaera}).
-
-\startappendix
-\subsection{Ordinal\ist{ordinal numerals} and Distributive Numerals\ist{distributive numerals}} 
-
-\begin{table}\centering
- \caption{Western Pantar\ilt{Western Pantar} ordinals\ist{ordinal numerals} in a construction with \textit{bla} `house' and \textit{aname} `person'}
-\label{tab:8:5}
-\begin{tabular}{lllll}
-\mytopline
-1\textsuperscript{st} & \textit{bla/aname} & \textit{gai} & \textit{maing} & \textit{ye}\\
- & \textit{bla/aname} & \textit{gai} & \textit{maing} & \textit{anuku}\\
-2\textsuperscript{nd} & \textit{bla/aname} & \textit{gai} & \textit{maing} & \textit{alaku}\\
-3\textsuperscript{rd} & \textit{bla/aname} & \textit{gai} & \textit{maing} & \textit{atiga}\\
-4\textsuperscript{th} & \textit{bla/aname} & \textit{gai} & \textit{maing} & \textit{at\'u}\\
-5\textsuperscript{th} & \textit{bla/aname} & \textit{gai} & \textit{maing} & \textit{yasing}\\
-6\textsuperscript{th} & \textit{bla/aname} & \textit{gai} & \textit{maing} & \textit{hisnakkung}\\
-7\textsuperscript{th} & \textit{bla/aname} & \textit{gai} & \textit{maing} & \textit{betalaku}\\
-8\textsuperscript{th} & \textit{bla/aname} & \textit{gai} & \textit{maing} & \textit{betiga}\\
-9\textsuperscript{th} & \textit{bla/aname} & \textit{gai} & \textit{maing} & \textit{anuku tannang}\\
-10\textsuperscript{th} & \textit{bla/aname} & \textit{gai} & \textit{maing} & \textit{ke anuku}\\
-100\textsuperscript{th} & \textit{bla/aname} & \textit{gai} & \textit{maing} & \textit{ratu}\\
-\mybottomline
-\end{tabular}
-
-\end{table}
-
-\begin{table}\centering
-\caption{Teiwa\ilt{Teiwa} ordinals\ist{ordinal numerals} with \textit{yaf} `house' and \textit{uy} `person' }
-\label{tab:8:6}
-\begin{tabular}{lllll}
-\mytopline
-1\textsuperscript{st} & \textit{yaf/uy} & \textit{ga-} &  & \textit{xol}\footnotemark{}\\
-2\textsuperscript{nd} & \textit{yaf/uy} & \textit{ga-} & \textit{ma-} & \textit{ga-mar} [gama'gamar] `3s-ORD-3s-take' \\
- & \textit{yaf/uy} & \textit{ga-} & \textit{ma-} & \textit{raq} \\
-3\textsuperscript{rd} & \textit{yaf/uy} & \textit{ga-} & \textit{ma-} & \textit{yerig}\\
-4\textsuperscript{th} & \textit{yaf/uy} & \textit{ga-} & \textit{ma-} & \textit{ut}\\
-5\textsuperscript{th} & \textit{yaf/uy} & \textit{ga-} & \textit{ma-} & \textit{yusan} \\
-6\textsuperscript{th} & \textit{yaf/uy} & \textit{ga-} & \textit{ma-} & \textit{tiaam} \\
-7\textsuperscript{th} & \textit{yaf/uy} & \textit{ga-} & \textit{ma-} & \textit{yes raq} \\
-8\textsuperscript{th} & \textit{yaf/uy} & \textit{ga-} & \textit{ma-} & \textit{yes nerig} \\
-9\textsuperscript{th} & \textit{yaf/uy} & \textit{ga-} & \textit{ma-} & \textit{yes na}\textit{{\textglotstop}}\textit{ut} \\
-10\textsuperscript{th} & \textit{yaf/uy} & \textit{ga-} & \textit{ma-} & \textit{qaar nuk} \\
-100th & \textit{yaf/uy} & \textit{ga-} & \textit{ma-} & \textit{ratu nuk} \\
-\mybottomline
-\end{tabular}
-\end{table}
-
-\footnotetext{Teiwa\ilt{Teiwa} \textit{ga-nuk} means `one from a group', \textit{ga-ma-nuk} is not a Teiwa\ilt{Teiwa} word.}
-
-\begin{table}\centering
-\caption{Kaera\ilt{Kaera} ordinals\ist{ordinal numerals} with \textit{ma} `house' and \textit{ui} `person'}
-\label{tab:8:7}
-\begin{tabular}{lllll}
-\mytopline
-1\textsuperscript{st} & \textit{ma/ui} & \textit{(ge-)} &  & \textit{tuning } (\textit{tuni} `gate', \textit{tuning} `placenta')\\
-2\textsuperscript{nd} & \textit{ma/ui} & \textit{ge-} & \textit{mi} & \textit{(a)raxo}\\
-3\textsuperscript{rd} & \textit{ma/ui} & \textit{ge-} & \textit{mi} & \textit{(u)tug}\\
-4\textsuperscript{th} & \textit{ma/ui} & \textit{ge-} & \textit{mi} & \textit{ut}\\
-5\textsuperscript{th} & \textit{ma/ui} & \textit{ge-} & \textit{mi} & \textit{isim}\\
-6\textsuperscript{th} & \textit{ma/ui} & \textit{ge-} & \textit{mi} & \textit{tiam}\\
-7\textsuperscript{th} & \textit{ma/ui} & \textit{ge-} & \textit{mi} & \textit{yesraxo} \\
-8\textsuperscript{th} & \textit{ma/ui} & \textit{ge- } & \textit{mi} & \textit{yentug}\\
-9\textsuperscript{th} & \textit{ma/ui} & \textit{ge-} & \textit{mi} & \textit{yeniut}\\
-10\textsuperscript{th} & \textit{ma/ui} & \textit{ge-} & \textit{mi} & \textit{xar nuko}\\
-100\textsuperscript{th} & \textit{ma/ui} & \textit{ge-} & \textit{mi} & \textit{ratu nuko}\\
-\mybottomline
-\end{tabular}
-
-\end{table}
-
-\begin{table}\centering
-\caption{Adang\ilt{Adang} ordinals\ist{ordinal numerals} with \textit{bang} `house' and \textit{nami} `person'}
-\label{tab:8:8}
-\begin{tabular}{llllll}
-\mytopline
-1\textsuperscript{st} & \textit{bang/nami} & \textit{o-} & \textit{mi-} & \textit{nu} & \textit{mi}\\
-2\textsuperscript{nd} & \textit{bang/nami} & \textit{o-} & \textit{mi-} & \textit{alu} & \textit{mi}\\
-3\textsuperscript{rd} & \textit{bang/nami} & \textit{o-} & \textit{mi-} & \textit{towo} & \textit{mi}\\
-4\textsuperscript{th} & \textit{bang/nami} & \textit{o-} & \textit{mi-} & \textit{ut} & \textit{mi}\\
-5\textsuperscript{th} & \textit{bang/nami} & \textit{o-} & \textit{mi-} & \textit{(i)wihing} & \textit{mi}\\
-6\textsuperscript{th} & \textit{bang/nami} & \textit{o-} & \textit{mi-} & \textit{talang} & \textit{mi}\\
-7\textsuperscript{th} & \textit{bang/nami} & \textit{o-} & \textit{mi-} & \textit{witto} & \textit{mi}\\
-8\textsuperscript{th} & \textit{bang/nami} & \textit{o-} & \textit{mi-} & \textit{turlo} & \textit{mi}\\
-9\textsuperscript{th} & \textit{bang/nami} & \textit{o-} & \textit{mi-} & \textit{ti}\textit{{\textglotstop}}\textit{inu} & \textit{mi}\\
-10\textsuperscript{th} & \textit{bang/nami} & \textit{o-} & \textit{mi-} & \textit{{\textglotstop}}\textit{{\quotesinglbase}}\textit{air nu} & \textit{mi}\\
-100\textsuperscript{th} & \textit{bang/nami} & \textit{o-} & \textit{mi-} & \textit{rat nu} & \textit{mi}\\
-\mybottomline
-\end{tabular}
-
-\end{table}
-
-\begin{table}\centering
-\caption{Abui\ilt{Abui} ordinals\ist{ordinal numerals} with \textit{fala} `house' and \textit{ama} `person'}
-\label{tab:8:9}
-\begin{tabular}{llll}
-\mytopline
-1\textsuperscript{st} & \textit{fala/ama} & \textit{he-} & \textit{teitu}\\
- & \textit{fala/ama} & \textit{he-} & \textit{nuku} \\
-2\textsuperscript{nd} & \textit{fala/ama} & \textit{he-} & \textit{ayoku}\\
-3\textsuperscript{rd} & \textit{fala/ama} & \textit{he-} & \textit{sua}\\
-4\textsuperscript{th} & \textit{fala/ama} & \textit{he-} & \textit{buti}\\
-5\textsuperscript{th} & \textit{fala/ama} & \textit{he-} & \textit{yeting}\\
-6\textsuperscript{th} & \textit{fala/ama} & \textit{he-} & \textit{talaama}\\
-7\textsuperscript{th} & \textit{fala/ama} & \textit{he-} & \textit{yeting ayoku}\\
-8\textsuperscript{th} & \textit{fala/ama} & \textit{he-} & \textit{yeting sua}\\
-9\textsuperscript{th} & \textit{fala/ama} & \textit{he-} & \textit{yeting buti}\\
-10\textsuperscript{th} & \textit{fala/ama} & \textit{he-} & \textit{kar nuku}\\
-100\textsuperscript{th} & \textit{fala/ama} & \textit{he-} & \textit{aisaha nuku}\\
-\mybottomline
-\end{tabular}
-\end{table}
-
-\begin{table}\centering
-\caption{Kamang\ilt{Kamang} ordinals\ist{ordinal numerals} for \textit{kadii} `house' and \textit{alma} `person'}
-\label{tab:8:10}
-\begin{tabular}{llll}
-\mytopline
-1\textsuperscript{st} & \textit{kadii / alma} & \textit{ye-} & \textit{nok}\\
-2\textsuperscript{nd} & \textit{kadii / alma} & \textit{ye-} & \textit{ok}\\
-3\textsuperscript{rd} & \textit{kadii / alma} & \textit{ye-} & \textit{su}\\
-4\textsuperscript{th} & \textit{kadii / alma} & \textit{ye-} & \textit{biat}\\
-5\textsuperscript{th} & \textit{kadii / alma} & \textit{ye-} & \textit{wesing}\\
-6\textsuperscript{th} & \textit{kadii / alma} & \textit{ye-} & \textit{taama}\\
-7\textsuperscript{th} & \textit{kadii / alma} & \textit{ye-} & \textit{wesing ok}\\
-8\textsuperscript{th} & \textit{kadii / alma} & \textit{ye-} & \textit{wesing su}\\
-9\textsuperscript{th} & \textit{kadii / alma} & \textit{ye-} & \textit{wesing biat}\\
-10\textsuperscript{th} & \textit{kadii / alma} & \textit{ye-} & \textit{ataak nok}\\
-100\textsuperscript{th} & \textit{kadii / alma} & \textit{ye-} & \textit{asaka nok}\\
-\mybottomline
-\end{tabular}
-\end{table}
-
-\begin{table}\centering
-\caption{Sawila\ilt{Sawila} ordinals\ist{ordinal numerals} with \textit{araasing} `house' and \textit{imyalara} `man' }
-\label{tab:8:11}
-\begin{tabular}{llll}
-\mytopline
-1\textsuperscript{st} & \textit{araasing/imyalara} & \textit{wii-} & \textit{suna}\\
-2\textsuperscript{nd} & \textit{araasing/imyalara} & \textit{wii-} & \textit{yaku}\\
-3\textsuperscript{rd} & \textit{araasing/imyalara} & \textit{wii-} & \textit{tuo}\\
-4\textsuperscript{th} & \textit{araasing/imyalara} & \textit{wii-} & \textit{araasiiku}\\
-5\textsuperscript{th} & \textit{araasing/imyalara} & \textit{wii-} & \textit{yooting}\\
-6\textsuperscript{th} & \textit{araasing/imyalara} & \textit{wii-} & \textit{yootsuna}\\
-7\textsuperscript{th} & \textit{araasing/imyalara} & \textit{wii-} & \textit{yootingyaku}\\
-8\textsuperscript{th} & \textit{araasing/imyalara} & \textit{wii-} & \textit{yootingtuo}\\
-9\textsuperscript{th} & \textit{araasing/imyalara} & \textit{wii-} & \textit{yootingaraasiiku}\\
-10\textsuperscript{th} & \textit{araasing/imyalara} & \textit{wii-} & \textit{adaaku}\\
-100\textsuperscript{th} & \textit{araasing/imyalara} & \textit{wii-} & \textit{asaka}\\
-\mybottomline
-\end{tabular}
-\end{table}
-
-\begin{table}\centering
-\caption{Distributive numerals\ist{distributive numerals} in Pantar-West Alor languages}
-\label{tab:8:12}
-\begin{tabular}{llll} 
-\mytopline
-& Western Pantar\ilt{Western Pantar} & Teiwa\ilt{Teiwa} & Adang-Lawahing\ilt{Adang}\\
-\midrule
-1 & \textit{ye\~{}ye} & \textit{nuk\~{}nuk} & \textit{nu-nu}\\
-2 & \textit{alaku\~{}alaku} & \textit{raq\~{}raq} & \textit{al-lo} \\
-3 & \textit{atiga\~{}atiga} & \textit{yerig\~{}yerig} & \textit{to-towo}\\
-4 & \textit{atu\~{}atu} & \textit{{\textglotstop}}\textit{ut\~{}}\textit{{\textglotstop}}\textit{ut} & \textit{u-ut}\\
-5 & \textit{yasing\~{}yasing} & \textit{yusan\~{}yusan} & \textit{iw-wihing}\\
-6 & \textit{hisnakkung\~{}nakkung} & \textit{tiaam\~{}tiaam} & \textit{ta-talang}\\
-7 & \textit{betalaku}\textit{\~{}}\textit{talaku} & \textit{yesraq\~{}raq} & \textit{witto-to} \\
-8 & \textit{betiga}\textit{\~{}}\textit{tiga} & \textit{yesnerig\~{}rig} & \textit{turlo-lo} \\
-9 & \textit{anuktannang\~{}tannang} & \textit{yesna}\textit{{\textglotstop}}\textit{ut\~{}}\textit{{\textglotstop}}\textit{ut} & \textit{ti'inu-nu} \\
-10 & \textit{ke anuku\~{}nuku} & \textit{qaar nuk\~{}nuk} & \textit{{\textglotstop}}\textit{air nu-nu}\\
-11 & \textit{ke anuku wali ye\~{}ye} & \textit{qaar nuk rug nuk\~{}nuk} & \textit{{\textglotstop}}\textit{air nu waling nu-nu}\\
-100 & \textit{ratu}\textit{\~{}}\textit{ratu} & \textit{ratu nuk\~{}nuk} & \textit{rat nu-nu}\\
-1000 & \textit{aribu}\textit{\~{}}\textit{aribu} & \textit{ribu nuk\~{}nuk} & \textit{rib nu-nu}\\
-\mybottomline
-\end{tabular}
-\end{table}
-
-
-
-\begin{table}\centering
-\caption{Distributive numerals\ist{distributive numerals} in Central-East Alor languages}
-\label{tab:8:13}
-\begin{tabular}{lll}
-
-\mytopline
-& Abui\ilt{Abui} & Kamang\ilt{Kamang}\\
-\midrule
-1 & \textit{nuk\~{}nukda} & \textit{no\~{}nok, nokda\~{}nokda}\\
-2 & \textit{ayok\~{}ayokda} & \textit{o\~{}ok } \\
-3 & \textit{sui\~{}suida} & \textit{su\~{}su}\\
-4 & \textit{buk\~{}bukna} & \textit{bye\~{}biat}\\
-5 & \textit{yek\~{}yekna} & \textit{wesi\~{}wesing}\\
-6 & \textit{talan\~{}talanra} & \textit{taa\~{}taama}\\
-7 & \textit{yeting ayok\~{}ayokda} & \textit{wesi\~{}wesingok}\\
-8 & \textit{yeting sui\~{}suida} & \textit{wesi\~{}wesingsu}\\
-9 & \textit{yeting buk\~{}bukna} & \textit{wesi\~{}wesingbiat}\\
-10 & \textit{kar nuk\~{}nukda} & \textit{ataak no\~{}nok}\\
-11 & \textit{kar nuku wal nuk\~{}nukda} & \textit{ataak nok waal no\~{}nok}\\
-100 & \textit{aisaha nuk}\textit{\~{}}\textit{nukda} & \textit{asaka no}\textit{\~{}}\textit{nok}\\
-1000 & \textit{rifi nuk}\textit{\~{}}\textit{nukda} & \textit{ribu no}\textit{\~{}}\textit{nok}\\
-\mybottomline
-\end{tabular} 
-\end{table}
-
-
-\subsection{Numeral Questionnaire used in the field}
-\subsubsection{Numerals} 
-It is preferred to elicit the data for this questionnaire using words and constructions in the language of investigation as much as possible. The Malay\il{Malay} examples below are not given as prompts to be translated, but rather as additional background for you to help you steer a discussion in Malay\il{Malay}. Expressions containing numerals and ordinals\is{ordinal numerals}, and morphological derivations relating to numerals and ordinals\is{ordinal numerals} in the AP languages are expected to be quite different from what they are in Malay\il{Malay}. 
-
-\subsubsection*{Tasks}
-\begin{enumerate}
-\item Ask a person to count in sequence from 1-20 and record this.
-\item Elicit 1-100 on paper. Appendix 1: answer sheet.
-\item Elicit higher cardinals\ist{cardinal numerals} 2000, 3000,..., 10.000. Appendix 2: answer sheet. 
-\item Elicit 100-1000 on paper. Suggestion: You could give (a) speaker(s) an empty  notebook to work on this at their leisure at home. After they have written up all the numbers, please go over it, to check   
-  \begin{itemize}
-  \item if the writing is legible 
-  \item if you know which letter is used for which sound
-  \item if this letter-sound correspondence in their orthography is consistent (or consistent enough to be used by us) 
-  \item if there are any (possible) morphemes or morpheme boundaries that need additional elicitation or discussion --these notes can go with the manuscript.
-  \end{itemize}
-\item Elicit expressions for basic calculations if any exist: 
-  \begin{itemize}
-  \item 3 + 3 = 6: \textit{3 tambah 3 sama dengan} 4
-  \item 5 -- 2 = 3: \textit{lima kurang dua sama dengan tiga}
-  \item 4 x 5 = 20: \textit{empat kali lima sama dengan dua puluh}
-  \item 10 : 2 = 5: \textit{sepuluh bagi 2 sama dengan lima} 
-  \end{itemize}
-\item If expressions for basic calculations don't exist, or if they are borrowed\is{borrowing} or calqued from Malay\ilt{Malay}, can consultants think of any other strategies how such basic calculations can be done? Situations to suggest could include: 
-  \begin{itemize}
-  \item talking about the number of children alive in a family (e.g. 8 children born, 3 died as babies, 5 are still alive), 
-  \item counting / adding / subtracting pupils in a class setting
-  \item sigarettes in a packet
-  \item members of the church who have newly arrived / have left / died
-  \item multiplying/dividing rupiahs earned by a group of people
-  \item measuring land to buy or sell e.g. to build a house on
-  \item etc. 
-  \end{itemize}
-\item Elicit the years 1978, 1999, 2010. If there is no consensus or consistency across speakers, please note down any differences you notice. 
-\item Elicit fractions, if they exist 
-\begin{itemize}
-  \item half 
-  \item one third 
-  \item quarter 
-  \item try smaller fractions? 
-  \item a tenth 
-\end{itemize}
-Please ask for examples in context, e.g. \textit{Saya bisa makan setengah buah manggo saja} `I can only eat half a mango',\textit{Tolong berikan sepertiga/seperempat (bagian) saja} `Please give me a third/quarter only'.
-\item If expressions for fractions don't exist, can consultants think of other ways to talk about parts of fruits, subgroups of people, parts of piece of land?
-\item Ordinals\ist{ordinal numerals}: Elicit 1\textsuperscript{st}{}-10\textsuperscript{th.} e.g., \textit{Saya lihat barisan anak di muka rumah. Yang pertama bernama... yang kedua... yang ketiga...} etc.
-
-Please try also for higher ones: contrast \textit{Anggota gereja yang ketiga} `the third member of the church'  with \textit{anggota yang kesepuluh, yang keratus, yang keseribu} ... It is best to use a local language prompt here, as the higher ones are ungrammatical in Malay\il{Malay}!
-
-\end{enumerate}
-
-
-\subsubsection{Points for further elicitation}
+In this section, we investigate the syntax of plural\is{plural (number) word} words in Western Pantar\il{Western Pantar} ({\S} \ref{sec:9:3.1}), Teiwa\il{Teiwa} ({\S} \ref{sec:9:3.2}), Kamang\il{Kamang} ({\S} \ref{sec:9:3.3}), Abui\il{Abui} ({\S} \ref{sec:9:3.4}) and Wersing\il{Wersing} (3.5). For each language, we describe the template of the NP as well as the position and combinatorial properties of the plural\is{plural (number) word} word. We confirm Dryer's observation that there is little syntactic unity in plural\is{plural (number) word} words across languages. Our description focuses on the following issues:
 
 \begin{enumerate}
-\item Is there a word for zero?
-\item Is there an idigenous word for million/\textit{jutah}? 
-\item Are there indigenous numbers higher than million?
-\item Distinguish non-referential counting (1, 2, 3, {\dots} 10) and enumeration (\textit{satu ekor ayam, dua orang, tiga buku, sepuluh rumah}): are different numerals used?
-\item Check if there is a contrast in counting small animates versus large animates and animate vs. inanimate entities: 
-  \begin{itemize}
-  \item Small animates 
-    \begin{itemize}
-    \item ant/\textit{semut}  
-    \item fly/\textit{lalat} 
-    \item bee/\textit{lebah} 
-    \item house lizzard/\textit{cecak}   
-    \end{itemize}
-  \item Large animates  
-    \begin{itemize}
-    \item child/\textit{anak}  
-    \item dog/\textit{anjing} 
-    \item pig/\textit{babi}  
-    \end{itemize}
-  \item Inanimates 
-    \begin{itemize}
-    \item house/\textit{rumah}  
-    \item rock/\textit{batu karang}  
-    \item star/\textit{bintang}  
-    \item coconut tree/\textit{pohon kelapa} 
-    \end{itemize} 
-  \end{itemize}
-\item Note down the distribution of cardinals\ist{cardinal numerals} as part of NP (in `attributive' function), for example in a context like:
-
-\textit{Ada} \textit{tiga orang}\textit{di rumah.} \textit{Dua orang}\textit{pergi ke kota,} \textit{satu orang}\textit{tinggal di rumah.} `There are three people at home. Two went to town, one stayed at home.' 
-
-
-\begin{itemize}
-\item Is the position of numeral w.r.t. noun fixed or is there variability? E.g. \textit{Orang tiga vs tiga orang} in the above example.
-\item If there is variability, check if it is related to higher vs. lower cardinals\ist{cardinal numerals}. E.g. Malay\il{Malay} 
-\begin{itemize}
-\item \textit{Ada} \textit{dua orang}\textit{di rumah} \textbf{\textit{vs}}\textit{. ada} \textit{orang dua}\textit{di rumah}
-\item \textit{Ada} \textit{sebelas orang}\textit{di rumah} \textbf{\textit{vs}}\textit{ada} \textit{orang sebelas}\textit{di rumah}
-\item \textit{Ada lima puluh orang di rumah} \textbf{\textit{vs.}}\textit{ada orang lima puluh di rumah}
-\end{itemize}
-\item What is the position of the numeral in the NP if it contains a demonstrative? E.g. \textit{Those} \textit{five}\textit{girls... } 
-\begin{itemize}
-\item \textit{Dua}\textit{orang} \textit{itu}\textit{ada di rumah, Orang} \textit{dua itu}\textit{ada di rumah,} \textit{Sebelas}\textit{orang} \textit{itu}\textit{ada di rumah, Orang} \textit{sebelas itu}\textit{ada di rumah,} etc.
-\end{itemize}
-\end{itemize}
-\item Is there any agreement morphology between numeral and noun?
-\item Note down the distribution of cardinals\ist{cardinal numerals} as predicate (in `predicative' function), if they are used as such, e.g.:  
-\begin{itemize}
-\item \textit{Waktu itu kami} \textit{masih bertiga} `At that time we were still three'; 
-\item \textit{Mereka datang} \textit{berlima}\textit{,} \textit{berdua}\textit{mereka pergi} `They came with five and left with two'
-\end{itemize}
-\item If cardinals\ist{cardinal numerals} may be used in predicative function, can a higher numeral also be used as such? Note that this not generally possible in Malay\il{Malay}, where the predicative \textit{ber-} construction is not productively used with higher numerals: \textit{*Waktu itu kami} \textit{berduapuluh}\textit{.} Instead one would say \textit{Waktu itu kami duapuluh orang} `We were twenty at the time'. 
-
-\begin{itemize}
-\item Check e.g. 12, 15, 20, 35, 50, 76, 95. 
-\end{itemize}
-\item In Malay\ilt{Malay}, certain particular high cardinals\ist{cardinal numerals} do appear in the \textit{ber-} construction: \textit{Kami akan datang berseribu} `we will come (as) a (group of) thousand'. So perhaps a language does not treat all higher cardinals\ist{cardinal numerals} in the same way. 
-\begin{itemize}
-\item Check e.g. 1000, 2000, 100, 500, 1 000 000, 2 000 000
-\end{itemize}
-\item Can cardinals\ist{cardinal numerals} be used as elliptical for a fuller NP (subject or object): \textit{Mau berapa buah pisang? Saya mau} \textit{dua}\textit{(dua buah/ dua pisang)}
-\item Can cardinals\ist{cardinal numerals} be used as abstract entities, e.g. in contexts like: 
-\begin{itemize}
-\item \textit{Nomor HP saya mulai dengan angka/nomor tiga} `My mobile phone number starts with digit/number three' 
-\item \textit{Waktu mengajar anak menulis guru bilang:} ``\textit{Coba menulis angka/nomor dua dan angka duabelas sekarang''}  `When the teacher taught the children to write, he said: `` Please write digit/number two and number/digit 12 now'\textit{.} 
-\end{itemize}
-Try the same with some higher numerals: 
-\begin{itemize}
-\item Guru bilang kepada anak: \textit{Angka dua puluh itu}\textit{masih terlalu kecil } `that number 20 is still too small' 
-\end{itemize}
-Try the same for \textit{angka} \textit{limabelas, tigapuluh, seratus, seribu, dua ribu, (se)jutah}.
-\item  \textbf{Reduplication\ist{reduplication} of cardinals\ist{cardinal numerals}:} Can numerals be reduplicated\ist{reduplication}? If so, give some examples in sentential context. 
-\begin{itemize}
-\item Try 1, 2, 3, 4, 5, 10, 12, 17, 15, 20, 50, 100, 500, 1000.
-\end{itemize}
-\item What does the reduplication\ist{reduplication} mean? E.g. Malay\il{Malay} \textit{beribu-ribu orang datang ke kota itu} `People came in thousands to that town' (vs. \textit{ribuan orang} `thousands of people') 
-\item Does reduplicated\ist{reduplication} `one' have any special meaning? E.g. Bunaq \textit{uen\~{}uen} means `same, equal'; Kamang\ilt{Kamang} \textit{no-nok} `one by one'.
-\item Where do numeral reduplications\ist{reduplication} occur: before or after the noun? Before or after the verb? Please provide some example sentences.
-\item Do reduplicated\ist{reduplication} numerals occur as part of NPs in `attributive' function (as in Malay\il{Malay} \textit{beribu-ribu orang})? Or do they occur in `predicative' function? 
-\item  Check reduplication\ist{reduplication} of NPs encoding subject/actor vs NPs encoding object/undergoer: 
-\begin{itemize}
-\item \textit{Dua orang laki-laki membawa papan.} \textit{Satu demi satu}\textit{mereka membawa papan} = one carrier at the time vs. 
-\item \textit{Dua orang laki-laki membawa papan.} \textit{Mereka membawa papan} \textit{satu demi satu} = one plank at the time
-\end{itemize}
-\item  Note down the \textbf{distribution of Ordinals\ist{ordinal numerals}}: 
-\begin{itemize}
-\item as part of NP: 
-\begin{itemize}
-\item \textit{Orang pertama yang membeli tv adalah Markus} `The first person to buy a radio was Markus'  
-\end{itemize}
-\item as sth. similar to a non-verbal predicate: 
-\begin{itemize}
-\item \textit{Lidia} \textit{adalah} \textit{orang pertama yang pergi ke Kupang} `Lidia was the first person who went to Kupang' 
-\end{itemize}
-\item with an inanimate noun: 
-\begin{itemize}
-\item \textit{Mereka masuk} \textit{jalan kedua}
-\item \textit{Kepala desa membangunkan} \textit{rumahnya kedua}\textit{(}or \textit{rumah keduanya}\textit{) pada tahun yang lalu } 
-\end{itemize}
-\item modifying the predicate, in adverbial-like function: 
-\begin{itemize}
-\item \textit{Mereka pergi ke Kupang} \textit{pada kali yang kedua}.
-\end{itemize}
-\end{itemize}
-\item  Are the ordinals\ist{ordinal numerals} etymologically clearly related to cardinals\ist{cardinal numerals}? e.g. Indonesian\ilt{Indonesian} ordinal\ist{ordinal numerals} \textit{pertama} is not derived from cardinal\ist{cardinal numerals} \textit{satu.}
-\item  Are there any words that are used like ordinals\ist{ordinal numerals} but have no numeral or ordinal\ist{ordinal numerals} root?
-\item  \textbf{Plural marking}: Is plural marked with an affix? 
-\item  Does the language have a plural word? E.g. \textit{non} `PLURAL' in Teiwa.
-
-A plural word is a morpheme whose meaning and function is similar to that of plural affixes in other languages, but which is a separate word that functions as a modifier of the noun.  Plural words are overrepresented in isolating or analytic languages, in languages with classifiers\is{numeral classifier}, and in head-marking languages (cf. M. Dryer, Plural words, \textit{Linguistics} 27 (1989), 865-895.) \nocite{Dryer1989}
-
-\textbf{\textit{Questions 24-29 only apply when the language has a plural word:}}
-
-\item  If the language has a plural word, do you observe any animacy or size effects in the use of the plural word? Check:
-
-\begin{itemize}
-\item \textit{orang perempuan} 
-\item \textit{kakak perempuan} 
-\item \textit{anak laki-laki} 
-\item \textit{babi, anjing} 
-\item \textit{tikus, burung} 
-\item \textit{nyamuk, semut, lebah, lalat} 
-\item \textit{batu kecil, jarum, kancing}
-\item \textit{kendi, panci, mok}
-\item \textit{batu karang, pohon kelapa}
-\item \textit{bintang}
-\item \textit{rumah}
-\end{itemize}
-\item  Plural words as `numerals': Can plural word and numeral co-occur? (If so, this could be evidence that they belong to different categories.)
-
-\item  Can plural word and non-numeral quantifiers (\textit{beberapa, semua, sedikit, banyak}) co-occur? 
-\item Can plural word and possessor\ist{possession} noun co-occur? 
-\item  Can plural word and possessive\ist{possession} prefix co-occur? 
-\item  Plural words are reported to derive from e.g. third person plural\ist{plurality} pronoun\ist{pronoun}, plural article\is{plurality}, words meaning \textit{all} or \textit{many}, nouns meaning \textit{group} or \textit{set}, classifier\is{numeral classifier},{\dots} etc. Do you have ideas about the possible diachronic origin of the plural\ist{plurality} word in the language of study?
-\item  \textbf{Quantifiers (non-numeral)} \textit{semua, banyak, sedikit, beberapa}
-What does the quantifier inventory look like for
-\begin{itemize}
-\item Countable objects 
-\begin{itemize}
-\item \textit{orang, babi, anjing, rumah, kursi, gelas}
-\end{itemize}
-\item Uncountable objects or masses 
-\begin{itemize}
-\item \textit{garam, gula, air, nasi, jagung (?), semut, lebah, lalat,} 
-\item \textit{gunung-gunung (?), awan-awan (?)}
-\end{itemize}
-\item Liquids 
-\begin{itemize}
-\item \textit{air, air susu, anggur, arak, teh}
-\end{itemize}
-\item Edibles 
-\begin{itemize}
-\item \textit{buah pinang, daun papaya, daging babi, ikan}  
-\end{itemize}
-\end{itemize}
-\item  Do particular semantics play a role in the interpretation of the value of the quantifiers? (e.g. (un)expected/(un)wanted value, e.g. many people come to church, more than expected, or when only a little bit of gas is sold less than expected (\textit{misalnya kalau} \textit{banyak orang}\textit{datang ke kereja, lebih dari harapan} (\textit{atau} \textit{hanya} \textit{sedikit minyak}\textit{dijual}, \textit{kurang dari harapan).}
-\item  \textbf{Classifiers\ist{numeral classifier}}: We will make a separate questionnaire \& stimuli for this at a later stage. If you have made some observations about the classifiers\ist{numeral classifier}, please include them here. 
+\item Does the plural\ist{plural (number) word} word occur in the NP?
+\item  How does the plural\ist{plural (number) word} word behave in respect to quantifiers in the NP?
+\item   Can the plural\ist{plural (number) word} word alone form an NP?
 \end{enumerate}
 
-\subsubsection{Numerals 1-100}
+The languages under discussion differentiate the plural\is{plural (number) word} word from other syntactic classes. We will see that significant variation exists in terms of which syntactic class the plural\is{plural (number) word} word class resembles most. In Wersing\il{Wersing}, the plural\is{plural (number) word} word shares many properties with nouns, while in Kamang\il{Kamang} the plural\is{plural (number) word} word is most similar to pronouns\is{pronoun}. In Western Pantar\il{Western Pantar} and Teiwa\il{Teiwa}, the plural\is{plural (number) word} words are comparable with numerals and quantifiers.
 
-\begin{tabular}{lll}
-\mytopline
+\subsection{Western Pantar\ilt{Western Pantar}}  %3.1
+\label{sec:9:3.1}
+The template of the Western Pantar\il{Western Pantar} NP is presented in \REF{ex:9:12} (Holton, to appear). The NP is maximally composed of a head noun (N) followed by an adjective in the attribute slot (\textsc{Attr),} followed by numeral phrases with an optional classifier\is{numeral classifier} (\textsc{(Clf)} \textsc{Num)} or a plural\is{plural (number) word} word (\textsc{Pl),} a demonstrative\is{demonstrative} \textsc{(Dem)} and an article \textsc{(Art)}. 
 
-No & Language: .... & Notes\\
-\midrule
-1 &  & \\
-2 &  & \\
-{\dots} & & \\
-99 &  & \\
-100 &  & \\
-\mybottomline
-\end{tabular}
+\ea\label{ex:9:12}
+\upshape
+Template of the Western Pantar\il{Western Pantar} NP\footnote{Western Pantar\ilt{Western Pantar} does not have relative clauses.}
+
+ [\textsc{N  Attr\{(Clf) Num / Pl\}Dem  Art]}\textsc{\textsubscript{NP}}
+ 
+\z
+
+
+Western Pantar\il{Western Pantar} has no dedicated slot for (non-numeral) quantifiers, as these behave like adjectives or like nouns: adjectival quantifiers go in the A\textsc{ttr} slot \REF{ex:9:13}, while nominal quantifiers occur in apposition to the NP, to the right of the article \REF{ex:9:14}.
+
+
+
+\ea%13
+\label{ex:9:13}
+\langinfo{Western Pantar}{}{\citealt{Holtontawesternpantar}} \\
+\gll  Wakke-wakke haweri wang Tubbe birang kalalang. \\
+   child{\Tilde}\textsc{rdp} many exist T. speak know  \\
+\glt `Most/many children can speak the Tubbe language.'
+\z
+
+
+
+
+
+
+
+\ea%14
+\label{ex:9:14}
+\langinfo{Western Pantar}{}{\citealt{Holtontawesternpantar}} \\
+\gll [[{Hai} bloppa sing]\textsubscript{NP} {der}]\textsubscript{NP} ga-r diakang.  \\
+  \textsc{2sg.poss\ist{possession}} weapon \textsc{art} some 3\textsc{sg-}with descend  \\
+\glt `Bring down some of your weapons.' [publia152]
+\z
+
+
+
+
+
+
+Nominal plurality\is{plural (number) word} is expressed by the plural\is{plural (number) word} word \textit{maru(ng)}, \REF{ex:9:15}.\footnote{\textit{Marung} has cognate forms in three AP languages: Klon\il{Klon} \textit{maang}, Kula\il{Kula} \textit{araman} (with liquid nasal metathesis) and Sawila\il{Sawila} \textit{maarang} \citep{SchapperEtAlms}} The use of numerals is illustrated in \REF{bkm:Ref334530759}, and \REF{ex:9:17}-\REF{ex:9:18} show that numeral and plural\is{plural (number) word} word do not co-occur in a single NP.
+
+
+\ea%15
+\label{ex:9:15}
+\langinfo{Western Pantar}{}{\citealt{Holton2012}} \\
+\gll  Bal  marung mea tang pering. \\
+ ball \textsc{pl} table on pour   \\
+\glt `A bunch of balls are spread out on the table.'
+\z
+
+
+
+
+
+
+
+\ea %16
+\label{bkm:Ref334530759}
+\langinfo{Western Pantar}{}{\citealt{Holton2012}} \\
+\gll Bal ara atiga, kalla yasing, mea tang {ti}{{\textglotstop}}{ang.} \\
+ ball large three small five table on  set \\
+\glt `Three large balls and five small balls are sitting on the table.'
+\z
+
+
+
+\ea%17
+\label{ex:9:17}
+\langinfo{Western Pantar}{}{\citealt{Holton2012}} \\
+\ea
+\gll *ke{\textglotstop}e kealaku maru \\
+   fish  twenty \textsc{pl} \\
+\glt Intended: \textsc{`}twenty fish'
+\ex
+\gll *ke{\textglotstop}e bina maru \\
+ fish \textsc{clf} \textsc{pl} \\
+\glt Intended: `twenty fish'
+\z
+\z
+
+
+\ea%18
+\label{ex:9:18}
+\langinfo{Western Pantar}{}{\citealt{Holton2012}} \\
+\ea
+\gll *ke{\textglotstop}e  maru kealaku \\
+   fish  \textsc{pl} twenty \\
+\glt Intended: `twenty fish'
+\ex 
+\gll *ke{\textglotstop}e maru  bina \\
+ fish \textsc{pl} \textsc{clf} \\
+ \glt Intended: `twenty fish'
+\z
+\z
+
+\textit{Maru(ng)} cannot substitute for a whole NP and function independently as a verbal argument, compare (\ref{ex:9:19}a) and (\ref{ex:9:19}b).
+
+
+\ea%19
+\label{ex:9:19}
+\langinfo{Western Pantar}{}{\citealt{Holton2012}} \\
+\ea
+\gll  Raya marung lama ta. \\
+   chief \textsc{pl} walk \textsc{ipfv}  \\
+\glt `The chiefs walk.'
+\ex
+\gll *Marung lama ta. \\
+  \textsc{pl} walk \textsc{ipfv}  \\
+\glt Intended: `They walk.'
+\z
+\z
+
+
+ In sum, Western Pantar\il{Western Pantar} \textit{marung} can only be used as a nominal attribute within an NP. It is in complementary distribution with adjectival quantifiers and numerical expressions and lacks nominal properties.
+
+\subsection{Teiwa\ilt{Teiwa}} %3.2
+\label{sec:9:3.2}
+The template of the Teiwa\il{Teiwa} NP is presented in \REF{ex:9:20}. The NP is maximally composed of a head noun (N) followed by an attributive (\textsc{Attr)} noun, derived nominal or adjective\textsc{,} followed by a numeral phrase (indicated by \{\})consisting of either a numeral with an optional classifier\is{numeral classifier} (\textsc{(Clf)} \textsc{Num)} or a plural\is{plural (number) word} word with an optional quantifier (\textsc{Pl} \textsc{(Q)),} a demonstrative\is{demonstrative} \textsc{(Dem)} and a demonstrative\is{demonstrative} particle in the article (\textsc{Art)} slot.
+
+\xbox{\textwidth}{
+\ea%20
+\label{ex:9:20}
+\upshape
+ Template of the Teiwa\il{Teiwa} NP\footnote{Teiwa\ilt{Teiwa} has no relative clauses; nominal referents are focused with the focus particle \textit{la} \citep{Klamer2010grammar}.}
+
+ [\textsc{N  Attr\{(Clf) Num / Pl (Q)\}  Dem Art ]}\textsc{\textsubscript{NP}}
+\z
+}
+
+In the \textsc{Dem} slot, we often find \textit{ga}\textit{{\textglotstop}}\textit{an} (glossed as `that.\textsc{knwn}'), a 3\textsc{sg} object pronoun\is{pronoun} that also functions as a demonstrative\is{demonstrative} modifier of nouns. In the \textsc{Art} slot are the demonstrative\is{demonstrative} particles \textit{u} `\textsc{distal'} and \textit{a} `\textsc{proximate'}. These particles occupy the NP-final position, marking definiteness and/or the location of NP referent with respect to the speaker.
+
+The plural\is{plural (number) word} word has its own slot within the NP. It cannot combine with numeral constituents as those in (\ref{ex:9:21}a); compare (\ref{ex:9:21}b) with (\ref{ex:9:22}a-c). However, \textit{non} can be combined with a quantifier in an NP, as shown in \REF{ex:9:23} and \REF{ex:9:24}. Note that \textit{dum} `many/much' is used contrastively here.
+
+
+\ea%bkm:Ref354653126
+\label{ex:9:21}
+\langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
+\ea
+\gll \textit{war} \textit{(bag)} \textit{haraq}  \\
+  rock \textsc{clf} two \\
+\glt `two rocks'
+\ex
+\gll \textit{war} \textit{non}\\
+  rock \textsc{pl}\\
+ `rocks'
+\z
+\z
+
+
+\ea%bkm:Ref335059934
+\label{ex:9:22}
+\langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
+\ea
+\gll  *war haraq non \\
+  rock two \textsc{pl}   \\
+\glt Intended: `two rocks'
+\ex
+\gll *war bag haraq non \\
+  rock \textsc{clf} two \textsc{pl}   \\
+\glt  Intended: `two rocks'
+\ex
+\gll *war bag non \\
+   rock \textsc{clf} \textsc{pl}  \\
+\glt Intended: `two rocks'
+\z
+\z
+
+
+
+
+
+\ea%bkm:Ref354653269
+\label{ex:9:23}
+\langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
+\gll Hala [{qavif} non {dum}]\textsubscript{NP} pin aria{{\textglotstop}}{?} \\
+  someone goat \textsc{pl} many hold arrive   \\
+\glt `Were many [rather than few] goats brought here?'
+\z
+
+
+
+
+
+
+
+\ea%24
+\label{ex:9:24}
+\langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
+\gll  [{Wat} non {dum}]\textsubscript{NP} usan ma! \\
+  coconut \textsc{pl} many pick.up come  \\
+\glt `Pick up the many coconuts.' [situation: there are many coconuts in a pile of various kinds of fruits, and the order is to pick up these, not the rest]
+\z
+
+
+
+
+
+
+\textit{Non} does not substitute for an NP and cannot function independently as a verbal argument, either with or without the distal demonstrative\is{demonstrative} particle \textit{u} that functions as an (grammatically optional) article in (\ref{ex:9:25}b-c). It must always remain part of the NP, as shown by the ungrammaticality of (\ref{ex:9:25}d).
+
+
+\ea%25
+\label{ex:9:25}
+\langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
+\ea
+\gll [{G-oqai}   non u]\textsubscript{NP} min-an tau. \\
+   \textsc{3sg}-child \textsc{pl} \textsc{dist} die-\textsc{real} \textsc{pfv} \\
+\glt `Her children (lit. those her children) have died.'
+\ex
+\gll *[Non u]\textsubscript{NP} min-an tau. \\
+   \textsc{pl} \textsc{dist} die-\textsc{real} \textsc{pfv} \\
+\glt  Intended: `They have died.'
+\ex
+\gll *[{Non}]\textsubscript{NP} min-an tau. \\
+    \textsc{pl} die-\textsc{real} \textsc{pfv} \\
+\glt  Intended: `They have died.'
+\ex
+\gll *[{G-oqai}   {u}]\textsubscript{NP} non min-an tau. \\
+  \textsc{3sg}-child \textsc{dist} \textsc{pl} die-\textsc{real} \textsc{pfv}  \\
+\glt  Intended: `Her children (they) have died.'
+\z
+\z
+
+
+
+
+
+
+Just as Western Pantar\il{Western Pantar} \textit{maru(ng)}, Teiwa\il{Teiwa} \textit{non} can occur in an NP that stands in apposition with a pronoun\is{pronoun} \REF{ex:9:26}:
+
+
+\ea%26
+\label{ex:9:26}
+\langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
+\gll [Kemi  {non}]\textsubscript{NP} iman xap gu-uyan mat... \\
+  ancestor \textsc{pl} they bride  3.\textsc{obj-}search take  \\
+\glt `(Our) ancestors (they) searched for brides...'
+\z
+
+
+
+
+
+
+It is possible for an NP with \textit{non} to be part of the subject of numeral predication if the numeral predicate also contains a classifier\is{numeral classifier}, as illustrated in \REF{ex:9:27}, where \textit{bag} is the generic numeral classifier\is{numeral classifier} (Klamer, in press) and combines with \textit{tiaam} `six'. The plural\is{plural (number) word} word \textit{non} is part of the subject NP, and is grammatically optional. Subjects pluralised\is{plural (number) word} with \textit{non} can thus occur with a numeral predicate.
+
+However, an NP with \textit{non} cannot be the subject of a quantifier predication with \textit{dum} `many/much', compare (\ref{ex:9:28}a-b). This is because the Teiwa\il{Teiwa} plural\is{plural (number) word} word \textit{non} often has the connotation of `many' and `plenty' (see {\S} \ref{sec:9:4.2}). A subject NP like the one in \REF{ex:9:28} already implies that there are `many/plenty goats', so that combining it a predicate `be many' in (\ref{ex:9:28}b) is semantically redundant.
+
+
+\ea%27
+\label{ex:9:27}
+\langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
+\gll [Ga-qavif (non)]\textsubscript{NP} [{un} bag {tiaam}]\textsubscript{Pred} \\
+    \textsc{3sg}-goat \textsc{pl} \textsc{cont} \textsc{clf} six \\
+\glt `His goats are six.'
+\z
+
+
+
+
+
+
+
+\ea%28
+\label{ex:9:28}
+\langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
+\ea
+\gll [{Ga-qavif}]\textsubscript{NP} [un dum]\textsubscript{Pred}  \\
+ \textsc{3sg}-goat \textsc{cont} many   \\
+\glt `His goats are many.'
+\ex
+\gll *[Ga-qavif non]\textsubscript{NP} [un dum]\textsubscript{Pred}  \\
+    \textsc{3sg}-goat \textsc{pl} \textsc{cont} many\\
+\glt Intended: `His many/plenty goats are many.'
+\z
+\z
+
+
+
+
+
+
+The fact that \textit{non} does not combine with a numeral in a single NP suggests that it patterns with the numeral word class. However, unlike numerals, \textit{non} cannot combine with a classifier\is{numeral classifier}. On the other hand, \textit{non} can combine with the quantifier \textit{dum} `much/many' in a single NP, which a numeral cannot do. However, at the same time, \textit{non} does not pattern with the class of quantifiers for two reasons. First, such quantifiers can occur as predicates, while \textit{non} cannot, (\ref{ex:9:29}a-b); and second, non-numeral quantifiers can occur both inside the NP (\ref{ex:9:30}a) as well as outside of it, adjacent to the verb (\ref{ex:9:30}b), while \textit{non} must remain within the NP. In (\ref{ex:9:30}c) the NP contains \textit{non}, and the ungrammaticality of (\ref{ex:9:30}d) shows that \textit{non} cannot occur in the position adjacent to the verb.
+
+
+\ea%bkm:Ref334184526
+\label{ex:9:29}
+\langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
+\ea
+\gll Masar [un dum]\textsubscript{Pred} \\
+    male \textsc{cont} many \\
+\glt  `There are many men.' (Lit. `Males are [being] many.')
+\ex
+\gll *Masar [un non]{.} \\
+   male \textsc{cont} \textsc{pl}  \\
+\glt  Intended: `There are many/several males.'
+\z
+\z
+
+
+
+
+
+
+
+\ea%bkm:Ref334184556
+\label{ex:9:30}
+\langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
+\ea
+\gll  [{Qavif} dum {ga}{{\textglotstop}}{an}]\textsubscript{NP} hala tatax. \\
+   goat many that.\textsc{knwn} someone chop  \\
+ \glt `Many (known) goats were chopped up.'
+\ex
+\gll [Qavif ga{{\textglotstop}}{an}]\textsubscript{NP} hala dum tatax. \\
+   goat that.\textsc{knwn} someone many chop  \\
+\glt `Many of these (known) goats were chopped up.'
+\ex
+\gll [{Qavif} non {ga}{{\textglotstop}}{an}]\textsubscript{NP} hala tatax. \\
+   goat \textsc{pl} that.\textsc{knwn} someone chop  \\
+\glt  `These (known) goats were chopped up by someone.'
+\ex
+\gll *[Qavif ga{{\textglotstop}}{an}]\textsubscript{NP} hala non tatax \\
+   goat that.\textsc{knwn} someone \textsc{pl} chop  \\
+\glt  Intended: `These (known) goats were chopped up.'
+\z
+\z
+
+
+In sum, Teiwa\il{Teiwa} \textit{non} does not have any nominal properties, shares some of the distributional properties of numerals and quantifiers, and constitutes its own syntactic class.\footnote{In addition to the plural\is{plural (number) word} word, Teiwa\il{Teiwa} has four dedicated pronoun\is{pronoun} series for referents of different quantificational types: (i) the dual paradigm (\textit{we} \textit{two}, etc.), (ii) the ``X and they'' paradigm (\textit{you (sg/pl) and they},\textit{s/he/they and they};\textit{I/we (incl/excl) and they}), (iii) the ``X alone'' paradigm (\textit{I} \textit{alone},\textit{you} \textit{alone}, etc.) and (iv) the ``X as a group of ...'' paradigm (\textit{we/you/they as a group of x numbers}) \citep[82-85]{Klamer2010grammar}. The plural\is{plural (number) word} word cannot co-occur with these pronouns\is{pronoun}. Teiwa\il{Teiwa} has no associative plural\is{plural (number) word} word. To express associative plural\is{plural (number) word} notions, a form from the special pronoun\is{pronoun} series ``X and they'' is used, e.g., \textit{Rini } \textbf{\textit{i-qap}}\textit{a-kawan aria' wad } `Rini \textbf{3-and.they} 3-friend
+arrive today',  `\textit{Today} \textit{Rini arrived with her friends}'.}
+
+\subsection{Kamang\ilt{Kamang}} %3.3
+\label{sec:9:3.3}
+The template of the Kamang\ilt{Kamang} noun phrase (NP) is presented in \REF{ex:9:31}. The NP is maximally composed of a head noun (\textsc{N}) followed by its attribute (\textsc{Attr),} a numeral phrase \textsc{(Num)}, a relative clause (\textsc{Rc}), a demonstrative\is{demonstrative} \textsc{(Dem)} and an article \textsc{(Art)}. The article marks the right edge of an NP and is used to nominalise\is{nominalisation} (i.e., create NPs from) clauses and other non-nominal phrases in the language. In addition, a Kamang\il{Kamang} NP can occur with a range of items co-referential with it in a slot outside the NP, called here the NP-appositional (\textsc{Appos)} slot (discussed further below). The apposition between an NP and an item in the NP-appositional slot is syntactically tight: there is no intonational break or pause between NP and appositional item, and no item may intervene between them. For more details on the status of the \textsc{Appos} slot or for discussion of the other NP slots, see Schapper (to appear).
+
+\ea%31
+\label{ex:9:31}
+\upshape
+Template of the Kamang\il{Kamang} NP  
+
+ [\textsc{N}\textsc{\textsubscript{HEAD}}\textsc{ Attr  NumP  Rc  Dem  Art]}\textsc{\textsubscript{NP}} \textsc{\textsubscript{Appos}}
+
+\z
+
+
+The Kamang\il{Kamang} plural\is{plural (number) word} word \textit{nung} is conspicuously absent from the template in \REF{ex:9:31}. In Kamang\il{Kamang} \textit{nung} does not occur within the NP, but directly follows it. That is, it occurs to the right of the NP article, where one is expressed. For example, in \REF{ex:9:32} and \REF{ex:9:33} \textit{nung} follows the specific (`\textsc{spec}') and definite (`\textsc{def}') articles respectively. The alternative order with the article following \textit{nung} is not grammatical: *\textit{nung=a} `\textsc{pl=spec}' and *\textit{nung=ak} `\textsc{pl=def'}. In short, \textit{nung} only occurs in the NP-appositional slot.
+
+
+\ea%32
+\label{ex:9:32}
+\langinfo{Kamang}{}{Schapper, fieldnotes} \\
+\gll  Almakang laising-laung=a nung {ye}{{\textglotstop}}{-baa} sue. \\
+  people youthful=\textsc{spec} \textsc{pl} \textsc{3.sben}-say arrive  \\
+\glt `Go tell the young people to come.'
+\z
+
+
+
+
+
+
+
+\ea%33
+\label{ex:9:33}
+\langinfo{Kamang}{}{Schapper, fieldnotes} \\
+\gll  Muut=ak nung iduka. \\
+  citrus=\textsc{def} \textsc{pl} sweet   \\
+\glt `The citrus fruits are sweet.'
+\z
+
+
+
+
+
+
+By contrast, other Kamang\il{Kamang} quantifiers can occur within the NP, i.e., to the left of the NP-defining article. Non-numeral quantifiers such as \textit{adu} `many/much' occupy the \textsc{Attr} slot within the NP and cannot float out of it, as seen in \REF{ex:9:34}.
+
+
+\ea%34
+\label{ex:9:34}
+\langinfo{Kamang}{}{Schapper, fieldnotes} \\
+\ea
+\gll sibe adu=a \\
+  chicken many=\textsc{spec} \\
+\glt `the many chickens' 
+\ex
+\gll *{sibe=a} {adu} \\
+chicken=\textsc{spec} many \\
+\glt Intended: `the many chickens'
+\z
+\z
+
+
+
+Kamang\il{Kamang} does not have a syntactic class of non-numeral quantifiers; items denoting \textit{many}, \textit{few}, \textit{a} \textit{little}, etc. are adjectives and occur in the \textsc{Attr} slot of the NP. Numeral quantifiers occur with a classifier\is{numeral classifier} in the \textsc{NumP}. The unmarked position for the \textsc{NumP} is within the NP to the left of the article (\ref{ex:9:35}a), and the marked position is post-posed into the NP-appositional slot outside the NP (\ref{ex:9:35}b). The latter position is less frequent and pragmatically marked, functioning to topicalise the enumeration of the NP referent.
+
+\xbox{\textwidth}{
+\ea%35
+\label{ex:9:35}
+\langinfo{Kamang}{}{Schapper, fieldnotes} \\
+\ea
+\gll  sibe [{uh}   {su}]\textsc{\textsubscript{NumP}}{=a}\\
+  chicken \textsc{clf } three=\textsc{spec} \\
+ \glt `the three chickens' 
+\ex
+\gll sibe=a [uh su]\textsc{\textsubscript{NumP}} \\
+ chicken=\textsc{spec} \textsc{clf} three  \\
+\glt `the chickens, the three ones'
+\z
+\z
+}
+
+The plural\is{plural (number) word} word shares distributional properties in common not only with a \textsc{NumP} but also with a pronoun\is{pronoun}, since the NP-appositional position can also host a pronoun\is{pronoun}. In \REF{ex:9:36} we see that a pronoun\is{pronoun} (\ref{ex:9:36}a) and a plural\is{plural (number) word} word (\ref{ex:9:36}b) respectively can both occur in the slot following an NP. In these examples, the parts of the free translations in curly brackets are the semantics contributed by the items in the appositional slot.
+
+
+\ea%36
+\label{ex:9:36}
+\langinfo{Kamang}{}{Schapper, fieldnotes} \\
+\ea
+\gll almakang=ak gera  \\
+ people=\textsc{def} \textsc{3.contr}   \\
+\glt `the \{specific group of\} people \{not some other group\}'
+\ex
+\gll almakang=ak nung \\
+  people=\textsc{def} \textsc{pl}   \\
+\glt  `the \{multiple\} people'
+\z
+\z
+
+
+
+
+
+
+The Kamang\il{Kamang} plural\is{plural (number) word} word has a distribution similar to that of an NP in two respects. Firstly, \textit{nung} can substitute for a whole NP, where reference is sufficiently clear. For instance, in \REF{ex:9:37} \textit{nung} is the sole element representing the S of the verb \textit{sue} `come'. Secondly, like an NP, a plural\is{plural (number) word} word can itself occur with a pronoun\is{pronoun} in the NP appositional slot where no NP is expressed, as in \REF{ex:9:38}.
+
+
+\ea%37
+\label{ex:9:37}
+\langinfo{Kamang}{}{Schapper, fieldnotes} \\
+\gll  [Nung]\textsubscript{NP} sue. \\
+   \textsc{pl} arrive  \\
+\glt `\{Multiple\} (people) arrived.'
+\z
+
+
+
+
+
+
+
+\ea%38
+\label{ex:9:38}
+\langinfo{Kamang}{}{Schapper, fieldnotes} \\
+\gll  [{Nung}]\textsubscript{\textsc{np}} {gera}\textsubscript{\textsc{appos}} sue. \\
+   \textsc{pl} \textsc{3.contr} arrive  \\
+\glt `\{Multiple other\} (people) arrived.'
+\z
+
+
+
+
+
+
+\textit{Nung} is not compatible with any other quantificational items. That is, despite its occurring outside the NP, marking an NP with \textit{nung} means that other quantificational items cannot occur in the NP. This is seen in the examples in \REF{ex:9:39} where \textit{nung} cannot grammatically co-occur with the numeral quantifier \textit{su} `three' (\ref{ex:9:39}a) and with the non-numeral quantifier \textit{adu} `many' (\ref{ex:9:39}b).
+
+
+\ea%39
+\label{ex:9:39}
+\langinfo{Kamang}{}{Schapper, fieldnotes} \\
+\ea
+\gll  *{sibe} uh su {nung}\\
+   chicken \textsc{clf} three \textsc{pl} \\
+\glt Intended: `three chickens'
+\ex
+\gll
+*\textit{sibe} \textit{adu} \textit{nung}\\
+    chicken many   \textsc{pl}\\
+\glt  Intended: `many chickens'
+ \z
+ \z
+
+
+
+
+In addition to the plural\is{plural (number) word} word, Kamang\il{Kamang} has multiple dedicated quantificational pronoun\is{pronoun} series to signal different quantificational types.\footnote{There are four ``quantifying'' pronominal\is{pronoun} paradigms in Kamang\il{Kamang}: (i) the ``alone'' paradigm (\textit{I alone/on my own}, \textit{we alone/on our own}, etc.), (ii) the dual paradigm (\textit{we} \textit{two}, etc.- only in non-singular numbers), (iii) the ``all'' paradigm (\textit{we} \textit{all}, etc.- only in non-singular numbers), and (iv) the ``group'' paradigm (\textit{we together in a group}, etc.- only in non-singular numbers). See Schapper (to appear) for full set of Kamang\il{Kamang} pronominal\is{pronoun} paradigms.} For instance, we see the third person pronouns\is{pronoun} forms for group plurality\is{plural (number) word} and universal quantification in \REF{ex:9:40} and \REF{ex:9:41} respectively. The plural\is{plural (number) word} word cannot co-occur with these pronouns\is{pronoun}.
+
+
+\ea%40
+\langinfo{Kamang}{}{Schapper, fieldnotes} \\
+\label{ex:9:40}
+\gll  Geifu   loo maa.  \\
+  3.\textsc{group} walk go   \\
+\glt `They go together (as a group).'
+\z
+
+
+
+
+
+
+\ea%41
+\label{ex:9:41}
+\langinfo{Kamang}{}{Schapper, fieldnotes} \\
+\gll Gaima bisa wo-ra=bo pilan. \\
+  3.\textsc{all} can   3.\textsc{loc}-wear=\textsc{lnk} lego-lego  \\
+\glt `They all can wear (them) and dance in a lego-lego.'
+\z
+
+
+
+
+
+
+The use of quantificational pronouns\is{pronoun} with NPs is illustrated in \REF{ex:9:42} and \REF{ex:9:43}. We see in these examples that the quantificational pronouns\is{pronoun} fill the appositional slot in the same manner as the plural\is{plural (number) word} word \textit{nung} and signal the plurality\is{plural (number) word} of the referents of the preceding NP.
+
+
+\ea%42
+\label{ex:9:42}
+\langinfo{Kamang}{}{Schapper, fieldnotes} \\
+\gll   [Mane ang]\textsubscript{\textsc{NP}} {geifu}\textsubscript{\textsc{appos}}   {mauu.}\\
+  village \textsc{dem} 3.\textsc{group} war  \\
+\glt `Those villages make war together (against another village).'
+\z
+
+
+
+
+
+
+\ea%43
+\label{ex:9:43}
+\langinfo{Kamang}{}{Schapper, fieldnotes} \\
+\gll  [Arita pang]\textsubscript{NP} {gaima}\textsubscript{\textsc{appos}} luaa-ra lai-ma{.}\\
+    leaf \textsc{dem}   3.\textsc{all} whither-\textsc{aux} finished-\textsc{pfv}\\
+\glt `All the leaves have withered completely.'
+\z
+
+
+
+
+
+
+Finally, Kamang\il{Kamang} has a suffix marking associative plurality\is{plural (number) word}, \textit{-lee} `\textsc{assoc}'. This suffix can occur on kin terms or proper names, as in \REF{ex:9:44} and \REF{ex:9:45} respectively. Nouns marked by \textit{-lee} cannot be modified by any other NP elements. The plural\is{plural (number) word} word\textit{nung} does not occur in such contexts.
+
+
+\ea%44
+\label{ex:9:44}
+\langinfo{Kamang}{}{Schapper, fieldnotes} \\
+\gll  {\dots},   ge-dum-lee see silanta malii \\
+  {\dots} 3.\textsc{gen}-child-\textsc{assoc} arrive mourn mourn \\
+\glt `{\dots}, her children and their associates come to mourn.'
+\z
+
+
+
+
+
+
+
+\ea%45
+\label{ex:9:45}
+\langinfo{Kamang}{}{Schapper, fieldnotes} \\
+\gll  Marten-lee n-at tak.  \\
+  Marten-\textsc{assoc} 1\textsc{sg}-from run   \\
+\glt `Marten and his associates run away from me.'
+\z
+
+
+
+
+
+
+So, the Kamang\il{Kamang} plural\is{plural (number) word} word occurs outside the NP and shares distributional properties of pronouns\is{pronoun}. The semantics of the plural\is{plural (number) word} word also intersects with pronouns\is{pronoun}, in particular, the quantificational pronouns\is{pronoun} whose functions are to denote different number features.
+
+\subsection{Abui\ilt{Abui}} %3.4
+\label{sec:9:3.4}
+The template of the Abui\il{Abui} NP is presented in \REF{ex:9:46}.\footnote{The morphosyntactic analysis and glossing of Abui\il{Abui} presented here is that of Schapper, and differs from that presented in \citet{Kratochvil2007}. Examples are individually marked as to source.} The NP is composed of a head noun (N) followed by its attribute (\textsc{Attr).} The Abui\il{Abui} plural\is{plural (number) word} word \textit{loku} is not etymologically related to the plural\is{plural (number) word} word that is reconstructable for pAP\il{proto-Alor-Pantar}. It has a variable position with respect to the relative clause (\textsc{Rc}), being able to either precede or follow the plural\is{plural (number) word} word. The plural\is{plural (number) word} word occurs inside the NP and thus always occurs to left to the determiner (\textsc{Det).}
+
+\ea%46
+\label{ex:9:46}
+\upshape 
+ Template of the Abui\ilt{Abui} NP
+
+[\textsc{N  Attr  \{Pl  Rc  /  Rc  Pl \} Det}]\textsubscript{NP}
+\z
+
+The variable position of \textit{loku} in relation to the relative clause is illustrated in \REF{ex:9:47} and \REF{ex:9:48}. In \REF{ex:9:47} \textit{loku} appears after the relative clause but before the demonstrative\is{demonstrative} \textit{yo}. In \REF{ex:9:48} \textit{loku} precedes both the relative clause and the article \textit{nu}. The two plural\is{plural (number) word} word positions are mere variants of one another; extensive elicitation and the examination of corpus data have revealed no difference in the scope or semantics correlating with the plural\is{plural (number) word} word's position, although corpus frequency and speaker judgments point to the position preceding the relative clause as being preferred.
+
+
+\ea%47
+\label{ex:9:47}
+\langinfo{Abui}{}{Kratochv\'il, Abui corpus} \\
+\gll  [...oto he-amakaang [{ba} h-omi {mia}]\textsubscript{RC} loku yo]\textsubscript{NP}  mi pak mahoi-ni \\
+  car \textsc{3.gen}-person \textsc{rel} \textsc{3.gen}-inside in \textsc{pl} \textsc{dem}   take cliff gather-\textsc{pfv}  \\
+\glt `...those people who were inside the car were taken over the [edge of the] cliff.'
+\z
  
 
-\subsubsection{Higher cardinals\ist{cardinal numerals}}
+\ea%48
+\label{ex:9:48}
+\langinfo{Abui}{}{Kratochv\'il, Abui corpus} \\
+\gll  [{Sieng} loku [{ba} uti {mia}]\textsubscript{RC} {nu}]\textsubscript{NP} sik bakon-i   mi melang sei. \\
+   rice \textsc{pl} \textsc{rel} garden in \textsc{art} pluck rip.off.\textsc{pfv-pfv}   take village come.down \\
+\glt `Pluck off [all] the rice that is in the garden [and] take it down to the village.'
+\z
 
-\begin{tabular}{lll}
+ 
+
+
+
+
+\textit{Loku} cannot co-occur in an NP together with any quantifiers; numeral (\ref{ex:9:49}a) or non-numeral (\ref{ex:9:49}b). However, it is possible for an NP with \textit{loku} to be the subject of both numeral and non-numeral quantifier predications (\ref{ex:9:50}a-b). This indicates that, whilst double marking of quantification/plurality\is{plural (number) word} is not permitted within the NP, there is no semantic redundancy in the quantificational values of the Abui\il{Abui} plural\is{plural (number) word} word and other quantifiers. In this respect, Abui\il{Abui} \textit{loku} differs from Teiwa\il{Teiwa} \textit{non} ({\S} \ref{sec:9:3.2}).
+
+
+\ea%49
+\label{ex:9:49}
+\langinfo{Abui}{}{Schapper, fieldnotes} \\
+\ea
+\gll *He-wiil taama loku nu mon-i.\\
+   \textsc{3.gen}-child six \textsc{pl} \textsc{art} die.\textsc{pfv}-\textsc{pfv} \\
+\glt Intended: `His six children died.'
+\ex
+\gll *He-wiil faring loku nu mon-i.\\
+ \textsc{3.gen}-child many \textsc{pl} \textsc{art} die.\textsc{pfv}-\textsc{pfv}   \\
+\glt  Intended: `His many children died.'
+\z
+\z
+
+
+
+
+
+\ea%50
+\label{ex:9:50}
+\langinfo{Abui}{}{Schapper, fieldnotes} \\
+\ea
+\gll  He-wiil loku nu {taama.}\\
+  \textsc{3.gen}-child \textsc{pl} \textsc{art} six  \\
+\glt `His children were six.' i.e., `He had six children.'
+\ex
+\gll He-wiil loku nu faring. \\
+ \textsc{3.gen}-child \textsc{pl} \textsc{art} many   \\
+\glt  `His children were many.' i.e., `He had many children.'
+\z
+\z
+
+
+
+
+
+
+\textit{Loku} can be used to modify a third person pronoun\is{pronoun}, as in \REF{ex:9:51} and \REF{ex:9:52}. Abui\il{Abui} has no number distinction in the third person of its pronominal\is{pronoun} series. By using \textit{loku} the plural\is{plural (number) word} reference can be made explicit.
+
+
+\ea%51
+\label{ex:9:51}
+\langinfo{Abui}{}{Kratochv\'il, Abui corpus} \\
+\gll  Hel loku abui yaa ut {teak.}\\
+  3 \textsc{pl}   mountain go garden watch  \\
+\glt `They went to the mountains to check the garden.'
+\z
+
+
+
+
+
+
+
+\ea%52
+\label{ex:9:52}
+\langinfo{Abui}{}{Kratochv\'il, Abui corpus} \\
+\gll  Hel loku he-sepatu {he-tawida}. \\
+  3 \textsc{pl}   \textsc{3.gen}-shoe \textsc{3.gen}-be.alike   \\
+\glt `They have the same shoes.'
+\z
+
+
+
+
+
+
+\textit{Loku} must co-occur with a noun or with the third person pronoun\is{pronoun} \textit{hel}. It cannot stand alone in an NP.
+
+In addition to the general plural\is{plural (number) word} word \textit{loku}, Abui\il{Abui} has an associative plural\is{plural (number) word} word, \textit{we} `\textsc{assoc'}. This item only appears marking proper names for humans and has the meaning `[name] and people associated with [name]' and occurs directly after the noun it modifies, as in (\ref{ex:9:53}a). When \textit{loku} is used in the same context (\ref{ex:9:53}b), the reading is not one of associative plurality\is{plural (number) word}, but of individualised plurality\is{plural (number) word}. \textit{Loku} and \textit{we} can co-occur, and either can precede the other, as shown in (\ref{ex:9:53}c).
+
+
+
+
+\ea%53
+\label{ex:9:53}
+\ea
+\langinfo{Abui}{}{Kratochv\'il, p.c.} \\
+\gll Benny w{e} ut yaa. \\
+   Benny \textsc{assoc} garden go.to  \\
+\glt `Benny and his associates go to the garden.'
+\ex
+\gll Benny loku ut yaa. \\
+   Benny \textsc{pl} garden go.to  \\
+\glt `Different individuals called Benny go to the garden.'
+\ex
+\gll Benny loku we / Benny  we loku ut yaa.\\
+    Benny \textsc{pl}  \textsc{assoc} / Benny \textsc{assoc} \textsc{pl} garden go.to\\
+\glt  `Two or more people called Benny go to the garden.'
+\z
+\z
+
+
+
+
+
+
+Connected to its individualising semantics, \textit{loku} may be used with verbs to make expressions for collections of people. Examples are given in \REF{ex:9:54}.
+
+
+\ea%54
+\label{ex:9:54}
+\ea
+\langinfo{Abui}{}{\citealt[155]{Kratochvil2007}} \\
+\gll pe loku  \\
+   near \textsc{pl}  \\
+\glt lit. `the near ones'; i.e. `neighbours'
+\ex
+\gll firai loku \\
+  run \textsc{pl}   \\
+ \glt lit. `the running ones'; i.e. `runners'
+\glt
+\ex
+\gll walangra loku \\
+   fresh \textsc{pl}  \\
+\glt  lit. `the new ones'; i.e. `the newcomers, the Malays'
+\z
+\z
+
+
+
+
+
+
+Abui\il{Abui} differs from the more western languages (such as Western Pantar\il{Western Pantar} and Teiwa\il{Teiwa}) in that it has two plural\is{plural (number) word} words marking different kinds of plurality\is{plural (number) word}.
+
+\subsection{Wersing\ilt{Wersing}} %3.5
+\label{sec:9:3.5}
+The template for the Wersing\il{Wersing} noun phrase (NP) is given in \REF{ex:9:55}. Modifiers follow the head noun of the NP (\textsc{N}\textsubscript{\MakeUppercase{head}}). They are an attribute (\textsc{Attr}), a numeral (\textsc{Num}) or the plural\is{plural (number) word} word\textsc{(Pl),} and a relative clause (\textsc{Rc).} \textsc{R}ight-most in the NP is a determiner (\textsc{Det}). See Schapper and Hendery (to appear) for details and full illustration of the Wersing\il{Wersing} NP.
+
+\ea%55
+\label{ex:9:55}
+\upshape 
+ Template of the Wersing\ilt{Wersing} NP 
+
+  [\textsc{N}\textsubscript{\MakeUppercase{head } }\textsc{Attr Num/Pl  Rc  Det]}\textsc{\textsubscript{NP}}
+\z
+
+
+The Wersing\il{Wersing} plural\is{plural (number) word} word is \textit{deing}. As is clear from template \REF{ex:9:55}, it occurs in the NP in the same slot as a numeral. It cannot be used in combination with a numeral or any non-numeral quantifier (which are typically simple intransitive verbs that appear in the \textsc{Attr} slot), as illustrated in \REF{ex:9:56}.
+
+
+\ea%56
+\label{ex:9:56}
+\langinfo{Wersing}{}{Schapper and Hendery, Wersing corpus} \\
+\ea
+\gll *aning    weting deing \\
+    person five \textsc{pl} \\
+ \glt Intended: `five people'
+\ex
+\gll *aning bal {deing}\\
+   person many   \textsc{pl} \\
+\glt  Intended: `many people'
+\z
+\z
+
+
+
+
+
+
+\textit{Deing\il{Deing}} need not occur with an overt noun in the NP, but can stand alone so long as the referent can be retrieved from the discourse context. So, for instance, the head noun \textit{gis} in (\ref{ex:9:57}a) can be elided, as in the following examples (\ref{ex:9:57}b-d). What is more, the NP can be reduced to the plural\is{plural (number) word} word (57d) where there is neither noun head nor article.
+
+
+\ea%57
+\label{ex:9:57}
+\langinfo{Wersing}{}{Schapper and Hendery, Wersing corpus} \\
+\ea
+\gll {g}{-is}    kebai dein=a\\
+3-content young \textsc{pl=art}  \\
+\glt `their (coconut) young flesh'
+\ex
+\gll kebai dein=a   \\
+   young \textsc{pl=art}  \\
+\glt `the young (flesh)' 
+\ex
+\gll dein=a   \\
+   \textsc{pl=art}  \\
+\glt  `the (young flesh)'
+\ex
+\gll {deing}\\
+    \textsc{pl}\\
+\glt  `the (young flesh)'
+\z
+\z
+
+
+
+
+Like Kamang\il{Kamang} and the other eastern Alor languages, and Teiwa\il{Teiwa} on Pantar, Wersing\il{Wersing} has multiple pronominal\is{pronoun} paradigms dedicated to denoting particular quantities of referents, for instance, universal quantification (`\textsc{all')} \REF{ex:9:58} and group plurality\is{plural (number) word} (`\textsc{group}') \REF{ex:9:59}.\footnote{There are five ``quantifying'' pronominal\is{pronoun} paradigms in Wersing\il{Wersing}: (i) the ``alone'' paradigm (\textit{I alone (no one else)}, etc.), (ii) the ``independent'' paradigm (\textit{I on my own without help}, etc.), (iii) the dual paradigm (\textit{we} \textit{two}, etc.- only in non-singular numbers), (iv) the ``all'' paradigm (\textit{we} \textit{all}, etc.- only in non-singular numbers), and (v) the ``group'' paradigm (\textit{we together in a group}, etc.- only in non-singular numbers) \citep{SchapperEtAltawersing}.} Such quantificational pronouns\is{pronoun} also play an important role in marking plurality\is{plural (number) word} of NP referents in Wersing\il{Wersing}. In \REF{ex:9:60} we see, for instance, the 3\textsuperscript{rd} person pronoun\is{pronoun} \textit{genaing} being
+used to signal the plurality\is{plural (number) word} of the referents of the preceding NP.\footnote{A pronoun\is{pronoun} of this paradigm can also be marked with \textit{-le}, as in: \textit{Aning ge-naingle kamar ming=te nanal te-mekeng} (\textsc{3.all-pl} room be.in=\textsc{conj} thing \textsc{recp}-exchange) `All of those who are in the room exchange things'. The -\textit{le} suffix does not appear on nouns or any other pronominal\is{pronoun} series in Wersing\il{Wersing}; it is likely cognate with the Kamang\il{Kamang} associative plural\is{plural (number) word} marker \textit{-lee} (see {\S} \ref{sec:9:3.3}).}
+
+
+\ea%58
+\label{ex:9:58}
+\langinfo{Wersing}{}{Schapper and Hendery, Wersing corpus} \\
+\gll  Tanaing dra bo! \\
+   \textsc{1pl.incl.all} \textsc{pl}   \textsc{emph}  \\
+\glt `Let's sing.'
+\z
+
+
+
+
+
+
+
+\ea%59
+\label{ex:9:59}
+\langinfo{Wersing}{}{Schapper  and Hendery, Wersing corpus} \\
+\gll  Nyawi nyi-mit o! \\
+   \textsc{1pl.excl.}\textsc{group} \textsc{1pl.excl}-sit \textsc{exclam}  \\
+\glt `Let's sit together!'
+\z
+
+
+
+
+
+
+
+\ea%60
+\label{ex:9:60}
+\langinfo{Wersing}{}{Schapper  and Hendery, Wersing corpus} \\
+\gll  Ge-siriping genaing beteng ge-dai. \\
+ \textsc{3-}root \textsc{3.all}   pull 3-come.up    \\
+\glt `All its roots were pulled right up.'
+\z
+
+
+
+
+
+Wersing\il{Wersing} \textit{d}\textit{eing} can nevertheless mark plurality\is{plural (number) word} for non-singular numbers of topic pronouns\is{pronoun}, as in \REF{ex:9:61} and \REF{ex:9:62}. In this respect, then, the Wersing\il{Wersing} plural\is{plural (number) word} word is not like a pronoun\is{pronoun} as in Kamang\il{Kamang}, but a distinct item which can modify any NP head, nominal or pronominal\is{pronoun}.
+
+
+\ea%61
+\label{ex:9:61}
+\langinfo{Wersing}{}{Schapper  and Hendery, Wersing corpus} \\
+\gll  Gai dein=a mona min-a. \\
+   \textsc{3.top} \textsc{pl}=\textsc{art} \textsc{across} be.at-\textsc{real}  \\
+\glt `They are all over there.'
+\z
+
+
+
+
+
+
+
+\ea%62
+\label{ex:9:62}
+\langinfo{Wersing}{}{Schapper  and Hendery, Wersing corpus} \\
+\gll  Nyai deing o=min-a. \\
+  \textsc{1pl.excl.top} \textsc{pl}   \textsc{here}=be.at-\textsc{real}   \\
+\glt `We are all here.'
+\z
+
+
+
+
+
+
+Wersing\il{Wersing} has a further plural\is{plural (number) word} word, \textit{naing}, which marks associative plurality\is{plural (number) word}. This form has been observed only marking personal names, as in \REF{ex:9:63} and \REF{ex:9:64}. As an associative plural\is{plural (number) word} word, it doesn't have the ability to stand in for a NP. Like \textit{deing}, \textit{naing} cannot occur with other quantifiers, numeral and non-numeral.
+
+
+\ea%63
+\label{ex:9:63}
+\langinfo{Wersing}{}{\citealt{Malikosand}} \\
+\gll  Petrus naing g-aumeng ga-pang ge-pai. \\
+  Peter \textsc{assoc} 3-fear 3-dead 3-make   \\
+\glt `Peter and the others were afraid to die.'
+\z
+
+
+
+
+
+
+
+\ea%64
+\label{ex:9:64}
+\langinfo{Wersing}{}{\citealt{Malikosand}} \\
+\gll  Yesus naing lailol gewai Kapernaum {taing.}\\
+  Jesus \textsc{assoc} walk 3-go Kapernaum reach  \\
+\glt `Jesus and the others walked onto Kapernaum.'
+\z
+
+
+
+
+
+
+\subsection{Summary}  %3.6
+\label{sec:9:3.6}
+
+
+
+
+Most Alor-Pantar languages have inherited a plural\is{plural (number) word} word, but they show much variation in the syntactic properties of this word. Table \ref{tab:9:2} presents a summary of the variable syntax discussed in the previous sections. 
+\begin{table}[h]
+\centering
+\begin{tabular}{>{\small}p{4cm}ccccc}
 \mytopline
-
-No & Language: ...... & Notes\\
+ & {Teiwa\ilt{Teiwa}}  &{W Pantar\il{Western Pantar}} &{Kamang\ilt{Kamang}}  &{Abui\ilt{Abui}}  &{Wersing\ilt{Wersing}}\\
 \midrule
- &  & \\
-1000 &  & \\
-2000 &  & \\
-{\dots} & & \\
-9000 &  & \\
-10 000 &  & \\
+Is plural\ist{plural (number) word} word part of NP? &yes &yes &no &yes &yes\\
+Can plural\ist{plural (number) word} word stand alone in NP? &no &no &-- &no &yes\\
+Can the plural\ist{plural (number) word} word and non-numeral quantifier co-occur? &yes &no &no &no &no\\
+Can plural\ist{plural (number) word} word and numeral co-occur? &no &no &no &no &no\\
 \mybottomline
 \end{tabular}
+\caption{Variable syntax of five Alor-Pantar plural\ist{plural (number) word} words}
+\label{tab:9:2}
+\end{table}
+
+The table reveals the gradient differences between plural\is{plural (number) word} words in Alor-Pantar languages. Kamang\il{Kamang} stands out from the other four languages for the fact that the plural\is{plural (number) word} word is not part of the NP. Of the languages that do have their plural\is{plural (number) word} word in the NP, the plural\is{plural (number) word} word cannot typically stand alone in the NP, but requires another, nominal, element be present. In Wersing\il{Wersing}, however, this is only the case for the associative plural\is{plural (number) word} word \textit{deing}; its plural\is{plural (number) word} number word can form independent NPs. Alor-Pantar plural\is{plural (number) word} words are prohibited from co-occurring with quantifiers. No language allows co-occurrence with a numeral quantifier and only Teiwa\il{Teiwa} permits co-occurrence with a non-numeral quantifier.
+
+ These different properties mean that in all five languages, plural\is{plural (number) word} word(s) constitutes a word class of its own, with only partial overlap with other morpho-syntatic classes of words. In Western Pantar\il{Western Pantar}, the plural\is{plural (number) word} word shares much with adjectival quantifiers and numerical expressions. In Teiwa\il{Teiwa}, the plural\is{plural (number) word} word patterns mostly with non-numeral quantifiers. In Kamang\il{Kamang} and Wersing\il{Wersing}, plural\is{plural (number) word} words pattern similarly to quantificational pronouns\is{pronoun} in denoting the number of a preceding noun. However, Wersing\il{Wersing} \textit{deing} behaves much more like a nominal element. Nominal properties are also visible in the Abui\il{Abui} word \textit{loku}, particularly in its frequent use with verbs to form expressions for collections of people.
+
+ In short, Alor-Pantar plural\is{plural (number) word} words are a morpho-syntactically diverse group of items that are seemingly united only by their semantic commonalities. Yet, as we will see in the following sections, even the semantics of plurality\is{plural (number) word} reveal more variability than might have been expected.
+
+\section{Semantics of plural\ist{plural (number) word} words in Alor-Pantar}  %4
+\label{sec:9:4}
+In all five languages, the plural\is{plural (number) word} words code plurality\is{plural (number) word} alongside other notions. In this section, we review three additional connotations of the plural\is{plural (number) word} word.
+
+\subsection{Completeness} %4.1
+\label{sec:9:4.1}
+The Western Pantar\il{Western Pantar} plural\is{plural (number) word} word \textit{maru(ng)} typically imparts a sense of entirety, completeness, and comprehensiveness, as in \REF{ex:9:65}:
+
+
+\ea%65
+\label{ex:9:65}
+Western Pantar\ilt{Western Pantar} (Holton, Western Pantar\ilt{Western Pantar} corpus)\\
+\gll  Ping pi mappu maiyang, lokke maiyang saiga si, gai ke{{\textglotstop}}{e} maru si aname ging haggi kanna. \\
+    \textsc{1pl.incl}  \textsc{1pl.incl.poss\ist{possession}} fishpond place fishtrap place \textsc{dem} \textsc{art}  \textsc{3.poss\ist{possession}} fish \textsc{pl} \textsc{art} person \textsc{3pl.act} take already \\
+\glt `We placed our fishponds, placed our fish traps,  and then people took all the fish.'
+\z
+
+
+Its sense of comprehensiveness and entirety explains why NPs pluralised\is{plural (number) word} with \textit{maru(ng)} can be the subject of the nominal predicate \textit{gaterannang} `all' expressing universal quantity, as in \REF{ex:9:66}, while combinations of \textit{marung} and mid-range quantifiers such as \textit{haweri} `many' are absent in the Western Pantar\il{Western Pantar} corpus. It also explains why \textit{marung} is not compatible with a numeral predicate, as in \REF{ex:9:67}, as these indicate a quantity of a certain number rather than universal quantity.
+
+
+\ea%66
+\label{ex:9:66}
+\langinfo{Western Pantar}{}{\citealt{Holton2012}} \\
+\gll  [{Aname } {marung}] ging gaterannang dia wang pidding. \\
+   people \textsc{pl} they all  go exist spread  \\
+\glt `All the people spread out [to look for them]' \citep{Holton2012}
+(Lit. `All people they were all going spreading ...')
+\z
+
+
+
+
+
+
+
+
+\ea%67
+\label{ex:9:67}
+\langinfo{Western Pantar}{}{\citealt{Holton2012}} \\
+\gll  *[{Aname} {marung}] ging kealaku dia wang pidding. \\
+    people \textsc{pl} they twenty go exist spread \\
+ \glt Intended: `All people they were twenty going spreading...'
+\z
+
+
+
+
+
+
+Finally, \textit{marung} is used with count nouns, and cannot combine with mass noun such as \textit{halia} `water', \REF{ex:9:68}. In this respect, \textit{marung} contrasts with the plural\is{plural (number) word} words in Abui\il{Abui}, Wersing\il{Wersing}, Kamang\il{Kamang} and Teiwa\il{Teiwa}, which can combine with mass nouns (sections 4.2,  4.3.1).
+
+
+\ea%68
+\label{ex:9:68}
+\langinfo{Western Pantar}{}{Holton, p.c.} \\
+\gll  *halia marung \\
+   water \textsc{pl}  \\
+\glt Intended: `several containers of water';  `multiple waters'
+\z
+
+
+
+
+
+
+The connotation of comprehensiveness is also found in Abui\il{Abui} \textit{loku}. That is, the inclusion of \textit{loku} signals that the whole mass of saliva was subject to the swarming of the birds in \REF{ex:9:69} and that all the available corn had to be stowed away \REF{ex:9:70} in an orderly fashion, so as to use the maximum capacity of the basket.
+
+
+\ea%69
+\label{ex:9:69}
+\langinfo{Abui}{}{Kratochv\'il, Abui corpus} \\
+\gll  ... {kuya} do sila nahang oro  he-ya he-puyung loku do he-afai. \\
+   ...  bird \textsc{dem} much everywhere \textsc{across}   \textsc{3.gen}-mother \textsc{3.gen-}saliva \textsc{pl} \textsc{dem} \textsc{3.gen-}swarm \\
+\glt `Those birds were everywhere there, swarming over the saliva of his mother.'
+\z
+
+
+
+
+
+
+
+
+
+
+
+
+
+\ea%70
+\label{ex:9:70}
+\langinfo{Abui}{}{Kratochv\'il, fieldnotes} \\
+\gll  Fat loku mi ba buot he-rei \\
+    corn \textsc{pl} take \textsc{conj} back.basket \textsc{3.gen-}stow \\
+\glt `Stow all the corn in the basket.'
+\z
+
+
+
+
+
+
+The sense of comprehensive quantity expressed by \textit{loku} (`all') is relative to the situation at hand (`all that is there'). As a result, \textit{loku} can occur with the universal quantifier \textit{tafuda} `all', as in \REF{ex:9:71}.
+
+
+
+\ea%71
+\label{ex:9:71}
+\langinfo{Abui}{}{Kratochv\'il, Abui corpus} \\
+\gll  Ama [ne-mea loku] tafuda takaf-i  do n-omi he-ukda \\
+    person \textsc{1sg.gen-}mango \textsc{pl} all steal-\textsc{pfv}  \textsc{dem} \textsc{1sg.gen-}inside 3.\textsc{gen-}shock \\
+\glt `All my mangos got stolen,  it really shocked me.' %(Kratochv\'il, Abui corpus)
+\z
+
+
+
+
+
+
+
+
+
+
+
+
+In Wersing\il{Wersing}, the sense of comprehensiveness is found when the plural\is{plural (number) word} word is used together with an already plural\is{plural (number) word} topic pronoun\is{pronoun}. For instance, in \REF{ex:9:72} the use of \textit{deing} implies that the whole set of those who were expected are present.
+
+
+\ea%72
+\label{ex:9:72}
+\langinfo{Wersing}{}{Schapper, fieldnotes} \\
+\gll Tai deing o min-a.  \\
+   \textsc{1pl.incl.top} \textsc{pl}   \textsc{here} be.at-\textsc{real}  \\
+\glt `We are all here.'
+\z
+
+
+
+
+
+
+\subsection{Abundance} %4.2
+\label{sec:9:4.2}
+In Teiwa\il{Teiwa} and Wersing\il{Wersing}, using the plural\is{plural (number) word} word can add the sense that the referent occurs in particular abundance.
+
+While the core semantics of Teiwa\il{Teiwa} \textit{non} is plural\is{plural (number) word} `more than one' or `several', it often has the connotation of `many, plenty', as in \REF{ex:9:73}. This is not true for all plural\is{plural (number) word} words in AP languages.
+
+
+\ea%bkm:Ref335061853
+\label{ex:9:73}
+\langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
+\ea
+\gll  in  non\\
+   it.thing  \textsc{pl} \\
+   \glt `plenty of things' 
+\ex
+\gll in  bun non \\
+it.thing bamboo \textsc{pl} \\
+\glt `plenty of pieces of bamboo'
+\ex 
+\gll wou  non\\
+\textsc{pl} mango\\
+\glt  `plenty of mangos'
+\z
+\z
+
+Especially when combining with nouns referring to utensils or consumables, the plurality\is{plural (number) word} of \textit{non} often has the connotation `plenty'. A similar reading is imposed when \textit{non} combines with small objects such as flowers or insects. As these come in sets of conventionally large numbers, the use of \textit{non} implies that their set is larger than expected. For instance, \textit{haliwai} \textit{non} in \REF{ex:9:74} refers to black ants as crawling into the sarong in unexpected numbers.
+
+Teiwa\ilt{Teiwa} (Klamer, Teiwa\ilt{Teiwa} corpus)
+
+\ea%74
+\label{ex:9:74}
+\gll ...a mis-an haliwai non daa nuan gom ma yiri  u si,... \\
+  \textsc{3sg} sit-\textsc{real} black.ant \textsc{pl} ascend cloth inside come crawl \textsc{dist} \textsc{sim}  \\
+\glt `...(while) he sat (unexpectedly many) black ants came crawling into his sarong,...'
+\z
+
+
+
+
+
+
+There are other specific readings that \textit{non} may get, varying according to the type of nominal referent and the pragmatics of the situation. For example, when \textit{non} combines with objects such as seeds, chairs, or rocks, it may imply that they occur in a set that has an unusual configuration which is more disorderly than the conventional one, such as when seeds are spilled across the floor rather than in a bag or a pile, or when chairs are scattered around the room instead of organised around a table. Finally, \textit{non} may also code that the set is non-homogeneous, e.g., \textit{war} \textit{non} may refer to `several rocks', but also to `rocks of various kinds and sizes'.
+
+Wersing\il{Wersing} also reflects this sense, when referring to inanimates\is{animacy}, especially where they have little individuation. In \REF{ex:9:75} the use of \textit{deing} to modify \textit{wor} `rock' and \textit{inipak} `sand' suggests that an abundance of these items are swept up by the wind. Without the plural\is{plural (number) word} word, there would be no indication of the amount of rock and sand moved by the wind.
+
+
+\ea%75
+\label{ex:9:75}
+\langinfo{Wersing}{}{Schapper, fieldnotes} \\
+\gll  Tumur lapong gai ge-tati=sa, wor anta inipak lang=mi dein=a ge-poing ge-dai medi aruku le-ge-ti.   \\
+  east.wind wind 3 3-stand=\textsc{conj} rock or sand beach=\textsc{loc}   \textsc{pl=art} \textsc{3-}hit 3-go.up take dry.land \textsc{appl-3-}lie \\
+\glt `When the east wind blows, a mass of rocks and sand from the beach is lifted up and deposited on dry land (beyond the beach).'
+\z
+
+
+
+
+
+
+
+
+
+
+Such senses of abundance have not been observed with the plural\is{plural (number) word} word in Western Pantar\il{Western Pantar} or Kamang\il{Kamang}.
+
+\subsection{Individuation} %4.3
+\label{sec:9:4.3}
+The use of a plural\is{plural (number) word} word often imposes an individuated reading of a referent, that is, that the referent is not an undifferentiated mass but rather is composed of an internally cohesive set of individuals of the same type. For instance, consider the contrast between the \textit{we} and the \textit{loku} plural\is{plural (number) word} in Abui\il{Abui} in (\ref{ex:9:76}a-b), repeated from example \REF{ex:9:53} in {\S} \ref{sec:9:3.4}. The associative plural\is{plural (number) word} \textit{we} gives a reading of a closely-knit group of individuals centred on one prominent individual, Benny. By contrast, the \textit{loku} plural\is{plural (number) word}, when it is used in the same context, imposes a referentially heterogeneous or individualised reading whereby multiple distinct people of the same name are being referred to. This difference is also characteristic of the Wersing\il{Wersing} plural\is{plural (number) word} words \textit{deing} `\textsc{pl}' and \textit{naing} `\textsc{assoc}'.
+
+
+\ea%76
+\label{ex:9:76}
+\langinfo{Abui}{}{Schapper, fieldnotes} \\
+\ea
+\gll Benny we ut yaa. \\
+   Benny \textsc{assoc} garden go.to \\
+\glt `Benny and his associates go to the garden.'
+\ex
+\gll Benny loku ut yaa.\\
+  Benny \textsc{pl} garden go.to  \\
+\glt  `Different individuals called Benny go to the garden.'
+\z
+\z
+
+
+
+
+
+There are two contexts in which we find a particular tendency of plural\is{plural (number) word} words in AP to impose individualised readings on the nouns they modify. These are discussed in the following subsections.
+
+\subsection{Individuation of mass to count}
+While they are typically used with count nouns, plural\is{plural (number) word} words may combine with mass nouns, provided these are recategorised. Combining a plural\is{plural (number) word} word with a mass noun indicates that it is interpreted as a count noun. For instance, Teiwa\il{Teiwa} \textit{yir} `water' is interpreted as a mass in (\ref{ex:9:77}a), but gets an individuated reading in (\ref{ex:9:77}b) when it combines with \textit{non}. In Kamang\il{Kamang} (\ref{ex:9:78}a) the noun \textit{ili} `water' combined with \textit{nung} is individuated just like when it combines with the numeral \textit{nok} `one' (\ref{ex:9:78}b).\footnote{As we saw in {\S} \ref{sec:9:4.1}, Western Pantar\il{Western Pantar} \textit{maru(ng)} does not have this individuating function due to the sense of comprehensiveness and completeness of the word.}
+
+
+\ea%77
+\label{ex:9:77}
+\langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
+\ea
+\gll  Na yir ma gelas {mia}{{\textglotstop}}{.} \\
+    \textsc{1sg} water \textsc{obl} glass fill \\
+\glt `I fill the glass with water.'
+\ex
+\gll Na yir non ma drom {mia}{{\textglotstop}}{.} \\
+   \textsc{1sg} water \textsc{pl} \textsc{obl} drum fill  \\
+\glt  `I fill the drum with several containers of water.'
+\z
+\z
+
+
+
+
+
+
+
+\ea%78
+\label{ex:9:78}
+\langinfo{Kamang}{}{Schapper, fieldnotes} \\
+\ea
+\gll\textit{ili} \textit{nung} \\
+   water \textsc{pl} \\
+ \glt `\{multiple individual\} waters' 
+ \ex 
+ \gll \textit{ili} \textit{nok}\\
+  water one\\
+\glt `a water'
+\z
+\z
+
+The plural\is{plural (number) word} words in Abui\il{Abui} and Wersing\il{Wersing} also occur together with mass nouns with readings of abundance, as discussed already in {\S} \ref{sec:9:4.2}. Western Pantar\il{Western Pantar} \textit{marung} cannot combine with mass nouns.
+
+\subsection{Clan or place name to members}
+When Abui\il{Abui} \textit{loku} is combined with the name of a clan or a place name, the expression refers to the members belonging to that clan \REF{ex:9:79} or issuing from that place \REF{ex:9:80}, a use that can be extended to the question word \textit{te} `where' \REF{ex:9:81}.
+
+
+\ea%79
+\label{ex:9:79}
+\langinfo{Abui}{}{\citealt[165]{Kratochvil2007}} \\
+\gll  {Afui Ata} loku \\
+   clan.name \textsc{pl}  \\
+\glt `people of the Afui Ata clan'
+\z
+
+
+
+
+
+
+
+\ea%80
+\label{ex:9:80}
+\langinfo{Abui}{}{\citealt[166]{Kratochvil2007}} \\
+\gll  Kafola  loku \\
+    Kabola  \textsc{pl} \\
+\glt `people from Kabola'
+\z
+
+
+
+
+
+
+
+\ea%81
+\label{ex:9:81}
+\langinfo{Abui}{}{Kratochvil, fieldnotes} \\
+\gll  Edo te loku, {naana?}\\
+   \textsc{2sg.foc} where \textsc{pl} older.sibling \\
+\glt `Where are you from, bro?'
+\z
+
+
+
+
+
+
+A similar use is attested for Teiwa\il{Teiwa} \textit{non} when it is used to make an ethnonym from a clan name \REF{ex:9:82}. However, Teiwa\il{Teiwa} \textit{non} cannot combine with place names.
+
+
+\ea%82
+\label{ex:9:82}
+\langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
+\gll  Teiwa non ga{{\textglotstop}}{an} {ita}{{\textglotstop}}{a} ma gi? \\
+   clan.name \textsc{pl} that.\textsc{knwn} where \textsc{obl} go  \\
+\glt `Where did that group of Teiwa [people] go to?'
+\z
+
+
+
+
+
+
+This function of the plural\is{plural (number) word} word is not known to occur in Western Pantar\il{Western Pantar}, Kamang\il{Kamang} or Wersing\il{Wersing}. In Kamang\il{Kamang} this kind of plurality\is{plural (number) word} is encoded by the combination of a place name with a group plural\is{plural (number) word} pronoun\is{pronoun}, as in \REF{ex:9:83}.
+
+
+\ea%83
+\label{ex:9:83}
+\langinfo{Kamang}{}{Schapper, fieldnotes} \\
+\gll  Ga wo-suk-si=bo gafaa Takailubui geifu {mauu-h=a},...\\
+   3.\textsc{agt} \textsc{3.loc-}think\textsc{-ipfv=lnk} 3.\textsc{alone} Takailubui 3.\textsc{grp} war-\textsc{purp}=\textsc{spec} \\
+\glt `They think that if they alone make war against the people of Takailubui,...'
+\z
+
+
+
+
+
+
+\subsection{Partitive} %4.4
+\label{sec:9:4.4}
+Plural\is{plural (number) word} words also occur in contexts of partitive plural\is{plural (number) word} reference. This means that the plural\is{plural (number) word} can be used to pick out a part or group of referents from a larger set.
+
+The Kamang\il{Kamang} plural\is{plural (number) word} word \textit{nung} can be used for partitive plural\is{plural (number) word} reference, often with contrast between different subsets of referents. For instance, in \REF{ex:9:84} \textit{nung} is used twice to divide the set of citruses into the multitude that are sweet and the multitude that are sour. Similarly, in \REF{ex:9:86} \textit{nung} is used twice to contrast the sub-set of people who went to Molpui with the sub-set that went to the nearby village.
+
+
+\ea%84
+\label{ex:9:84}
+\langinfo{Kamang}{}{\citealt[40]{Stokhof1982}} \\
+\gll  Muut=ak nung iduka, ah=a nung alesei. \\
+   citrus=\textsc{pl} \textsc{pl} sweet \textsc{cnct=spec} \textsc{pl} sour  \\
+\glt `Some of these citrus fruits, others are sour.'
+\z
+
+
+
+
+
+
+
+\ea%85
+\label{ex:9:85}
+\langinfo{Kamang}{}{\citealt[57]{Stokhof1978}} \\
+\gll  Nung gera ye-iyaa ai Molpui wo-oi ye-te,  nung gera yeeisol ye-iyaa ai  mane wo-oi ye-wete. \\
+    \textsc{pl} \textsc{3.contr} \textsc{3.gen}-return take M. 3.\textsc{loc}-to \textsc{3.gen}-go.up  \textsc{pl} \textsc{3.contr} straight \textsc{3.gen}-return take  village 3.\textsc{loc}-towards \textsc{3.gen}-go.up.across \\
+\glt `Some of them went home going up to Molpui, others went straight home going up across to the village.'
+\z
+
+
+
+
+The Wersing\il{Wersing} plural\is{plural (number) word} word can be used also in partitive plural\is{plural (number) word} reference, but does not typically make explicit contrasts between subsets using the plural\is{plural (number) word} word over multiple NPs. For instance, in \REF{ex:9:87} \textit{deing} refers to a subset of candle nuts that have not yet been crushed, the other set is not explicitly mentioned but must simply be inferred from the discourse context. In \REF{ex:9:88}, the other member of the whole (namely the speaker himself) is singular and so is not marked with the plural\is{plural (number) word} word, but he is contrasted with the set of others who are teaching other languages. This second plural\is{plural (number) word} set is accordingly marked with \textit{deing}.
+
+
+\ea%86
+\label{ex:9:86}
+\langinfo{Wersing}{}{Schapper, fieldnotes} \\
+\gll Deing de naung. \\
+ \textsc{pl} \textsc{ipfv} \textsc{neg}   \\
+\glt `Some are still not done.'
+\z
+
+
+
+
+
+
+
+\ea%87
+\label{ex:9:87}
+\langinfo{Wersing}{}{Schapper, fieldnotes} \\
+\gll  Naida Abui\ilt{Abui} ge-lomu ong ge-tenara,  pang=sa te-nong aumang dein=a  Pantara ge-lomu ong ge-tenara war Sawila ge-lomu. \\
+  \textsc{1pl.excl.top} Abui\ilt{Abui} 3-language use 3-teach  \textsc{dem=conj} \textsc{1pl.incl}-friend other \textsc{pl=art}   Pantar 3-language use 3-teach and Sawila\ilt{Sawila} 3-language  \\
+\glt `I will teach them Abui\ilt{Abui} and other friends of ours  will teach them Pantar and Sawila\ilt{Sawila}.'
+\z
+
+Such a contrastive use of the plural\is{plural (number) word} word has not been attested in Western Pantar\il{Western Pantar} and Abui\il{Abui}, but may be a sense present in Teiwa\il{Teiwa} \textit{non}, see \REF{ex:9:22} and \REF{ex:9:23} ({\S} \ref{sec:9:3.2}).
+
+\subsection{Vocative} %4.5
+\label{sec:9:4.5}
+A term of address, relation or kin can be also marked with a plural\is{plural (number) word} to express a plural\is{plural (number) word} vocative. Western Pantar\il{Western Pantar} \textit{marung} has a vocative use in \REF{ex:9:89}. Teiwa\il{Teiwa} \textit{non} can be used in vocatives with kin\is{kinship} terms, for instance, when starting a speech \REF{ex:9:90} or in a hortative \REF{ex:9:91}.
+
+
+\ea%88
+\label{ex:9:88}
+\langinfo{Western Pantar}{}{Holton, Western Pantar corpus} \\
+\gll  Wenang  marung hing yadda mising, nang {na-ti}{{\textglotstop}}{ang.} \\
+   Mr  \textsc{pl} \textsc{pl} \textsc{not.yet} sit I \textsc{1sg}-sleep  \\
+\glt `You all keep sitting, I'm going to sleep.'
+\z
+
+
+
+
+
+
+
+\ea%89
+\label{ex:9:89}
+\langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
+\gll Na-{rat qai} non oh!  \\
+  1\textsc{sg}.\textsc{poss\ist{possession}}-grandchild \textsc{pl} \textsc{excl}   \\
+\glt `Oh my grandchildren!'
+\z
+
+
+
+
+
+
+
+\ea%90
+\label{ex:9:90}
+\langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
+\gll  Na-{gas qai} non, tup pi gi ina. \\
+   \textsc{1sg-}female.younger.sibling \textsc{pl} get.up \textsc{1pl.incl} go eat  \\
+\glt `My (female) friends, let's get up to eat.'
+\z
+
+
+
+
+
+
+Abui\il{Abui} \textit{loku} also can be present in vocative contexts with relational nouns \REF{ex:9:91} or kin terms \REF{ex:9:92}.
+
+
+\ea%91
+\label{ex:9:91}
+\langinfo{Abui}{}{Schapper, fieldnotes} \\
+\gll  Ne-feela loku, yaa fat ho-aneek.\\
+   \textsc{1sg.gen-}friend \textsc{pl} go corn \textsc{3.loc}-weed \\
+\glt `My friends, go weed the corn.'
+\z
+
+
+
+
+
+
+
+\ea%92
+\label{ex:9:92}
+\langinfo{Abui}{}{Schapper, fieldnotes} \\
+\gll  Ne-fing loku, me! \\
+    \textsc{1sg.gen-}elder.sibling \textsc{pl} come \\
+\glt `My siblings, come on already.'
+\z
+
+
+
+
+
+
+There is no reason to expect that plural\is{plural (number) word} words should not be usable in vocatives. Yet, the plural\is{plural (number) word} word is not found in Kamang\il{Kamang} or Wersing\il{Wersing} vocatives. In Kamang\il{Kamang}, there are a range of special vocatives for calling (a) child(ren) or (b) friend(s). A Kamang\il{Kamang} vocative suffix, when used, means that a noun cannot be further modified, for instance, with the plural\is{plural (number) word} word.
+
+\subsection{Summary}  %4.6
+\label{sec:9:4.6}
+Plural\is{plural (number) word} words code more than plurality\is{plural (number) word}; they have additional connotations and usages which vary across the languages as summarised in Table \ref{tab:9:3}.
+
+\begin{table}[h]
+\centering 
+\begin{tabular}{p{2.7cm}ccccc}
+\mytopline
+ & {Teiwa\ilt{Teiwa}}  & {Abui\ilt{Abui}}  & {Wersing\ilt{Wersing}} & {W Pantar\ilt{Western Pantar}} & {Kamang\ilt{Kamang}} \\
+\midrule
+Completeness  &no &yes &yes \dag &yes &no\\
+Vocative &yes &yes &no &yes &no\\
+Individuation: mass \textgreater count &yes &yes &no &no &yes\\
+Individuation: name \textgreater members  &yes &yes &no &no &no\\
+Abundance &yes &no &yes \ddag &no &no\\
+Partitive &no &no &yes &no &yes\\
+
+\mybottomline
+\end{tabular}
+
+{\dag} On topic pronouns\is{pronoun} only. \ddag With inanimates\is{animacy} only.
+\caption{Semantics of Alor-Pantar plural\ist{plural (number) word} words}
+\label{tab:9:3}
+\end{table}
+
+\section{Typological perspectives on plural\ist{plural (number) word} words in AP languages} %5
+\label{sec:9:5}
+We saw in {\S} \ref{sec:9:1} that a good deal of what was known of the typology of plural\is{plural (number) word} words is due to Matthew Dryer's work, in particular \citet{Dryer1989,Dryer2011} and to a lesser extent \citet{Dryer2007}. \citet{Dryer2011} documents the use of plural\is{plural (number) word} words in the coding of nominal plurality\is{plural (number) word}. In doing so, Dryer wanted to prove the existence of a phenomenon that was not generally recognised, and his definitions reflect that. As mentioned in {\S} \ref{sec:9:1}, for Dryer, to be a plural\is{plural (number) word} word an item must be the prime indicator of plurality\is{plural (number) word}, and in the pure case they have this as their unique function. Based on this constrained characterisation, Dryer shows that plural\is{plural (number) word} words nevertheless show considerable diversity.
+
+ First, while being by definition non-affixal, they vary according to their degree of phonological independence. Second, they show great variety in the word class to which they belong; they may be integrated (to a greater or lesser degree) into another class, or form a unique class. The examples from the Alor-Pantar languages show vividly the variety of plural\is{plural (number) word} words in this regard: in all of them, plural\is{plural (number) word} words form a unique class on their own, which is however integrated into another class - but which class is variable across the languages. For instance, in Teiwa\il{Teiwa}, the plural\is{plural (number) word} word is part of the noun phrase and behaves largely like a nominal quantifier, while in Kamang\il{Kamang}, rather than actually being part of the noun phrase, the plural\is{plural (number) word} word distributes as a noun phrase itself.
+
+ Third, plural\is{plural (number) word} words may have different values. In this respect they are perhaps poorly named. Dryer (1989: 869) suggests that ``grammatical number words'' would be a better term, since he gives instances of singular words and dual words. This is an area where Alor-Pantar languages indicate how the typology can be taken forward. When we look at the full range of ``ordinary'' number values, those associated with affixal morphology, we distinguish `determinate' and `indeterminate' number values \citep[39-41]{Corbett2000}. Determinate number values are those where only one form is appropriate, given the speaker's knowledge of the real world. If a language has an obligatory dual, for instance, this would be a determinate number value since to refer to two distinct entities this would be the required choice. However, values such as paucal or greater plural\is{plural (number) word} are not like this; there is an additional element to the choice. We find this same distinction in the Alor-Pantar number words: for instance, Teiwa\il{Teiwa} \textit{non
+}signals not just plurality\is{plural (number) word} but has the connotation of abundance (like the greater plural\is{plural (number) word}).
+
+ Fourth, a key part of the typology of number systems is the items to which the values can apply. Two systems may be alike in their values (say both have singular and plural\is{plural (number) word}) but may differ dramatically in that in one language almost all nominals have singular and plural\is{plural (number) word} available, while in the other plurality\is{plural (number) word} may be restricted to a small (top) segment of the Animacy\is{animacy} Hierarchy. The data from Alor-Pantar languages are important in showing how this type of differentiation applies also with number words. With affixal number, we find instances of recategorisation; these are found particularly where a mass noun is recategorised as a count noun, and then has singular and plural\is{plural (number) word} available. We see this equally in Alor-Pantar languages such as Kamang\il{Kamang} where \textit{nung} is used with \textit{ili} `water', when recategorised as a count noun.
+
+ Furthermore, number words are not restricted to appearing with nouns. In Abui\il{Abui}, plural\is{plural (number) word} \textit{loku} can occur with a third person pronoun\is{pronoun}; \textit{hel} is the third singular pronoun\is{pronoun}, which can be pluralised\is{plural (number) word} by \textit{loku}. While this is of great interest, other languages go further. A fine example is Miskitu\il{Miskitu}, a Misumalpan language of Nicaragua and Honduras. Number is marked by number words (\citealt{Greenms} Andrew Koontz-Garboden, p.c.), singular (\textit{kum}) and plural\is{plural (number) word} (\textit{nani}). Pronouns\is{pronoun} take the plural\is{plural (number) word} word, rather like nouns:
+
+
+\ea%113
+\label{ex:9:113}
+\langinfo{Miskitu}{}{\citealt{Greenms}, Andrew Koontz-Garboden, p.c.} \\
+\gll   Yang nani {kauhw-ri.}\\
+  1 \textsc{pl} fall-1.\textsc{pst.indf}  \\
+\glt `We (exclusive) fell.'
+\z
+
+
+
+
+
+
+This example, like all those cited above from Alor-Pantar languages, helps to extend the typology of number words; as we gather a fuller picture, the typology of number words becomes increasingly like that of affixal number.
+
+
+\section{Conclusions} %6
+\label{sec:9:6}
+Proto-Alor-Pantar\il{proto-Alor-Pantar} had a plural\is{plural (number) word} word of the shape *{non}. Some daughter languages inherited this form, others innovated\is{innovation} one or more plural\is{plural (number) word} words. In none of the five AP languages investigated here do restrictions apply on the type of referents that can be pluralised\is{plural (number) word} with the plural\is{plural (number) word} word, and all of them prohibit a combination of the plural\is{plural (number) word} word and a numeral in a single constituent.
+
+ The syntax of the plural\is{plural (number) word} word varies. In each language investigated here the word constitutes a class of its own. In Western Pantar\il{Western Pantar}, the plural\is{plural (number) word} word shares much with adjectival quantifiers and numerical expressions, in Teiwa\il{Teiwa} it patterns mostly with non-numeral quantifies, and in Kamang\il{Kamang}, Abui\il{Abui} and Wersing\il{Wersing} plural\is{plural (number) word} words function very much like nouns. The plural\is{plural (number) word} words in the five languages behave differently, so that it is not possible to establish a category of plural\is{plural (number) word} word that is cross-linguistically uniform.
+
+ The plural\is{plural (number) word} words all code plurality\is{plural (number) word}, but in all five languages they have additional connotations, such as expressing a sense of completeness or abundance. A plural\is{plural (number) word} word may also function to impose an individuated reading of a referent, or to pick out a part or group of referents from a larger set. Plural\is{plural (number) word} words are used to express plural\is{plural (number) word} vocatives. None of the additional senses and functions of the plural\is{plural (number) word} words is shared across all of the five languages.
+
+ What our study shows is that, even amongst five typologically similar and genetically closely related languages whose ancestor had a plural\is{plural (number) word} word, the original plural\is{plural (number) word} word has drifted in different syntactic directions and developed additional semantic dimensions, showing a degree of variation that is higher than any other inherited wo
+
+
+\section*{Acknowledgments}
+We are grateful to the following colleagues for answering our questions and gracefully sharing their data: Gary Holton for Western Pantar\il{Western Pantar}, Franti\v{s}ek Kratochv\'il and Benny Delpada for Abui\il{Abui}, and Louise Baird for Klon\il{Klon}. We are also very grateful to Mary Darlymple and Martin Haspelmath for their comments on an earlier version of this paper.
+
 
 
 \section*{Abbreviations}
+
+
+\begin{tabular}{p{6cm}p{6cm}}
 \begin{tabular}{>{\sc}ll}
 = & clitic boundary\\
-\~{} & reduplication\is{reduplication}\\
+{\Tilde} & reduplication\is{reduplication}\\
 1 & 1st person\\
 2 & 2nd person\\
 3 & 3rd person\\
-alien & alienable\is{alienability}\\
+act & actor\\
+agt & agent\\
+all & all\\
 AP & Alor-Pantar\\
-appl & applicative \\
-caus & causative\\
+appl & applicative\\
+appos & apposition\\
+art & article\\
+assoc & associative\\
+attr & attribute slot\\
+aux & auxiliary\\
 clf & classifier\is{numeral classifier}\\
-compl & completive\\
-conj & conjunction\\
+cnct & connector\\
+conj & conjunction\is{conjunction}\\
 cont & continuous\\
+contr & contrastive focus\\
 def & definite\\
-dur & durative\\
-ind & Indonesian\il{Indonesian}\\
+dem & demonstrative\is{demonstrative}\\
+det & determiner\\
+dist & distal\\
+emph & emphasis\\
+excl & exclusive\\
+exclam & exclamation\\
+\end{tabular}
+&
+\begin{tabular}{>{\sc}ll}
+foc & focus\\
+gen & genitive\\
+incl & inclusive\\
+indf & indefinite\\
+ipfv & imperfective\\
+knwn & known\\
+lnk & linker\\
 loc & locative\\
 N & noun\\
 NP & noun phrase\\
-num & numeral\\
-ord & ordinal\is{ordinal numerals}\\
-pat & patient\\
-pl & plural\\
-poss & possessive\is{possession}\\
-pred & predicate\\
+Num(P) & numeral (phrase)\\
+obj & object\\
+obl & oblique\\
+\rm pAP & proto-Alor-Pantar\il{proto-Alor-Pantar}\\
+pfv & perfective\\
+pl & plural\is{plural (number) word}\\
+poss & possessive\is{possession}\\ 
+pst & past\\
+purp & purposive\\
+rc & relative clause\\
 rdp & reduplication\is{reduplication}\\
+real & realis\\
+sben & self-benefactive\\
 sg & singular\\
-sim & simultaneous\\
 spec & specific\\
 top & topic\\
-V & verb\\
+W \rm (Pantar) & Western Pantar\il{Western Pantar} \\
 \end{tabular}
+\end{tabular}
+
+
+
+
+
+
+
 
 
 
