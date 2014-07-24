@@ -43,6 +43,3 @@ clean:
 realclean: clean
 	rm -f *.dvi *.ps *.pdf *.bbl
 
-
-
-
