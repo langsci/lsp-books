@@ -7,7 +7,7 @@
 \section{Introduction}\label{sec:9:1}%1
  
 \hypertarget{Toc376962648}{}
-The majority of the world's languages express nominal plurality\is{plural (number) word} by affixation. After affixation, the use of independent plural\is{plural (number) word} words is the most widespread strategy: it is used in 16\% of Dryer's (2011) sample of 1066 languages.\nocite{Dryer2011} Yet, `plural\is{plural (number) word} words' have received remarkably little attention since their preliminary treatment in \citet{Dryer1989}. In this chapter, we build on  \citet{SchapperEtAl2011} in furthering the investigation of plural\is{plural (number) word} words using data from the Alor-Pantar (AP) languages, which are of great typological interest.
+The majority of the world's languages express nominal plurality\is{plural (number) word} by affixation. After affixation, the use of independent plural\is{plural (number) word} words is the most widespread strategy: it is used in 16\% of Dryer's (2011) sample of 1066 languages.\nocite{Dryer2011} Yet, `plural\is{plural (number) word} words' have received remarkably little attention since their preliminary treatment in \citet{Dryer1989}. In this chapter, we build on  \citet{SchapperEtAl2011plural} in furthering the investigation of plural\is{plural (number) word} words using data from the Alor-Pantar (AP) languages, which are of great typological interest.
 
 A plural\is{plural (number) word} word is ``a morpheme whose meaning and function is similar to that of plural\is{plural (number) word} affixes in other languages, but which is a separate word'' (\citealt[865]{Dryer1989},\citealt[166]{Dryer2007}). Plural\is{plural (number) word} words are the most common example of a more general category, that of grammatical number words - a number of languages employ singular or dual words as well as plural\is{plural (number) word} words. For Dryer, to be a plural\is{plural (number) word} word a lexeme must be the prime indicator of plurality\is{plural (number) word}: ``I do not treat a word as a plural\is{plural (number) word} word if it co-occurs with an inflectional indication of plural\is{plural (number) word} on the noun'' (1989: 867). Dryer further makes a distinction between `pure' number words and other kinds of number expressions: ``We can [...] distinguish `pure' plural\is{plural (number) word} words, which only code plurality\is{plural (number) word}, from articles that code number in addition to other semantic or grammatical features of the noun phrase, in which these articles are the sole indicator of number in noun phrases''. Thus the bar is set quite high: plural\is{plural (number) word} words are the prime indicator of plurality\is{plural (number) word}, and in the
 pure case they have this as their unique function.
@@ -99,8 +99,8 @@ While plural\is{plural (number) word} words only occur with third person referen
 \ea%4
 \label{ex:9:4}
 \langinfo{Wersing}{}{Schapper and Hendery, Wersing corpus} \\
-\gll Ne-karbau wari ne-wai deing na yeta le-gadar.{\upshapefootnotemark}\\
-  \textsc{1sg}\textsc{-}buffalo and \textsc{1sg-}goat \textsc{pl} \textsc{foc} \textsc{2pl.agt} \textsc{appl-}guard\\
+\gll Ne-karbau wari ne-wai deing=na yeta le-gadar.{\upshapefootnotemark}\\
+  \textsc{1sg}\textsc{-}buffalo and \textsc{1sg-}goat \textsc{pl}=\textsc{foc} \textsc{2pl.agt} \textsc{appl-}guard\\
 \glt `You watch out for my buffalos and my goats.' 
 \z
 
@@ -1055,7 +1055,7 @@ used to signal the plurality\is{plural (number) word} of the referents of the pr
 \label{ex:9:58}
 \langinfo{Wersing}{}{Schapper and Hendery, Wersing corpus} \\
 \gll  Tanaing dra bo! \\
-   \textsc{1pl.incl.all} \textsc{pl}   \textsc{emph}  \\
+   \textsc{1pl.incl.all} sing   \textsc{emph}  \\
 \glt `Let's sing.'
 \z
 

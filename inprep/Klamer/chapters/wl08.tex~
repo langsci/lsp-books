@@ -320,7 +320,7 @@ In some AP languages distributives\is{distributive numerals} may float outside t
 \ea
 \label{ex:8:1235}
 {\upshape Adang}\\
- \gll  Sunui{\textltailn}   papan   du   teweng al-alu  [all\'u]\\
+ \gll  Sunui{\textltailn}   papan   du   teweng al{\Tilde}alu  [all\'u]\\
    3\textsc{pl}    board  \textsc{def}   carry   \textsc{rdp}{\Tilde}two \\
  \glt `They carry the board two by two (i.e., two at a time)'
 \z
@@ -567,8 +567,8 @@ Across Alor-Pantar, addition takes the shape of imperative sentences involving m
 \ea%bkm:Ref342663723
 \label{bkm:Ref342663723}
 {\upshape Kamang}\\
-\gll   Su  me  su  wo-tte  an-ing  bo  taama\\  
-   three   take  three  3.\textsc{loc}{}-add  thus-\textsc{set}   \textsc{conj}  six  \\
+\gll   Su  me  su  wo-tte  an-ing=bo  taama\\  
+   three   take  three  3.\textsc{loc}{}-add  thus-\textsc{set}=\textsc{conj}  six  \\
 \glt `Add three to three makes six.'  
 \z
 
@@ -614,8 +614,8 @@ Just like addition, subtraction is also expressed in imperative sentences. Synta
 \ea
 \label{ex:8:1242}
 {\upshape Abui}\\
- \gll Yeting  nu  ayoku-ng  ha-bel  maiye  he-pot  sua\\
-  five  \textsc{spec}   two-\textsc{see } 3.\textsc{pat}{}-subtract  if  \textsc{3.alien\is{alienability}}{}-remainder  three \\
+ \gll Yeting  nu  ayoku=ng  ha-bel  maiye  he-pot  sua\\
+  five  \textsc{spec}   two=\textsc{loc} 3.\textsc{pat}{}-subtract  if  \textsc{3.alien\is{alienability}}{}-remainder  three \\
  \glt `If two is subtracted from five, the remainder is three.' 
 \z 
   
@@ -633,8 +633,8 @@ Just like addition, subtraction is also expressed in imperative sentences. Synta
 \label{bkm:Ref358115306}
   
 {\upshape Kamang}\\
-\gll  Wesing  ok  wo-met  an-ing  bo  su.   \\  
-    five  two   3.\textsc{loc-}take  thus\textsc{{}-set}  \textsc{conj} three   \\
+\gll  Wesing  ok  wo-met  an-ing=bo  su.   \\  
+    five  two   3.\textsc{loc-}take  thus\textsc{{}-set}=\textsc{conj} three   \\
 \glt `Take two from five thus there are three.' 
 \z
 
@@ -744,8 +744,8 @@ Abui\il{Abui} divisions are expressed as imperative sentences with regular seria
 \ea%bkm:Ref358116296
 \label{bkm:Ref358116296}
 {\upshape Abui}\\
-\gll  Kar  nuku  nu  mi  ayoku  he-yeng  maiye  yek-yekna \\  
-    ten  one  \textsc{spec}  take  two  3.\textsc{loc-}divide  if  \textsc{rdp-}group.of.five \\
+\gll  Kar  nuku  nu  mi  ayoku  he-yeng  maiye  yek{\Tilde}yekna \\  
+    ten  one  \textsc{spec}  take  two  3.\textsc{loc-}divide  if  \textsc{rdp}{\Tilde}group.of.five \\
 \glt  `If a ten is divided into two (you get) a group of five.'
 \z
 
@@ -759,8 +759,8 @@ Abui\il{Abui} divisions are expressed as imperative sentences with regular seria
 \ea
 \label{ex:8:1247}
 {\upshape Kamang}\\
- \gll Ataak  nok=a  wo-ok  an-ing  bo  wesing \\
-  ten  one=\textsc{spec}  \textsc{3.loc}-two  thus-set  \textsc{conj}  five \\
+ \gll Ataak  nok=a  wo-ok  an-ing=bo  wesing \\
+  ten  one=\textsc{spec}  \textsc{3.loc}-two  thus-set=\textsc{conj}  five \\
  \glt`Ten divided into two makes five.'
 \z
 
@@ -1004,7 +1004,7 @@ The data sets on which this paper is based were collected from 2010-2012 by the 
 \begin{table}\centering
 \caption{Kaera\ilt{Kaera} ordinals\ist{ordinal numeral(s)} with \textit{ma} `house' and \textit{ui} `person'}
 \label{tab:8:7}
-\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lllll}
+\begin{tabular*}{\textwidth}{lllll}
 \mytopline
 1\textsuperscript{st} & \textit{ma/ui} & \textit{(ge-)} &  & \textit{tuning } (\textit{tuni} `gate', \textit{tuning} `placenta')\\
 2\textsuperscript{nd} & \textit{ma/ui} & \textit{ge-} & \textit{mi} & \textit{(a)raxo}\\
@@ -1025,7 +1025,7 @@ The data sets on which this paper is based were collected from 2010-2012 by the 
 \begin{table}\centering
 \caption{Adang\ilt{Adang} ordinals\ist{ordinal numeral(s)} with \textit{bang} `house' and \textit{nami} `person'}
 \label{tab:8:8}
-\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llllll}
+\begin{tabular*}{\textwidth}{llllll}
 \mytopline
 1\textsuperscript{st} & \textit{bang/nami} & \textit{o-} & \textit{mi-} & \textit{nu} & \textit{mi}\\
 2\textsuperscript{nd} & \textit{bang/nami} & \textit{o-} & \textit{mi-} & \textit{alu} & \textit{mi}\\
@@ -1046,7 +1046,7 @@ The data sets on which this paper is based were collected from 2010-2012 by the 
 \begin{table}\centering
 \caption{Abui\ilt{Abui} ordinals\ist{ordinal numeral(s)} with \textit{fala} `house' and \textit{ama} `person'}
 \label{tab:8:9}
-\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll}
+\begin{tabular*}{\textwidth}{llll}
 \mytopline
 1\textsuperscript{st} & \textit{fala/ama} & \textit{he-} & \textit{teitu}\\
  & \textit{fala/ama} & \textit{he-} & \textit{nuku} \\
@@ -1067,7 +1067,7 @@ The data sets on which this paper is based were collected from 2010-2012 by the 
 \begin{table}\centering
 \caption{Kamang\ilt{Kamang} ordinals\ist{ordinal numeral(s)} for \textit{kadii} `house' and \textit{alma} `person'}
 \label{tab:8:10}
-\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll}
+\begin{tabular*}{\textwidth}{llll}
 \mytopline
 1\textsuperscript{st} & \textit{kadii / alma} & \textit{ye-} & \textit{nok}\\
 2\textsuperscript{nd} & \textit{kadii / alma} & \textit{ye-} & \textit{ok}\\
@@ -1087,7 +1087,7 @@ The data sets on which this paper is based were collected from 2010-2012 by the 
 \begin{table}\centering
 \caption{Sawila\ilt{Sawila} ordinals\ist{ordinal numeral(s)} with \textit{araasing} `house' and \textit{imyalara} `man' }
 \label{tab:8:11}
-\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll}
+\begin{tabular*}{\textwidth}{llll}
 \mytopline
 1\textsuperscript{st} & \textit{araasing/imyalara} & \textit{wii-} & \textit{suna}\\
 2\textsuperscript{nd} & \textit{araasing/imyalara} & \textit{wii-} & \textit{yaku}\\
@@ -1107,7 +1107,7 @@ The data sets on which this paper is based were collected from 2010-2012 by the 
 \begin{table}\centering
 \caption{Distributive numerals\ist{distributive numerals} in Pantar-West Alor languages}
 \label{tab:8:12}
-\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}llll} 
+\begin{tabular*}{\textwidth}{llll} 
 \mytopline
 & Western Pantar\ilt{Western Pantar} & Teiwa\ilt{Teiwa} & Adang-Lawahing\ilt{Adang}\\
 \midrule
@@ -1134,7 +1134,7 @@ The data sets on which this paper is based were collected from 2010-2012 by the 
 \centering
 \caption{Distributive numerals\ist{distributive numerals} in Central-East Alor languages}
 \label{tab:8:13}
-\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lll}
+\begin{tabular*}{\textwidth}{lll}
 
 \mytopline
 & Abui\ilt{Abui} & Kamang\ilt{Kamang}\\
