@@ -71,6 +71,7 @@
 
 
 \newcommand{\trs}[2]{{\em #1} `#2'}
+\newcommand{\histtrs}[2]{{#1} `#2'}
 \newcommand{\citew}{\citealt}
 
 \newcounter{tablenote}[chapter]
@@ -105,5 +106,10 @@
 \renewcommand{\rm}{\upshape}
 \renewcommand{\sc}{\scshape}
 \renewcommand{\Tilde}{∼}    
-    
+     
+\newcommand{\upshapefootnotemark}{{\upshape\footnotemark}}
+\newcommand{\ob}{{\upshape [}}
+\newcommand{\cb}{{\upshape ]}}
 
+\renewcommand{\SS}{\S}
+\newcommand{\tabtrs}[3]{\parbox{#1}{#2\\[-.3em]\upshape#3}}
