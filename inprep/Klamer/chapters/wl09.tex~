@@ -32,7 +32,7 @@ Teiwa\ilt{Teiwa} &\textit{non} & &\citet{Klamer2010grammar}, Teiwa\ilt{Teiwa} co
 Adang\ilt{Adang} &\textit{nun} & &\citet{RobinsonEtAltaadang}\\
 Klon\ilt{Klon} &\textit{(o)non} &\textit{maang} &\citet{Baird2008}, Klon\ilt{Klon} corpus, p.c.\\
 Abui\ilt{Abui} & &\textit{loku,}\textit{we} &Schapper fieldnotes; \citet{Kratochvil2007}, Abui\ilt{Abui} corpus\\
-Kamang\ilt{Kamang} &\textit{nung} & &Schapper Kamang\ilt{Kamang} corpus, \citeyear{Schapperta}, fieldnotes;  \citet{SchapperEtAl2011};  \citet{Stokhof1978,Stokhof1982}\\
+Kamang\ilt{Kamang} &\textit{nung} & &Schapper Kamang\ilt{Kamang} corpus, \citeyear{Schapperta}, fieldnotes;  \citet{SchapperEtAl2011kamus};  \citet{Stokhof1978,Stokhof1982}\\
 Wersing\ilt{Wersing} & &\textit{deing,}\textit{naing} & \citet{SchapperEtAltawersing}, fieldnotes,  Wersing\ilt{Wersing} corpus; \citet{Malikosand}\\
 Kula\ilt{Kula} & &\textit{du(a),}\textit{araman} &Nicholas Williams p.c.\\
 Sawila\ilt{Sawila} & &\textit{do,}\textit{maarang} &Franti\v{s}ek Kratochv\'il p.c.\\
@@ -1111,8 +1111,8 @@ Wersing\il{Wersing} \textit{d}\textit{eing} can nevertheless mark plurality\is{p
 \ea%62
 \label{ex:9:62}
 \langinfo{Wersing}{}{Schapper  and Hendery, Wersing corpus} \\
-\gll  Nyai deing o=min-a. \\
-  \textsc{1pl.excl.top} \textsc{pl}   \textsc{here}=be.at-\textsc{real}   \\
+\gll  Nyai deing o-min-a. \\
+  \textsc{1pl.excl.top} \textsc{pl}   \textsc{here}-be.at-\textsc{real}   \\
 \glt `We are all here.'
 \z
 
@@ -1253,7 +1253,7 @@ The connotation of comprehensiveness is also found in Abui\il{Abui} \textit{loku
 \label{ex:9:69}
 \langinfo{Abui}{}{Kratochv\'il, Abui corpus} \\
 \gll  ... {kuya} do sila nahang oro  he-ya he-puyung loku do he-afai. \\
-   ...  bird \textsc{dem} much everywhere \textsc{across}   \textsc{3.gen}-mother \textsc{3.gen-}saliva \textsc{pl} \textsc{dem} \textsc{3.gen-}swarm \\
+   ...  bird \textsc{dem} much everywhere \textsc{level}   \textsc{3.gen}-mother \textsc{3.gen-}saliva \textsc{pl} \textsc{dem} \textsc{3.gen-}swarm \\
 \glt `Those birds were everywhere there, swarming over the saliva of his mother.'
 \z
 
@@ -1311,8 +1311,8 @@ In Wersing\il{Wersing}, the sense of comprehensiveness is found when the plural\
 \ea%72
 \label{ex:9:72}
 \langinfo{Wersing}{}{Schapper, fieldnotes} \\
-\gll Tai deing o min-a.  \\
-   \textsc{1pl.incl.top} \textsc{pl}   \textsc{here} be.at-\textsc{real}  \\
+\gll Tai deing o-min-a.  \\
+   \textsc{1pl.incl.top} \textsc{pl}   \textsc{here}-be.at-\textsc{real}  \\
 \glt `We are all here.'
 \z
 

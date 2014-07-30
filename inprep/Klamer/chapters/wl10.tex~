@@ -11,7 +11,7 @@
 
 In order to illustrate the range of possibilities, we concentrate on three languages: Teiwa\il{Teiwa}, Kamang\il{Kamang} and Abui\il{Abui}. For a map, see the introduction to this volume. These three languages have been chosen as they constitute three representative types in the micro-typology of the Alor-Pantar languages. 
 
-Our main source of data are the respective corpora of Teiwa\il{Teiwa} (Klamer, Teiwa corpus), Kamang\il{Kamang} (Schapper, Kamang corpus) and Abui\il{Abui} (Kratochv\'il, Abui corpus). In additon we use the following sources: Teiwa (Pantar; \citet{Klamer2010grammar}; Klamer, fieldnotes; Robinson, fieldnotes), Kamang (Eastern Alor, \citet{SchapperEtAl2011}; Schapper, fieldnotes) and Abui (Central-Western Alor; \citet{Kratochvil2007,Kratochvil2011transitivity}; Kratochv\'il, fieldnotes; Schapper, fieldnotes).
+Our main source of data are the respective corpora of Teiwa\il{Teiwa} (Klamer, Teiwa corpus), Kamang\il{Kamang} (Schapper, Kamang corpus) and Abui\il{Abui} (Kratochv\'il, Abui corpus). In additon we use the following sources: Teiwa (Pantar; \citet{Klamer2010grammar}; Klamer, fieldnotes; Robinson, fieldnotes), Kamang (Eastern Alor, \citet{SchapperEtAl2011kamus}; Schapper, fieldnotes) and Abui (Central-Western Alor; \citet{Kratochvil2007,Kratochvil2011transitivity}; Kratochv\'il, fieldnotes; Schapper, fieldnotes).
 
 An important source of data are 42 specially designed videos created to represent events varying with respect to specific semantic variables (participant number, animacy\is{animacy}, volitionality\is{volitionality}) \citep[see][]{FeddenEtAl2013}. For Abui and Teiwa we present the data for the associated video elicitation experiments. For Kamang\il{Kamang} our video data show that prefixation occurs very often, although less so than for Abui. In order to understand Kamang's place in the typology, with its set of obligatorily prefixed verbs that must be conventionally associated with a particular prefix type, rather than this being determined by semantic values, we present data from the sources listed above.
 
@@ -147,7 +147,7 @@ Kamang\il{Kamang}, on the other hand, has semantic alignment\is{semantic alignme
 
 \ea%bkm:Ref353455458
 \label{bkm:Ref353455458}
-\langinfo{Kamang}{}{\citep{Schapperta}} \\
+\langinfo{Kamang}{}{\citealt{Schapperta}} \\
 \gll     Na-maitan-si. \\  
     \textsc{1sg.pat-}hunger-\textsc{ipfv}  \\
 \glt  `I'm hungry.'
@@ -197,7 +197,7 @@ Kamang\il{Kamang} indexes P's, for instance on the verbs \textit{{}-tan} `wake s
 \ea 
 \label{ex:10:1236}
 \langinfo{Kamang}{}{Response to video clip P07\_wake\_up\_person\_19, SP15} \\
- \gll    [\dots]  ge-pa-l  sue  ga-tan.  \\
+ \gll    {\ob}\dots{\cb}  ge-pa-l  sue  ga-tan.  \\
     [{\dots}]  3.\textsc{gen}{}-father-\textsc{contr\_foc} arrive  3.\textsc{pat}{}-wake\_up   \\
  \glt  `[{\dots}] his father comes and wakes him.'
 \z
@@ -443,7 +443,7 @@ Of the three languages in our sample Abui\il{Abui} shows the greatest flexibilit
 \subsubsection{   Inflection classes in Abui}\is{inflection classes}\is{lexical stipulation}
 The discussion here is based on a detailed examination of the prefixal behaviour of 210 verbs. The numbers reflect the state of the documentation and analysis of the language at present (see Kratochv\'il, Abui corpus).
 
-For 33 Abui\il{Abui} verbs inflection with a \textsc{pat} prefix is either obligatory or optional. Table \ref{tab:10:14} below presents the distribution of the \textsc{pat} prefix across the whole sample (all percentages rounded to whole numbers). Obligatory inflection with a \textsc{pat} prefix means that a verb has to have a prefix and that the prefix has to be from the \textsc{pat} prefix series. In other words, these verbs exclusively appear with the \textsc{pat} prefix. This is the case for 14\% of the verbs in the sample (29 out of 210 verbs). Within optional \textsc{pat} verbs we distinguish two cases. First, there are the verbs that always require a prefix, and this may be from any series, including the \textsc{pat} series. These are a minority (4 out of 210 verbs, or 2\% in Table \ref{tab:10:14}). Second, there are the verbs that may occur without a prefix or with a prefix, from any series, including the \textsc{pat} series. These form a substantial subset (68 out of 210 verb or 32\% in Table \ref{tab:10:14}).  
+For 33 Abui\il{Abui} verbs inflection with a \textsc{pat} prefix is either obligatory or optional. Table \ref{tab:10:14}  presents the distribution of the \textsc{pat} prefix across the whole sample (all percentages rounded to whole numbers). Obligatory inflection with a \textsc{pat} prefix means that a verb has to have a prefix and that the prefix has to be from the \textsc{pat} prefix series. In other words, these verbs exclusively appear with the \textsc{pat} prefix. This is the case for 14\% of the verbs in the sample (29 out of 210 verbs). Within optional \textsc{pat} verbs we distinguish two cases. First, there are the verbs that always require a prefix, and this may be from any series, including the \textsc{pat} series. These are a minority (4 out of 210 verbs, or 2\% in Table \ref{tab:10:14}). Second, there are the verbs that may occur without a prefix or with a prefix, from any series, including the \textsc{pat} series. These form a substantial subset (68 out of 210 verb or 32\% in Table \ref{tab:10:14}).  
 
 \begin{table}
 \caption{Distribution of the Abui \textsc{pat} prefixes \ist{prefix alternation}}
@@ -730,13 +730,13 @@ Total (of 510 verbs) & 33\% (166/510 verbs) & 67\% (344/510 verbs)\\
 \end{table}
 
 \label{sec:10:5.2}
-Kamang\il{Kamang}, like Abui\il{Abui}, has semantic alignment\is{semantic alignment} and several prefix series. However, in Kamang\il{Kamang} the actual use of prefixes differs radically from Abui. Kamang\il{Kamang} is more restricted in terms of the possible combinations of verbs with prefixes than Abui. More than in Abui, lexical classes\is{verb classes} in Kamang\il{Kamang} play an important role in determining prefixation patterns of the S in intransitive clauses and the P in transitive clauses. We have based our analysis of Kamang\il{Kamang} on a corpus of 510 verbs (Schapper, Kamang\il{Kamang} corpus; \citet{SchapperEtAl2011}). In Kamang\il{Kamang} the primary verb class divide is between: 
+Kamang\il{Kamang}, like Abui\il{Abui}, has semantic alignment\is{semantic alignment} and several prefix series. However, in Kamang\il{Kamang} the actual use of prefixes differs radically from Abui. Kamang\il{Kamang} is more restricted in terms of the possible combinations of verbs with prefixes than Abui. More than in Abui, lexical classes\is{verb classes} in Kamang\il{Kamang} play an important role in determining prefixation patterns of the S in intransitive clauses and the P in transitive clauses. We have based our analysis of Kamang\il{Kamang} on a corpus of 510 verbs (Schapper, Kamang\il{Kamang} corpus; \citet{SchapperEtAl2011kamus}). In Kamang\il{Kamang} the primary verb class divide is between: 
 
 (i)  \textit{Obligatorily prefixed verbs}: These require a prefix on the verb in order to be well-formed. The prefix comes from one of the six series, is lexically fixed for each verb and does not alternate. For verbs in this group the different prefixal inflections have no obvious semantic functions, but rather define arbitrary inflection classes. Of the 510 verbs in the corpus, 166 are obligatorily prefixed (approx. 33\%).
 
 (ii) \textit{Non-obligatorily prefixed verbs}: These do not require a prefix. Where prefixes are added to these verbs they have semantically transparent functions. Prefixation can either be argument-preserving, whereby prefixation of the verb does not add another argument or alter the valency of the verb, or argument-adding, whereby the prefix indexes an additional argument. 344 verbs belong into this class (approx. 67\%).
 
-We see in Table \ref{tab:10:18} that there is a substantial difference in the prefixal requirements of transitive and intransitive verbs (all percentages rounded to whole numbers). In the classification of verbs as either intransitive or transitive we follow \citet{SchapperEtAl2011}.
+We see in Table \ref{tab:10:18} that there is a substantial difference in the prefixal requirements of transitive and intransitive verbs (all percentages rounded to whole numbers). In the classification of verbs as either intransitive or transitive we follow \citet{SchapperEtAl2011kamus}.
 
 
 
@@ -794,7 +794,7 @@ Examples \REF{bkm:Ref324337569} and \REF{bkm:Ref324338165} show an intransitive 
 
 \ea%bkm:Ref324338165
 \label{bkm:Ref324338165}
-\langinfo{Kamang}{}{\citep[73]{SchapperEtAl2011}} \\ 
+\langinfo{Kamang}{}{\citealt[73]{SchapperEtAl2011kamus}} \\ 
 \gll   Gal  na-kut.     \\  
    3  1\textsc{sg.pat-}stab     \\
 \glt `He stabbed me.'
@@ -807,7 +807,7 @@ Examples \REF{bkm:Ref324338359} and \REF{ex:10:1238} below show an intransitive 
 
 \ea%bkm:Ref324338359
 \label{bkm:Ref324338359}
-\langinfo{Kamang}{}{\citealt[286]{SchapperEtAl2011}} \\ 
+\langinfo{Kamang}{}{\citealt[286]{SchapperEtAl2011kamus}} \\ 
 \gll    No-tasusing.   \\  
     \textsc{1sg.loc}{}-sweat   \\
 \glt  `I'm sweaty.'
@@ -816,7 +816,7 @@ Examples \REF{bkm:Ref324338359} and \REF{ex:10:1238} below show an intransitive 
 
 \ea 
 \label{ex:10:1238}
-\langinfo{Kamang}{}{\citep[50]{SchapperEtAl2011}} \\ 
+\langinfo{Kamang}{}{\citealt[50]{SchapperEtAl2011kamus}} \\ 
  \gll    Ga  bong=a  wo-gaook.  \\
  \textsc{3agt} tree=\textsc{spec} 3.\textsc{loc}{}-shake\_back\_and\_forth     \\
  \glt  `He shook the tree.'
@@ -868,7 +868,7 @@ Examples \REF{bkm:Ref324340307} and \REF{bkm:Ref324340314} below show an intrans
 %\label{bkm:Ref372879178}
 \ea%bkm:Ref324340307
 \label{bkm:Ref324340307}
-\langinfo{Kamang}{}{\citealt[103]{SchapperEtAl2011}} \\ 
+\langinfo{Kamang}{}{\citealt[103]{SchapperEtAl2011kamus}} \\ 
 \gll     Oo-pan-si  naa.\\  
     2\textsc{sg.ast}{}-forget-\textsc{ipfv} \textsc{neg}  \\
 \glt  `Don't you forget.'
@@ -883,7 +883,7 @@ Examples \REF{bkm:Ref324340307} and \REF{bkm:Ref324340314} below show an intrans
 
 \ea%bkm:Ref324340314
 \label{bkm:Ref324340314}
-\langinfo{Kamang}{}{\citealt[131]{SchapperEtAl2011}} \\ 
+\langinfo{Kamang}{}{\citealt[131]{SchapperEtAl2011kamus}} \\ 
 \gll   Dum  kiding=a  ga-filing  woo-tee. \\  
   child  small=\textsc{spec} \textsc{3.poss}{}-head  3.\textsc{ast}{}-protect   \\
 \glt  `The child protected his head.'
@@ -1122,7 +1122,7 @@ old\_man  one  walk  go  tree  bump   \\
 \ea%bkm:Ref383697402
 \label{bkm:Ref383697402}
 \langinfo{Teiwa}{}{Response to video clip C20\_step.on.banana\_33, SP4} \\ 
-\gll   kri   nuk  ma  moxoi  muban  ta  tas  [...]\\  
+\gll   kri   nuk  ma  moxoi  muban  ta  tas  {\ob}...{\cb}\\  
    old.man  one  come  banana  ripe  on  stand  [{\dots}]  \\
 \glt `An old man comes and steps on a ripe banana {\dots}'
 \z
