@@ -272,7 +272,7 @@ Western Pantar\il{Western Pantar} has no dedicated slot for (non-numeral) quanti
 \ea%14
 \label{ex:9:14}
 \langinfo{Western Pantar}{}{\citealt{Holtontawesternpantar}} \\
-\gll [[{Hai} bloppa sing]\textsubscript{NP} {der}]\textsubscript{NP} ga-r diakang.  \\
+\gll {\ob}{\ob}{Hai} bloppa sing{\cb}\textsubscript{NP} {der}{\cb}\textsubscript{NP} ga-r diakang.  \\
   \textsc{2sg.poss\ist{possession}} weapon \textsc{art} some 3\textsc{sg-}with descend  \\
 \glt `Bring down some of your weapons.' [publia152]
 \z
@@ -417,7 +417,7 @@ The plural\is{plural (number) word} word has its own slot within the NP. It cann
 \ea%bkm:Ref354653269
 \label{ex:9:23}
 \langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
-\gll Hala [{qavif} non {dum}]\textsubscript{NP} pin aria{{\textglotstop}}{?} \\
+\gll Hala {\ob}{qavif} non {dum}{\cb}\textsubscript{NP} pin aria{{\textglotstop}}{?} \\
   someone goat \textsc{pl} many hold arrive   \\
 \glt `Were many [rather than few] goats brought here?'
 \z
@@ -431,7 +431,7 @@ The plural\is{plural (number) word} word has its own slot within the NP. It cann
 \ea%24
 \label{ex:9:24}
 \langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
-\gll  [{Wat} non {dum}]\textsubscript{NP} usan ma! \\
+\gll  {\ob}{Wat} non {dum}{\cb}\textsubscript{NP} usan ma! \\
   coconut \textsc{pl} many pick.up come  \\
 \glt `Pick up the many coconuts.' [situation: there are many coconuts in a pile of various kinds of fruits, and the order is to pick up these, not the rest]
 \z
@@ -448,19 +448,19 @@ The plural\is{plural (number) word} word has its own slot within the NP. It cann
 \label{ex:9:25}
 \langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
 \ea
-\gll [{G-oqai}   non u]\textsubscript{NP} min-an tau. \\
+\gll {\ob}{G-oqai}   non u{\cb}\textsubscript{NP} min-an tau. \\
    \textsc{3sg}-child \textsc{pl} \textsc{dist} die-\textsc{real} \textsc{pfv} \\
 \glt `Her children (lit. those her children) have died.'
 \ex
-\gll *[Non u]\textsubscript{NP} min-an tau. \\
+\gll *{\ob}Non u{\cb}\textsubscript{NP} min-an tau. \\
    \textsc{pl} \textsc{dist} die-\textsc{real} \textsc{pfv} \\
 \glt  Intended: `They have died.'
 \ex
-\gll *[{Non}]\textsubscript{NP} min-an tau. \\
+\gll *{\ob}{Non}{\cb}\textsubscript{NP} min-an tau. \\
     \textsc{pl} die-\textsc{real} \textsc{pfv} \\
 \glt  Intended: `They have died.'
 \ex
-\gll *[{G-oqai}   {u}]\textsubscript{NP} non min-an tau. \\
+\gll *{\ob}{G-oqai}   {u}{\cb}\textsubscript{NP} non min-an tau. \\
   \textsc{3sg}-child \textsc{dist} \textsc{pl} die-\textsc{real} \textsc{pfv}  \\
 \glt  Intended: `Her children (they) have died.'
 \z
@@ -477,7 +477,7 @@ Just as Western Pantar\il{Western Pantar} \textit{maru(ng)}, Teiwa\il{Teiwa} \te
 \ea%26
 \label{ex:9:26}
 \langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
-\gll [Kemi  {non}]\textsubscript{NP} iman xap gu-uyan mat... \\
+\gll {\ob}Kemi  {non}{\cb}\textsubscript{NP} iman xap gu-uyan mat... \\
   ancestor \textsc{pl} they bride  3.\textsc{obj-}search take  \\
 \glt `(Our) ancestors (they) searched for brides...'
 \z
@@ -495,7 +495,7 @@ However, an NP with \textit{non} cannot be the subject of a quantifier predicati
 \ea%27
 \label{ex:9:27}
 \langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
-\gll [Ga-qavif (non)]\textsubscript{NP} [{un} bag {tiaam}]\textsubscript{Pred} \\
+\gll {\ob}Ga-qavif (non){\cb}\textsubscript{NP} {\ob}{un} bag {tiaam}{\cb}\textsubscript{Pred} \\
     \textsc{3sg}-goat \textsc{pl} \textsc{cont} \textsc{clf} six \\
 \glt `His goats are six.'
 \z
@@ -510,11 +510,11 @@ However, an NP with \textit{non} cannot be the subject of a quantifier predicati
 \label{ex:9:28}
 \langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
 \ea
-\gll [{Ga-qavif}]\textsubscript{NP} [un dum]\textsubscript{Pred}  \\
+\gll {\ob}{Ga-qavif}{\cb}\textsubscript{NP} {\ob}un dum{\cb}\textsubscript{Pred}  \\
  \textsc{3sg}-goat \textsc{cont} many   \\
 \glt `His goats are many.'
 \ex
-\gll *[Ga-qavif non]\textsubscript{NP} [un dum]\textsubscript{Pred}  \\
+\gll *{\ob}Ga-qavif non{\cb}\textsubscript{NP} {\ob}un dum{\cb}\textsubscript{Pred}  \\
     \textsc{3sg}-goat \textsc{pl} \textsc{cont} many\\
 \glt Intended: `His many/plenty goats are many.'
 \z
@@ -532,11 +532,11 @@ The fact that \textit{non} does not combine with a numeral in a single NP sugges
 \label{ex:9:29}
 \langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
 \ea
-\gll Masar [un dum]\textsubscript{Pred} \\
+\gll Masar {\ob}un dum{\cb}\textsubscript{Pred} \\
     male \textsc{cont} many \\
 \glt  `There are many men.' (Lit. `Males are [being] many.')
 \ex
-\gll *Masar [un non]{.} \\
+\gll *Masar {\ob}un non{\cb}. \\
    male \textsc{cont} \textsc{pl}  \\
 \glt  Intended: `There are many/several males.'
 \z
@@ -552,19 +552,19 @@ The fact that \textit{non} does not combine with a numeral in a single NP sugges
 \label{ex:9:30}
 \langinfo{Teiwa}{}{Klamer, Teiwa corpus} \\
 \ea
-\gll  [{Qavif} dum {ga}{{\textglotstop}}{an}]\textsubscript{NP} hala tatax. \\
+\gll  {\ob}{Qavif} dum {ga}{{\textglotstop}}{an}{\cb}\textsubscript{NP} hala tatax. \\
    goat many that.\textsc{knwn} someone chop  \\
  \glt `Many (known) goats were chopped up.'
 \ex
-\gll [Qavif ga{{\textglotstop}}{an}]\textsubscript{NP} hala dum tatax. \\
+\gll {\ob}Qavif ga{{\textglotstop}}{an}{\cb}\textsubscript{NP} hala dum tatax. \\
    goat that.\textsc{knwn} someone many chop  \\
 \glt `Many of these (known) goats were chopped up.'
 \ex
-\gll [{Qavif} non {ga}{{\textglotstop}}{an}]\textsubscript{NP} hala tatax. \\
+\gll {\ob}{Qavif} non {ga}{{\textglotstop}}{an}{\cb}\textsubscript{NP} hala tatax. \\
    goat \textsc{pl} that.\textsc{knwn} someone chop  \\
 \glt  `These (known) goats were chopped up by someone.'
 \ex
-\gll *[Qavif ga{{\textglotstop}}{an}]\textsubscript{NP} hala non tatax \\
+\gll *{\ob}Qavif ga{{\textglotstop}}{an}{\cb}\textsubscript{NP} hala non tatax \\
    goat that.\textsc{knwn} someone \textsc{pl} chop  \\
 \glt  Intended: `These (known) goats were chopped up.'
 \z
@@ -644,11 +644,11 @@ Kamang\il{Kamang} does not have a syntactic class of non-numeral quantifiers; it
 \label{ex:9:35}
 \langinfo{Kamang}{}{Schapper, fieldnotes} \\
 \ea
-\gll  sibe [{uh}   {su}]\textsc{\textsubscript{NumP}}{=a}\\
+\gll  sibe {\ob}{uh}   {su}{\cb}\textsc{\textsubscript{NumP}}{=a}\\
   chicken \textsc{clf } three=\textsc{spec} \\
  \glt `the three chickens' 
 \ex
-\gll sibe=a [uh su]\textsc{\textsubscript{NumP}} \\
+\gll sibe=a {\ob}uh su{\cb}\textsc{\textsubscript{NumP}} \\
  chicken=\textsc{spec} \textsc{clf} three  \\
 \glt `the chickens, the three ones'
 \z
@@ -683,7 +683,7 @@ The Kamang\il{Kamang} plural\is{plural (number) word} word has a distribution si
 \ea%37
 \label{ex:9:37}
 \langinfo{Kamang}{}{Schapper, fieldnotes} \\
-\gll  [Nung]\textsubscript{NP} sue. \\
+\gll  {\ob}Nung{\cb}\textsubscript{NP} sue. \\
    \textsc{pl} arrive  \\
 \glt `\{Multiple\} (people) arrived.'
 \z
@@ -697,7 +697,7 @@ The Kamang\il{Kamang} plural\is{plural (number) word} word has a distribution si
 \ea%38
 \label{ex:9:38}
 \langinfo{Kamang}{}{Schapper, fieldnotes} \\
-\gll  [{Nung}]\textsubscript{\textsc{np}} {gera}\textsubscript{\textsc{appos}} sue. \\
+\gll  {\ob}{Nung}{\cb}\textsubscript{\textsc{np}} {gera}\textsubscript{\textsc{appos}} sue. \\
    \textsc{pl} \textsc{3.contr} arrive  \\
 \glt `\{Multiple other\} (people) arrived.'
 \z
@@ -763,7 +763,7 @@ The use of quantificational pronouns\is{pronoun} with NPs is illustrated in \REF
 \ea%42
 \label{ex:9:42}
 \langinfo{Kamang}{}{Schapper, fieldnotes} \\
-\gll   [Mane ang]\textsubscript{\textsc{NP}} {geifu}\textsubscript{\textsc{appos}}   {mauu.}\\
+\gll   {\ob}Mane ang{\cb}\textsubscript{\textsc{NP}} {geifu}\textsubscript{\textsc{appos}}   {mauu.}\\
   village \textsc{dem} 3.\textsc{group} war  \\
 \glt `Those villages make war together (against another village).'
 \z
@@ -776,7 +776,7 @@ The use of quantificational pronouns\is{pronoun} with NPs is illustrated in \REF
 \ea%43
 \label{ex:9:43}
 \langinfo{Kamang}{}{Schapper, fieldnotes} \\
-\gll  [Arita pang]\textsubscript{NP} {gaima}\textsubscript{\textsc{appos}} luaa-ra lai-ma{.}\\
+\gll  {\ob}Arita pang{\cb}\textsubscript{NP} {gaima}\textsubscript{\textsc{appos}} luaa-ra lai-ma{.}\\
     leaf \textsc{dem}   3.\textsc{all} whither-\textsc{aux} finished-\textsc{pfv}\\
 \glt `All the leaves have withered completely.'
 \z
@@ -836,7 +836,7 @@ The variable position of \textit{loku} in relation to the relative clause is ill
 \ea%47
 \label{ex:9:47}
 \langinfo{Abui}{}{Kratochv\'il, Abui corpus} \\
-\gll  [...oto he-amakaang [{ba} h-omi {mia}]\textsubscript{RC} loku yo]\textsubscript{NP}  mi pak mahoi-ni \\
+\gll  {\ob}...oto he-amakaang {\ob}{ba} h-omi {mia}{\cb}\textsubscript{RC} loku yo{\cb}\textsubscript{NP}  mi pak mahoi-ni \\
   car \textsc{3.gen}-person \textsc{rel} \textsc{3.gen}-inside in \textsc{pl} \textsc{dem}   take cliff gather-\textsc{pfv}  \\
 \glt `...those people who were inside the car were taken over the [edge of the] cliff.'
 \z
@@ -845,7 +845,7 @@ The variable position of \textit{loku} in relation to the relative clause is ill
 \ea%48
 \label{ex:9:48}
 \langinfo{Abui}{}{Kratochv\'il, Abui corpus} \\
-\gll  [{Sieng} loku [{ba} uti {mia}]\textsubscript{RC} {nu}]\textsubscript{NP} sik bakon-i   mi melang sei. \\
+\gll  {\ob}{Sieng} loku {\ob}{ba} uti {mia}{\cb}\textsubscript{RC} {nu}{\cb}\textsubscript{NP} sik bakon-i   mi melang sei. \\
    rice \textsc{pl} \textsc{rel} garden in \textsc{art} pluck rip.off.\textsc{pfv-pfv}   take village come.down \\
 \glt `Pluck off [all] the rice that is in the garden [and] take it down to the village.'
 \z
@@ -1204,7 +1204,7 @@ Its sense of comprehensiveness and entirety explains why NPs pluralised\is{plura
 \ea%66
 \label{ex:9:66}
 \langinfo{Western Pantar}{}{\citealt{Holton2012}} \\
-\gll  [{Aname } {marung}] ging gaterannang dia wang pidding. \\
+\gll  {\ob}{Aname } {marung}{\cb} ging gaterannang dia wang pidding. \\
    people \textsc{pl} they all  go exist spread  \\
 \glt `All the people spread out [to look for them]' \citep{Holton2012}
 (Lit. `All people they were all going spreading ...')
@@ -1220,7 +1220,7 @@ Its sense of comprehensiveness and entirety explains why NPs pluralised\is{plura
 \ea%67
 \label{ex:9:67}
 \langinfo{Western Pantar}{}{\citealt{Holton2012}} \\
-\gll  *[{Aname} {marung}] ging kealaku dia wang pidding. \\
+\gll  *{\ob}{Aname} {marung}{\cb} ging kealaku dia wang pidding. \\
     people \textsc{pl} they twenty go exist spread \\
  \glt Intended: `All people they were twenty going spreading...'
 \z
@@ -1289,7 +1289,7 @@ The sense of comprehensive quantity expressed by \textit{loku} (`all') is relati
 \ea%71
 \label{ex:9:71}
 \langinfo{Abui}{}{Kratochv\'il, Abui corpus} \\
-\gll  Ama [ne-mea loku] tafuda takaf-i  do n-omi he-ukda \\
+\gll  Ama {\ob}ne-mea loku{\cb} tafuda takaf-i  do n-omi he-ukda \\
     person \textsc{1sg.gen-}mango \textsc{pl} all steal-\textsc{pfv}  \textsc{dem} \textsc{1sg.gen-}inside 3.\textsc{gen-}shock \\
 \glt `All my mangos got stolen,  it really shocked me.' %(Kratochv\'il, Abui corpus)
 \z
