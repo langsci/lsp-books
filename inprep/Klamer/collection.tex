@@ -22,7 +22,7 @@
 \input{localmetadata.sty}
 
 \renewcommand{\lsEditorPrefix}{}  % default is ``Edited by''
-\renewcommand{\lsCollectionPaperCitationText}{Marian Klamer (ed.). 2014. The Alor-Pantar languages: History and typology. Berlin: Language Science Press}
+\renewcommand{\lsCollectionPaperCitationText}{Marian Klamer (ed.). 2014. The Alor-Pantar languages: History and\\ \mbox{typology}. Berlin: Language Science Press}
 \renewcommand{\exfont}{\itshape}
 \usepackage{authorindex}
 \begin{document}  
@@ -34,25 +34,27 @@
 
 \mainmatter
 
-% \includepaper{chapters/01intro} 
-% \includepaper{chapters/02history} 
+\includepaper{chapters/01intro} 
+\includepaper{chapters/02history} 
 \includepaper{chapters/03relatedness} 
-% \includepaper{chapters/04position}
-% \includepaper{chapters/05kinship} 
-% \includepaper{chapters/07elevation}
-% \includepaper{chapters/06numerals} 
-% \includepaper{chapters/08arithmetic} 
-% \includepaper{chapters/09plural} 
-% \includepaper{chapters/10participant} 
+\includepaper{chapters/04position}
+\includepaper{chapters/05kinship} 
+\includepaper{chapters/07elevation}
+\includepaper{chapters/06numerals} 
+\includepaper{chapters/08arithmetic} 
+\includepaper{chapters/09plural} 
+\includepaper{chapters/10participant} 
 % \indexentry[lan]{Lamma|see Western Pantar}  
 \backmatter
 % \printbibliography[notkeyword=this] 
 \addcontentsline{toc}{chapter}{Language Index}
 \ohead{Language Index}
 \printindex[lan]
+
 \addcontentsline{toc}{chapter}{Name Index}
 \ohead{Name Index}
 \printindex[aut]
+
 \addcontentsline{toc}{chapter}{Subject Index}
 \ohead{Subject Index}
 \printindex
