@@ -69,11 +69,11 @@ We have not attested an AP language with a number word for `null' or `zero'. The
 {\upshape Teiwa}\\
 \ea
 \label{ex:8:1234}
-\gll Guru       [i       hasak]\textsubscript{\textsc{pred}} \\  
+\gll Guru       {\ob}i       hasak{\cb}\textsubscript{\textsc{pred}} \\  
      teacher\textsc{(ind)}   it.(place)    empty'  \\
 \glt  `No / zero teachers' 
 \ex
-\gll Yaf [i     hasak]\textsubscript{\textsc{pred}} \\
+\gll Yaf {\ob}i     hasak{\cb}\textsubscript{\textsc{pred}} \\
     house      it.(place)   empty\\
 \glt    `No / zero people' 
 \z
@@ -320,7 +320,7 @@ In some AP languages distributives\is{distributive numerals} may float outside t
 \ea
 \label{ex:8:1235}
 {\upshape Adang}\\
- \gll  Sunui{\textltailn}   papan   du   teweng al{\Tilde}alu  [all\'u]\\
+ \gll  Sunui{\textltailn}   papan   du   teweng al{\Tilde}alu  {\ob}all\'u{\cb}\\
    3\textsc{pl}    board  \textsc{def}   carry   \textsc{rdp}{\Tilde}two \\
  \glt `They carry the board two by two (i.e., two at a time)'
 \z
@@ -378,7 +378,7 @@ In Adang\il{Adang}, distributives\is{distributive numerals} are formed by partia
 & Cardinal\ist{cardinal numeral(s)} & Distributive\ist{distributive numerals}\\
 \midrule
 1 & \textit{nu} & \textit{nu{\Tilde}nu}\\
-2 & \textit{alu} [alu] & \textit{                al}\textit{{\Tilde}}\textit{lo} [al:o]\upshapefootnotemark{} \\
+2 & \textit{alu} [alu] & \textit{al{\Tilde}lo} [al:o]\upshapefootnotemark{} \\
 3 & \textit{towo} & \textit{to{\Tilde}towo}\\
 4 & \textit{{\textglotstop}}\textit{ut} & \textit{{\textglotstop}}\textit{u{\Tilde}}\textit{{\textglotstop}}\textit{ut}\\
 5 & \textit{iwihing} & \textit{iw{\Tilde}wihing} \\
@@ -803,7 +803,7 @@ Western Pantar\il{Western Pantar} derives fractions productively with the verb `
 
   
 
-In Kamang\il{Kamang}, fractions are verbs derived by prefixing \textit{wo-} `3.LOC' to the numeral base, as in \REF{bkm:Ref342746224}. In \REF{bkm:Ref342746258}, the derived verb is part of a resultative serial verb construction.
+In Kamang\il{Kamang}, fractions are verbs derived by prefixing \textit{wo-} `3.\textsc{loc}' to the numeral base, as in \REF{bkm:Ref342746224}. In \REF{bkm:Ref342746258}, the derived verb is part of a resultative serial verb construction.
 
 
 \ea%bkm:Ref342746224
