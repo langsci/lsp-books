@@ -11,7 +11,7 @@
 \usepackage[british,italian]{babel}				% hyphenation
 \usepackage{LSP/lsp-styles/lsp-gb4e}				% leipzig glosses
 \usepackage{setspace}						% and following: epigraphs
-\newcommand\epigraph[4]{
+\renewcommand\epigraph[4]{
 \vspace{1em}\hfill{}\begin{minipage}{#1}{\begin{spacing}{0.9}
 \noindent\textit{#2}\end{spacing}
 \vspace{1em}\small\hfill{}{#3}\\
@@ -29,6 +29,13 @@
 D'Im-pe-rio
 }
    
+   
+\usepackage{booktabs}
+\usepackage{floatrow}
+\floatsetup[table]{capposition=top}
+\newcommand{\mytoprule}{\midrule\toprule}
+\newcommand{\mybottomrule}{\bottomrule\midrule}
+
 \begin{document} 
 \selectlanguage{british}
 \maketitle                
@@ -42,14 +49,27 @@ D'Im-pe-rio
 \include{chapter5}
 \include{chapter6}
          
+
+\backmatter    
+
+\ohead{Bibliography}
 \bibliography{biblio}
 
 \clearpage
+
+\addcontentsline{toc}{chapter}{Name index}
+\ohead{Name index}
 \pdfbookmark[0]{Index}{Index}
 \pdfbookmark[1]{Name index}{Name index}
 \printindex[aut]
+
+\addcontentsline{toc}{chapter}{Language index}
+\ohead{Language index}
 \pdfbookmark[1]{Language index}{Language index}
 \printindex[lan]
+
+\addcontentsline{toc}{chapter}{Subject index}
+\ohead{Subject index}
 \pdfbookmark[1]{Subject index}{Subject index}
 \printindex
 
