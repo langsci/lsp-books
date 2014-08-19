@@ -1,49 +1,41 @@
 \documentclass[ number=1
-		,series=labphon
-		,output=long    
-		,draftmode
-		,isbn=978-3-944675-01-5  
-		]{LSP/langsci}                          
-\usepackage{graphicx}						% image insertion
-\usepackage{float}							% figure positioning
-\usepackage{lscape}						% table/figure rotation
-\usepackage{multirow}						% specific kind of tables
-\usepackage[british,italian]{babel}				% hyphenation
-\usepackage{LSP/lsp-styles/lsp-gb4e}				% leipzig glosses
-\usepackage{setspace}						% and following: epigraphs
+,series=labphon
+,output=short
+% ,draftmode
+,isbn=978-3-944675-01-5
+]{LSP/langsci}
+\usepackage{graphicx}	% image insertion
+\usepackage{float}	% figure positioning
+\usepackage{lscape}	% table/figure rotation
+\usepackage{multirow}	% specific kind of tables
+\usepackage[british,italian]{babel}	% hyphenation
+\usepackage{LSP/lsp-styles/lsp-gb4e}	% leipzig glosses
+\usepackage{setspace}	% and following: epigraphs
 \renewcommand\epigraph[4]{
 \vspace{1em}\hfill{}\begin{minipage}{#1}{\begin{spacing}{0.9}
 \noindent\textit{#2}\end{spacing}
 \vspace{1em}\small\hfill{}{#3}\\
 \vspace{-2em}\begin{flushright}{#4}\end{flushright}}\vspace{2em}
 \end{minipage}}
-
-
 \title{Prosodic detail in Neapolitan Italian}
 \author{Francesco Cangemi}
 \typesetter{Francesco Cangemi}
 \proofreader{Tom Gardner, Michelle Natolo, Stephanie Natolo, Benedikt Singpiel, Siri Tuttle}
-
 \BackTitle{Prosodic detail in Neapolitan Italian}
 \BackBody{Recent findings on phonetic detail have been taken as supporting exemplar-based approaches to prosody. Through four experiments on both production and perception of both melodic and temporal detail in Neapolitan Italian, we show that prosodic detail is not incompatible with abstractionist approaches either. Specifically, we suggest that the exploration of prosodic detail leads to a refined understanding of the relationships between the richly specified and continuously varying phonetic information on one side, and coarse phonologically structured contrasts on the other, thus offering insights on how pragmatic information is conveyed by prosody.}
-
 \lccode`\'=`\'
 \hyphenation{
 D'Im-pe-rio
 }
-   
-   
 \usepackage{booktabs}
 \usepackage{floatrow}
 \floatsetup[table]{capposition=top}
 \newcommand{\mytoprule}{\midrule\toprule}
 \newcommand{\mybottomrule}{\bottomrule\midrule}
-
-\begin{document} 
+\begin{document}
 \selectlanguage{british}
-\maketitle                
-\tableofcontents      
-
+\maketitle
+\tableofcontents\enlargethispage{2em}
 \mainmatter
 \include{chapter1}
 \include{chapter2}
@@ -51,29 +43,21 @@ D'Im-pe-rio
 \include{chapter4}
 \include{chapter5}
 \include{chapter6}
-         
-
-\backmatter    
-
+\backmatter
 \ohead{Bibliography}
 \bibliography{biblio}
-
 \clearpage
-
 \addcontentsline{toc}{chapter}{Name index}
 \ohead{Name index}
 \pdfbookmark[0]{Index}{Index}
 \pdfbookmark[1]{Name index}{Name index}
 \printindex[aut]
-
 \addcontentsline{toc}{chapter}{Language index}
 \ohead{Language index}
 \pdfbookmark[1]{Language index}{Language index}
 \printindex[lan]
-
 \addcontentsline{toc}{chapter}{Subject index}
 \ohead{Subject index}
 \pdfbookmark[1]{Subject index}{Subject index}
 \printindex
-
 \end{document}
