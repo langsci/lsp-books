@@ -1,33 +1,35 @@
 # specify your main target here:
-all: collection.pdf #clean
+all: lsp-skeleton.pdf
 
-# specify the main file and all the files that you are including
-SOURCE=collection.tex mybibliography.bib \
-chapters/01intro.tex chapters/02history.tex chapters/03relatedness.tex chapters/04position.tex chapters/05kinship.tex chapters/06numerals.tex \
-chapters/07elevation.tex chapters/08arithmetic.tex chapters/09plural.tex
-	
-
+# specify teh main file and all the files that you are including
+SOURCE= lsp-skeleton.tex chapters/01.tex chapters/02.tex chapters/03.tex\
+localbibliography.bib\
+LSP/langsci.cls
+	 
 %.pdf: %.tex $(SOURCE)
-	xelatex $*
-	bibtex $*
-	bibtex collection1-blx
-	bibtex collection2-blx
-	bibtex collection3-blx
-	bibtex collection4-blx
-	bibtex collection5-blx
-	bibtex collection6-blx
-	bibtex collection7-blx
-	bibtex collection8-blx
-	bibtex collection9-blx
-	xelatex $*
-	xelatex $*
+	xelatex -no-pdf lsp-skeleton 
+	bibtex -min-crossrefs=200 lsp-skeleton
+	xelatex  -no-pdf lsp-skeleton
+	makeindex -o lsp-skeleton.ind lsp-skeleton.idx
+	makeindex -o lsp-skeleton.lnd lsp-skeleton.ldx
+#	makeindex -o lsp-skeleton.wnd lsp-skeleton.wdx
+#	LSP/bin/reverse-index <lsp-skeleton.wdx >lsp-skeleton.rdx
+#	makeindex -o lsp-skeleton.rnd lsp-skeleton.rdx 
+	authorindex -i -p lsp-skeleton.aux > lsp-skeleton.bib.adx
+	sed 's/|hyperpage//' lsp-skeleton.adx > lsp-skeleton.txt.adx 
+	cat lsp-skeleton.bib.adx lsp-skeleton.txt.adx > lsp-skeleton.combined.adx
+#	sed -e 's/}{/|hyperpage}{/g' lsp-skeleton.adx > lsp-skeleton.adx.hyp
+	makeindex -o lsp-skeleton.and lsp-skeleton.combined.adx
+	xelatex -no-pdf lsp-skeleton 
+	xelatex lsp-skeleton 
+
+
+cover: lsp-collection.pdf
+	convert lsp-skeleton.pdf\[0\] -resize 486x -background white -alpha remove -bordercolor black -border 2  cover.png
 
 clean:
-	rm -f *.bak *~ *.log *.blg *.bbl *.aux *.toc *.cut *.out *.tmp *.tpm *.adx *.adx.hyp *.idx *.ilg *.ind \
+	rm -f *.bak *~ *.log *.blg *.aux *.toc *.cut *.out *.tmp *.tpm *.adx *.adx.hyp *.idx *.ilg \
 	*.and *.glg *.glo *.gls *.wdx *.wnd *.wrd *.wdv *.ldx *.lnd *.rdx *.rnd *.xdv 
 
 realclean: clean
-	rm -f *.dvi *.ps *.pdf
-
-
-
+	rm -f *.dvi *.ps *.pdf *.bbl
