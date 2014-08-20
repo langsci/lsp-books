@@ -47,18 +47,22 @@ D'Im-pe-rio
 \backmatter
 \ohead{Bibliography}
 \bibliography{biblio}
-\clearpage
-\addcontentsline{toc}{chapter}{Name index}
-\ohead{Name index}
-\pdfbookmark[0]{Index}{Index}
-\pdfbookmark[1]{Name index}{Name index}
+\ia{test}
+\addcontentsline{toc}{chapter}{Index} 
+
+\phantomsection%this allows hyperlink in ToC to work
+\addcontentsline{toc}{section}{Name index}
+\ohead{Name index} 
 \printindex[aut]
-\addcontentsline{toc}{chapter}{Language index}
-\ohead{Language index}
-\pdfbookmark[1]{Language index}{Language index}
-\printindex[lan]
-\addcontentsline{toc}{chapter}{Subject index}
-\ohead{Subject index}
-\pdfbookmark[1]{Subject index}{Subject index}
+  
+% \phantomsection%this allows hyperlink in ToC to work
+% \addcontentsline{toc}{section}{Language index}
+% \ohead{Language index} 
+% \printindex[lan] 
+  
+\phantomsection%this allows hyperlink in ToC to work
+\addcontentsline{toc}{section}{Subject index}
+\ohead{Subject index} 
 \printindex
+
 \end{document}
