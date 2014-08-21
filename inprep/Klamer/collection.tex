@@ -10,8 +10,8 @@
 	        ,collection
 	        ,collectionchapter
 	        ,collectiontoclongg
-	        %,biblatexbackend=bibtex
-	        ,biblatex  
+% 	        ,biblatexbackend=bibtex
+ 	        ,biblatex  
 		  ]{LSP/langsci}
 
 \bibliography{localbibliography}
@@ -29,37 +29,65 @@
 \hypersetup{bookmarksopenlevel=0}
 \begin{document}  
 
-   
 \maketitle                 
 \frontmatter
 \tableofcontents      
 
 \mainmatter
 % 
-\includepaper{chapters/01intro} 
-\includepaper{chapters/02history} 
-\includepaper{chapters/03relatedness} 
-\includepaper{chapters/04position}
-\includepaper{chapters/05kinship} 
-\includepaper{chapters/07elevation}
-\includepaper{chapters/06numerals} 
-\includepaper{chapters/08arithmetic} 
-\includepaper{chapters/09plural} 
-\includepaper{chapters/10participant} 
-% \indexentry[lan]{Lamma|see Western Pantar}  
-\backmatter
-% \printbibliography[notkeyword=this] 
-\addcontentsline{toc}{chapter}{Language Index}
-\ohead{Language Index}
-\printindex[lan]
 
-\addcontentsline{toc}{chapter}{Name Index}
-\ohead{Name Index}
+
+% \renewcommand{\lsCollectionPaperTitle}{{%
+% 	\renewcommand{\newlineTOC}{}
+% 	\renewcommand{\newlineCover}{\\}
+% 	\iflsCollectionChapter 
+% 		{\LARGE Chapter \thechapter}\newline\newline\fi
+% 	\@title}}
+
+	
+\includepaper{chapters/preface} 
+
+% \renewcommand{\lsCollectionPaperTitle}{{%
+% 	\renewcommand{\newlineTOC}{}
+% 	\renewcommand{\newlineCover}{\\}
+% 	\iflsCollectionChapter 
+% 		{\LARGE Chapter \thechapter}\newline\newline\fi
+% 	\@title}}
+	
+\ia{aaa AAAtest}
+\include{chapters/wl01} 
+\input{chapters/01intro-test.bbl}
+% \includepaper{chapters/02history} 
+% \includepaper{chapters/03relatedness} 
+% \includepaper{chapters/04position}
+% \includepaper{chapters/05kinship} 
+% \includepaper{chapters/07elevation}
+% \includepaper{chapters/06numerals} 
+% \includepaper{chapters/08arithmetic} 
+% \includepaper{chapters/09plural} 
+% \includepaper{chapters/10participant} 
+% % \indexentry[lan]{Lamma|see Western Pantar}  
+% \backmatter
+% % \printbibliography[notkeyword=this] 
+
+
+\addcontentsline{toc}{chapter}{Index} 
+
+\phantomsection%this allows hyperlink in ToC to work
+\addcontentsline{toc}{section}{Name index}
+\ohead{Name index} 
 \printindex[aut]
-
-\addcontentsline{toc}{chapter}{Subject Index}
-\ohead{Subject Index}
+  
+\phantomsection%this allows hyperlink in ToC to work
+\addcontentsline{toc}{section}{Language index}
+\ohead{Language index} 
+\printindex[lan] 
+  
+\phantomsection%this allows hyperlink in ToC to work
+\addcontentsline{toc}{section}{Subject index}
+\ohead{Subject index} 
 \printindex
+
 
 \end{document}
 
