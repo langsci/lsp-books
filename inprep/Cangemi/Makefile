@@ -2,7 +2,7 @@
 all: cangemi.pdf
 
 # specify the main file and all the files that you are including
-SOURCE= cangemi.tex chapter1.tex chapter2.tex chapter3.tex chapter4.tex chapter5.tex chapter6.tex\
+SOURCE= cangemi.tex chapters/chapter1.tex chapters/chapter2.tex chapters/chapter3.tex chapters/chapter4.tex chapters/chapter5.tex chapters/chapter6.tex\
 biblio.bib\
 LSP/langsci.cls
 	 
@@ -18,7 +18,7 @@ LSP/langsci.cls
 	authorindex -i -p cangemi.aux > cangemi.bib.adx
 	sed 's/|hyperpage//' cangemi.adx > cangemi.txt.adx 
 	cat cangemi.bib.adx cangemi.txt.adx > cangemi.combined.adx
-#	sed -e 's/}{/|hyperpage}{/g' cangemi.adx > cangemi.adx.hyp
+	sed -e 's/}{/|hyperpage}{/g' cangemi.adx > cangemi.adx.hyp
 	makeindex -o cangemi.and cangemi.combined.adx
 	xelatex -no-pdf cangemi 
 	xelatex cangemi 
