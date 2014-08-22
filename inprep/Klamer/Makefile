@@ -6,7 +6,7 @@ SOURCE= collection.tex
 	 
 %.pdf: %.tex $(SOURCE)
 	xelatex -no-pdf collection 	 
-	for i in {1..10}; do  echo ======$i; bibtex bibtex -min-crossrefs=200 collection$i-blx; done
+	for i in {1..11}; do  echo ======$i;  bibtex -min-crossrefs=200 collection$i-blx; done
 	xelatex  -no-pdf collection
 	makeindex -o collection.ind collection.idx
 	makeindex -o collection.lnd collection.ldx

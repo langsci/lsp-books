@@ -1,4 +1,4 @@
-\documentclass[number=??                 %replace by your number in series
+\documentclass[number=3                 %replace by your number in series
                 ,series=sidl,     % Choose series abbreviation as appropriate
                 ,isbn=978-3-944675-48-0, %add your isbn here
                 ,url=http://langsci-press.org/catalog/book/22,  %change to the running number of your book
@@ -27,6 +27,8 @@
 % \usepackage{authorindex}
 
 \hypersetup{bookmarksopenlevel=0}
+\setlength{\epigraphwidth}{.8\textwidth}
+
 \begin{document}  
 
 \maketitle                 
@@ -37,47 +39,34 @@
 % 
 
 
-% \renewcommand{\lsCollectionPaperTitle}{{%
-% 	\renewcommand{\newlineTOC}{}
-% 	\renewcommand{\newlineCover}{\\}
-% 	\iflsCollectionChapter 
-% 		{\LARGE Chapter \thechapter}\newline\newline\fi
-% 	\@title}}
 
 	
+\setcounter{chapter}{-1}
 \includepaper{chapters/preface} 
+\includepaper{chapters/01intro} 
+\includepaper{chapters/02history} 
+\includepaper{chapters/03relatedness} 
+\includepaper{chapters/04position}
+\includepaper{chapters/05kinship} 
+\includepaper{chapters/07elevation}
+\includepaper{chapters/06numerals}  
+\includepaper{chapters/08arithmetic} 
+\includepaper{chapters/09plural} 
+ \includepaper{chapters/10participant} 
 
-% \renewcommand{\lsCollectionPaperTitle}{{%
-% 	\renewcommand{\newlineTOC}{}
-% 	\renewcommand{\newlineCover}{\\}
-% 	\iflsCollectionChapter 
-% 		{\LARGE Chapter \thechapter}\newline\newline\fi
-% 	\@title}}
-	
-\ia{aaa AAAtest}
-\include{chapters/wl01} 
-\input{chapters/01intro-test.bbl}
-% \includepaper{chapters/02history} 
-% \includepaper{chapters/03relatedness} 
-% \includepaper{chapters/04position}
-% \includepaper{chapters/05kinship} 
-% \includepaper{chapters/07elevation}
-% \includepaper{chapters/06numerals} 
-% \includepaper{chapters/08arithmetic} 
-% \includepaper{chapters/09plural} 
-% \includepaper{chapters/10participant} 
-% % \indexentry[lan]{Lamma|see Western Pantar}  
-% \backmatter
+\backmatter
+
+\il{Lamma|see Western Pantar}  
 % % \printbibliography[notkeyword=this] 
 
 
 \addcontentsline{toc}{chapter}{Index} 
-
-\phantomsection%this allows hyperlink in ToC to work
-\addcontentsline{toc}{section}{Name index}
-\ohead{Name index} 
-\printindex[aut]
-  
+% 
+% \phantomsection%this allows hyperlink in ToC to work
+% \addcontentsline{toc}{section}{Name index}
+% \ohead{Name index} 
+% \printindex[aut]
+%   
 \phantomsection%this allows hyperlink in ToC to work
 \addcontentsline{toc}{section}{Language index}
 \ohead{Language index} 
