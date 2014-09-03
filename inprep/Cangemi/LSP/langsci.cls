@@ -1,5 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{LSP/langsci}[2014/08/19 Language Science Press]
+\usepackage[british,italian]{babel}	% hyphenation
 
 % Default values:
 \usepackage{xspace}
