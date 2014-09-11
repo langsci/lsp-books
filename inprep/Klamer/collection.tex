@@ -29,8 +29,8 @@
 \hypersetup{bookmarksopenlevel=0}
 \setlength{\epigraphwidth}{.8\textwidth}
 
-\usepackage[style=authoryear,indexing=cite]{biblatex}
-\addbibresource{localbibliography.bib}
+% \usepackage[style=authoryear,indexing=cite]{biblatex}
+% % \addbibresource{localbibliography.bib}
 \begin{document}  
 
 \maketitle                 
@@ -58,17 +58,16 @@
 
 \backmatter
 
-\il{Lamma|see Western Pantar}  
 % % \printbibliography[notkeyword=this] 
 
+\phantomsection%this allows hyperlink in ToC to work
+\addcontentsline{toc}{chapter}{Indexes} 
 
-\addcontentsline{toc}{chapter}{Index} 
-% 
-% \phantomsection%this allows hyperlink in ToC to work
-% \addcontentsline{toc}{section}{Name index}
-% \ohead{Name index} 
-% \printindex[aut]
-%   
+\phantomsection%this allows hyperlink in ToC to work
+\addcontentsline{toc}{section}{Name index}
+\ohead{Name index} 
+\printindex
+  
 \phantomsection%this allows hyperlink in ToC to work
 \addcontentsline{toc}{section}{Language index}
 \ohead{Language index} 
@@ -77,7 +76,7 @@
 \phantomsection%this allows hyperlink in ToC to work
 \addcontentsline{toc}{section}{Subject index}
 \ohead{Subject index} 
-\printindex
+\printindex[sbj]
 
 
 \end{document}
