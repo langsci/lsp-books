@@ -74,7 +74,7 @@ H1 and H2 will be tested using generalized Mixed Logit and Linear Mixed models, 
 \begin{figure}
 \centering
 \resizebox{0.66\linewidth}{!}{\includegraphics{images/501.png}}
-\caption{Predicted question responses percent (bar plot) and reaction times (points) for the 9 resynthesis conditions: \textit{f} and \textit{d} indicate \textit{f0} contours and durational patterns, \textit{Q}, \textit{A} and \textit{S} indicate question-like, ambiguous and statement-like patterns.}
+\caption{Predicted question responses percent (bar plot) and reaction times (points) for the 9 resynthesis conditions: \textit{f} and \textit{d} indicate \textit{f0} contours and durational patterns, \textit{Q}, \textit{A} and \textit{S} indicate question-like, ambiguous and statement-like patterns. See Cangemi and D'Imperio (2013).}
 \label{fig501}\end{figure}
 \subsection{Material}\label{sec522}
 We used a resynthesis procedure partially based on work by \citet{gubian2010automatic,gubian2011joint} and implemented through a set of scripts in \textit{R} \citep{r2008r} and \textit{Praat} \citep{boersma2008praat}.\is{resynthesis} We extracted the segmentally aligned \textit{f0} contours of the two base stimuli (\textit{fQ, fS}) and turned them into continuous functions through b-spline smoothing. That is, the \textit{f0} curve was not discretized as is usually done in perceptual studies involving resynthesis. No top-down knowledge was fed into the resynthesis procedure, apart from anchoring the \textit{f0} contours to the segmental boundaries. Moreover, by using continuous phonetic representations instead of a sequence of turning points, we avoid losing potentially useful melodic information. Minimalist top-down based assumptions were also made in the extraction of the durational patterns of the two base stimuli (\textit{dQ, dS}), for which we stored the duration of each phone as annotated by manual segmentation.
@@ -85,13 +85,13 @@ As for identification results (Figure~\ref{fig502}), the strong effect of melodi
 \begin{figure}
 \centering
 \resizebox{0.66\linewidth}{!}{\includegraphics{images/502.png}}
-\caption{Hypothesis 1. Observed question responses (mean and error bars) for the 9 resynthesis conditions.}
+\caption{Hypothesis 1. Observed question responses (mean and error bars) for the 9 resynthesis conditions. See Cangemi and D'Imperio (2013).}
 \label{fig502}\end{figure}
 Reaction times also show no effect of temporal manipulations (Figure~\ref{fig503}). In particular, responses are not faster when stimuli have congruous (white) rather than incongruous (black) temporal and intonational cues. On the other hand, stimuli with ambiguous intonation elicited longer reaction times.
 \begin{figure}
 \centering
 \resizebox{0.66\linewidth}{!}{\includegraphics{images/503.png}}
-\caption{Hypothesis 2. Observed reaction times (boxplot and observations) for the 9 resynthesis conditions. Congruous conditions in white, incongruous conditions in black (non relevant conditions in grey).}
+\caption{Hypothesis 2. Observed reaction times (boxplot and observations) for the 9 resynthesis conditions. Congruous conditions in white, incongruous conditions in black (non relevant conditions in grey). See Cangemi and D'Imperio (2013).}
 \label{fig503}\end{figure}
 \subsection{Orthogonality hypothesis}\label{sec531}
 In order to test H1 we ran a series of generalized mixed logit models, aimed at evaluating the effect of temporal manipulations on subjects' identification responses. The most comprehensive model included the three fixed factors \textit{Intonation} (three levels: question, ambiguous and statement), \textit{Tempo} (question, ambiguous and statement), and \textit{Base} stimulus (question and statement), as well as their interaction, together with a random intercept for our 26 \textit{Subjects}. The model was then pruned, excluding three-way interactions first, then two-way interactions, and ultimately non-significant factors. As a result, the comparison between the most comprehensive model and the one containing the fixed factor \textit{Intonation} alone shows no significant Likelihood difference ($\chi^{2}=16.7, df=15, p=0.33$), thus leading to the rejection of H1.
@@ -103,11 +103,7 @@ In our model, differences between response times to stimuli with congruous (\tex
 $(bXfQdQ + bXfSdS) - (bXfSdQ + bXfQdS) =$\\
 $= (i + i + intonS + tempoS + tempoSintonS) - (i + intonS + i + tempoS) =$\\
 $= tempoSintonS$
-\end{center}} A comparison between the model including \textit{Intonation}, \textit{Tempo} as well as their interactions with the model including \textit{Intonation} and \textit{Tempo} alone shows no
-\enlargethispage{1em}
-significant Likelihood difference ($\chi^{2}=2.66, df=4, p=0.61$),\footnote{Specifically, the coefficient 
-for \textit{tempoSintonS} is non significant ($t=0.11$).} thus leading to the rejection of H2.
-
+\end{center}} A comparison between the model including \textit{Intonation}, \textit{Tempo} as well as their interactions with the model including \textit{Intonation} and \textit{Tempo} alone shows no significant Likelihood difference ($\chi^{2}=2.66, df=4, p=0.61$),\footnote{Specifically, the coefficient for \textit{tempoSintonS} is non significant ($t=0.11$).} thus leading to the rejection of H2.
 \section{Discussion}\label{sec54}
 Our results suggest that listeners do not use durational patterns as a cue for the identification of resynthesized stimuli as either questions or statements. Listeners' responses were not affected by resynthesis of temporal patterns, not even when intonational cues were made ambiguous. This finding speaks against a model of prosody in which tempo is seen as an orthogonal dimension to intonation, contra H1.
 Moreover, identification of sentence modality does not seem to be hindered by a mismatch between melodic and temporal cues: reaction times were similar in responses to stimuli with either conflicting (i.e. \textit{bXfQdS} and \textit{bXfStQ}) or cooperating (i.e. \textit{bXfQdQ} and \textit{bXfSdS}) cues. In these cases as well, listeners only seemed to rely on intonation. This finding is not consistent with the hypothesis that temporal information is part of representations for intonational categories, contra H2 as well. Response times are only slightly higher when intonation is made ambiguous, a fact which can be seen as additional evidence for the exclusive role of intonational cues.
