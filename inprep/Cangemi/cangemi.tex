@@ -21,7 +21,7 @@
 \title{Prosodic detail in Neapolitan Italian}
 \author{Francesco Cangemi}
 \typesetter{Francesco Cangemi}
-\proofreader{Tom Gardner, Michelle Natolo, Stephanie Natolo, Benedikt Singpiel, Siri Tuttle}
+\proofreader{Tom Gardner, Michelle Natolo, Stephanie Natolo, Benedikt Singpiel, Siri Tuttle, Tamara Schmidt}
 \BackTitle{Prosodic detail in Neapolitan Italian}
 \BackBody{Recent findings on phonetic detail have been taken as supporting exemplar-based approaches to prosody. Through four experiments on both production and perception of both melodic and temporal detail in Neapolitan Italian, we show that prosodic detail is not incompatible with abstractionist approaches either. Specifically, we suggest that the exploration of prosodic detail leads to a refined understanding of the relationships between the richly specified and continuously varying phonetic information on one side, and coarse phonologically structured contrasts on the other, thus offering insights on how pragmatic information is conveyed by prosody.}
 \lccode`\'=`\'
@@ -38,27 +38,36 @@ D'Im-pe-rio
 \maketitle
 \tableofcontents\enlargethispage{2em}
 \mainmatter
-\include{chapter1}
-\include{chapter2}
-\include{chapter3}
-\include{chapter4}
-\include{chapter5}
-\include{chapter6}
+\include{chapters/chapter1}
+\include{chapters/chapter2}
+\include{chapters/chapter3}
+\include{chapters/chapter4}
+\include{chapters/chapter5}
+\include{chapters/chapter6}
 \backmatter
 \ohead{Bibliography}
 \bibliography{biblio}
 \clearpage
+
+\phantomsection%this allows hyperlink in ToC to work
 \addcontentsline{toc}{chapter}{Name index}
 \ohead{Name index}
-\pdfbookmark[0]{Index}{Index}
-\pdfbookmark[1]{Name index}{Name index}
+% \pdfbookmark[0]{Index}{Index}
+
+%\pdfbookmark[1]{Name index}{Name index}
 \printindex[aut]
-\addcontentsline{toc}{chapter}{Language index}
-\ohead{Language index}
-\pdfbookmark[1]{Language index}{Language index}
-\printindex[lan]
+
+% 
+% \phantomsection%this allows hyperlink in ToC to work
+% \addcontentsline{toc}{chapter}{Language index}
+% \ohead{Language index}
+%\pdfbookmark[1]{Language index}{Language index}
+% \printindex[lan]
+
+
+\phantomsection%this allows hyperlink in ToC to work
 \addcontentsline{toc}{chapter}{Subject index}
 \ohead{Subject index}
-\pdfbookmark[1]{Subject index}{Subject index}
+%\pdfbookmark[1]{Subject index}{Subject index}
 \printindex
 \end{document}

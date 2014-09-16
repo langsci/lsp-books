@@ -11,7 +11,7 @@ LSP/langsci.cls
 	bibtex -min-crossrefs=200 cangemi
 	xelatex  -no-pdf cangemi
 	makeindex -o cangemi.ind cangemi.idx
-# 	makeindex -o cangemi.lnd cangemi.ldx
+	makeindex -o cangemi.lnd cangemi.ldx
 #	makeindex -o cangemi.wnd cangemi.wdx
 #	LSP/bin/reverse-index <cangemi.wdx >cangemi.rdx
 #	makeindex -o cangemi.rnd cangemi.rdx 
